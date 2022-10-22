@@ -2,7 +2,7 @@ import "./style/general.css";
 
 const App = () => {
   return (
-    <p>hey</p>
+    <p>TRAIN ON THE JOB</p>
   )
 }
 
