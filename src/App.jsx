@@ -1,6 +1,11 @@
+import arrow from "./assets/svg/yellow-arrow.svg";
+
 const App = () => {
   return (
-    <p>hey</p>
+    <>
+      <p>hey</p>
+      <img src={arrow}/>
+    </>
   )
 }
 
