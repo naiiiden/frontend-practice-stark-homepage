@@ -1,8 +1,12 @@
 import "./style/general.css";
+import logo from "./assets/svg/green-bg.svg";
 
 const App = () => {
   return (
-    <p>TRAIN ON THE JOB</p>
+    <div>
+      <p>TRAIN ON THE JOB</p>
+      <img src={logo}/>
+    </div>
   )
 }
 
