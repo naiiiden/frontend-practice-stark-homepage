@@ -6,7 +6,7 @@ const Header = () => {
 
     return (
         <header>
-            <nav className="nav-logo-container">
+            <nav className="nav-logo-container" aria-label="Header">
                 <a href="/" aria-current="page" aria-label="Go to homepage">
                     <img src={stark_logo} alt="" className="logo"/>
                 </a>
