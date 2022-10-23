@@ -107,5 +107,12 @@ header nav .nav-link--sign-up {
   }
   header nav {
     flex-grow: 1;
+    flex-wrap: wrap;
+  }
+  header nav .nav-ul {
+    display: none;
+  }
+  header nav .nav-ul.show {
+    display: unset;
   }
 }/*# sourceMappingURL=general.css.map */

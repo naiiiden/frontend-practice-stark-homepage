@@ -10,7 +10,7 @@ const Header = () => {
                 <a href="/" aria-current="page">
                     <img src={stark_logo} alt="Go to homepage" className="logo"/>
                 </a>
-                <ul className="nav-ul">
+                <ul className={`nav-ul ${!openMenu ? "" : "show"}`}>
                     <li>
                         <span>PRODUCT</span>
                         <ul className="nav-product-submenu">

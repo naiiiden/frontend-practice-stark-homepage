@@ -99,6 +99,15 @@ header {
 
         nav {
             flex-grow: 1;
+            flex-wrap: wrap;
+
+            .nav-ul {
+                display: none;
+
+                &.show {
+                    display: unset;
+                }
+            }
         }
     }
 }
