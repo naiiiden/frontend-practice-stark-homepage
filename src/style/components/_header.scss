@@ -15,8 +15,6 @@ header {
         background: #f6f6eb;
         border-radius: 50%;
         border: none;
-        user-select: all;
-        pointer-events: all;
 
         .hamburger {
             width: 18px;
@@ -34,15 +32,17 @@ header {
                 border-radius: 8px;
                 position: absolute;
                 transition: .1s;
-                left: .5rem;
+                left: 0;
+                right: 0;
+                margin: auto;
             }
             
             &::before {
-                top: .5rem;
+                top: 10px;
             }
 
             &::after {
-                bottom: .5rem;
+                bottom: 10px;
             }
 
             &.open {
@@ -55,7 +55,8 @@ header {
                 transition: .1s;
 
                 &::after {
-                    transform: translate3d(0, 3px,0) rotate(-90deg);
+                    bottom: .175rem;
+                    transform: translate3d(0, 3px, 0) rotate(-90deg);
                     transition: .1s;
                 }
             }

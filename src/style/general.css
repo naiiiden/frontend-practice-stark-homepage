@@ -35,10 +35,6 @@ header button {
   background: #f6f6eb;
   border-radius: 50%;
   border: none;
-  -webkit-user-select: all;
-     -moz-user-select: all;
-          user-select: all;
-  pointer-events: all;
 }
 header button .hamburger {
   width: 18px;
@@ -56,13 +52,15 @@ header button .hamburger::before, header button .hamburger::after {
   border-radius: 8px;
   position: absolute;
   transition: 0.1s;
-  left: 0.5rem;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 header button .hamburger::before {
-  top: 0.5rem;
+  top: 10px;
 }
 header button .hamburger::after {
-  bottom: 0.5rem;
+  bottom: 10px;
 }
 header button .hamburger.open {
   transform: translate3d(0, 0, 0) rotate(45deg);
@@ -73,6 +71,7 @@ header button .hamburger.open::before {
   transition: 0.1s;
 }
 header button .hamburger.open::after {
+  bottom: 0.175rem;
   transform: translate3d(0, 3px, 0) rotate(-90deg);
   transition: 0.1s;
 }/*# sourceMappingURL=general.css.map */
