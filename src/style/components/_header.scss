@@ -62,4 +62,18 @@ header {
             }
         }
     }
+
+    nav {
+        border: 1px solid red;
+
+        .nav-link--sign-up {
+            background: #f6f6eb;
+            color: #381fd1;
+            text-decoration: none;
+            max-height: 2rem;
+            border: 2px solid transparent;
+            border-radius: 6px;
+            // dont-forget to change font-family
+        }
+    }
 }
