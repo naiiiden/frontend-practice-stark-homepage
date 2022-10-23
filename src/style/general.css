@@ -23,4 +23,8 @@ header {
   background: url("../assets/images_homepage/homepage-gradient-bg.webp");
   background-size: cover;
   background-position: no-repeat;
+}
+header .logo {
+  width: 2rem;
+  height: 2rem;
 }/*# sourceMappingURL=general.css.map */
