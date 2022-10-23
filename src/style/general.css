@@ -93,4 +93,19 @@ header nav .nav-link--sign-up {
   border: 2px solid transparent;
   border-radius: 6px;
   padding: 0 1rem;
+}
+
+@media screen and (min-width: 375px) {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+  header button {
+    display: unset;
+  }
+  header nav {
+    flex-grow: 1;
+  }
 }/*# sourceMappingURL=general.css.map */
