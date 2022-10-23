@@ -11,7 +11,7 @@ const Header = () => {
                     <img src={stark_logo} alt="" className="logo"/>
                 </a>
             </nav>
-            <button onClick={() => setOpenMenu(!openMenu)}>
+            <button onClick={() => setOpenMenu(!openMenu)} aria-label={!openMenu ? "Open menu" : "Close menu"} aria-expanded={!openMenu ? "false" : "true"} aria-haspopup="true">
                 <div className={`hamburger ${openMenu ? "open" : ""}`}></div>
             </button>
         </header>
