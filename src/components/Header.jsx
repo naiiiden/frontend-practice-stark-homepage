@@ -7,8 +7,8 @@ const Header = () => {
     return (
         <header>
             <nav className="nav-logo-container" aria-label="Header">
-                <a href="/" aria-current="page" aria-label="Go to homepage">
-                    <img src={stark_logo} alt="" className="logo"/>
+                <a href="/" aria-current="page">
+                    <img src={stark_logo} alt="Go to homepage" className="logo"/>
                 </a>
                 <ul className="nav-ul">
                     <li>
