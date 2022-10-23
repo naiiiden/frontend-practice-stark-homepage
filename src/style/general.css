@@ -17,4 +17,10 @@ body {
 img {
   max-width: 100%;
   height: auto;
+}
+
+header {
+  background: url("../assets/images_homepage/homepage-gradient-bg.webp");
+  background-size: cover;
+  background-position: no-repeat;
 }/*# sourceMappingURL=general.css.map */

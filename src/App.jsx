@@ -1,11 +1,10 @@
 import "./style/general.css";
-import logo from "./assets/svg/yellow-bg.svg";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <div>
-      <p>TRAIN ON THE JOB</p>
-      <img src={logo}/>
+      <Header/>
     </div>
   )
 }
