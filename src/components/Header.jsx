@@ -1,6 +1,9 @@
+import { useState } from "react";
 import stark_logo from "../assets/svg/logo.svg";
 
 const Header = () => {
+    const [openMenu, setOpenMenu] = useState(false);
+
     return (
         <header>
             <nav className="nav-logo-container">
@@ -8,8 +11,8 @@ const Header = () => {
                     <img src={stark_logo} alt="" className="logo"/>
                 </a>
             </nav>
-            <button>
-                <div className="hamburger"></div>
+            <button onClick={() => setOpenMenu(!openMenu)}>
+                <div className={`hamburger ${openMenu ? "open" : ""}`}></div>
             </button>
         </header>
     )
