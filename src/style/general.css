@@ -27,4 +27,52 @@ header {
 header .logo {
   width: 2rem;
   height: 2rem;
+}
+header button {
+  width: 33px;
+  height: 33px;
+  position: relative;
+  background: #f6f6eb;
+  border-radius: 50%;
+  border: none;
+  -webkit-user-select: all;
+     -moz-user-select: all;
+          user-select: all;
+  pointer-events: all;
+}
+header button .hamburger {
+  width: 18px;
+  height: 2px;
+  background: #381fd1;
+  border-radius: 8px;
+  transition: 0.1s;
+  margin: auto;
+}
+header button .hamburger::before, header button .hamburger::after {
+  content: "";
+  width: 18px;
+  height: 2px;
+  background: #381fd1;
+  border-radius: 8px;
+  position: absolute;
+  transition: 0.1s;
+  left: 0.5rem;
+}
+header button .hamburger::before {
+  top: 0.5rem;
+}
+header button .hamburger::after {
+  bottom: 0.5rem;
+}
+header button .hamburger.open {
+  transform: translate3d(0, 0, 0) rotate(45deg);
+  transition: 0.1s;
+}
+header button .hamburger.open::before {
+  opacity: 0;
+  transition: 0.1s;
+}
+header button .hamburger.open::after {
+  transform: translate3d(0, 3px, 0) rotate(-90deg);
+  transition: 0.1s;
 }/*# sourceMappingURL=general.css.map */

@@ -7,4 +7,58 @@ header {
         width: 2rem;
         height: 2rem;
     }
+
+    button {
+        width: 33px;
+        height: 33px;
+        position: relative;
+        background: #f6f6eb;
+        border-radius: 50%;
+        border: none;
+        user-select: all;
+        pointer-events: all;
+
+        .hamburger {
+            width: 18px;
+            height: 2px;
+            background: #381fd1;
+            border-radius: 8px;
+            transition: .1s;
+            margin: auto;
+
+            &::before, &::after {
+                content: "";
+                width: 18px;
+                height: 2px;
+                background: #381fd1;
+                border-radius: 8px;
+                position: absolute;
+                transition: .1s;
+                left: .5rem;
+            }
+            
+            &::before {
+                top: .5rem;
+            }
+
+            &::after {
+                bottom: .5rem;
+            }
+
+            &.open {
+                &::before {
+                    opacity: 0;
+                    transition: .1s;
+                }
+
+                transform: translate3d(0,0,0) rotate(45deg);
+                transition: .1s;
+
+                &::after {
+                    transform: translate3d(0, 3px,0) rotate(-90deg);
+                    transition: .1s;
+                }
+            }
+        }
+    }
 }
