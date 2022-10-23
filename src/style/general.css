@@ -23,12 +23,14 @@ header {
   background: url("../assets/images_homepage/homepage-gradient-bg.webp");
   background-size: cover;
   background-position: no-repeat;
+  padding: 1rem;
 }
 header .logo {
   width: 2rem;
   height: 2rem;
 }
 header button {
+  display: none;
   width: 33px;
   height: 33px;
   position: relative;
@@ -76,13 +78,19 @@ header button .hamburger.open::after {
   transition: 0.1s;
 }
 header nav {
-  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 header nav .nav-link--sign-up {
   background: #f6f6eb;
   color: #381fd1;
   text-decoration: none;
-  max-height: 2rem;
+  height: 2rem;
+  display: grid;
+  place-content: center;
+  font-size: 0.875rem;
   border: 2px solid transparent;
   border-radius: 6px;
+  padding: 0 1rem;
 }/*# sourceMappingURL=general.css.map */
