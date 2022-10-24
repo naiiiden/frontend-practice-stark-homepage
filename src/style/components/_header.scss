@@ -110,7 +110,9 @@ header {
             flex-wrap: wrap;
 
             .nav-ul {
-                display: unset;
+                display: flex;
+                flex-direction: column;
+                gap: 3rem;
                 border: 1px solid red;
                 background: #f6f6eb;
                 width: 100%;
@@ -118,8 +120,20 @@ header {
                 top: 68px;
                 bottom: 0;
                 left: 0;
-                transform: translateX(500px);
+                transform: translateX(100%);
                 transition: .35s;
+                padding: 3rem 1rem;
+                list-style-type: none;
+
+                .nav-product-submenu {
+                    margin-top: 2rem;
+                    list-style-type: none;
+                    padding: 1rem 2rem 1rem 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                    border-left: 1px solid #e5e5e6;
+                }
 
                 &.show {
                     transform: translateX(0);
