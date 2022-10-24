@@ -1,7 +1,10 @@
-.nav-menu-container {
+header {
     background: url("../assets/images_homepage/homepage-gradient-bg.webp");
     background-size: cover;
-    background-position: no-repeat;
+    background-repeat: no-repeat;
+}
+
+.nav-menu-container {
     padding: 1rem;
 
     .logo {
@@ -83,6 +86,10 @@
             padding: 0 1rem;
             // dont-forget to change font-family
         }
+
+        .nav-ul {
+            display: none;
+        }
     }
 }
 
@@ -92,6 +99,7 @@
         align-items: center;
         justify-content: space-between;
         gap: 1.5rem;
+        position: relative;
 
         button {
             display: unset;
@@ -105,6 +113,7 @@
                 display: none;
 
                 &.show {
+                    position: fixed;
                     display: unset;
                 }
             }

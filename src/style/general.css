@@ -19,10 +19,13 @@ img {
   height: auto;
 }
 
-.nav-menu-container {
+header {
   background: url("../assets/images_homepage/homepage-gradient-bg.webp");
   background-size: cover;
-  background-position: no-repeat;
+  background-repeat: no-repeat;
+}
+
+.nav-menu-container {
   padding: 1rem;
 }
 .nav-menu-container .logo {
@@ -94,6 +97,9 @@ img {
   border-radius: 6px;
   padding: 0 1rem;
 }
+.nav-menu-container nav .nav-ul {
+  display: none;
+}
 
 @media screen and (min-width: 375px) {
   .nav-menu-container {
@@ -101,6 +107,7 @@ img {
     align-items: center;
     justify-content: space-between;
     gap: 1.5rem;
+    position: relative;
   }
   .nav-menu-container button {
     display: unset;
@@ -113,6 +120,7 @@ img {
     display: none;
   }
   .nav-menu-container nav .nav-ul.show {
+    position: fixed;
     display: unset;
   }
 }/*# sourceMappingURL=general.css.map */
