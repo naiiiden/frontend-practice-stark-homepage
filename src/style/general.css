@@ -19,17 +19,17 @@ img {
   height: auto;
 }
 
-header {
+.nav-menu-container {
   background: url("../assets/images_homepage/homepage-gradient-bg.webp");
   background-size: cover;
   background-position: no-repeat;
   padding: 1rem;
 }
-header .logo {
+.nav-menu-container .logo {
   width: 2rem;
   height: 2rem;
 }
-header button {
+.nav-menu-container button {
   display: none;
   width: 33px;
   height: 33px;
@@ -38,7 +38,7 @@ header button {
   border-radius: 50%;
   border: none;
 }
-header button .hamburger {
+.nav-menu-container button .hamburger {
   width: 18px;
   height: 2px;
   background: #381fd1;
@@ -46,7 +46,7 @@ header button .hamburger {
   transition: 0.1s;
   margin: auto;
 }
-header button .hamburger::before, header button .hamburger::after {
+.nav-menu-container button .hamburger::before, .nav-menu-container button .hamburger::after {
   content: "";
   width: 18px;
   height: 2px;
@@ -58,31 +58,31 @@ header button .hamburger::before, header button .hamburger::after {
   right: 0;
   margin: auto;
 }
-header button .hamburger::before {
+.nav-menu-container button .hamburger::before {
   top: 10px;
 }
-header button .hamburger::after {
+.nav-menu-container button .hamburger::after {
   bottom: 10px;
 }
-header button .hamburger.open {
+.nav-menu-container button .hamburger.open {
   transform: translate3d(0, 0, 0) rotate(45deg);
   transition: 0.1s;
 }
-header button .hamburger.open::before {
+.nav-menu-container button .hamburger.open::before {
   opacity: 0;
   transition: 0.1s;
 }
-header button .hamburger.open::after {
+.nav-menu-container button .hamburger.open::after {
   bottom: 0.175rem;
   transform: translate3d(0, 3px, 0) rotate(-90deg);
   transition: 0.1s;
 }
-header nav {
+.nav-menu-container nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-header nav .nav-link--sign-up {
+.nav-menu-container nav .nav-link--sign-up {
   background: #f6f6eb;
   color: #381fd1;
   text-decoration: none;
@@ -96,23 +96,23 @@ header nav .nav-link--sign-up {
 }
 
 @media screen and (min-width: 375px) {
-  header {
+  .nav-menu-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 1.5rem;
   }
-  header button {
+  .nav-menu-container button {
     display: unset;
   }
-  header nav {
+  .nav-menu-container nav {
     flex-grow: 1;
     flex-wrap: wrap;
   }
-  header nav .nav-ul {
+  .nav-menu-container nav .nav-ul {
     display: none;
   }
-  header nav .nav-ul.show {
+  .nav-menu-container nav .nav-ul.show {
     display: unset;
   }
 }/*# sourceMappingURL=general.css.map */

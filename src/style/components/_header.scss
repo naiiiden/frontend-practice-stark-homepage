@@ -1,4 +1,4 @@
-header {
+.nav-menu-container {
     background: url("../assets/images_homepage/homepage-gradient-bg.webp");
     background-size: cover;
     background-position: no-repeat;
@@ -87,7 +87,7 @@ header {
 }
 
 @media screen and (min-width: 375px) {
-    header {
+    .nav-menu-container {
         display: flex;
         align-items: center;
         justify-content: space-between;
