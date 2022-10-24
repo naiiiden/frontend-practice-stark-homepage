@@ -110,17 +110,20 @@ header {
             flex-wrap: wrap;
 
             .nav-ul {
-                display: none;
+                display: unset;
+                border: 1px solid red;
+                background: #f6f6eb;
+                width: 100%;
+                position: fixed;
+                top: 68px;
+                bottom: 0;
+                left: 0;
+                transform: translateX(500px);
+                transition: .35s;
 
                 &.show {
-                    position: fixed;
-                    display: unset;
-                    top: 68px;
-                    left: 0;
-                    right: 0;
-                    bottom: 0;
-                    background: #f6f6eb;
-                    width: 100%;
+                    transform: translateX(0);
+                    transition: .35s;
                 }
             }
         }

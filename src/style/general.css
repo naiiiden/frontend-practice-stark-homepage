@@ -117,16 +117,19 @@ header {
     flex-wrap: wrap;
   }
   .nav-menu-container nav .nav-ul {
-    display: none;
-  }
-  .nav-menu-container nav .nav-ul.show {
-    position: fixed;
     display: unset;
-    top: 68px;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    border: 1px solid red;
     background: #f6f6eb;
     width: 100%;
+    position: fixed;
+    top: 68px;
+    bottom: 0;
+    left: 0;
+    transform: translateX(500px);
+    transition: 0.35s;
+  }
+  .nav-menu-container nav .nav-ul.show {
+    transform: translateX(0);
+    transition: 0.35s;
   }
 }/*# sourceMappingURL=general.css.map */
