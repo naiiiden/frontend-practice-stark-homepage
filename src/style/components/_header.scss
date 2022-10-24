@@ -115,6 +115,12 @@ header {
                 &.show {
                     position: fixed;
                     display: unset;
+                    top: 68px;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: #f6f6eb;
+                    width: 100%;
                 }
             }
         }
