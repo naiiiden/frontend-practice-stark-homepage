@@ -28,6 +28,7 @@ const Header = () => {
                         <li><a href="">BLOG</a></li>
                         <li><a href="">LIBRARY</a></li>
                         <li><a href="">SUPPORT</a></li>
+                        <li><a href="">LOG IN</a></li>
                     </ul>
                     <a href="" className="nav-link nav-link--sign-up">30-DAY FREE TEAM TRIAL</a>
                 </nav>
