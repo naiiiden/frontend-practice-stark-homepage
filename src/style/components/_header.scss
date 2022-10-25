@@ -6,6 +6,7 @@ header {
 
 .nav-menu-container {
     padding: 1rem;
+    height: 4rem;
 
     .logo, .logo-link {
         display: flex;
@@ -16,8 +17,8 @@ header {
 
     button {
         display: none;
-        width: 33px;
-        height: 33px;
+        width: 2rem;
+        height: 2rem;
         position: relative;
         background: #f6f6eb;
         border-radius: 50%;
@@ -119,11 +120,10 @@ header {
                 display: flex;
                 flex-direction: column;
                 gap: 3rem;
-                border: 1px solid red;
                 background: #f6f6eb;
                 width: 100%;
                 position: fixed;
-                top: 65px;
+                top: 64px;
                 bottom: 0;
                 left: 0;
                 transform: translateX(100%);
@@ -131,6 +131,8 @@ header {
                 padding: 3rem 1rem;
                 list-style-type: none;
                 visibility: hidden;
+                height: calc(100vh - 64px);
+                overflow: auto;
 
                 .nav-product-submenu {
                     margin-top: 2rem;
