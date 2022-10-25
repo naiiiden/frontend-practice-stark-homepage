@@ -191,4 +191,33 @@ header {
     transform: translateX(0);
     transition: 0.35s;
   }
+}
+@media screen and (min-width: 1024px) {
+  .nav-menu-container button {
+    display: none;
+  }
+  .nav-menu-container nav .nav-ul {
+    position: unset;
+    visibility: unset;
+    transform: unset;
+    width: unset;
+    height: unset;
+    top: unset;
+    left: unset;
+    overflow: unset;
+    flex-direction: row;
+    background: unset;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+  .nav-menu-container nav .nav-ul li {
+    display: flex;
+    align-items: center;
+  }
+  .nav-menu-container nav .nav-ul a, .nav-menu-container nav .nav-ul span {
+    color: #f6f6eb;
+  }
+  .nav-menu-container nav .nav-ul .nav-product-submenu {
+    display: none;
+  }
 }/*# sourceMappingURL=general.css.map */

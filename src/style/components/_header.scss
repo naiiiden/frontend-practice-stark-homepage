@@ -177,3 +177,32 @@ header {
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .nav-menu-container {
+        button {
+            display: none;
+        }
+
+        nav {
+            .nav-ul {
+                position: unset; visibility: unset; transform: unset; width: unset; height: unset; top: unset; left: unset; overflow: unset; flex-direction: row; background: unset;
+                flex-grow: 1;
+                justify-content: space-between;
+
+                li {
+                    display: flex;
+                    align-items: center;
+                }
+
+                a, span {
+                    color: #f6f6eb;
+                }
+
+                .nav-product-submenu {
+                    display: none;
+                }
+            }
+        }
+    }
+}
