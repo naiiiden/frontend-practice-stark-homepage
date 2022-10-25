@@ -2,6 +2,22 @@
   font-family: roboto-mono;
   src: url(fonts/RobotoMonoBold-1d29748c6ba7e786c050c2ba9f0e73b1.ttf);
 }
+@font-face {
+  font-family: armingrotesk-normal;
+  src: url(fonts/ArminGrotesk-Normal.ttf);
+}
+@font-face {
+  font-family: armingrotesk-black;
+  src: url(fonts/ArminGrotesk-Black.ttf);
+}
+@font-face {
+  font-family: armingrotesk-regular;
+  src: url(fonts/ArminGrotesk-Regular.ttf);
+}
+@font-face {
+  font-family: armingrotesk-semibold;
+  src: url(fonts/ArminGrotesk-SemiBold.ttf);
+}
 *, *::before, *::after {
   margin: 0;
   padding: 0;
@@ -87,7 +103,6 @@ header {
 }
 .nav-menu-container nav .nav-link--sign-up {
   background: #f6f6eb;
-  color: #381fd1;
   text-decoration: none;
   height: 2rem;
   display: grid;
@@ -96,6 +111,11 @@ header {
   border: 2px solid transparent;
   border-radius: 6px;
   padding: 0 1rem;
+}
+.nav-menu-container nav a, .nav-menu-container nav span {
+  color: #381fd1;
+  font-family: armingrotesk-black;
+  letter-spacing: 0.08rem;
 }
 .nav-menu-container nav .nav-ul {
   display: none;

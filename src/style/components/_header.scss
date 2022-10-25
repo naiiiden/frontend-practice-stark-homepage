@@ -75,7 +75,6 @@ header {
 
         .nav-link--sign-up {
             background: #f6f6eb;
-            color: #381fd1;
             text-decoration: none;
             height: 2rem;
             display: grid;
@@ -84,7 +83,12 @@ header {
             border: 2px solid transparent;
             border-radius: 6px;
             padding: 0 1rem;
-            // dont-forget to change font-family
+        }
+        
+        a, span {
+            color: #381fd1;
+            font-family: armingrotesk-black;
+            letter-spacing: .08rem;
         }
 
         .nav-ul {
