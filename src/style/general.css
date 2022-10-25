@@ -151,6 +151,7 @@ header {
     transition: 0.35s;
     padding: 3rem 1rem;
     list-style-type: none;
+    visibility: hidden;
   }
   .nav-menu-container nav .nav-ul .nav-product-submenu {
     margin-top: 2rem;
@@ -162,6 +163,7 @@ header {
     border-left: 1px solid #e5e5e6;
   }
   .nav-menu-container nav .nav-ul.show {
+    visibility: visible;
     transform: translateX(0);
     transition: 0.35s;
   }

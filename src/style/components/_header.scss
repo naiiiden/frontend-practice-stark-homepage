@@ -128,6 +128,7 @@ header {
                 transition: .35s;
                 padding: 3rem 1rem;
                 list-style-type: none;
+                visibility: hidden;
 
                 .nav-product-submenu {
                     margin-top: 2rem;
@@ -138,8 +139,9 @@ header {
                     gap: 1rem;
                     border-left: 1px solid #e5e5e6;
                 }
-
+                
                 &.show {
+                    visibility: visible;
                     transform: translateX(0);
                     transition: .35s;
                 }
