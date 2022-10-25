@@ -8,7 +8,7 @@ const Header = () => {
         <header>
             <div className="nav-menu-container">
                 <nav className="nav-logo-container" aria-label="Header">
-                    <a href="/" aria-current="page">
+                    <a href="/" aria-current="page" className="logo-link">
                         <img src={stark_logo} alt="Go to homepage" className="logo"/>
                     </a>
                     <ul className={`nav-ul ${!openMenu ? "" : "show"}`}>

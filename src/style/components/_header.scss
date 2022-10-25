@@ -7,7 +7,9 @@ header {
 .nav-menu-container {
     padding: 1rem;
 
-    .logo {
+    .logo, .logo-link {
+        display: flex;
+        align-items: center;
         width: 2rem;
         height: 2rem;
     }
@@ -121,7 +123,7 @@ header {
                 background: #f6f6eb;
                 width: 100%;
                 position: fixed;
-                top: 68px;
+                top: 65px;
                 bottom: 0;
                 left: 0;
                 transform: translateX(100%);
