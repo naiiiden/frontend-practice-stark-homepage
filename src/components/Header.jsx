@@ -4,6 +4,8 @@ import stark_logo from "../assets/svg/logo.svg";
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(false);
 
+    openMenu ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
+
     return (
         <header>
             <div className="nav-menu-container">
