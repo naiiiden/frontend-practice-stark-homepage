@@ -36,7 +36,8 @@ img {
 }
 
 header {
-  background: url("../assets/images_homepage/homepage-gradient-bg.webp");
+  background-color: #381fd1;
+  background-image: url("../assets/images_homepage/homepage-gradient-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }
