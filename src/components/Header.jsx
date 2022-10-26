@@ -1,8 +1,17 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import stark_logo from "../assets/svg/logo.svg";
+import white_arrow from "../assets/svg/white-arrow.svg";
 
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(false);
+    const [isDesktop, setIsDesktop] = useState(false);
+    
+    const updateMedia = () => setIsDesktop(window.innerWidth <= 1023);
+    
+    useEffect(() => {
+        window.addEventListener("resize", updateMedia);
+        return () => window.removeEventListener("resize", updateMedia);
+    });
 
     openMenu ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
 
@@ -15,7 +24,11 @@ const Header = () => {
                     </a>
                     <ul className={`nav-ul ${!openMenu ? "" : "show"}`}>
                         <li>
+                            {isDesktop ? 
                             <span>PRODUCT</span>
+                            :
+                            <span>PRODUCT <img src={white_arrow} alt=""/></span>
+                            }
                             <ul className="nav-product-submenu">
                                 <li><a href="">Stark for Mac</a></li>
                                 <li><a href="">Stark For Figma</a></li>
