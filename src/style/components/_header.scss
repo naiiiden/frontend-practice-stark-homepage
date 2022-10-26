@@ -197,6 +197,7 @@ header {
                 justify-content: space-around;
 
                 &.nav-ul li {
+                    border-bottom: unset;
                     display: flex;
                     align-items: center;
                     height: 64px;
