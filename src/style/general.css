@@ -217,10 +217,15 @@ header {
     flex-grow: 1;
     justify-content: space-around;
   }
-  .nav-menu-container nav .nav-ul.nav-ul > li {
+  .nav-menu-container nav .nav-ul.nav-ul li {
     display: flex;
     align-items: center;
     height: 64px;
+  }
+  .nav-menu-container nav .nav-ul.nav-ul li a {
+    height: 64px;
+    display: flex;
+    align-items: center;
   }
   .nav-menu-container nav .nav-ul a, .nav-menu-container nav .nav-ul span {
     color: #f6f6eb;

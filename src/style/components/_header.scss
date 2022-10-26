@@ -196,10 +196,16 @@ header {
                 flex-grow: 1;
                 justify-content: space-around;
 
-                &.nav-ul > li {
+                &.nav-ul li {
                     display: flex;
                     align-items: center;
                     height: 64px;
+
+                    a {
+                        height: 64px;
+                        display: flex;
+                        align-items: center;
+                    }
                 }
 
                 a, span {
