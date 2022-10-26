@@ -217,6 +217,15 @@ header {
                     display: none;
                 }
             }
+
+            .nav-link--sign-up {
+                transition: .1s;
+
+                &:hover {
+                    background: #edede0;
+                    transition: .1s;
+                }
+            }
         }
     }
 }

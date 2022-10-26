@@ -234,4 +234,11 @@ header {
   .nav-menu-container nav .nav-ul .nav-product-submenu {
     display: none;
   }
+  .nav-menu-container nav .nav-link--sign-up {
+    transition: 0.1s;
+  }
+  .nav-menu-container nav .nav-link--sign-up:hover {
+    background: #edede0;
+    transition: 0.1s;
+  }
 }/*# sourceMappingURL=general.css.map */
