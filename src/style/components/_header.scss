@@ -180,6 +180,10 @@ header {
 
 @media screen and (min-width: 1024px) {
     .nav-menu-container {
+        max-width: 960px;
+        margin: auto;
+        padding: unset;
+
         button {
             display: none;
         }
