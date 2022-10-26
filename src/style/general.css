@@ -202,6 +202,8 @@ header {
     display: none;
   }
   .nav-menu-container nav .nav-ul {
+    padding: 0 1rem;
+    height: 100%;
     position: unset;
     visibility: unset;
     transform: unset;
@@ -213,11 +215,12 @@ header {
     flex-direction: row;
     background: unset;
     flex-grow: 1;
-    justify-content: space-between;
+    justify-content: space-around;
   }
-  .nav-menu-container nav .nav-ul li {
+  .nav-menu-container nav .nav-ul.nav-ul > li {
     display: flex;
     align-items: center;
+    height: 64px;
   }
   .nav-menu-container nav .nav-ul a, .nav-menu-container nav .nav-ul span {
     color: #f6f6eb;

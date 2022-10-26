@@ -190,13 +190,16 @@ header {
 
         nav {
             .nav-ul {
+                padding: 0 1rem;
+                height: 100%;
                 position: unset; visibility: unset; transform: unset; width: unset; height: unset; top: unset; left: unset; overflow: unset; flex-direction: row; background: unset;
                 flex-grow: 1;
-                justify-content: space-between;
+                justify-content: space-around;
 
-                li {
+                &.nav-ul > li {
                     display: flex;
                     align-items: center;
+                    height: 64px;
                 }
 
                 a, span {
