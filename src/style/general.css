@@ -264,6 +264,12 @@ header {
   .nav-menu-container nav .nav-ul .nav-product-submenu {
     display: none;
   }
+  .nav-menu-container nav .nav-ul .nav-product-submenu.show {
+    display: flex;
+    position: absolute;
+    top: 0;
+    background: #fff;
+  }
   .nav-menu-container nav .nav-link--sign-up {
     transition: 0.1s;
   }

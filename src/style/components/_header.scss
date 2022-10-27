@@ -244,6 +244,13 @@ header {
 
                 .nav-product-submenu {
                     display: none;
+
+                    &.show {
+                        display: flex;
+                        position: absolute;
+                        top: 0;
+                        background: #fff;
+                    }
                 }
             }
 
