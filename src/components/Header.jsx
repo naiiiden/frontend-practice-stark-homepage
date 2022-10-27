@@ -29,7 +29,7 @@ const Header = () => {
                             {isDesktop ? 
                             <span>PRODUCT</span>
                             :
-                            <button className="dropdown-button" role="menuitem" aria-haspopup="true" href="#product" aria-expanded={openDropdown ? "true" : "false"} onMouseEnter={() => setOpenDropdown(true)}>
+                            <button className="dropdown-button" role="menuitem" aria-haspopup="true" href="#product" aria-expanded={openDropdown ? "true" : "false"} onMouseEnter={() => setOpenDropdown(true)} onFocus={() => setOpenDropdown(true)}>
                                 PRODUCT 
                                 <img src={white_arrow} alt=""/>
                             </button>
@@ -48,7 +48,7 @@ const Header = () => {
                                 <li role="none"><a role="menuitem" href="">Stark for Edge</a></li>
                             </ul>
                         </li>
-                        <li role="none"><a role="menuitem" href="">PRICING</a></li>
+                        <li role="none"><a role="menuitem" href="" onBlur={() => setOpenDropdown(false)}>PRICING</a></li>
                         <li role="none"><a role="menuitem" href="">BLOG</a></li>
                         <li role="none"><a role="menuitem" href="">LIBRARY</a></li>
                         <li role="none"><a role="menuitem" href="">SUPPORT</a></li>
