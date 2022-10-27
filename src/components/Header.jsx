@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import stark_logo from "../assets/svg/logo.svg";
 import white_arrow from "../assets/svg/white-arrow.svg";
+import new_svg from "../assets/svg/new.svg";
 
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(false);
@@ -31,7 +32,11 @@ const Header = () => {
                             <a role="menuitem" aria-haspopup="true" href="" aria-expanded={openDropdown ? "true" : "false"} onMouseEnter={() => setOpenDropdown(!openDropdown)} onMouseLeave={() => setOpenDropdown(!openDropdown)}>PRODUCT <img src={white_arrow} alt=""/></a>
                             }
                             <ul role="menu" className="nav-product-submenu">
+                                {isDesktop ?
                                 <li role="none"><a role="menuitem" href="">Stark for Mac</a></li>
+                                :
+                                <li role="none"><a role="menuitem" href="">Stark for Mac <img src={new_svg} alt=""/></a></li>
+                                }
                                 <li role="none"><a role="menuitem" href="">Stark For Figma</a></li>
                                 <li role="none"><a role="menuitem" href="">Stark for Sketch</a></li>
                                 <li role="none"><a role="menuitem" href="">Stark for Adobe XD</a></li>
