@@ -4,6 +4,7 @@ import white_arrow from "../assets/svg/white-arrow.svg";
 
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(false);
+    const [openDropdown, setOpenDropdown] = useState(false);
     const [isDesktop, setIsDesktop] = useState(false);
     
     const updateMedia = () => setIsDesktop(window.innerWidth <= 1023);
@@ -27,7 +28,7 @@ const Header = () => {
                             {isDesktop ? 
                             <span>PRODUCT</span>
                             :
-                            <a role="menuitem" aria-haspopup="true" href="">PRODUCT <img src={white_arrow} alt=""/></a>
+                            <a role="menuitem" aria-haspopup="true" href="" aria-expanded={openDropdown ? "true" : "false"} onMouseEnter={() => setOpenDropdown(!openDropdown)} onMouseLeave={() => setOpenDropdown(!openDropdown)}>PRODUCT <img src={white_arrow} alt=""/></a>
                             }
                             <ul role="menu" className="nav-product-submenu">
                                 <li role="none"><a role="menuitem" href="">Stark for Mac</a></li>
