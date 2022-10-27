@@ -29,9 +29,12 @@ const Header = () => {
                             {isDesktop ? 
                             <span>PRODUCT</span>
                             :
-                            <a role="menuitem" aria-haspopup="true" href="" aria-expanded={openDropdown ? "true" : "false"} onMouseEnter={() => setOpenDropdown(!openDropdown)} onMouseLeave={() => setOpenDropdown(!openDropdown)}>PRODUCT <img src={white_arrow} alt=""/></a>
+                            <button className="dropdown-button" role="menuitem" aria-haspopup="true" href="#product" aria-expanded={openDropdown ? "true" : "false"} onMouseEnter={() => setOpenDropdown(!openDropdown)} onMouseLeave={() => setOpenDropdown(!openDropdown)}>
+                                PRODUCT 
+                                <img src={white_arrow} alt=""/>
+                            </button>
                             }
-                            <ul role="menu" className="nav-product-submenu">
+                            <ul role="menu" className="nav-product-submenu" aria-label="product">
                                 {isDesktop ?
                                 <li role="none"><a role="menuitem" href="">Stark for Mac</a></li>
                                 :

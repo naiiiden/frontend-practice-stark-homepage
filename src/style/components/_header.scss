@@ -187,6 +187,17 @@ header {
 
         button {
             display: none;
+
+            &.dropdown-button {
+                border: none; width: unset; height: unset; background: unset; display: unset;
+                font-family: armingrotesk-black;
+                font-size: .875rem;
+                letter-spacing: 0.08rem;
+                color: #f6f6eb;
+                display: flex;
+                align-items: center;
+                gap: .125rem;
+            }
         }
 
         nav {
