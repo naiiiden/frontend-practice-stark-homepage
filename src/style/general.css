@@ -245,6 +245,7 @@ header {
     display: flex;
     align-items: center;
     height: 64px;
+    position: relative;
   }
   .nav-menu-container nav .nav-ul.nav-ul li a {
     height: 32px;
@@ -267,9 +268,10 @@ header {
   .nav-menu-container nav .nav-ul .nav-product-submenu.show {
     display: flex;
     position: absolute;
-    top: 0;
+    top: -1px;
+    left: -1px;
+    width: 204px;
     background: #fff;
-    border-radius: 6px;
   }
   .nav-menu-container nav .nav-ul .nav-product-submenu.show:focus-within {
     outline: none;

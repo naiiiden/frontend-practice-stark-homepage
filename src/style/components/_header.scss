@@ -222,6 +222,7 @@ header {
                     display: flex;
                     align-items: center;
                     height: 64px;
+                    position: relative;
 
                     a {
                         height: 32px;
@@ -248,10 +249,10 @@ header {
                     &.show {
                         display: flex;
                         position: absolute;
-                        top: 0;
+                        top: -1px;
+                        left: -1px;
+                        width: 204px;
                         background: #fff;
-                        // border: 1px solid #000;
-                        border-radius: 6px;
 
                         &:focus-within {
                             outline: none;
