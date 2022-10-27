@@ -269,6 +269,10 @@ header {
     position: absolute;
     top: 0;
     background: #fff;
+    border-radius: 6px;
+  }
+  .nav-menu-container nav .nav-ul .nav-product-submenu.show:focus-within {
+    outline: none;
   }
   .nav-menu-container nav .nav-link--sign-up {
     transition: 0.1s;

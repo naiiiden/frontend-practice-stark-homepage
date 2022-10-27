@@ -16,6 +16,7 @@ const Header = () => {
     });
 
     openMenu ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
+    openDropdown ? document.querySelector(".nav-product-submenu").focus() : "";
 
     return (
         <header>
@@ -34,7 +35,7 @@ const Header = () => {
                                 <img src={white_arrow} alt=""/>
                             </button>
                             }
-                            <ul role="menu" className={`nav-product-submenu ${openDropdown ? "show" : ""}`} aria-label="product" onMouseLeave={() => setOpenDropdown(false)}>
+                            <ul role="menu" autoFocus className={`nav-product-submenu ${openDropdown ? "show" : ""}`} aria-label="product" onMouseLeave={() => setOpenDropdown(false)}>
                                 {isDesktop ?
                                 <li role="none"><a role="menuitem" href="">Stark for Mac</a></li>
                                 :
@@ -48,7 +49,7 @@ const Header = () => {
                                 <li role="none"><a role="menuitem" href="">Stark for Edge</a></li>
                             </ul>
                         </li>
-                        <li role="none"><a role="menuitem" href="" onBlur={() => setOpenDropdown(false)}>PRICING</a></li>
+                        <li role="none"><a role="menuitem" href="" onFocus={() => setOpenDropdown(false)}>PRICING</a></li>
                         <li role="none"><a role="menuitem" href="">BLOG</a></li>
                         <li role="none"><a role="menuitem" href="">LIBRARY</a></li>
                         <li role="none"><a role="menuitem" href="">SUPPORT</a></li>
