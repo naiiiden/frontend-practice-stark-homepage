@@ -22,28 +22,28 @@ const Header = () => {
                     <a href="/" aria-current="page" className="logo-link">
                         <img src={stark_logo} alt="Go to homepage" className="logo"/>
                     </a>
-                    <ul className={`nav-ul ${!openMenu ? "" : "show"}`}>
-                        <li>
+                    <ul role="menubar" className={`nav-ul ${!openMenu ? "" : "show"}`}>
+                        <li role="none">
                             {isDesktop ? 
                             <span>PRODUCT</span>
                             :
-                            <span>PRODUCT <img src={white_arrow} alt=""/></span>
+                            <a role="menuitem" aria-haspopup="true" href="">PRODUCT <img src={white_arrow} alt=""/></a>
                             }
-                            <ul className="nav-product-submenu">
-                                <li><a href="">Stark for Mac</a></li>
-                                <li><a href="">Stark For Figma</a></li>
-                                <li><a href="">Stark for Sketch</a></li>
-                                <li><a href="">Stark for Adobe XD</a></li>
-                                <li><a href="">Stark for Chrome</a></li>
-                                <li><a href="">Stark for Brave</a></li>
-                                <li><a href="">Stark for Edge</a></li>
+                            <ul role="menu" className="nav-product-submenu">
+                                <li role="none"><a role="menuitem" href="">Stark for Mac</a></li>
+                                <li role="none"><a role="menuitem" href="">Stark For Figma</a></li>
+                                <li role="none"><a role="menuitem" href="">Stark for Sketch</a></li>
+                                <li role="none"><a role="menuitem" href="">Stark for Adobe XD</a></li>
+                                <li role="none"><a role="menuitem" href="">Stark for Chrome</a></li>
+                                <li role="none"><a role="menuitem" href="">Stark for Brave</a></li>
+                                <li role="none"><a role="menuitem" href="">Stark for Edge</a></li>
                             </ul>
                         </li>
-                        <li><a href="">PRICING</a></li>
-                        <li><a href="">BLOG</a></li>
-                        <li><a href="">LIBRARY</a></li>
-                        <li><a href="">SUPPORT</a></li>
-                        <li><a href="">LOG IN</a></li>
+                        <li role="none"><a role="menuitem" href="">PRICING</a></li>
+                        <li role="none"><a role="menuitem" href="">BLOG</a></li>
+                        <li role="none"><a role="menuitem" href="">LIBRARY</a></li>
+                        <li role="none"><a role="menuitem" href="">SUPPORT</a></li>
+                        <li role="none"><a role="menuitem" href="">LOG IN</a></li>
                     </ul>
                     <a href="" className="nav-link nav-link--sign-up">30-DAY FREE TEAM TRIAL</a>
                 </nav>
