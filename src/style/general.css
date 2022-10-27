@@ -215,6 +215,14 @@ header {
     display: flex;
     align-items: center;
     gap: 0.125rem;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    padding: 0 0.5rem;
+    height: 32px;
+  }
+  .nav-menu-container button.dropdown-button:hover {
+    border: 2px solid #f6f6eb;
   }
   .nav-menu-container nav .nav-ul {
     padding: 0 1rem;
