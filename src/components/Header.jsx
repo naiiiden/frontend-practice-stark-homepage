@@ -37,25 +37,25 @@ const Header = () => {
                             }
                             <ul role="menu" autoFocus className={`nav-product-submenu ${openDropdown ? "show" : ""}`} aria-label="product" onMouseLeave={() => setOpenDropdown(false)}>
                                 {isDesktop ?
-                                <li role="none"><a role="menuitem" href="">Stark for Mac</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.getstark.co/mac">Stark for Mac</a></li>
                                 :
-                                <li role="none"><a role="menuitem" href="">Stark for Mac <img src={new_svg} alt=""/></a></li>
+                                <li role="none"><a role="menuitem" href="https://www.getstark.co/mac">Stark for Mac <img src={new_svg} alt=""/></a></li>
                                 }
-                                <li role="none"><a role="menuitem" href="">Stark For Figma</a></li>
-                                <li role="none"><a role="menuitem" href="">Stark for Sketch</a></li>
-                                <li role="none"><a role="menuitem" href="">Stark for Adobe XD</a></li>
-                                <li role="none"><a role="menuitem" href="">Stark for Chrome</a></li>
-                                <li role="none"><a role="menuitem" href="">Stark for Brave</a></li>
-                                <li role="none"><a role="menuitem" href="">Stark for Edge</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.getstark.co/figma">Stark For Figma</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.getstark.co/sketch">Stark for Sketch</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.getstark.co/adobe-xd">Stark for Adobe XD</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.getstark.co/chrome">Stark for Chrome</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.getstark.co/brave">Stark for Brave</a></li>
+                                <li role="none"><a role="menuitem" href="https://www.getstark.co/edge">Stark for Edge</a></li>
                             </ul>
                         </li>
-                        <li role="none"><a role="menuitem" href="" onFocus={() => setOpenDropdown(false)}>PRICING</a></li>
-                        <li role="none"><a role="menuitem" href="">BLOG</a></li>
-                        <li role="none"><a role="menuitem" href="">LIBRARY</a></li>
-                        <li role="none"><a role="menuitem" href="">SUPPORT</a></li>
-                        <li role="none"><a role="menuitem" href="">LOG IN</a></li>
+                        <li role="none"><a role="menuitem" href="https://www.getstark.co/pricing/" onFocus={() => setOpenDropdown(false)}>PRICING</a></li>
+                        <li role="none"><a role="menuitem" href="https://www.getstark.co/blog/">BLOG</a></li>
+                        <li role="none"><a role="menuitem" href="https://www.getstark.co/library/">LIBRARY</a></li>
+                        <li role="none"><a role="menuitem" href="https://www.getstark.co/support/">SUPPORT</a></li>
+                        <li role="none"><a role="menuitem" href="https://account.getstark.co/sign-in">LOG IN</a></li>
                     </ul>
-                    <a href="" className="nav-link nav-link--sign-up">30-DAY FREE TEAM TRIAL</a>
+                    <a href="https://www.getstark.co/pricing?team/" className="nav-link nav-link--sign-up">30-DAY FREE TEAM TRIAL</a>
                 </nav>
                 <button onClick={() => setOpenMenu(!openMenu)} aria-label={!openMenu ? "Open menu" : "Close menu"} aria-expanded={!openMenu ? "false" : "true"} aria-haspopup="true">
                     <div className={`hamburger ${openMenu ? "open" : ""}`}></div>
