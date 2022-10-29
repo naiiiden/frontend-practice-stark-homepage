@@ -36,7 +36,7 @@ img {
 }
 
 .nav-menu-container {
-  padding: 1rem;
+  padding: 1rem 1rem 0 1rem;
   height: 4rem;
 }
 .nav-menu-container .logo, .nav-menu-container .logo-link {
@@ -306,7 +306,7 @@ header {
 }
 
 .text-illustration-wrapper {
-  padding: 1rem;
+  padding: 5rem 1rem;
 }
 .text-illustration-wrapper .text-container {
   display: flex;
