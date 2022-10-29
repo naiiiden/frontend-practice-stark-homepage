@@ -81,3 +81,14 @@ header {
         }
     }
 }
+
+@media screen and (min-width: 768px) {
+    .text-illustration-wrapper {
+        .text-container {
+            h1 {
+                font-size: 5.375rem;
+                letter-spacing: -.06rem;
+            }
+        }
+    }
+}

@@ -366,4 +366,10 @@ header {
   .text-illustration-wrapper .text-container .links-wrapper {
     flex-direction: row;
   }
+}
+@media screen and (min-width: 768px) {
+  .text-illustration-wrapper .text-container h1 {
+    font-size: 5.375rem;
+    letter-spacing: -0.06rem;
+  }
 }/*# sourceMappingURL=general.css.map */
