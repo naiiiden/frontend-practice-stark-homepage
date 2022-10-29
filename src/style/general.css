@@ -359,4 +359,10 @@ header {
   border-color: #fedb63;
   color: #fedb63;
   font-family: armingrotesk-semibold;
+}
+
+@media screen and (min-width: 400px) {
+  .text-illustration-wrapper .text-container .links-wrapper {
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=general.css.map */

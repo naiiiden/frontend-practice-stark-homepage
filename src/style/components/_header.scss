@@ -70,3 +70,13 @@ header {
         }
     }
 }
+
+@media screen and (min-width: 400px) {
+    .text-illustration-wrapper {
+        .text-container {
+            .links-wrapper {
+                flex-direction: row;
+            }
+        }
+    }
+}
