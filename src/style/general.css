@@ -306,7 +306,7 @@ header {
 }
 
 .text-illustration-wrapper {
-  padding: 5rem 1rem;
+  padding: 1rem;
 }
 .text-illustration-wrapper .text-container {
   display: flex;
@@ -371,5 +371,32 @@ header {
   .text-illustration-wrapper .text-container h1 {
     font-size: 5.375rem;
     letter-spacing: -0.06rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .centered-horizontally {
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+  .text-illustration-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1160px;
+    justify-content: center;
+  }
+  .text-illustration-wrapper .text-container {
+    margin-top: 88px;
+  }
+  .text-illustration-wrapper .links-arrow-container .yellow-arrow {
+    display: none;
+  }
+  .text-illustration-wrapper .header-image-container {
+    position: relative;
+  }
+  .text-illustration-wrapper .header-image-container .header-img {
+    min-width: 691px;
+    max-width: 691px;
+    position: absolute;
   }
 }/*# sourceMappingURL=general.css.map */

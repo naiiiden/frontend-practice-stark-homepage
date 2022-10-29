@@ -8,7 +8,7 @@ header {
 }
 
 .text-illustration-wrapper {
-    padding: 5rem 1rem;
+    padding: 1rem;
 
     .text-container {
         display: flex;
@@ -88,6 +88,41 @@ header {
             h1 {
                 font-size: 5.375rem;
                 letter-spacing: -.06rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .centered-horizontally {
+        display: flex;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+
+    .text-illustration-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1160px;
+        justify-content: center;
+
+        .text-container {
+            margin-top: 88px;
+        }
+
+        .links-arrow-container {
+            .yellow-arrow {
+                display: none;
+            }
+        }
+
+        .header-image-container {
+            position: relative;
+
+            .header-img {
+                min-width: 691px;
+                max-width: 691px;
+                position: absolute;
             }
         }
     }
