@@ -301,7 +301,62 @@ img {
 }
 header {
   background-color: #381fd1;
-  background-image: url("../assets/images_homepage/homepage-gradient-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.text-illustration-wrapper {
+  padding: 1rem;
+}
+.text-illustration-wrapper .text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.text-illustration-wrapper .text-container .introduction {
+  color: #fedb63;
+  font-weight: 700;
+  letter-spacing: 0.08rem;
+  line-height: 22px;
+}
+.text-illustration-wrapper .text-container h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  font-family: armingrotesk-black;
+  color: #fff;
+}
+.text-illustration-wrapper .text-container .description {
+  color: #fff;
+  font-size: 1.25rem;
+  font-family: armingrotesk-regular;
+  line-height: 30px;
+}
+.text-illustration-wrapper .text-container .links-wrapper {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.text-illustration-wrapper .text-container .links-wrapper a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  letter-spacing: 0.02rem;
+  min-height: 2.75rem;
+  padding: 0.375rem 1.5rem;
+  border-radius: 6px;
+  border: 2px solid transparent;
+}
+.text-illustration-wrapper .text-container .links-wrapper a.free {
+  background: #fedb63;
+  color: #10284b;
+  font-family: armingrotesk-normal;
+  font-weight: 500;
+}
+.text-illustration-wrapper .text-container .links-wrapper a.learn {
+  background: transparent;
+  border-color: #fedb63;
+  color: #fedb63;
+  font-family: armingrotesk-semibold;
 }/*# sourceMappingURL=general.css.map */
