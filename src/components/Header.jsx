@@ -1,5 +1,6 @@
 import Nav from "./Nav";
 import yellow_arrow from "../assets/svg/yellow-arrow.svg";
+import homepage_header from "../assets/images_homepage/homepage__header.webp";
 import { useState, useEffect } from "react";
 
 const Header = () => {
@@ -27,6 +28,9 @@ const Header = () => {
                         </div>
                         {!isDesktop && <img src={yellow_arrow} alt=""/>}
                     </div>
+                </div>
+                <div className="header_image_container">
+                    {!isDesktop && <img src={homepage_header} alt=""/>}
                 </div>
             </div>
         </header>
