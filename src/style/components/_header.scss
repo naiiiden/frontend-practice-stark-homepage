@@ -2,7 +2,6 @@
 
 header {
     background-color: #381fd1;
-    // background-image: url("../assets/images_homepage/homepage-gradient-bg.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -94,6 +93,10 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
+    header {
+        background-image: url("../assets/images_homepage/homepage-gradient-bg.webp");
+    }
+
     .centered-horizontally {
         display: flex;
         justify-content: center;
