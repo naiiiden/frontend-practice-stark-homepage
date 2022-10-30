@@ -135,7 +135,29 @@ header {
                 position: absolute;
                 top: -16px;
                 left: 442px;
+            }
 
+            .links-wrapper {
+                a {
+                    &.free {
+                        transition: .1s;
+
+                        &:hover {
+                            opacity: .9;
+                            transition: .1s;
+                        }
+                    }
+
+                    &.learn {
+                        transition: .2s;
+
+                        &:hover {
+                            background: #fedb63;
+                            color: #10284b;
+                            transition: .2s;
+                        }
+                    }
+                }
             }
         }
 
