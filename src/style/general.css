@@ -391,8 +391,15 @@ header {
   .text-illustration-wrapper .text-container {
     margin-top: 88px;
   }
+  .text-illustration-wrapper .links-arrow-container {
+    position: relative;
+  }
   .text-illustration-wrapper .links-arrow-container .yellow-arrow {
-    display: none;
+    width: 142px;
+    height: 166px;
+    position: absolute;
+    top: -16px;
+    left: 442px;
   }
   .text-illustration-wrapper .header-image-container {
     position: relative;

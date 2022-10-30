@@ -114,8 +114,15 @@ header {
         }
 
         .links-arrow-container {
+            position: relative;
+
             .yellow-arrow {
-                display: none;
+                width: 142px;
+                height: 166px;
+                position: absolute;
+                top: -16px;
+                left: 442px;
+
             }
         }
 
