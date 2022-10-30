@@ -95,6 +95,18 @@ header {
 @media screen and (min-width: 1024px) {
     header {
         background-image: url("../assets/images_homepage/homepage-gradient-bg.webp");
+        animation: background 5s ease-in-out infinite alternate-reverse;
+
+        @keyframes background {
+            0% {
+                background-size: 100% 100%;
+            }
+
+            100% {
+                background-size: 150% 120%;
+            }
+            
+        }
     }
 
     .centered-horizontally {
