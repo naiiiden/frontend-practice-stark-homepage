@@ -453,10 +453,29 @@ header {
     width: 184px;
     left: 494px;
     top: 114px;
+    -webkit-animation: rotate 40s linear infinite;
+            animation: rotate 40s linear infinite;
+  }
+  @-webkit-keyframes rotate {
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+  @keyframes rotate {
+    100% {
+      transform: rotate(1turn);
+    }
   }
   .text-illustration-wrapper .header-image-container .header-avatar-circle-2 {
     width: 151px;
     left: 87px;
     top: 523px;
+    -webkit-animation: rotate 30s linear infinite;
+            animation: rotate 30s linear infinite;
+  }
+  @keyframes rotate {
+    100% {
+      transform: rotate(-1turn);
+    }
   }
 }/*# sourceMappingURL=general.css.map */

@@ -183,6 +183,13 @@ header {
                 width: 184px;
                 left: 494px;
                 top: 114px;
+                animation: rotate 40s linear infinite;
+
+                @keyframes rotate {
+                    100% {
+                        transform: rotate(1turn);
+                    }
+                }
 
             }
             
@@ -190,6 +197,13 @@ header {
                 width: 151px;
                 left: 87px;
                 top: 523px;
+                animation: rotate 30s linear infinite;
+
+                @keyframes rotate {
+                    100% {
+                        transform: rotate(-1turn);
+                    }
+                }
             }
         }
     }
