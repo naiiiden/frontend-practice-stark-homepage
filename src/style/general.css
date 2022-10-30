@@ -419,6 +419,10 @@ header {
     top: -16px;
     left: 442px;
   }
+  .text-illustration-wrapper .links-arrow-container .links-wrapper a:focus {
+    outline-color: #06a5ff;
+    outline-offset: 4px;
+  }
   .text-illustration-wrapper .links-arrow-container .links-wrapper a.free {
     transition: 0.1s;
   }
