@@ -3,6 +3,9 @@ import yellow_arrow from "../assets/svg/yellow-arrow.svg";
 import homepage_header from "../assets/images_homepage/homepage__header.webp";
 import homepage_avatar_circle from "../assets/images_homepage/homepage__avatar-circle.png";
 import homepage_sparkle from "../assets/images_homepage/homepage-sparkle.png";
+import homepage_contrast_bubble from "../assets/images_homepage/homepage__contrast-bubble.png";
+import homepage_focusorder_bubble from "../assets/images_homepage/homepage__focusorder-bubble.png";
+import homepage_alttext_bubble from "../assets/images_homepage/homepage__alttext-bubble.png";
 import { useState, useEffect } from "react";
 
 const Header = () => {
@@ -37,6 +40,9 @@ const Header = () => {
                         {!isDesktop && <img src={homepage_avatar_circle} alt="" className="header-avatar-circle"/>}
                         {!isDesktop && <img src={homepage_avatar_circle} alt="" className="header-avatar-circle-2"/>}
                         {!isDesktop && <img src={homepage_sparkle} alt="" className="sparkle"/>}
+                        {!isDesktop && <img src={homepage_alttext_bubble} alt="" className="alttext"/>}
+                        {!isDesktop && <img src={homepage_contrast_bubble} alt="" className="contrast"/>}
+                        {!isDesktop && <img src={homepage_focusorder_bubble} alt="" className="focusorder"/>}
                     </div>
                 </div>
             </div>

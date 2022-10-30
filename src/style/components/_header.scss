@@ -210,6 +210,26 @@ header {
                     }
                 }
             }
+
+            .alttext, .contrast, .focusorder {
+                width: 68px;
+                position: absolute;
+
+                &.contrast {
+                    left: 546px;
+                    top: 68px;
+                }
+
+                &.focusorder {
+                    left: 614px;
+                    top: 480px;
+                }
+
+                &.alttext {
+                    left: 56px;
+                    top: 506px;
+                }
+            }
         }
     }
 }
