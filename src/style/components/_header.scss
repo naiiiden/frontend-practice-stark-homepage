@@ -212,22 +212,40 @@ header {
             }
 
             .alttext, .contrast, .focusorder {
+                opacity: 0;
                 width: 68px;
                 position: absolute;
+                transform: scale(0);
+                transform-origin: bottom left;
+
+                @keyframes pop {
+                    0%, 17.5% {
+                        opacity: 0;
+                        transform: scale(0);
+                    }
+
+                    20%, 100% {
+                        opacity: 1;
+                        transform: scale(1);
+                    }
+                }
 
                 &.contrast {
                     left: 546px;
                     top: 68px;
+                    animation: pop 10s cubic-bezier(.68, -.6, .32, 1.6) 8s forwards;
                 }
 
                 &.focusorder {
                     left: 614px;
                     top: 480px;
+                    animation: pop 10s cubic-bezier(.68, -.6, .32, 1.6) 1s forwards;
                 }
 
                 &.alttext {
                     left: 56px;
                     top: 506px;
+                    animation: pop 10s cubic-bezier(.68, -.6, .32, 1.6) 4s forwards;
                 }
             }
         }
