@@ -446,4 +446,17 @@ header {
     max-width: 691px;
     position: absolute;
   }
+  .text-illustration-wrapper .header-image-container .header-avatar-circle, .text-illustration-wrapper .header-image-container .header-avatar-circle-2 {
+    position: absolute;
+  }
+  .text-illustration-wrapper .header-image-container .header-avatar-circle {
+    width: 184px;
+    left: 494px;
+    top: 114px;
+  }
+  .text-illustration-wrapper .header-image-container .header-avatar-circle-2 {
+    width: 151px;
+    left: 87px;
+    top: 523px;
+  }
 }/*# sourceMappingURL=general.css.map */
