@@ -2,6 +2,7 @@ import Nav from "./Nav";
 import yellow_arrow from "../assets/svg/yellow-arrow.svg";
 import homepage_header from "../assets/images_homepage/homepage__header.webp";
 import homepage_avatar_circle from "../assets/images_homepage/homepage__avatar-circle.png";
+import homepage_sparkle from "../assets/images_homepage/homepage-sparkle.png";
 import { useState, useEffect } from "react";
 
 const Header = () => {
@@ -35,6 +36,7 @@ const Header = () => {
                         {!isDesktop && <img src={homepage_header} alt="" className="header-img"/>}
                         {!isDesktop && <img src={homepage_avatar_circle} alt="" className="header-avatar-circle"/>}
                         {!isDesktop && <img src={homepage_avatar_circle} alt="" className="header-avatar-circle-2"/>}
+                        {!isDesktop && <img src={homepage_sparkle} alt="" className="sparkle"/>}
                     </div>
                 </div>
             </div>

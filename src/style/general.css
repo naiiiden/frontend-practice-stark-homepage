@@ -446,6 +446,10 @@ header {
     max-width: 691px;
     position: absolute;
   }
+  .text-illustration-wrapper .header-image-container .sparkle {
+    position: absolute;
+    width: 40px;
+  }
   .text-illustration-wrapper .header-image-container .header-avatar-circle, .text-illustration-wrapper .header-image-container .header-avatar-circle-2 {
     position: absolute;
   }
