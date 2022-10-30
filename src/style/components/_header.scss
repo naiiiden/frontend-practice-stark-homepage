@@ -100,7 +100,7 @@ header {
     .centered-horizontally {
         display: flex;
         justify-content: center;
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
     .text-illustration-wrapper {
@@ -108,6 +108,7 @@ header {
         grid-template-columns: 1fr 1fr;
         max-width: 1160px;
         justify-content: center;
+        margin-bottom: 164px;
 
         .text-container {
             margin-top: 88px;

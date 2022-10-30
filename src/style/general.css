@@ -380,13 +380,14 @@ header {
   .centered-horizontally {
     display: flex;
     justify-content: center;
-    overflow-x: hidden;
+    overflow: hidden;
   }
   .text-illustration-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 1160px;
     justify-content: center;
+    margin-bottom: 164px;
   }
   .text-illustration-wrapper .text-container {
     margin-top: 88px;
