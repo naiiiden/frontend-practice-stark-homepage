@@ -35,15 +35,17 @@ const Header = () => {
                             {!isDesktop && <img src={yellow_arrow} alt="" className="yellow-arrow"/>}
                         </div>
                     </div>
-                    <div className="header-image-container">
-                        {!isDesktop && <img src={homepage_header} alt="" className="header-img"/>}
-                        {!isDesktop && <img src={homepage_avatar_circle} alt="" className="header-avatar-circle"/>}
-                        {!isDesktop && <img src={homepage_avatar_circle} alt="" className="header-avatar-circle-2"/>}
-                        {!isDesktop && <img src={homepage_sparkle} alt="" className="sparkle"/>}
-                        {!isDesktop && <img src={homepage_alttext_bubble} alt="" className="alttext"/>}
-                        {!isDesktop && <img src={homepage_contrast_bubble} alt="" className="contrast"/>}
-                        {!isDesktop && <img src={homepage_focusorder_bubble} alt="" className="focusorder"/>}
-                    </div>
+                    {!isDesktop && 
+                        <div className="header-image-container">
+                            <img src={homepage_header} alt="" className="header-img"/>
+                            <img src={homepage_avatar_circle} alt="" className="header-avatar-circle"/>
+                            <img src={homepage_avatar_circle} alt="" className="header-avatar-circle-2"/>
+                            <img src={homepage_sparkle} alt="" className="sparkle"/>
+                            <img src={homepage_alttext_bubble} alt="" className="alttext"/>
+                            <img src={homepage_contrast_bubble} alt="" className="contrast"/>
+                            <img src={homepage_focusorder_bubble} alt="" className="focusorder"/>
+                        </div>
+                    }
                 </div>
             </div>
         </header>
