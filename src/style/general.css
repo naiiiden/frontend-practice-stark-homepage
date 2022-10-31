@@ -28,6 +28,7 @@ body {
   width: 100%;
   min-height: 100vh;
   font-family: roboto-mono;
+  background: #f6f6eb;
 }
 
 img {
