@@ -24,3 +24,14 @@
         }
     }
 }
+
+@media screen and (min-width: 768px) {
+    .video-section {
+        .h2-svg-container {
+            h2 {
+                font-size: 3.5rem;
+                line-height: 62px;
+            }
+        }
+    }
+}
