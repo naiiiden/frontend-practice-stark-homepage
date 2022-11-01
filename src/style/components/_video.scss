@@ -54,6 +54,16 @@
             }
         }
     }
+
+    p {
+        max-width: 734px;
+        margin: 40px auto 0px;
+        font-size: 1.25rem;
+        line-height: 30px;
+        color: #10284b;
+        text-align: center;
+        font-family: armingrotesk-regular;
+    }
 }
 
 @media screen and (min-width: 768px) {
