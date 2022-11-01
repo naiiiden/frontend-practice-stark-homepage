@@ -528,4 +528,27 @@ header {
     -webkit-animation: pop 10s cubic-bezier(0.68, -0.6, 0.32, 1.6) 4s forwards;
             animation: pop 10s cubic-bezier(0.68, -0.6, 0.32, 1.6) 4s forwards;
   }
+}
+.video-section {
+  padding: 120px 1rem 1rem 1rem;
+  max-width: 960px;
+}
+.video-section .h2-svg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.video-section .h2-svg-container h2 {
+  position: relative;
+  font-size: 3rem;
+  color: #10284b;
+  font-family: armingrotesk-black;
+  font-weight: 900;
+  line-height: 53px;
+  letter-spacing: -0.01rem;
+  text-align: center;
+}
+.video-section .h2-svg-container img {
+  display: none;
 }/*# sourceMappingURL=general.css.map */

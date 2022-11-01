@@ -1,0 +1,26 @@
+.video-section {
+    padding: 120px 1rem 1rem 1rem;
+    max-width: 960px;
+
+    .h2-svg-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+
+        h2 {
+            position: relative;
+            font-size: 3rem;
+            color: #10284b;
+            font-family: armingrotesk-black;
+            font-weight: 900;
+            line-height: 53px;
+            letter-spacing: -.01rem;
+            text-align: center;
+        }
+
+        img {
+            display: none;
+        }
+    }
+}
