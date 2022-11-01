@@ -1,6 +1,7 @@
 .video-section {
     padding: 120px 1rem 1rem 1rem;
     max-width: 960px;
+    margin: auto;
 
     .h2-svg-container {
         display: flex;
@@ -31,6 +32,26 @@
             h2 {
                 font-size: 3.5rem;
                 line-height: 62px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .video-section {
+        // margin: auto;
+
+        .h2-svg-container {
+            align-items: center;
+
+            h2 {
+                position: absolute;
+            }
+
+            img {
+                display: unset;
+                margin-left: 38.75rem;
+                margin-top: 3rem;
             }
         }
     }

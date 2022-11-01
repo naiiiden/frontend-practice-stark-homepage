@@ -532,6 +532,7 @@ header {
 .video-section {
   padding: 120px 1rem 1rem 1rem;
   max-width: 960px;
+  margin: auto;
 }
 .video-section .h2-svg-container {
   display: flex;
@@ -557,5 +558,18 @@ header {
   .video-section .h2-svg-container h2 {
     font-size: 3.5rem;
     line-height: 62px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .video-section .h2-svg-container {
+    align-items: center;
+  }
+  .video-section .h2-svg-container h2 {
+    position: absolute;
+  }
+  .video-section .h2-svg-container img {
+    display: unset;
+    margin-left: 38.75rem;
+    margin-top: 3rem;
   }
 }/*# sourceMappingURL=general.css.map */
