@@ -14,8 +14,10 @@ const Video = () => {
                 <img src={yellow_bg} alt=""/>
             </div>
             <div className="video-container">
-                <img src={video_placeholder} alt="" />
-                <img src={play} alt=""/>
+                <div className="video-subcontainer">
+                    <img src={video_placeholder} alt="" className="placeholder"/>
+                    <img src={play} alt="" class="play"/>
+                </div>
                 {/* embed youtube video after styling */}
             </div>
             <p>More than 40,000 designers, developers, product managers, and accessibility experts from over 12,000 companies use Stark’s suite of integrated accessibility tools in their daily product development cycle. Join them today!</p>

@@ -553,6 +553,32 @@ header {
 .video-section .h2-svg-container img {
   display: none;
 }
+.video-section .video-container {
+  overflow: hidden;
+  border-radius: 2rem;
+  margin-top: 3rem;
+  aspect-ratio: 16/9;
+  -webkit-mask-image: -webkit-radial-gradient(center, white, black);
+  background-color: #f3f2fc;
+}
+.video-section .video-container .video-subcontainer {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.video-section .video-container .video-subcontainer .placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.video-section .video-container .video-subcontainer .play {
+  z-index: 9;
+}
 
 @media screen and (min-width: 768px) {
   .video-section .h2-svg-container h2 {
