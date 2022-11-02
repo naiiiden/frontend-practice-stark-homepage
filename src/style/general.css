@@ -607,4 +607,28 @@ header {
     margin-left: 38.75rem;
     margin-top: 3rem;
   }
+}
+.customers-section {
+  padding-top: 2.5rem;
+  overflow-x: hidden;
+}
+.customers-section .logo-container {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  -webkit-animation: slider 100s linear infinite;
+          animation: slider 100s linear infinite;
+}
+@-webkit-keyframes slider {
+  100% {
+    transform: translateX(-5091px);
+  }
+}
+@keyframes slider {
+  100% {
+    transform: translateX(-5091px);
+  }
 }/*# sourceMappingURL=general.css.map */
