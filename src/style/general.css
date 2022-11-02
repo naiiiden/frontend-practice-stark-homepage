@@ -622,6 +622,12 @@ header {
   -webkit-animation: slider 100s linear infinite;
           animation: slider 100s linear infinite;
 }
+.customers-section .logo-container img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
 @-webkit-keyframes slider {
   100% {
     transform: translateX(-5091px);

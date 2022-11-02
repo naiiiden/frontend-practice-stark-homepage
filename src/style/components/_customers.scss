@@ -9,6 +9,10 @@
         width: max-content;
         animation: slider 100s linear infinite;
 
+        img {
+            user-select: none;
+        }
+
         @keyframes slider {
             100% {
                 transform: translateX(-5091px);
