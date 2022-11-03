@@ -67,3 +67,31 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .download-section {
+        .download-container {
+            a {
+                img {
+                    transition: .2s;
+                }
+                
+                &:nth-child(odd):hover {
+                    img {
+                        filter: drop-shadow(0 8px 12px rgba(0,0,0,.16));
+                        transform: rotate(-4deg) scale(1.02);
+                        transition: .2s;
+                    }
+                }
+
+                &:nth-child(even):hover {
+                    img {
+                        filter: drop-shadow(0 8px 12px rgba(0,0,0,.16));
+                        transform: rotate(5deg) scale(1.02);
+                        transition: .2s;
+                    }
+                }
+            }
+        }
+    }
+}

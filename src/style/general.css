@@ -699,4 +699,19 @@ header {
     flex-direction: row;
     gap: 4rem;
   }
+}
+@media screen and (min-width: 1024px) {
+  .download-section .download-container a img {
+    transition: 0.2s;
+  }
+  .download-section .download-container a:nth-child(odd):hover img {
+    filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.16));
+    transform: rotate(-4deg) scale(1.02);
+    transition: 0.2s;
+  }
+  .download-section .download-container a:nth-child(even):hover img {
+    filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.16));
+    transform: rotate(5deg) scale(1.02);
+    transition: 0.2s;
+  }
 }/*# sourceMappingURL=general.css.map */
