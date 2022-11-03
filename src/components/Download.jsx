@@ -15,42 +15,46 @@ const Download = () => {
             <section className="download-section">
                 <h2>Meet the Suite</h2>
                 <div className="download-container">
-                    <a href="" target="_blank">
-                        <img src={mac} alt=""/>
-                        <p>Stark for Mac</p>
-                    </a>
-                    <a href="" target="_blank">
-                        <img src={figma} alt=""/>
-                        <p>Stark for Figma</p>
-                    </a>
-                    <a href="" target="_blank">
-                        <img src={sketch} alt=""/>
-                        <p>Stark for Sketch</p>
-                    </a>
-                    <a href="" target="_blank">
-                        <img src={xd} alt=""/>
-                        <p>Stark for Adobe XD</p>
-                    </a>
-                    <a href="" target="_blank">
-                        <img src={chrome} alt=""/>
-                        <p>Stark for Chrome</p>
-                    </a>
-                    <a href="" target="_blank">
-                        <img src={edge} alt=""/>
-                        <p>Stark for Edge</p>
-                    </a>
-                    <a href="" target="_blank">
-                        <img src={safari} alt=""/>
-                        <p>Stark for Safari</p>
-                    </a>
-                    <a href="" target="_blank">
-                        <img src={arc} alt=""/>
-                        <p>Stark for Arc</p>
-                    </a>
-                    <a href="" target="_blank">
-                        <img src={brave} alt=""/>
-                        <p>Stark for Brave</p>
-                    </a>
+                    <div className="flex-container-1">
+                        <a href="" target="_blank" className="a">
+                            <img src={mac} alt=""/>
+                            <p>Stark for Mac</p>
+                        </a>
+                        <a href="" target="_blank" className="b">
+                            <img src={figma} alt=""/>
+                            <p>Stark for Figma</p>
+                        </a>
+                        <a href="" target="_blank" className="c">
+                            <img src={sketch} alt=""/>
+                            <p>Stark for Sketch</p>
+                        </a>
+                        <a href="" target="_blank" className="d">
+                            <img src={xd} alt=""/>
+                            <p>Stark for Adobe XD</p>
+                        </a>
+                    </div>
+                    <div className="flex-container-2">
+                        <a href="" target="_blank" className="e">
+                            <img src={chrome} alt=""/>
+                            <p>Stark for Chrome</p>
+                        </a>
+                        <a href="" target="_blank" className="f">
+                            <img src={edge} alt=""/>
+                            <p>Stark for Edge</p>
+                        </a>
+                        <a href="" target="_blank" className="g">
+                            <img src={safari} alt=""/>
+                            <p>Stark for Safari</p>
+                        </a>
+                        <a href="" target="_blank" className="h">
+                            <img src={arc} alt=""/>
+                            <p>Stark for Arc</p>
+                        </a>
+                        <a href="" target="_blank" className="j">
+                            <img src={brave} alt=""/>
+                            <p>Stark for Brave</p>
+                        </a>
+                    </div>
                 </div>
             </section>
         </div>
