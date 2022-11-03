@@ -639,10 +639,16 @@ header {
   }
 }
 
+.center-horizontally {
+  display: flex;
+  justify-content: center;
+}
+
 .download-section {
-  background: #edede0;
-  margin: 7.5rem 0 0 0;
+  background-color: rgb(237, 237, 224);
+  width: 1160px;
   max-width: 1160px;
   border-radius: 2rem;
-  padding: 1rem;
+  padding: 0 1rem;
+  margin: 7.5rem 1rem 0 1rem;
 }/*# sourceMappingURL=general.css.map */

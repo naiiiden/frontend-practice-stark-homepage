@@ -11,15 +11,17 @@ import brave from "../assets/images_homepage/homepage-brave.png";
 
 const Download = () => {
     return (
-        <section className="download-section">
-            <h2>Meet the Suite</h2>
-            <div className="download-container">
-                <a href="">
-                    <img src={safari} alt=""/>
-                    <p>Stark for Mac</p>
-                </a>
-            </div>
-        </section>
+        <div className="center-horizontally">
+            <section className="download-section">
+                <h2>Meet the Suite</h2>
+                <div className="download-container">
+                    <a href="">
+                        <img src={safari} alt=""/>
+                        <p>Stark for Mac</p>
+                    </a>
+                </div>
+            </section>
+        </div>
     )
 }
 
