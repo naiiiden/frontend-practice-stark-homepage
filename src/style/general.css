@@ -649,6 +649,13 @@ header {
   width: 1160px;
   max-width: 1160px;
   border-radius: 2rem;
-  padding: 0 1rem;
+  padding: 3rem 1rem 2.5rem 1rem;
   margin: 7.5rem 1rem 0 1rem;
+}
+.download-section h2 {
+  font-size: 3rem;
+  font-family: armingrotesk-black;
+  color: #10284b;
+  margin-bottom: 3rem;
+  text-align: center;
 }/*# sourceMappingURL=general.css.map */
