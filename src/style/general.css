@@ -637,4 +637,12 @@ header {
   100% {
     transform: translateX(-5091px);
   }
+}
+
+.download-section {
+  background: #edede0;
+  margin: 7.5rem 0 0 0;
+  max-width: 1160px;
+  border-radius: 2rem;
+  padding: 1rem;
 }/*# sourceMappingURL=general.css.map */
