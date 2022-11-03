@@ -659,6 +659,14 @@ header {
   margin-bottom: 3rem;
   text-align: center;
 }
+.download-section .download-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: none;
+  gap: 3rem 4rem;
+  max-width: 334px;
+  margin: auto;
+}
 .download-section .download-container a {
   text-decoration: none;
   color: #10284b;
