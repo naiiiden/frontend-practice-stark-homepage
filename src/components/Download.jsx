@@ -16,7 +16,7 @@ const Download = () => {
                 <h2>Meet the Suite</h2>
                 <div className="download-container">
                     <a href="" target="_blank">
-                        <img src={safari} alt=""/>
+                        <img src={mac} alt=""/>
                         <p>Stark for Mac</p>
                     </a>
                     <a href="" target="_blank">
