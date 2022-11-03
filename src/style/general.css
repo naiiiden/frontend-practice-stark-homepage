@@ -691,18 +691,12 @@ header {
   .download-section .download-container {
     margin: unset;
     max-width: unset;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: [row] auto [row];
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
   }
-  .download-section .download-container .a, .download-section .download-container .b, .download-section .download-container .c, .download-section .download-container .d {
-    grid-column: auto/span 2;
-    grid-row: 1;
-  }
-  .download-section .download-container .a.a, .download-section .download-container .b.a, .download-section .download-container .c.a, .download-section .download-container .d.a {
-    grid-column-start: 2 !important;
-  }
-  .download-section .download-container .e, .download-section .download-container .f, .download-section .download-container .g, .download-section .download-container .h, .download-section .download-container .j {
-    grid-column: auto/span 2;
-    grid-row: 2;
+  .download-section .download-container .flex-container-1, .download-section .download-container .flex-container-2 {
+    flex-direction: row;
+    gap: 4rem;
   }
 }/*# sourceMappingURL=general.css.map */
