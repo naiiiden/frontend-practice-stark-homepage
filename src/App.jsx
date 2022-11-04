@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Video from "./components/Video";
 import Customers from "./components/Customers";
 import Download from "./components/Download";
+import Features from "./components/Features";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Video/>
         <Customers/>
         <Download/>
+        <Features/>
       </main>
     </div>
   )
