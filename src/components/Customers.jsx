@@ -24,8 +24,6 @@ import microsoft from "../assets/svg_customers/microsoft.svg";
 import volkswagen from "../assets/svg_customers/volkswagen.svg";
 import union_bank from "../assets/svg_customers/union_bank.svg";
 
-
-
 const Customers = () => {
     return (
         <section className="customers-section">

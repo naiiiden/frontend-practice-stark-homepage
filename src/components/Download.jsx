@@ -8,7 +8,6 @@ import safari from "../assets/images_homepage/homepage-safari.png";
 import arc from "../assets/images_homepage/homepage-arc.png";
 import brave from "../assets/images_homepage/homepage-brave.png";
 
-
 const Download = () => {
     return (
         <div className="center-horizontally">
