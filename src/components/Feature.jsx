@@ -1,6 +1,6 @@
-const Feature = ({ sectionClass, pShort, dec, h2, desc, href, aText, imgClass, src1, src2 }) => {
+const Feature = ({ sectionClass, mt, pShort, dec, h2, desc, href, aText, imgClass, src1, src2 }) => {
     return (
-        <section className={`feature-section ${sectionClass}`}>
+        <section className={`feature-section ${sectionClass}`} style={{"margin-top": `${mt}px`}}>
             <div className="text-container">
                 <div className="decoration-container">
                     <p>{pShort}</p>
