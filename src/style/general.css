@@ -714,4 +714,7 @@ header {
     transform: rotate(5deg) scale(1.02);
     transition: 0.2s;
   }
+}
+.feature-section {
+  padding: 1rem;
 }/*# sourceMappingURL=general.css.map */
