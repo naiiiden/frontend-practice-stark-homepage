@@ -8,5 +8,9 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 3rem;
+
+        .text-container {
+            order: 1;
+        }
     }
 }

@@ -725,4 +725,7 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   gap: 3rem;
+}
+.feature-section .inner-wrapper-div .text-container {
+  order: 1;
 }/*# sourceMappingURL=general.css.map */
