@@ -728,4 +728,43 @@ header {
 }
 .feature-section .inner-wrapper-div .text-container {
   order: 1;
+  color: #10284b;
+}
+.feature-section .inner-wrapper-div .text-container .decoration-container img {
+  display: none;
+}
+.feature-section .inner-wrapper-div .text-container .decoration-container p {
+  letter-spacing: 0.08rem;
+  line-height: 22px;
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  font-family: armingrotesk-regular;
+  font-weight: 700;
+  color: #381fd1;
+}
+.feature-section .inner-wrapper-div .text-container h2 {
+  font-size: 3rem;
+  font-family: armingrotesk-black;
+  letter-spacing: -0.01rem;
+  line-height: 53px;
+}
+.feature-section .inner-wrapper-div .text-container p {
+  font-family: armingrotesk-normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 30px;
+  margin: 1rem 0 2rem 0;
+}
+.feature-section .inner-wrapper-div .text-container a {
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  background: #381fd1;
+  font-family: armingrotesk-regular;
+  font-weight: 500;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  min-height: 2.75rem;
+  padding: 0.375rem 1.5rem;
 }/*# sourceMappingURL=general.css.map */
