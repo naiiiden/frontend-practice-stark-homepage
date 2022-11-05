@@ -767,4 +767,17 @@ header {
   border-radius: 6px;
   min-height: 2.75rem;
   padding: 0.375rem 1.5rem;
+}
+.feature-section:nth-child(1) .image-container {
+  position: relative;
+  border-radius: 40px;
+  overflow: hidden;
+  padding: 40px 0 0 40px;
+  display: flex;
+  justify-content: flex-end;
+  background: #99d6cc;
+}
+.feature-section:nth-child(1) .image-container img {
+  min-width: 513px;
+  filter: drop-shadow(rgba(0, 0, 0, 0.16) 0px 8px 60px);
 }/*# sourceMappingURL=general.css.map */
