@@ -783,20 +783,20 @@ header {
   opacity: 0.8;
   transform: translateY(100px);
 }
-.feature-section:nth-child(2) .image-container {
+.feature-section:nth-child(2) .image-container, .feature-section:nth-child(2) .image-inner-wrapper {
   position: relative;
   height: 450px;
   display: flex;
   justify-content: center;
-  position: relative;
+  width: 100%;
 }
-.feature-section:nth-child(2) .image-container img {
+.feature-section:nth-child(2) .image-container img, .feature-section:nth-child(2) .image-inner-wrapper img {
   position: absolute;
   width: 250px;
   transform: rotate(-2deg) translate(-132px, 68px);
   filter: drop-shadow(rgba(0, 0, 0, 0.16) 0px 8px 60px);
 }
-.feature-section:nth-child(2) .image-container img:nth-of-type(2) {
+.feature-section:nth-child(2) .image-container img:nth-of-type(2), .feature-section:nth-child(2) .image-inner-wrapper img:nth-of-type(2) {
   width: 261px;
   transform: rotate(2deg) translate(34px, -12px);
   filter: drop-shadow(rgba(0, 0, 0, 0.16) 0px 8px 60px);

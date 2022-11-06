@@ -81,12 +81,12 @@
     }
 
     &:nth-child(2) {
-        .image-container {
+        .image-container, .image-inner-wrapper {
             position: relative;
             height: 450px;
             display: flex;
             justify-content: center;
-            position: relative;
+            width: 100%;
 
             img {
                 position: absolute;
@@ -139,7 +139,7 @@
             justify-content: center;
 
             img {
-                
+
             }
         }
     }
