@@ -980,6 +980,13 @@ header {
     order: unset;
     margin: auto 0;
   }
+  .cta-section .cta-inner-wrapper .text-container a {
+    transition: 0.2s;
+  }
+  .cta-section .cta-inner-wrapper .text-container a:hover {
+    opacity: 0.9;
+    transition: 0.2s;
+  }
   .cta-section .cta-inner-wrapper .image-container {
     position: relative;
   }
