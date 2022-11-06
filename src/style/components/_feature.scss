@@ -129,4 +129,18 @@
             }
         }
     }
+
+    &:nth-child(4) {
+        .image-container {
+            position: relative;
+            border-radius: 40px;
+            background: #99d6cc;
+            display: flex;
+            justify-content: center;
+
+            img {
+                
+            }
+        }
+    }
 }
