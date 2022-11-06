@@ -224,6 +224,15 @@
                         max-height: 241px;
                     }
                 }
+
+                a {
+                    transition: .2s;
+
+                    &:hover {
+                        opacity: .9;
+                        transition: .2s;
+                    }
+                }
             }
 
         }
