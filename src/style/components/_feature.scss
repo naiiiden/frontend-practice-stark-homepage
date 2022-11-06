@@ -198,3 +198,20 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .feature-section { 
+        .inner-wrapper-div {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        &:nth-child(odd) {
+            .inner-wrapper-div {
+                .image-container {
+                    order: 2;
+                }
+            }
+        }
+    }
+}
