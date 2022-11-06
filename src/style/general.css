@@ -970,4 +970,14 @@ header {
 }
 .cta-section .cta-inner-wrapper .image-container img:nth-of-type(2) {
   display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .cta-section .cta-inner-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cta-section .cta-inner-wrapper .text-container {
+    order: unset;
+    margin: auto 0;
+  }
 }/*# sourceMappingURL=general.css.map */
