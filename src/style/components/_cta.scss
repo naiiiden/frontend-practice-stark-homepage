@@ -86,6 +86,11 @@
                         opacity: .9;
                         transition: .2s;
                     }
+
+                    &:focus {
+                        outline-color: #06a5ff;
+                        outline-offset: 4px;
+                    }
                 }
             }
 
