@@ -867,4 +867,7 @@ header {
     width: 361px;
     left: 0;
   }
+  .feature-section:nth-child(4) .image-container img {
+    width: 361px;
+  }
 }/*# sourceMappingURL=general.css.map */
