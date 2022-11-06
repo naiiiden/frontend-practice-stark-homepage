@@ -859,4 +859,12 @@ header {
   .feature-section:nth-child(2) .image-container img:nth-of-type(2), .feature-section:nth-child(2) .image-inner-wrapper img:nth-of-type(2) {
     width: 358px;
   }
+  .feature-section:nth-child(3) .image-container {
+    height: 555px;
+    display: flex;
+  }
+  .feature-section:nth-child(3) .image-container img, .feature-section:nth-child(3) .image-container img:nth-of-type(2) {
+    width: 361px;
+    left: 0;
+  }
 }/*# sourceMappingURL=general.css.map */
