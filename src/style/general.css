@@ -779,6 +779,7 @@ header {
 }
 .feature-section:nth-child(1) .image-container img {
   min-width: 513px;
+  width: 513px;
   filter: drop-shadow(rgba(0, 0, 0, 0.16) 0px 8px 60px);
   opacity: 0.8;
   transform: translateY(100px);
