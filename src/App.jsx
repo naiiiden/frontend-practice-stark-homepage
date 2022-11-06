@@ -4,6 +4,7 @@ import Video from "./components/Video";
 import Customers from "./components/Customers";
 import Download from "./components/Download";
 import Features from "./components/Features";
+import CallToAction from "./components/CallToAction";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Customers/>
         <Download/>
         <Features/>
+        <CallToAction/>
       </main>
     </div>
   )
