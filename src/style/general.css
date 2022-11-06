@@ -876,6 +876,9 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .feature-section .inner-wrapper-div .text-container {
+    margin: auto 0;
+  }
   .feature-section:nth-child(odd) .inner-wrapper-div .image-container {
     order: 2;
   }

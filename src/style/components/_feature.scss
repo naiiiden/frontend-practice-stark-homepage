@@ -204,6 +204,10 @@
         .inner-wrapper-div {
             display: grid;
             grid-template-columns: 1fr 1fr;
+
+            .text-container {
+                margin: auto 0;
+            }
         }
 
         &:nth-child(odd) {
