@@ -137,9 +137,22 @@
             background: #99d6cc;
             display: flex;
             justify-content: center;
+            overflow: hidden;
+
+            .image-inner-wrapper {
+                transform: translateY(-40px);
+                padding: 0 1rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
 
             img {
-
+                width: 100%;
+                margin-bottom: 2rem;
+                filter: drop-shadow(rgba(0, 0, 0, 0.16) 0px 8px 60px);
+                transform: translateY(-64px);
+                width: 100%;
             }
         }
     }
