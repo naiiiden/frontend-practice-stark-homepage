@@ -879,6 +879,21 @@ header {
   .feature-section .inner-wrapper-div .text-container {
     margin: auto 0;
   }
+  .feature-section .inner-wrapper-div .text-container .decoration-container {
+    position: relative;
+  }
+  .feature-section .inner-wrapper-div .text-container .decoration-container img {
+    display: unset;
+    position: absolute;
+    top: -232px;
+    left: -88px;
+    min-width: 75px;
+    min-height: 241px;
+    width: 75px;
+    height: 241px;
+    max-width: 75px;
+    max-height: 241px;
+  }
   .feature-section:nth-child(odd) .inner-wrapper-div .image-container {
     order: 2;
   }

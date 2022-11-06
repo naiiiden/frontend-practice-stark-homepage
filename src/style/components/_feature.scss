@@ -207,7 +207,25 @@
 
             .text-container {
                 margin: auto 0;
+                
+                .decoration-container {
+                    position: relative;
+
+                    img {
+                        display: unset;
+                        position: absolute;
+                        top: -232px;
+                        left: -88px;
+                        min-width: 75px;
+                        min-height: 241px;
+                        width: 75px;
+                        height: 241px;
+                        max-width: 75px;
+                        max-height: 241px;
+                    }
+                }
             }
+
         }
 
         &:nth-child(odd) {
