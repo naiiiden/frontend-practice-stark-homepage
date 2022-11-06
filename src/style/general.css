@@ -897,6 +897,10 @@ header {
   .feature-section .inner-wrapper-div .text-container a {
     transition: 0.2s;
   }
+  .feature-section .inner-wrapper-div .text-container a:focus {
+    outline-color: #06a5ff;
+    outline-offset: 4px;
+  }
   .feature-section .inner-wrapper-div .text-container a:hover {
     opacity: 0.9;
     transition: 0.2s;
