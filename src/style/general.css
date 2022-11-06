@@ -845,4 +845,18 @@ header {
   filter: drop-shadow(rgba(0, 0, 0, 0.16) 0px 8px 60px);
   transform: translateY(-64px);
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .feature-section:nth-child(2) .image-container, .feature-section:nth-child(2) .image-inner-wrapper {
+    height: 666px;
+    display: flex;
+    justify-content: center;
+  }
+  .feature-section:nth-child(2) .image-container img, .feature-section:nth-child(2) .image-inner-wrapper img {
+    width: 347px;
+  }
+  .feature-section:nth-child(2) .image-container img:nth-of-type(2), .feature-section:nth-child(2) .image-inner-wrapper img:nth-of-type(2) {
+    width: 358px;
+  }
 }/*# sourceMappingURL=general.css.map */
