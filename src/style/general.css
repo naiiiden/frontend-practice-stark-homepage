@@ -960,4 +960,7 @@ header {
   border-radius: 6px;
   min-height: 2.75rem;
   padding: 0.375rem 1.5rem;
+}
+.cta-section .cta-inner-wrapper .image-container img:nth-of-type(2) {
+  display: none;
 }/*# sourceMappingURL=general.css.map */
