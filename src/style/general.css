@@ -980,4 +980,15 @@ header {
     order: unset;
     margin: auto 0;
   }
+  .cta-section .cta-inner-wrapper .image-container {
+    position: relative;
+  }
+  .cta-section .cta-inner-wrapper .image-container img:nth-of-type(2) {
+    display: unset;
+    position: absolute;
+    bottom: -84px;
+    left: -90px;
+    width: 135px;
+    height: 168px;
+  }
 }/*# sourceMappingURL=general.css.map */

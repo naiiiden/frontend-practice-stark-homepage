@@ -79,6 +79,21 @@
                 order: unset;
                 margin: auto 0;
             }
+
+            .image-container {
+                position: relative;
+
+                img {
+                    &:nth-of-type(2) {
+                        display: unset;
+                        position: absolute;
+                        bottom: -84px;
+                        left: -90px;
+                        width: 135px;
+                        height: 168px;
+                    }
+                }
+            }
         }
     }
 }
