@@ -56,7 +56,12 @@
         }
 
         .image-container {
+            display: flex;
+            justify-content: center;
+
             img {
+                max-width: 481px;
+
                 &:nth-of-type(2) {
                     display: none;
                 }
