@@ -966,6 +966,7 @@ header {
   justify-content: center;
 }
 .cta-section .cta-inner-wrapper .image-container img {
+  width: 100%;
   max-width: 481px;
 }
 .cta-section .cta-inner-wrapper .image-container img:nth-of-type(2) {
