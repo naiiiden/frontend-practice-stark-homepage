@@ -1,4 +1,4 @@
-import yellow_bg from "../assets/svg/yellow-bg.svg";
+import yellow_bg2 from "../assets/svg/yellow-bg2.svg";
 
 const Testimonials = () => {
     return (
@@ -9,7 +9,7 @@ const Testimonials = () => {
                     <br/>
                     trusted by 8,000+ companies
                 </h2>
-                <img src={yellow_bg} alt=""/>
+                <img src={yellow_bg2} alt=""/>
             </div>
         </section>
     )

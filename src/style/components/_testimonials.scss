@@ -1,8 +1,6 @@
 .testimonial-section {
     margin-top: 160px;
     padding: 1rem;
-    display: flex;
-    justify-content: center;
     
     .h2-svg-container {
         position: relative;
@@ -16,9 +14,30 @@
             text-align: center;
 
         }
-        
+
         img {
             display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .testimonial-section {
+        .h2-svg-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            
+            h2 {
+                font-size: 3.5rem;
+                line-height: 62px;
+                position: absolute;
+            }
+            
+            img {
+                display: unset;
+                margin-top: 3.6rem;
+            }
         }
     }
 }
