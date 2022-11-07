@@ -12,6 +12,9 @@ const Features = () => {
     return (
         <div>
             <Feature 
+                idImgContainer="feature1"
+                idImg1="feature1img1"
+                idImg2="feature1img2"
                 mt="104"
                 pShort="MEET YOUR NEW SUPERPOWER" 
                 dec={dec} 
@@ -21,7 +24,10 @@ const Features = () => {
                 aText="Get started"
                 src1={homepage_feature1}
             />
-            <Feature 
+            <Feature
+                idImgContainer="feature2"
+                idImg1="feature2img1"
+                idImg2="feature2img2" 
                 mt="120"
                 pShort="YOUR TEAM'S ACCESSIBILITY TOOLBOX"
                 h2="Everything you need, right where you need it"
@@ -32,6 +38,9 @@ const Features = () => {
                 src2={homepage_feature2B}
             />
             <Feature 
+                idImgContainer="feature3"
+                idImg1="feature3img1"
+                idImg2="feature3img2"
                 mt="120"
                 pShort="TRAIN ON THE JOB"
                 h2="Learn as you go"
@@ -42,6 +51,9 @@ const Features = () => {
                 src2={homepage_feature3B}
             />
             <Feature 
+                idImgContainer="feature4"
+                idImg1="feature4img1"
+                idImg2="feature4img2"
                 mt="200"
                 pShort="LIVE PREVIEW"
                 h2="Accessibility easy as one, two, three"
