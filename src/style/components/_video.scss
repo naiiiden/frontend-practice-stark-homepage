@@ -79,19 +79,19 @@
 
 @media screen and (min-width: 1024px) {
     .video-section {
-        // margin: auto;
-
         .h2-svg-container {
             align-items: center;
 
             h2 {
                 position: absolute;
+                z-index: 1;
             }
 
             img {
                 display: unset;
                 margin-left: 38.75rem;
                 margin-top: 3rem;
+                -moz-transform: translateX(.5rem);
             }
         }
     }

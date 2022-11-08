@@ -610,11 +610,13 @@ header {
   }
   .video-section .h2-svg-container h2 {
     position: absolute;
+    z-index: 1;
   }
   .video-section .h2-svg-container img {
     display: unset;
     margin-left: 38.75rem;
     margin-top: 3rem;
+    -moz-transform: translateX(0.5rem);
   }
 }
 .customers-section {
