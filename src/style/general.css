@@ -548,7 +548,6 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
 }
 .video-section .h2-svg-container h2 {
   position: relative;
