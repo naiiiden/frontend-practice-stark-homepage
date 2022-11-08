@@ -33,6 +33,15 @@ html {
     scroll-behavior: auto;
   }
 }
+::-moz-selection {
+  background: #381fd1;
+  color: #fff;
+}
+::selection {
+  background: #381fd1;
+  color: #fff;
+}
+
 body {
   width: 100%;
   min-height: 100vh;
