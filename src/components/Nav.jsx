@@ -44,8 +44,18 @@ const Nav = () => {
                         <li role="none"><a role="menuitem" href="https://www.getstark.co/sketch">Stark for Sketch</a></li>
                         <li role="none"><a role="menuitem" href="https://www.getstark.co/adobe-xd">Stark for Adobe XD</a></li>
                         <li role="none"><a role="menuitem" href="https://www.getstark.co/chrome">Stark for Chrome</a></li>
-                        <li role="none"><a role="menuitem" href="https://www.getstark.co/brave">Stark for Brave</a></li>
                         <li role="none"><a role="menuitem" href="https://www.getstark.co/edge">Stark for Edge</a></li>
+                        {isDesktop ?
+                        <li role="none"><a role="menuitem" href="https://www.getstark.co/safari">Stark for Safari</a></li>
+                        :
+                        <li role="none"><a role="menuitem" href="https://www.getstark.co/safari">Stark for Safari <img src={new_svg} alt=""/></a></li>
+                        }
+                        {isDesktop ? 
+                        <li role="none"><a role="menuitem" href="https://www.getstark.co/safari">Stark for Arc</a></li>
+                        :
+                        <li role="none"><a role="menuitem" href="https://www.getstark.co/arc">Stark for Arc <img src={new_svg} alt=""/></a></li>
+                        }
+                        <li role="none"><a role="menuitem" href="https://www.getstark.co/brave">Stark for Brave</a></li>
                     </ul>
                 </li>
                 <li role="none"><a role="menuitem" href="https://www.getstark.co/pricing/" onFocus={() => setOpenDropdown(false)}>PRICING</a></li>
