@@ -1,0 +1,34 @@
+@keyframes rotate {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+@keyframes rotate1 {
+    100% {
+        transform: rotate(-1turn);
+    }
+}
+
+@keyframes pop {
+    0%, 17.5% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    20%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes background {
+    0% {
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background-size: 150% 120%;
+    }
+    
+}
