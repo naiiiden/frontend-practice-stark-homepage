@@ -29,6 +29,11 @@
 
     100% {
         background-size: 150% 120%;
+    }   
+}
+
+@keyframes slider {
+    100% {
+        transform: translateX(-5091px);
     }
-    
 }

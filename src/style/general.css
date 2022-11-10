@@ -111,6 +111,16 @@ img {
     background-size: 150% 120%;
   }
 }
+@-webkit-keyframes slider {
+  100% {
+    transform: translateX(-5091px);
+  }
+}
+@keyframes slider {
+  100% {
+    transform: translateX(-5091px);
+  }
+}
 .nav-menu-container {
   padding: 1rem 1rem 0 1rem;
   height: 4rem;
@@ -653,16 +663,6 @@ header {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-}
-@-webkit-keyframes slider {
-  100% {
-    transform: translateX(-5091px);
-  }
-}
-@keyframes slider {
-  100% {
-    transform: translateX(-5091px);
-  }
 }
 
 .center-horizontally {
