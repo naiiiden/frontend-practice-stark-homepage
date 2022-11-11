@@ -14,11 +14,10 @@ const Features = () => {
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
-                if (entry.isIntersecting && entry.target.id === "feature1") {
-                    document.querySelector("#feature1img1").classList.add("test");
-                } else if (!entry.isIntersecting && entry.target.id === "feature1") {
-                    document.querySelector("#feature1img1").classList.remove("test");
-                }
+                entry.isIntersecting && entry.target.id === "feature1" ? 
+                document.querySelector("#feature1img1").classList.add("test")
+                : 
+                document.querySelector("#feature1img1").classList.remove("test");
             });
         }, {
             root: null,
