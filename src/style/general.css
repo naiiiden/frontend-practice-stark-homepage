@@ -813,7 +813,7 @@ header {
 }
 .feature-section:nth-child(1) .image-container img.slide-up {
   opacity: 1;
-  transform: translateY(0);
+  transform: translateY(5px);
   transition: all 0.75s cubic-bezier(0.33, 1, 0.68, 1) 0.25s;
 }
 .feature-section:nth-child(2) .image-container, .feature-section:nth-child(2) .image-inner-wrapper {
