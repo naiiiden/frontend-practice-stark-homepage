@@ -15,9 +15,9 @@ const Features = () => {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
                 entry.isIntersecting && entry.target.id === "feature1" ? 
-                document.querySelector("#feature1img1").classList.add("test")
+                document.querySelector("#feature1img1").classList.add("slide-up")
                 : 
-                document.querySelector("#feature1img1").classList.remove("test");
+                document.querySelector("#feature1img1").classList.remove("slide-up");
             });
         }, {
             root: null,

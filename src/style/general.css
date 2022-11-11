@@ -809,6 +809,12 @@ header {
   filter: drop-shadow(rgba(0, 0, 0, 0.16) 0px 8px 60px);
   opacity: 0.8;
   transform: translateY(100px);
+  transition: all 0.75s cubic-bezier(0.33, 1, 0.68, 1) 0.25s;
+}
+.feature-section:nth-child(1) .image-container img.slide-up {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.75s cubic-bezier(0.33, 1, 0.68, 1) 0.25s;
 }
 .feature-section:nth-child(2) .image-container, .feature-section:nth-child(2) .image-inner-wrapper {
   position: relative;
