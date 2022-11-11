@@ -8,7 +8,23 @@ import homepage_feature3B from "../assets/images_homepage/homepage__feature-3b.p
 import homepage_feature4A from "../assets/images_homepage/homepage__feature-4a.png";
 import homepage_feature4B from "../assets/images_homepage/homepage__feature-4b.png";
 
+import { useEffect } from "react";
+
 const Features = () => {
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting && entry.target.id === "feature1") {
+                    document.querySelector("#feature1img1").classList.add("test");
+                }
+            });
+        }, {
+            root: null,
+            threshold: 0.5,
+        })
+        observer.observe(document.querySelector("#feature1"));
+    }, []);
+
     return (
         <div>
             <Feature 
