@@ -140,12 +140,24 @@
                 position: absolute;
                 left: -40px;
                 width: 250px;
+                transition: all 0.5s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0.25s;
+
+                &.slide-left {
+                    transform: rotate(-4deg) translate(26px,60px);
+                    transition: all 0.5s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0.25s;
+                }
 
                 &:nth-of-type(2) {
                     transform: rotate(2deg) translate(250px, 136px);
                     filter: drop-shadow(rgba(0, 0, 0, 0.16) 0px 8px 60px);
                     left: -150px;
                     width: 261px;
+                    transition: all 0.6s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0.25s;
+
+                    &.slide-right {
+                        transform: rotate(4deg) translate(274px,136px);
+                        transition: all 0.6s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0.25s;
+                    }
                 }
             }
         }
