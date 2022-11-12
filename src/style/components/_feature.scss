@@ -186,6 +186,16 @@
                 filter: drop-shadow(rgba(0, 0, 0, 0.16) 0px 8px 60px);
                 transform: translateY(-64px);
                 width: 100%;
+                transition: all 0.75s cubic-bezier(0.34, 1.56, 0.64, 1) 0.15s;
+
+                &.slide-down1, &.slide-down2 {
+                    transform: translateY(0);
+                    transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.15s;
+                }
+
+                &.slide-down2 {
+                    transition: all 0.75s cubic-bezier(0.34, 1.56, 0.64, 1) 0.15s;
+                }
             }
         }
     }
