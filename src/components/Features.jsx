@@ -18,12 +18,20 @@ const Features = () => {
                 document.querySelector("#feature1img1").classList.add("slide-up")
                 : 
                 document.querySelector("#feature1img1").classList.remove("slide-up");
+
+                entry.isIntersecting && entry.target.id === "feature2" ? 
+                (document.querySelector("#feature2img1").classList.add("slide-left"),
+                document.querySelector("#feature2img2").classList.add("slide-right"))
+                :
+                (document.querySelector("#feature2img1").classList.remove("slide-left"),
+                document.querySelector("#feature2img2").classList.remove("slide-right"))
             });
         }, {
             root: null,
             threshold: 0.5,
         })
         observer.observe(document.querySelector("#feature1"));
+        observer.observe(document.querySelector("#feature2"));
     }, []);
 
     return (
