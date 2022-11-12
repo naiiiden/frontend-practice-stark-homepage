@@ -38,6 +38,16 @@ const Features = () => {
                     document.querySelector("#feature3img1").classList.remove("slide-left"),
                     document.querySelector("#feature3img2").classList.remove("slide-right")
                 );
+
+                entry.isIntersecting && entry.target.id === "feature4" ? (
+                    document.querySelector("#feature4img1").classList.add("slide-down1"),
+                    document.querySelector("#feature4img2").classList.add("slide-down2")
+                )
+                :
+                (
+                    document.querySelector("#feature4img1").classList.remove("slide-down1"),
+                    document.querySelector("#feature4img2").classList.remove("slide-down2")
+                )
             });
         }, {
             root: null,
@@ -46,6 +56,7 @@ const Features = () => {
         observer.observe(document.querySelector("#feature1"));
         observer.observe(document.querySelector("#feature2"));
         observer.observe(document.querySelector("#feature3"));
+        observer.observe(document.querySelector("#feature4"));
     }, []);
 
     return (
