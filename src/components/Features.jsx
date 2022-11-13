@@ -51,7 +51,7 @@ const Features = () => {
             });
         }, {
             root: null,
-            threshold: 0.5,
+            threshold: .75,
         })
         observer.observe(document.querySelector("#feature1"));
         observer.observe(document.querySelector("#feature2"));
