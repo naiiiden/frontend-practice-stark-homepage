@@ -15,7 +15,7 @@ header {
         gap: 1rem;
 
         .introduction {
-            color: #fedb63;
+            color: $yellow;
             font-weight: 700;
             letter-spacing: .08rem;
             line-height: 22px;
@@ -54,7 +54,7 @@ header {
                 border: 2px solid transparent;
 
                 &.free {
-                    background: #fedb63;
+                    background: $yellow;
                     color: $dark-blue;
                     font-family: armingrotesk-regular;
                     font-weight: 500;
@@ -62,8 +62,8 @@ header {
 
                 &.learn {
                     background: transparent;
-                    border-color: #fedb63;
-                    color: #fedb63;
+                    border-color: $yellow;
+                    color: $yellow;
                     font-family: armingrotesk-semibold;
                 }
             }
@@ -146,7 +146,7 @@ header {
                         transition: .2s;
 
                         &:hover {
-                            background: #fedb63;
+                            background: $yellow;
                             color: $dark-blue;
                             transition: .2s;
                         }
