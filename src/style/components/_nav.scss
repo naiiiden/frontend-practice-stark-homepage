@@ -14,7 +14,7 @@
         width: 2rem;
         height: 2rem;
         position: relative;
-        background: #f6f6eb;
+        background: $light-yellow;
         border-radius: 50%;
         border: none;
 
@@ -71,7 +71,7 @@
         justify-content: space-between;
 
         .nav-link--sign-up {
-            background: #f6f6eb;
+            background: $light-yellow;
             text-decoration: none;
             height: 2rem;
             display: grid;
@@ -115,7 +115,7 @@
             .nav-ul {
                 display: flex;
                 flex-direction: column;
-                background: #f6f6eb;
+                background: $light-yellow;
                 width: 100%;
                 position: fixed;
                 top: 80px;
@@ -187,7 +187,7 @@
                 font-family: armingrotesk-black;
                 font-size: .875rem;
                 letter-spacing: 0.08rem;
-                color: #f6f6eb;
+                color: $light-yellow;
                 display: flex;
                 align-items: center;
                 gap: .125rem;
@@ -198,7 +198,7 @@
                 height: 32px;
 
                 &:hover {
-                    border: 2px solid #f6f6eb;
+                    border: 2px solid $light-yellow;
                 }
             }
         }
@@ -227,14 +227,14 @@
                         transition: .2s;
 
                         &:hover {
-                            border: 2px solid #f6f6eb;
+                            border: 2px solid $light-yellow;
                             transition: .2s;
                         }
                     }
                 }
 
                 a, span {
-                    color: #f6f6eb;
+                    color: $light-yellow;
                 }
 
                 .nav-product-submenu {
