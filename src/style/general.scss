@@ -23,6 +23,8 @@
     src: url(fonts/ArminGrotesk-SemiBold.ttf);
 }
 
+$purple: #381fd1;
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
@@ -40,7 +42,7 @@ html {
 }
 
 ::selection {
-    background: #381fd1;
+    background: $purple;
     color: #fff;
 }
 

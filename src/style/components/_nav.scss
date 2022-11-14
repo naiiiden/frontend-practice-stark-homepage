@@ -21,7 +21,7 @@
         .hamburger {
             width: 18px;
             height: 2px;
-            background: #381fd1;
+            background: $purple;
             border-radius: 8px;
             transition: .1s;
             margin: auto;
@@ -30,7 +30,7 @@
                 content: "";
                 width: 18px;
                 height: 2px;
-                background: #381fd1;
+                background: $purple;
                 border-radius: 8px;
                 position: absolute;
                 transition: .1s;
@@ -83,7 +83,7 @@
         
         a, span {
             border-radius: 6px;
-            color: #381fd1;
+            color: $purple;
             font-family: armingrotesk-black;
             letter-spacing: .08rem;
             font-size: .875rem;
@@ -258,7 +258,7 @@
                     }
                     
                     a {
-                        color: #381fd1;
+                        color: $purple;
                         padding: 1rem;
 
                         &:nth-child(1) {

@@ -21,7 +21,7 @@
                 font-size: 1rem;
                 font-family: armingrotesk-regular;
                 font-weight: 700;
-                color: #381fd1;
+                color: $purple;
 
                 &:nth-of-type(2) {
                     font-family: armingrotesk-normal;
@@ -45,7 +45,7 @@
                 align-items: center;
                 color: #fff;
                 text-decoration: none;
-                background: #381fd1;
+                background: $purple;
                 font-family: armingrotesk-regular;
                 font-weight: 500;
                 border: 2px solid transparent;
