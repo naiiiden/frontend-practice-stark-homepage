@@ -12,7 +12,7 @@
         h2 {
             position: relative;
             font-size: 3rem;
-            color: #10284b;
+            color: $dark-blue;
             font-family: armingrotesk-black;
             font-weight: 900;
             line-height: 53px;
@@ -60,7 +60,7 @@
         margin: 40px auto 0px;
         font-size: 1.25rem;
         line-height: 30px;
-        color: #10284b;
+        color: $dark-blue;
         text-align: center;
         font-family: armingrotesk-regular;
     }

@@ -12,7 +12,7 @@
 
         .text-container {
             order: 1;
-            color: #10284b;
+            color: $dark-blue;
 
             p {
                 letter-spacing: 0.08rem;
@@ -29,7 +29,7 @@
                     font-size: 1.25rem;
                     line-height: 30px;
                     margin: 1rem 0 2rem 0;
-                    color: #10284b;
+                    color: $dark-blue;
                 }
             }
 

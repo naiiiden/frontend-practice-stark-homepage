@@ -55,7 +55,7 @@ header {
 
                 &.free {
                     background: #fedb63;
-                    color: #10284b;
+                    color: $dark-blue;
                     font-family: armingrotesk-regular;
                     font-weight: 500;
                 }
@@ -147,7 +147,7 @@ header {
 
                         &:hover {
                             background: #fedb63;
-                            color: #10284b;
+                            color: $dark-blue;
                             transition: .2s;
                         }
                     }

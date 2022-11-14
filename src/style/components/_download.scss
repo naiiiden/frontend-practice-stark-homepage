@@ -14,7 +14,7 @@
     h2 {
         font-size: 3rem;
         font-family: armingrotesk-black;
-        color: #10284b;
+        color: $dark-blue;
         margin-bottom: 3rem;
         text-align: center;
     }
@@ -35,7 +35,7 @@
 
         a {
             text-decoration: none;
-            color: #10284b;
+            color: $dark-blue;
             font-family: armingrotesk-semibold;
             display: flex;
             flex-direction: column;
