@@ -1069,6 +1069,7 @@ header {
 }
 .testimonial-section .h2-svg-container {
   position: relative;
+  padding-bottom: 1rem;
 }
 .testimonial-section .h2-svg-container h2 {
   font-family: armingrotesk-black;
@@ -1097,4 +1098,18 @@ header {
     display: unset;
     margin-top: 3.6rem;
   }
+}
+.testimonials-container {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+.testimonial {
+  border: 1px solid red;
+  background: #381fd1;
+}
+.testimonial img {
+  width: 80px;
+  border-radius: 50%;
 }/*# sourceMappingURL=general.css.map */

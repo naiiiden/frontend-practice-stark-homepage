@@ -25,8 +25,7 @@ const Testimonials = () => {
                 </h2>
                 <img src={yellow_bg2} alt=""/>
             </div>
-
-            <div>
+            <div className="testimonials-container">
                 {userTestimonials}
             </div>
         </section>

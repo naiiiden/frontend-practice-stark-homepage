@@ -1,0 +1,15 @@
+.testimonials-container {
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+}
+
+.testimonial {
+    border: 1px solid red;
+    background: $purple;
+
+    img {
+        width: 80px;
+        border-radius: 50%;
+    }
+}

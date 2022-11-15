@@ -4,6 +4,7 @@
     
     .h2-svg-container {
         position: relative;
+        padding-bottom: 1rem;
         
         h2 {
             font-family: armingrotesk-black;
@@ -41,3 +42,5 @@
         }
     }
 }
+
+@import "./testimonial";
