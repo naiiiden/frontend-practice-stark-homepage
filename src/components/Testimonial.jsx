@@ -3,11 +3,11 @@ const Testimonial = ({ src, name, job, quotation }) => {
         <figure className="testimonial">
             <figcaption>
                 <img src={src} alt=""/>
-            <span>
-                {name},
-                <br/>
-                {job}
-            </span>
+                <span>
+                    {name},
+                    <br/>
+                    {job}
+                </span>
             </figcaption>
             <blockquote>
                 “{quotation}”
