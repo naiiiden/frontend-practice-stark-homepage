@@ -1103,6 +1103,7 @@ header {
   width: 100%;
   max-width: 960px;
   margin: auto;
+  padding-top: 40px;
 }
 
 .testimonial {
