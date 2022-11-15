@@ -44,3 +44,23 @@
         letter-spacing: -.01rem;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .testimonial {
+        flex-direction: row;
+        align-items: center;
+
+        img {
+            width: 160px;
+        }
+
+        figcaption {
+            gap: 6rem;
+        }
+
+        blockquote {
+            font-size: 3rem;
+            line-height: 53px;
+        }
+    }
+}
