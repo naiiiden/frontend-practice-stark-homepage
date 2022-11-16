@@ -1113,7 +1113,6 @@ header {
   justify-content: center;
   gap: 2rem;
   padding: 0 1.5rem;
-  margin: 2rem 0;
   height: 500px;
   border-radius: 40px;
 }
@@ -1146,6 +1145,7 @@ header {
     flex-direction: row;
     align-items: center;
     height: 408px;
+    padding: 2rem 3rem;
   }
   .testimonial img {
     width: 160px;
