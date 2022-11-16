@@ -1145,6 +1145,7 @@ header {
   .testimonial {
     flex-direction: row;
     align-items: center;
+    height: 408px;
   }
   .testimonial img {
     width: 160px;
