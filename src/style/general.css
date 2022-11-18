@@ -1115,6 +1115,9 @@ header {
   padding: 0 1.5rem;
   height: 500px;
 }
+.testimonial:not(:nth-child(1)) {
+  display: none;
+}
 .testimonial img {
   width: 80px;
   border-radius: 50%;
