@@ -1,20 +1,18 @@
 .testimonials-container {
     width: 100%;
     max-width: 960px;
-    margin: auto;
-    padding-top: 40px;
+    margin: 40px auto 0 auto;
+    background: $purple;
+    border-radius: 40px;
 }
 
 .testimonial {
-    background: $purple;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     gap: 2rem;
     padding: 0 1.5rem;
     height: 500px;
-    border-radius: 40px;
-
 
     img {
         width: 80px;
