@@ -21,7 +21,7 @@ const Nav = () => {
     return (
         <div className="nav-menu-container">
         <nav className="nav-logo-container" aria-label="Header">
-            <a href="/" aria-current="page" className="logo-link">
+            <a href="/" aria-current="page" className="logo-link" onFocus={() => setOpenDropdown(false)}>
                 <img src={stark_logo} alt="Go to homepage" className="logo"/>
             </a>
             <ul role="menubar" className={`nav-ul ${!openMenu ? "" : "show"}`}>
