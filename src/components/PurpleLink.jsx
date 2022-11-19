@@ -1,6 +1,6 @@
 const PurpleLink = ({ href, className, text }) => {
     return (
-        <a href={href} className={className}>{text}</a>
+        <a href={href} className={`purple-link ${className ? `${className}` : ""}`}>{text}</a>
     )
 }
 
