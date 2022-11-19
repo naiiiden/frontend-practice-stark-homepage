@@ -6,6 +6,7 @@ import Download from "./components/Download";
 import Features from "./components/Features";
 import CallToAction from "./components/CallToAction";
 import Testimonials from "./components/Testimonials";
+import GetStarted from "./components/GetStarted";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Features/>
         <CallToAction/>
         <Testimonials/>
+        <GetStarted/>
       </main>
     </div>
   )
