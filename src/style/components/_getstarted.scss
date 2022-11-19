@@ -3,10 +3,6 @@
     margin-top: 160px;
 
     .h2-svg-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-
         h2 {
             position: relative;
             font-size: 3rem;
@@ -22,6 +18,29 @@
 
         img {
             display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .get-started-section {
+        .h2-svg-container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+
+            h2 {
+                position: absolute;
+                max-width: 960px;
+                font-size: 3.5rem;
+                z-index: 1;
+            }
+
+            img {
+                display: unset;
+                margin-left: 6.375rem;
+                transform: scaleX(1.1825) scaleY(1.025) translateY(-8px);
+            }
         }
     }
 }
