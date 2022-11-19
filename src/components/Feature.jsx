@@ -1,4 +1,6 @@
-const Feature = ({ sectionClass, mt, pShort, dec, h2, desc, href, aText, imgClass, src1, src2, idImgContainer, idImg1, idImg2, }) => {
+import PurpleLink from "./PurpleLink";
+
+const Feature = ({ sectionClass, mt, pShort, dec, h2, desc, href, text, imgClass, src1, src2, idImgContainer, idImg1, idImg2, }) => {
 
     return (
         <section className={`feature-section ${sectionClass}`} style={{"marginTop": `${mt}px`}}>
@@ -10,7 +12,8 @@ const Feature = ({ sectionClass, mt, pShort, dec, h2, desc, href, aText, imgClas
                     </div>
                     <h2>{h2}</h2>
                     <p>{desc}</p>
-                    <a href={href}>{aText}</a>
+                    {/* <a href={href}>{aText}</a> */}
+                    <PurpleLink href={href} text={text}/>
                 </div>
                 <div className={`image-container ${imgClass}`} id={idImgContainer}>
                     <div className="image-inner-wrapper">
