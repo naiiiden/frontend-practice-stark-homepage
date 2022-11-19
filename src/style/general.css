@@ -781,19 +781,6 @@ header {
   line-height: 30px;
   margin: 1rem 0 2rem 0;
 }
-.feature-section .inner-wrapper-div .text-container a {
-  display: inline-flex;
-  align-items: center;
-  color: #fff;
-  text-decoration: none;
-  background: #381fd1;
-  font-family: armingrotesk-regular;
-  font-weight: 500;
-  border: 2px solid transparent;
-  border-radius: 6px;
-  min-height: 2.75rem;
-  padding: 0.375rem 1.5rem;
-}
 .feature-section:nth-child(1) .image-container {
   position: relative;
   border-radius: 40px;
@@ -953,17 +940,6 @@ header {
     max-width: 75px;
     max-height: 241px;
   }
-  .feature-section .inner-wrapper-div .text-container a {
-    transition: 0.2s;
-  }
-  .feature-section .inner-wrapper-div .text-container a:focus {
-    outline-color: #06a5ff;
-    outline-offset: 4px;
-  }
-  .feature-section .inner-wrapper-div .text-container a:hover {
-    opacity: 0.9;
-    transition: 0.2s;
-  }
   .feature-section:nth-child(odd) .inner-wrapper-div .image-container {
     order: 2;
   }
@@ -1006,19 +982,6 @@ header {
   font-family: armingrotesk-black;
   letter-spacing: -0.01rem;
   line-height: 53px;
-}
-.cta-section .cta-inner-wrapper .text-container a {
-  display: inline-flex;
-  align-items: center;
-  color: #fff;
-  text-decoration: none;
-  background: #381fd1;
-  font-family: armingrotesk-regular;
-  font-weight: 500;
-  border: 2px solid transparent;
-  border-radius: 6px;
-  min-height: 2.75rem;
-  padding: 0.375rem 1.5rem;
 }
 .cta-section .cta-inner-wrapper .image-container {
   display: flex;
@@ -1196,5 +1159,32 @@ header {
     display: unset;
     margin-left: 6.375rem;
     transform: scaleX(1.1825) scaleY(1.025) translateY(-8px);
+  }
+}
+.purple-link {
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  background: #381fd1;
+  font-family: armingrotesk-regular;
+  font-weight: 500;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  min-height: 2.75rem;
+  padding: 0.375rem 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .purple-link {
+    transition: 0.2s;
+  }
+  .purple-link:focus {
+    outline-color: #06a5ff;
+    outline-offset: 4px;
+  }
+  .purple-link:hover {
+    opacity: 0.9;
+    transition: 0.2s;
   }
 }/*# sourceMappingURL=general.css.map */
