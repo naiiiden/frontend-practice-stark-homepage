@@ -15,41 +15,41 @@ const Download = () => {
                 <h2>Meet the Suite</h2>
                 <div className="download-container">
                     <div className="flex-container-1">
-                        <a href="https://apps.apple.com/us/app/stark-your-accessibility-hub/id1624920264" target="_blank" className="a">
+                        <a href="https://apps.apple.com/us/app/stark-your-accessibility-hub/id1624920264" target="_blank">
                             <img src={mac} alt=""/>
                             <p>Stark for Mac</p>
                         </a>
-                        <a href="https://www.figma.com/community/plugin/732603254453395948" target="_blank" className="b">
+                        <a href="https://www.figma.com/community/plugin/732603254453395948" target="_blank">
                             <img src={figma} alt=""/>
                             <p>Stark for Figma</p>
                         </a>
-                        <a href="https://www.getstark.co/sketch/download" target="_blank" className="c">
+                        <a href="https://www.getstark.co/sketch/download" target="_blank">
                             <img src={sketch} alt=""/>
                             <p>Stark for Sketch</p>
                         </a>
-                        <a href="https://xd.adobelanding.com/en/xd-plugin-download/?name=6cbf275e" target="_blank" className="d">
+                        <a href="https://xd.adobelanding.com/en/xd-plugin-download/?name=6cbf275e" target="_blank">
                             <img src={xd} alt=""/>
                             <p>Stark for Adobe XD</p>
                         </a>
                     </div>
                     <div className="flex-container-2">
-                        <a href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm" target="_blank" className="e">
+                        <a href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm" target="_blank">
                             <img src={chrome} alt=""/>
                             <p>Stark for Chrome</p>
                         </a>
-                        <a href="https://microsoftedge.microsoft.com/addons/detail/stark/idpodoagbkllmpdjdepbmlefgiblmnhl" target="_blank" className="f">
+                        <a href="https://microsoftedge.microsoft.com/addons/detail/stark/idpodoagbkllmpdjdepbmlefgiblmnhl" target="_blank">
                             <img src={edge} alt=""/>
                             <p>Stark for Edge</p>
                         </a>
-                        <a href="https://apps.apple.com/us/app/stark-for-safari/id6444031666" target="_blank" className="g">
+                        <a href="https://apps.apple.com/us/app/stark-for-safari/id6444031666" target="_blank">
                             <img src={safari} alt=""/>
                             <p>Stark for Safari</p>
                         </a>
-                        <a href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm" target="_blank" className="h">
+                        <a href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm" target="_blank">
                             <img src={arc} alt=""/>
                             <p>Stark for Arc</p>
                         </a>
-                        <a href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm" target="_blank" className="j">
+                        <a href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm" target="_blank">
                             <img src={brave} alt=""/>
                             <p>Stark for Brave</p>
                         </a>
