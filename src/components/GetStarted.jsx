@@ -21,7 +21,7 @@ const GetStarted = () => {
                     h3="Download and install Stark"                
                     desc="Download and install our plugins for Figma, Sketch, Adobe XD, as well as our browser extensions."
                     linkText="Download Stark"
-                    href="https://www.getstark.co/#download"
+                    href="#download"
                 />
                 <Step
                     step="STEP 3"

@@ -11,7 +11,7 @@ import brave from "../assets/images_homepage/homepage-brave.png";
 const Download = () => {
     return (
         <div className="center-horizontally">
-            <section className="download-section">
+            <section className="download-section" id="download">
                 <h2>Meet the Suite</h2>
                 <div className="download-container">
                     <div className="flex-container-1">
