@@ -1,5 +1,6 @@
 import homepage_feature5 from "../assets/images_homepage/homepage__feature-5.webp";
 import homepage_feature5_arrow from "../assets/svg/homepage__feature-5-arrow.svg";
+import PurpleLink from "./PurpleLink";
 
 const CallToAction = () => {
     return (
@@ -9,7 +10,7 @@ const CallToAction = () => {
                     <p>IT TAKES A VILLAGE</p>
                     <h2>Join the Stark community</h2>
                     <p>Connect with a global community of experts from all industries and stay up to date with the largest collection of accessibility resources on the internet.</p>
-                    <a href="">Get started</a>
+                    <PurpleLink text="Get Started" href="https://www.getstark.co/slack"/> 
                 </div>
                 <div className="image-container">
                     <img src={homepage_feature5} alt=""/>
