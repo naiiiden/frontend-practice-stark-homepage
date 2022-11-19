@@ -84,8 +84,8 @@ const Features = () => {
                 desc="From Contrast Checker with Color Suggestions over Alt-Text Annotations to Focus Order and more, Stark offers the fully integrated and automated tools to help you and your team design, build and test software that meets the latest accessibility standards right in your design app and browser of choice."
                 href="https://account.getstark.co/sign-in"
                 aText="Get started"
-                src1={homepage_feature2A}
-                src2={homepage_feature2B}
+                // src1={homepage_feature2A}
+                // src2={homepage_feature2B}
             />
             <Feature 
                 idImgContainer="feature3"

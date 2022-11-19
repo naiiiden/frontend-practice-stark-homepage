@@ -1159,4 +1159,28 @@ header {
     font-size: 3rem;
     line-height: 53px;
   }
+}
+.get-started-section {
+  padding: 1rem;
+  margin-top: 160px;
+}
+.get-started-section .h2-svg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.get-started-section .h2-svg-container h2 {
+  position: relative;
+  font-size: 3rem;
+  color: #10284b;
+  font-family: armingrotesk-black;
+  font-weight: 900;
+  line-height: 53px;
+  letter-spacing: -0.01rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.get-started-section .h2-svg-container img {
+  display: none;
 }/*# sourceMappingURL=general.css.map */
