@@ -1167,13 +1167,13 @@ header {
     margin-left: 6.375rem;
     transform: scaleX(1.1825) scaleY(1.025) translateY(-8px);
   }
-  .steps-container {
+  .get-started-section .steps-container {
     background: #edede0;
     border-radius: 2rem;
-    gap: 80px;
+    gap: 73.7px;
     padding: 64px 100px;
     max-width: 1160px;
-    margin: 5rem auto 0 auto;
+    margin: 7rem auto 0 auto;
   }
 }
 .step-container {
