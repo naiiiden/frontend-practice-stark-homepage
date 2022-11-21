@@ -1,0 +1,27 @@
+.step-container {
+    background: #edede0;
+    padding: 2rem;
+    border-radius: 2rem;
+    width: calc(100vw - 116px);
+    color: $dark-blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .step {
+        color: $purple;
+        margin-bottom: 1rem;
+    }
+
+    h3 {
+        font-family: armingrotesk-black, sans-serif;
+        font-size: 2rem;
+        line-height: 35px;
+    }
+
+    .desc {
+        font-family: armingrotesk-semibold, sans-serif;
+        margin: 1rem 0 2rem 0;
+    }
+}

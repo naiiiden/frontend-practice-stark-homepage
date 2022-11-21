@@ -1168,6 +1168,31 @@ header {
     transform: scaleX(1.1825) scaleY(1.025) translateY(-8px);
   }
 }
+.step-container {
+  background: #edede0;
+  padding: 2rem;
+  border-radius: 2rem;
+  width: calc(100vw - 116px);
+  color: #10284b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.step-container .step {
+  color: #381fd1;
+  margin-bottom: 1rem;
+}
+.step-container h3 {
+  font-family: armingrotesk-black, sans-serif;
+  font-size: 2rem;
+  line-height: 35px;
+}
+.step-container .desc {
+  font-family: armingrotesk-semibold, sans-serif;
+  margin: 1rem 0 2rem 0;
+}
+
 .purple-link {
   display: inline-flex;
   align-items: center;
