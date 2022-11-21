@@ -1204,6 +1204,7 @@ header {
 @media screen and (min-width: 1024px) {
   .step-container {
     width: unset;
+    padding: unset;
   }
 }
 .purple-link {
