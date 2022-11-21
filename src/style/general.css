@@ -1142,6 +1142,13 @@ header {
 .get-started-section .h2-svg-container img {
   display: none;
 }
+.get-started-section .steps-container {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  overflow: auto;
+}
 
 @media screen and (min-width: 1024px) {
   .get-started-section .h2-svg-container {

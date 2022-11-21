@@ -20,6 +20,14 @@
             display: none;
         }
     }
+
+    .steps-container {
+        margin-top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        overflow: auto;
+    }
 }
 
 @media screen and (min-width: 1024px) {
