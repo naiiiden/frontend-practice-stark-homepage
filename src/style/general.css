@@ -1201,6 +1201,11 @@ header {
   margin: 1rem 0 2rem 0;
 }
 
+@media screen and (min-width: 1024px) {
+  .step-container {
+    width: unset;
+  }
+}
 .purple-link {
   display: inline-flex;
   align-items: center;
