@@ -1209,6 +1209,22 @@ header {
 }
 .features2-section {
   margin-top: 4rem;
+  padding: 1rem;
+}
+.features2-section .h2-svg-container h2 {
+  position: relative;
+  font-size: 3rem;
+  color: #10284b;
+  font-family: armingrotesk-black;
+  font-weight: 900;
+  line-height: 53px;
+  letter-spacing: -0.01rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.features2-section .h2-svg-container img {
+  display: none;
 }
 
 .purple-link {
