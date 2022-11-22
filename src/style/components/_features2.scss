@@ -20,5 +20,26 @@
             display: none;
         }
     }
+}
 
+@media screen and (min-width: 1024px) {
+    .features2-section {
+        .h2-svg-container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+
+            h2 {
+                position: absolute;
+                max-width: 960px;
+                font-size: 3.5rem;
+                z-index: 1;
+            }
+
+            img {
+                display: unset;
+                width: 50px;
+            }
+        }
+    }
 }

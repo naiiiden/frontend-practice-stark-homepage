@@ -1227,6 +1227,23 @@ header {
   display: none;
 }
 
+@media screen and (min-width: 1024px) {
+  .features2-section .h2-svg-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .features2-section .h2-svg-container h2 {
+    position: absolute;
+    max-width: 960px;
+    font-size: 3.5rem;
+    z-index: 1;
+  }
+  .features2-section .h2-svg-container img {
+    display: unset;
+    width: 50px;
+  }
+}
 .purple-link {
   display: inline-flex;
   align-items: center;
