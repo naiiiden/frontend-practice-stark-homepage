@@ -38,7 +38,13 @@
 
             img {
                 display: unset;
-                width: 50px;
+                transform: translate(90px, 35px);
+
+                &:nth-of-type(2) {
+                    width: 60px;
+                    height: 77px;
+                    transform: translate(115px, -28px);
+                }
             }
         }
     }
