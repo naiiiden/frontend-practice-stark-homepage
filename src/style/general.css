@@ -1207,6 +1207,10 @@ header {
     padding: unset;
   }
 }
+.features2-section {
+  margin-top: 4rem;
+}
+
 .purple-link {
   display: inline-flex;
   align-items: center;
