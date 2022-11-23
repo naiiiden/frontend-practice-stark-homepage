@@ -1158,14 +1158,18 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
+  .video-section h2, .testimonial-section h2, .get-started-section h2, .features2-section h2 {
+    position: absolute;
+    max-width: 960px;
+    font-size: 3.5rem;
+    line-height: 62px;
+    z-index: 1;
+  }
+  .video-section.get-started-section h2, .testimonial-section.get-started-section h2, .get-started-section.get-started-section h2, .features2-section.get-started-section h2 {
+    line-height: 53px;
+  }
   .video-section .h2-svg-container {
     align-items: center;
-  }
-  .video-section .h2-svg-container h2 {
-    position: absolute;
-    z-index: 1;
-    font-size: 3.5rem;
-    line-height: 53px;
   }
   .video-section .h2-svg-container img {
     display: unset;
@@ -1178,11 +1182,6 @@ header {
     justify-content: center;
     width: 100%;
   }
-  .testimonial-section .h2-svg-container h2 {
-    font-size: 3.5rem;
-    line-height: 62px;
-    position: absolute;
-  }
   .testimonial-section .h2-svg-container img {
     display: unset;
     margin-top: 3.6rem;
@@ -1191,12 +1190,6 @@ header {
     position: relative;
     display: flex;
     justify-content: center;
-  }
-  .get-started-section .h2-svg-container h2 {
-    position: absolute;
-    max-width: 960px;
-    font-size: 3.5rem;
-    z-index: 1;
   }
   .get-started-section .h2-svg-container img {
     display: unset;
@@ -1207,12 +1200,6 @@ header {
     position: relative;
     display: flex;
     justify-content: center;
-  }
-  .features2-section .h2-svg-container h2 {
-    position: absolute;
-    max-width: 960px;
-    font-size: 3.5rem;
-    z-index: 1;
   }
   .features2-section .h2-svg-container img {
     display: unset;
