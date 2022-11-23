@@ -1203,7 +1203,7 @@ header {
   }
   .features2-section .h2-svg-container img {
     display: unset;
-    transform: translate(90px, 35px);
+    transform: translate(90px, 46px);
   }
   .features2-section .h2-svg-container img:nth-of-type(2) {
     width: 60px;
