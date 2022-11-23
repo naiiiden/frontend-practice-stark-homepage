@@ -43,3 +43,9 @@
         font-family: armingrotesk-regular;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .video-section {
+        padding: 120px 0 1rem 0;
+    }
+}

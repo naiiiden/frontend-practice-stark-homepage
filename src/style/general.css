@@ -605,6 +605,11 @@ header {
   font-family: armingrotesk-regular;
 }
 
+@media screen and (min-width: 1024px) {
+  .video-section {
+    padding: 120px 0 1rem 0;
+  }
+}
 .customers-section {
   padding-top: 2.5rem;
   overflow-x: hidden;
