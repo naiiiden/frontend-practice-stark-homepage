@@ -1216,8 +1216,6 @@ header {
   line-height: 53px;
   letter-spacing: -0.01rem;
   text-align: center;
-  display: flex;
-  justify-content: center;
 }
 .features2-section .h2-svg-container img {
   display: none;
