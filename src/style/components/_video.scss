@@ -66,17 +66,6 @@
     }
 }
 
-@media screen and (min-width: 768px) {
-    .video-section {
-        .h2-svg-container {
-            h2 {
-                font-size: 3.5rem;
-                line-height: 62px;
-            }
-        }
-    }
-}
-
 @media screen and (min-width: 1024px) {
     .video-section {
         .h2-svg-container {
@@ -85,6 +74,8 @@
             h2 {
                 position: absolute;
                 z-index: 1;
+                font-size: 3.5rem;
+                line-height: 53px;
             }
 
             img {
