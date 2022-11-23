@@ -2,20 +2,18 @@ import yellow_bg from "../assets/svg/yellow-bg.svg";
 import play from "../assets/svg/play.svg";
 import video_placeholder from "../assets/images_homepage/video-still.webp";
 import { useState } from "react";
+import HeadingLevel2 from "./HeadingLevel2";
 
 const Video = () => {
     const [playVideo, setPlayVideo] = useState(false);
 
     return (
         <section className="video-section">
-            <div className="h2-svg-container">
-                <h2>
-                    Speed up your accessibility
-                    <br/>
-                    workflow from months to minutes
-                </h2>
-                <img src={yellow_bg} alt=""/>
-            </div>
+            <HeadingLevel2 
+                headingLine1="Speed up your accessibility"
+                headingLine2="workflow from months to minutes"
+                img1={yellow_bg}
+            />
             <div className="video-container">
                 <div className="video-subcontainer">
                     <img src={video_placeholder} alt="" className="placeholder"/>
