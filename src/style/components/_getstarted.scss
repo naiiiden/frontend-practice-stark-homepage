@@ -2,25 +2,6 @@
     padding: 1rem;
     margin-top: 160px;
 
-    .h2-svg-container {
-        h2 {
-            position: relative;
-            font-size: 3rem;
-            color: $dark-blue;
-            font-family: armingrotesk-black;
-            font-weight: 900;
-            line-height: 53px;
-            letter-spacing: -.01rem;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-        }
-
-        img {
-            display: none;
-        }
-    }
-
     .steps-container {
         margin-top: 5rem;
         display: grid;

@@ -1,0 +1,21 @@
+.h2-svg-container {
+    display: flex;
+    justify-content: center;
+
+    h2 {
+        position: relative;
+        font-size: 3rem;
+        color: $dark-blue;
+        font-family: armingrotesk-black;
+        font-weight: 900;
+        line-height: 53px;
+        letter-spacing: -.01rem;
+        text-align: center;
+    }
+
+    img {
+        display: none;
+    }
+}
+
+//testimonials h2-svg-container padding-bottom

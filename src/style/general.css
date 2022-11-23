@@ -569,24 +569,6 @@ header {
   max-width: 960px;
   margin: auto;
 }
-.video-section .h2-svg-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.video-section .h2-svg-container h2 {
-  position: relative;
-  font-size: 3rem;
-  color: #10284b;
-  font-family: armingrotesk-black;
-  font-weight: 900;
-  line-height: 53px;
-  letter-spacing: -0.01rem;
-  text-align: center;
-}
-.video-section .h2-svg-container img {
-  display: none;
-}
 .video-section .video-container {
   overflow: hidden;
   border-radius: 2rem;
@@ -1026,21 +1008,6 @@ header {
   margin-top: 160px;
   padding: 1rem;
 }
-.testimonial-section .h2-svg-container {
-  position: relative;
-  padding-bottom: 1rem;
-}
-.testimonial-section .h2-svg-container h2 {
-  font-family: armingrotesk-black;
-  font-size: 3rem;
-  letter-spacing: -0.01rem;
-  line-height: 53px;
-  color: #10284b;
-  text-align: center;
-}
-.testimonial-section .h2-svg-container img {
-  display: none;
-}
 
 @media screen and (min-width: 1024px) {
   .testimonial-section .h2-svg-container {
@@ -1123,21 +1090,6 @@ header {
   padding: 1rem;
   margin-top: 160px;
 }
-.get-started-section .h2-svg-container h2 {
-  position: relative;
-  font-size: 3rem;
-  color: #10284b;
-  font-family: armingrotesk-black;
-  font-weight: 900;
-  line-height: 53px;
-  letter-spacing: -0.01rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-.get-started-section .h2-svg-container img {
-  display: none;
-}
 .get-started-section .steps-container {
   margin-top: 5rem;
   display: grid;
@@ -1207,19 +1159,6 @@ header {
   margin-top: 4rem;
   padding: 1rem;
 }
-.features2-section .h2-svg-container h2 {
-  position: relative;
-  font-size: 3rem;
-  color: #10284b;
-  font-family: armingrotesk-black;
-  font-weight: 900;
-  line-height: 53px;
-  letter-spacing: -0.01rem;
-  text-align: center;
-}
-.features2-section .h2-svg-container img {
-  display: none;
-}
 
 @media screen and (min-width: 1024px) {
   .features2-section .h2-svg-container {
@@ -1243,6 +1182,7 @@ header {
     transform: translate(115px, -28px);
   }
 }
+/* reusable */
 .purple-link {
   display: inline-flex;
   align-items: center;
@@ -1269,4 +1209,21 @@ header {
     opacity: 0.9;
     transition: 0.2s;
   }
+}
+.h2-svg-container {
+  display: flex;
+  justify-content: center;
+}
+.h2-svg-container h2 {
+  position: relative;
+  font-size: 3rem;
+  color: #10284b;
+  font-family: armingrotesk-black;
+  font-weight: 900;
+  line-height: 53px;
+  letter-spacing: -0.01rem;
+  text-align: center;
+}
+.h2-svg-container img {
+  display: none;
 }/*# sourceMappingURL=general.css.map */
