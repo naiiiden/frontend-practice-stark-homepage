@@ -1168,38 +1168,20 @@ header {
   .video-section.get-started-section h2, .testimonial-section.get-started-section h2, .get-started-section.get-started-section h2, .features2-section.get-started-section h2 {
     line-height: 53px;
   }
-  .video-section .h2-svg-container {
-    align-items: center;
-  }
   .video-section .h2-svg-container img {
     display: unset;
     margin-left: 38.75rem;
-    margin-top: 3rem;
+    margin-top: 3.5rem;
     -moz-transform: translateX(0.5rem);
-  }
-  .testimonial-section .h2-svg-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
   }
   .testimonial-section .h2-svg-container img {
     display: unset;
     margin-top: 3.6rem;
   }
-  .get-started-section .h2-svg-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-  }
   .get-started-section .h2-svg-container img {
     display: unset;
     margin-left: 6.375rem;
     transform: scaleX(1.1825) scaleY(1.025) translateY(-8px);
-  }
-  .features2-section .h2-svg-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
   }
   .features2-section .h2-svg-container img {
     display: unset;
