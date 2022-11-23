@@ -1,6 +1,7 @@
 import yellow_bg2 from "../assets/svg/yellow-bg2.svg";
 
 import Quotes from "../Quotes";
+import HeadingLevel2 from "./HeadingLevel2";
 import Testimonial from "./Testimonial";
 
 const Testimonials = () => {
@@ -17,14 +18,11 @@ const Testimonials = () => {
 
     return (
         <section className="testimonial-section">
-            <div className="h2-svg-container">
-                <h2>
-                    Loved by the community
-                    <br/>
-                    trusted by 8,000+ companies
-                </h2>
-                <img src={yellow_bg2} alt=""/>
-            </div>
+            <HeadingLevel2
+                headingLine1="Loved by the community"
+                headingLine2="trusted by 8,000+ companies"
+                img1={yellow_bg2}
+            />
             <div className="testimonials-container">
                 {userTestimonials}
             </div>
