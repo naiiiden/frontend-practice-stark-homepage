@@ -1,13 +1,14 @@
 import green_bg from "../assets/svg/green-bg.svg";
+import HeadingLevel2 from "./HeadingLevel2";
 import Step from "./Step";
 
 const GetStarted = () => {
     return (
         <section className="get-started-section">
-            <div className="h2-svg-container">
-                <h2>So, you’re ready to get started and supercharge accessiblity?</h2>
-                <img src={green_bg} alt=""/>
-            </div>
+            <HeadingLevel2
+                headingLine1="So, you’re ready to get started and supercharge accessiblity?"
+                img1={green_bg}
+            />
             <div className="steps-container">
                 <Step
                     step="STEP 1"
