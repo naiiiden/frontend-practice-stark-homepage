@@ -605,23 +605,6 @@ header {
   font-family: armingrotesk-regular;
 }
 
-@media screen and (min-width: 1024px) {
-  .video-section .h2-svg-container {
-    align-items: center;
-  }
-  .video-section .h2-svg-container h2 {
-    position: absolute;
-    z-index: 1;
-    font-size: 3.5rem;
-    line-height: 53px;
-  }
-  .video-section .h2-svg-container img {
-    display: unset;
-    margin-left: 38.75rem;
-    margin-top: 3rem;
-    -moz-transform: translateX(0.5rem);
-  }
-}
 .customers-section {
   padding-top: 2.5rem;
   overflow-x: hidden;
@@ -1009,22 +992,6 @@ header {
   padding: 1rem;
 }
 
-@media screen and (min-width: 1024px) {
-  .testimonial-section .h2-svg-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  .testimonial-section .h2-svg-container h2 {
-    font-size: 3.5rem;
-    line-height: 62px;
-    position: absolute;
-  }
-  .testimonial-section .h2-svg-container img {
-    display: unset;
-    margin-top: 3.6rem;
-  }
-}
 .testimonials-container {
   width: 100%;
   max-width: 960px;
@@ -1099,22 +1066,6 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
-  .get-started-section .h2-svg-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-  }
-  .get-started-section .h2-svg-container h2 {
-    position: absolute;
-    max-width: 960px;
-    font-size: 3.5rem;
-    z-index: 1;
-  }
-  .get-started-section .h2-svg-container img {
-    display: unset;
-    margin-left: 6.375rem;
-    transform: scaleX(1.1825) scaleY(1.025) translateY(-8px);
-  }
   .get-started-section .steps-container {
     background: #edede0;
     border-radius: 2rem;
@@ -1160,28 +1111,6 @@ header {
   padding: 1rem;
 }
 
-@media screen and (min-width: 1024px) {
-  .features2-section .h2-svg-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-  }
-  .features2-section .h2-svg-container h2 {
-    position: absolute;
-    max-width: 960px;
-    font-size: 3.5rem;
-    z-index: 1;
-  }
-  .features2-section .h2-svg-container img {
-    display: unset;
-    transform: translate(90px, 35px);
-  }
-  .features2-section .h2-svg-container img:nth-of-type(2) {
-    width: 60px;
-    height: 77px;
-    transform: translate(115px, -28px);
-  }
-}
 /* reusable */
 .purple-link {
   display: inline-flex;
@@ -1226,4 +1155,72 @@ header {
 }
 .h2-svg-container img {
   display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .video-section .h2-svg-container {
+    align-items: center;
+  }
+  .video-section .h2-svg-container h2 {
+    position: absolute;
+    z-index: 1;
+    font-size: 3.5rem;
+    line-height: 53px;
+  }
+  .video-section .h2-svg-container img {
+    display: unset;
+    margin-left: 38.75rem;
+    margin-top: 3rem;
+    -moz-transform: translateX(0.5rem);
+  }
+  .testimonial-section .h2-svg-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .testimonial-section .h2-svg-container h2 {
+    font-size: 3.5rem;
+    line-height: 62px;
+    position: absolute;
+  }
+  .testimonial-section .h2-svg-container img {
+    display: unset;
+    margin-top: 3.6rem;
+  }
+  .get-started-section .h2-svg-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .get-started-section .h2-svg-container h2 {
+    position: absolute;
+    max-width: 960px;
+    font-size: 3.5rem;
+    z-index: 1;
+  }
+  .get-started-section .h2-svg-container img {
+    display: unset;
+    margin-left: 6.375rem;
+    transform: scaleX(1.1825) scaleY(1.025) translateY(-8px);
+  }
+  .features2-section .h2-svg-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .features2-section .h2-svg-container h2 {
+    position: absolute;
+    max-width: 960px;
+    font-size: 3.5rem;
+    z-index: 1;
+  }
+  .features2-section .h2-svg-container img {
+    display: unset;
+    transform: translate(90px, 35px);
+  }
+  .features2-section .h2-svg-container img:nth-of-type(2) {
+    width: 60px;
+    height: 77px;
+    transform: translate(115px, -28px);
+  }
 }/*# sourceMappingURL=general.css.map */

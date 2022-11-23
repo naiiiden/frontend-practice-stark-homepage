@@ -43,25 +43,3 @@
         font-family: armingrotesk-regular;
     }
 }
-
-@media screen and (min-width: 1024px) {
-    .video-section {
-        .h2-svg-container {
-            align-items: center;
-
-            h2 {
-                position: absolute;
-                z-index: 1;
-                font-size: 3.5rem;
-                line-height: 53px;
-            }
-
-            img {
-                display: unset;
-                margin-left: 38.75rem;
-                margin-top: 3rem;
-                -moz-transform: translateX(.5rem);
-            }
-        }
-    }
-}
