@@ -11,7 +11,7 @@ const HeadingLevel2 = ({ className, headingLine1, headingLine2, img1, img2 }) =>
                 </span>
             </h2>
             <img src={img1} alt=""/>
-            <img src={img2} alt=""/>
+            {img2 && <img src={img2} alt=""/>}
         </div>
     )
 }
