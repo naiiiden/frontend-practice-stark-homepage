@@ -76,6 +76,8 @@
     }
 
     &:nth-child(2) {
+        overflow-x: hidden;
+
         .image-container, .image-inner-wrapper {
             position: relative;
             height: 450px;

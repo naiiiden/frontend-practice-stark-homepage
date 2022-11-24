@@ -769,6 +769,9 @@ header {
   transform: translateY(5px);
   transition: all 0.75s cubic-bezier(0.33, 1, 0.68, 1) 0.25s;
 }
+.feature-section:nth-child(2) {
+  overflow-x: hidden;
+}
 .feature-section:nth-child(2) .image-container, .feature-section:nth-child(2) .image-inner-wrapper {
   position: relative;
   height: 450px;
