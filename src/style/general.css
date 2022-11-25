@@ -130,6 +130,7 @@ img {
   align-items: center;
   width: 2rem;
   height: 2rem;
+  transition: 0.2s;
 }
 .nav-menu-container button {
   display: none;
@@ -278,6 +279,10 @@ img {
     max-width: 960px;
     margin: auto;
     padding: unset;
+  }
+  .nav-menu-container .logo-link:hover {
+    opacity: 0.9;
+    transition: 0.2s;
   }
   .nav-menu-container button {
     display: none;
