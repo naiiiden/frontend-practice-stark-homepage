@@ -1,3 +1,4 @@
+// grid images
 import contrast from "../assets/images_homepage/homepage-grid-contrast.png";
 import focus_order from "../assets/images_homepage/homepage-grid-focus-order.png";
 import landmarks from "../assets/images_homepage/homepage-grid-landmarks.png";
@@ -11,9 +12,16 @@ import typography from "../assets/images_homepage/homepage-grid-typography.png";
 import sso from "../assets/images_homepage/homepage-grid-sso.png";
 import fast from "../assets/images_homepage/homepage-grid-fast.webp";
 
+// bg images
+import blob1 from "../assets/images_homepage/homepage-blob-1.png";
+import blob2 from "../assets/images_homepage/homepage-blob-2.png";
+
+
 const Feature2Grid = ({}) => {
     return (
         <div className="features-grid">
+            <img src={blob1} alt=""/>
+            <img src={blob2} alt=""/>
             <div className="item contrast-checker">
                 <img src={contrast} alt=""/>
                 <p>CONTRAST CHECKER + COLOR SUGGESTIONS</p>
