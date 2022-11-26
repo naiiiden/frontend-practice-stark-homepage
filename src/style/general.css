@@ -1125,6 +1125,174 @@ header {
   gap: 20px;
   grid-template-columns: 1fr;
 }
+.features2-section .features-grid .item {
+  border-radius: 40px;
+  line-height: 22px;
+  color: #10284b;
+  text-align: center;
+}
+.features2-section .features-grid .contrast-checker {
+  background: #99d6cc;
+  padding: 0 2rem;
+}
+.features2-section .features-grid .contrast-checker p {
+  margin: 2rem 0;
+  letter-spacing: 0.08rem;
+}
+.features2-section .features-grid .contrast-checker img {
+  margin: 2rem 0 0 0;
+}
+.features2-section .features-grid .focus-order {
+  background: #fedb63;
+  padding: 0 2rem;
+}
+.features2-section .features-grid .focus-order p {
+  margin: 2rem 0;
+  letter-spacing: 0.08rem;
+}
+.features2-section .features-grid .focus-order img {
+  margin: 2rem 0 0 0;
+}
+.features2-section .features-grid .landmarks {
+  background: #fc6f6b;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+.features2-section .features-grid .landmarks p {
+  margin: 2rem 0;
+  letter-spacing: 0.08rem;
+}
+.features2-section .features-grid .landmarks img {
+  margin-top: -0.4rem;
+  transform: translateY(6px);
+}
+.features2-section .features-grid .vision-simulator {
+  height: 376px;
+  background: #a599f0;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.features2-section .features-grid .vision-simulator p {
+  position: absolute;
+  bottom: 2rem;
+  padding: 0 1rem;
+}
+.features2-section .features-grid .vision-simulator img {
+  width: 1097px;
+  max-width: 1097px;
+  margin-top: 3rem;
+}
+.features2-section .features-grid .touch-targets {
+  background: #fedb63;
+  padding: 0 2rem;
+}
+.features2-section .features-grid .touch-targets p {
+  margin: 2rem 0;
+  letter-spacing: 0.08rem;
+}
+.features2-section .features-grid .works {
+  background: #99d6cc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 1rem;
+}
+.features2-section .features-grid .works img {
+  margin-top: 3rem;
+}
+.features2-section .features-grid .works p {
+  margin: 3.5rem 0 2rem 0;
+  padding: 0 1.5rem;
+}
+.features2-section .features-grid .education {
+  background: #fc6f6b;
+  padding: 0 2rem;
+}
+.features2-section .features-grid .education p {
+  margin: 2rem 0;
+  letter-spacing: 0.08rem;
+}
+.features2-section .features-grid .education img {
+  margin-top: -0.4rem;
+  transform: translateY(6px);
+}
+.features2-section .features-grid .alt-text {
+  background: #a599f0;
+  padding: 0 2rem;
+}
+.features2-section .features-grid .alt-text p {
+  margin: 2rem 0;
+  letter-spacing: 0.08rem;
+}
+.features2-section .features-grid .alt-text img {
+  margin-top: 3rem;
+}
+.features2-section .features-grid .live-preview {
+  background: #fedb63;
+  height: 376px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.features2-section .features-grid .live-preview p {
+  margin: 2rem 0;
+  letter-spacing: 0.08rem;
+}
+.features2-section .features-grid .live-preview img {
+  position: absolute;
+  top: 72px;
+  width: 725px;
+  right: 0;
+}
+.features2-section .features-grid .typography {
+  background: #99d6cc;
+  padding: 0 2rem;
+}
+.features2-section .features-grid .typography img {
+  margin-top: 3rem;
+}
+.features2-section .features-grid .typography p {
+  margin: 2rem 0;
+  letter-spacing: 0.08rem;
+}
+.features2-section .features-grid .sso {
+  background: #fedb63;
+  padding: 0 2rem;
+}
+.features2-section .features-grid .sso img {
+  margin-top: 2rem;
+}
+.features2-section .features-grid .sso p {
+  margin: 2rem 0;
+  letter-spacing: 0.08rem;
+}
+.features2-section .features-grid .fast {
+  background: #a599f0;
+  height: 376px;
+  padding: 1rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+.features2-section .features-grid .fast p {
+  margin: 2.5rem 0 0 0;
+  letter-spacing: 0.08rem;
+}
+.features2-section .features-grid .fast img {
+  top: -2px;
+  width: 900px;
+  max-width: 900px;
+  position: absolute;
+}
 
 /* reusable */
 .purple-link {

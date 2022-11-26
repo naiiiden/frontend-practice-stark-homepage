@@ -32,5 +32,209 @@
         display: grid;
         gap: 20px;
         grid-template-columns: 1fr;
+
+        .item {
+            border-radius: 40px;
+            line-height: 22px;
+            color: $dark-blue;
+            text-align: center;
+        }
+
+        .contrast-checker {
+            background: #99d6cc;
+            padding: 0 2rem;
+
+            p {
+                margin: 2rem 0;
+                letter-spacing: .08rem;
+            }
+
+            img {
+                margin: 2rem 0 0 0;
+            }
+        }
+
+        .focus-order {
+            background: $yellow;
+            padding: 0 2rem;
+
+            p {
+                margin: 2rem 0;
+                letter-spacing: .08rem;
+            }
+
+            img {
+                margin: 2rem 0 0 0;
+            }
+        }
+
+        .landmarks {
+            background: $light-red;
+            padding: 0 2rem;
+            overflow: hidden;
+
+            p {
+                margin: 2rem 0;
+                letter-spacing: .08rem;
+            }
+
+            img {
+                margin-top: -.4rem;
+                transform: translateY(6px);
+            }
+        }
+
+        .vision-simulator {
+            height: 376px;
+            background: #a599f0;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                position: absolute;
+                bottom: 2rem;
+                padding: 0 1rem;
+            }
+
+            img {
+                width: 1097px;
+                max-width: 1097px;
+                margin-top: 3rem;
+            }
+        }
+
+        .touch-targets {
+            background: $yellow;
+            padding: 0 2rem;
+
+            p {
+                margin: 2rem 0;
+                letter-spacing: .08rem;
+            }
+        }
+
+        .works {
+            background: #99d6cc;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            padding: 1rem;
+
+            img {
+                margin-top: 3rem;
+            }
+
+            p {
+                margin: 3.5rem 0 2rem 0;
+                padding: 0 1.5rem;
+            }
+        }
+
+        .education {
+            background: $light-red;
+            padding: 0 2rem;
+
+            p {
+                margin: 2rem 0;
+                letter-spacing: .08rem;
+            }
+
+            img {
+                margin-top: -.4rem;
+                transform: translateY(6px);
+            }
+        }
+
+        .alt-text {
+            background: #a599f0;
+            padding: 0 2rem;
+
+            p {
+                margin: 2rem 0;
+                letter-spacing: .08rem;
+            }
+
+            img {
+                margin-top: 3rem;
+            }
+        }
+
+        .live-preview {
+            background: $yellow;
+            height: 376px;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+
+            p {
+                margin: 2rem 0;
+                letter-spacing: .08rem;
+            }
+
+            img {
+                position: absolute;
+                top: 72px;
+                width: 725px;
+                right: 0;
+            }
+        }
+
+        .typography {
+            background: #99d6cc;
+            padding: 0 2rem;
+
+            img {
+                margin-top: 3rem;
+            }
+
+            p {
+                margin: 2rem 0;
+                letter-spacing: .08rem;
+            }
+        }
+
+        .sso {
+            background: $yellow;
+            padding: 0 2rem;
+
+            img {
+                margin-top: 2rem;
+            }
+
+            p {
+                margin: 2rem 0;
+                letter-spacing: .08rem;
+            }
+        }
+
+        .fast {
+            background: #a599f0;
+            height: 376px;
+            padding: 1rem;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            position: relative;
+
+            p {
+                margin: 2.5rem 0 0 0;
+                letter-spacing: .08rem;
+            }
+
+            img {
+                top: -2px;
+                width: 900px;
+                max-width: 900px;
+                position: absolute;
+            }
+        }
     }
 }
