@@ -4,6 +4,7 @@
 
     .outer-wrapper-div {
         margin: 4rem 0 7rem 0;
+        padding: 2rem 0 1rem 0;
     }
 
     .inner-wrapper-div {
@@ -25,5 +26,11 @@
         //         right: -294px;
         //     }
         // }
+    }
+
+    .features-grid {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr;
     }
 }

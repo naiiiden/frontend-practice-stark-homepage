@@ -1114,10 +1114,16 @@ header {
 }
 .features2-section .outer-wrapper-div {
   margin: 4rem 0 7rem 0;
+  padding: 2rem 0 1rem 0;
 }
 .features2-section .inner-wrapper-div {
   position: relative;
   max-width: 960px;
+}
+.features2-section .features-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr;
 }
 
 /* reusable */
