@@ -16,7 +16,6 @@ import fast from "../assets/images_homepage/homepage-grid-fast.webp";
 import blob1 from "../assets/images_homepage/homepage-blob-1.png";
 import blob2 from "../assets/images_homepage/homepage-blob-2.png";
 
-
 const Feature2Grid = ({}) => {
     return (
         <div className="features-grid">
