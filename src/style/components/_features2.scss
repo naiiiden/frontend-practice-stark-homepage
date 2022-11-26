@@ -2,7 +2,28 @@
     margin-top: 4rem;
     padding: 1rem;
 
-    .features-grid {
-        
+    .outer-wrapper-div {
+        margin: 4rem 0 7rem 0;
+    }
+
+    .inner-wrapper-div {
+        position: relative;
+        max-width: 960px;
+
+        // .blob1, .blob2 {
+        //     position: absolute;
+
+        //     &.blob1 {
+        //         width: 672px;
+        //         top: -42px;
+        //         left: -455px;
+        //     }
+
+        //     &.blob2 {
+        //         width: 616px;
+        //         bottom: -130px;
+        //         right: -294px;
+        //     }
+        // }
     }
 }

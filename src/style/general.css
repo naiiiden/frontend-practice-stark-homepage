@@ -1112,6 +1112,14 @@ header {
   margin-top: 4rem;
   padding: 1rem;
 }
+.features2-section .outer-wrapper-div {
+  margin: 4rem 0 7rem 0;
+}
+.features2-section .inner-wrapper-div {
+  position: relative;
+  max-width: 960px;
+}
+
 /* reusable */
 .purple-link {
   display: inline-flex;
