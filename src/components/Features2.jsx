@@ -1,5 +1,6 @@
 import red_bg from "../assets/svg/red-bg.svg";
 import sparkle from "../assets/svg/sparkle.svg";
+import Feature2Grid from "./Feature2Grid";
 import HeadingLevel2 from "./HeadingLevel2";
 
 const Features2 = () => {
@@ -11,6 +12,7 @@ const Features2 = () => {
                 img1={red_bg}
                 img2={sparkle}
             />
+            <Feature2Grid/>
         </section>
     )
 }
