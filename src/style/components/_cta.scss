@@ -65,20 +65,6 @@
             .text-container {
                 order: unset;
                 margin: auto 0;
-
-                a {
-                    transition: .2s;
-
-                    &:hover {
-                        opacity: .9;
-                        transition: .2s;
-                    }
-
-                    &:focus {
-                        outline-color: #06a5ff;
-                        outline-offset: 4px;
-                    }
-                }
             }
 
             .image-container {
