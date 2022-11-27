@@ -21,8 +21,8 @@ const Feature2Grid = ({}) => {
     return (
         <div className="outer-wrapper-div">
             <div className="inner-wrapper-div">
-                {/* <img src={blob1} alt="" className="blob1"/> */}
-                {/* <img src={blob2} alt="" className="blob2"/> */}
+                <img src={blob1} alt="" className="blob1"/>
+                <img src={blob2} alt="" className="blob2"/>
                 <div className="features-grid">
                     <div className="item contrast-checker">
                         <img src={contrast} alt=""/>

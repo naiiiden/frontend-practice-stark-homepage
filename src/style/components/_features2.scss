@@ -1,6 +1,7 @@
 .features2-section {
     margin-top: 4rem;
     padding: 1rem;
+    overflow-x: hidden;
 
     .outer-wrapper-div {
         margin: 4rem 0 7rem 0;
@@ -13,21 +14,22 @@
         position: relative;
         max-width: 960px;
 
-        // .blob1, .blob2 {
-        //     position: absolute;
+        .blob1, .blob2 {
+            position: absolute;
+            z-index: -1;
 
-        //     &.blob1 {
-        //         width: 672px;
-        //         top: -42px;
-        //         left: -455px;
-        //     }
+            &.blob1 {
+                width: 672px;
+                top: -42px;
+                left: -455px;
+            }
 
-        //     &.blob2 {
-        //         width: 616px;
-        //         bottom: -130px;
-        //         right: -294px;
-        //     }
-        // }
+            &.blob2 {
+                width: 616px;
+                bottom: -130px;
+                right: -294px;
+            }
+        }
     }
 
     .features-grid {

@@ -1111,6 +1111,7 @@ header {
 .features2-section {
   margin-top: 4rem;
   padding: 1rem;
+  overflow-x: hidden;
 }
 .features2-section .outer-wrapper-div {
   margin: 4rem 0 7rem 0;
@@ -1121,6 +1122,20 @@ header {
 .features2-section .inner-wrapper-div {
   position: relative;
   max-width: 960px;
+}
+.features2-section .inner-wrapper-div .blob1, .features2-section .inner-wrapper-div .blob2 {
+  position: absolute;
+  z-index: -1;
+}
+.features2-section .inner-wrapper-div .blob1.blob1, .features2-section .inner-wrapper-div .blob2.blob1 {
+  width: 672px;
+  top: -42px;
+  left: -455px;
+}
+.features2-section .inner-wrapper-div .blob1.blob2, .features2-section .inner-wrapper-div .blob2.blob2 {
+  width: 616px;
+  bottom: -130px;
+  right: -294px;
 }
 .features2-section .features-grid {
   display: grid;
