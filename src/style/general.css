@@ -1332,11 +1332,20 @@ header {
   .features2-section .features-grid .contrast-checker {
     grid-area: a;
   }
+  .features2-section .features-grid .contrast-checker img {
+    max-width: 360px;
+  }
   .features2-section .features-grid .focus-order {
     grid-area: b;
   }
+  .features2-section .features-grid .focus-order img {
+    max-width: 378px;
+  }
   .features2-section .features-grid .landmarks {
     grid-area: c;
+  }
+  .features2-section .features-grid .landmarks img {
+    max-width: 390px;
   }
   .features2-section .features-grid .vision-simulator {
     grid-area: d;
@@ -1344,14 +1353,26 @@ header {
   .features2-section .features-grid .touch-targets {
     grid-area: e;
   }
+  .features2-section .features-grid .touch-targets img {
+    max-width: 342px;
+  }
   .features2-section .features-grid .works {
     grid-area: f;
+  }
+  .features2-section .features-grid .works img {
+    max-width: 376px;
   }
   .features2-section .features-grid .education {
     grid-area: g;
   }
+  .features2-section .features-grid .education img {
+    max-width: 342px;
+  }
   .features2-section .features-grid .alt-text {
     grid-area: h;
+  }
+  .features2-section .features-grid .alt-text img {
+    max-width: 360px;
   }
   .features2-section .features-grid .live-preview {
     grid-area: i;
@@ -1359,8 +1380,14 @@ header {
   .features2-section .features-grid .typography {
     grid-area: j;
   }
+  .features2-section .features-grid .typography img {
+    max-width: 360px;
+  }
   .features2-section .features-grid .sso {
     grid-area: k;
+  }
+  .features2-section .features-grid .sso img {
+    max-width: 307px;
   }
   .features2-section .features-grid .fast {
     grid-area: l;

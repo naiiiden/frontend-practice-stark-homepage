@@ -275,14 +275,26 @@
 
             .contrast-checker {
                 grid-area: a;
+
+                img {
+                    max-width: 360px;
+                }
             }
 
             .focus-order {
                 grid-area: b ;
+
+                img {
+                    max-width: 378px;
+                }
             }
 
             .landmarks {
                 grid-area: c;
+
+                img {
+                    max-width: 390px;
+                }
             }
 
             .vision-simulator {
@@ -291,18 +303,34 @@
 
             .touch-targets {
                 grid-area: e;
+
+                img {
+                    max-width: 342px;
+                }
             }
 
             .works {
                 grid-area: f;
+
+                img {
+                    max-width: 376px;
+                }
             }
 
             .education {
                 grid-area: g;
+
+                img {
+                    max-width: 342px;
+                }
             }
 
             .alt-text {
                 grid-area: h;
+
+                img {
+                    max-width: 360px;
+                }
             }
 
             .live-preview {
@@ -311,10 +339,18 @@
 
             .typography {
                 grid-area: j;
+
+                img {
+                    max-width: 360px;
+                }
             }
             
             .sso {
                 grid-area: k;
+
+                img {
+                    max-width: 307px;
+                }
             }
 
             .fast {
