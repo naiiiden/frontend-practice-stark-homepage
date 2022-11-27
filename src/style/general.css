@@ -1115,6 +1115,8 @@ header {
 .features2-section .outer-wrapper-div {
   margin: 4rem 0 7rem 0;
   padding: 2rem 0 1rem 0;
+  display: flex;
+  justify-content: center;
 }
 .features2-section .inner-wrapper-div {
   position: relative;
