@@ -1294,6 +1294,12 @@ header {
   position: absolute;
 }
 
+@media screen and (min-width: 768px) {
+  .features2-section .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "a b" "a c" "d d" "e f" "g f" "h i" "h j" "k j" "l l";
+  }
+}
 /* reusable */
 .purple-link {
   display: inline-flex;
