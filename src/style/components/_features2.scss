@@ -253,6 +253,54 @@
                 "h j"
                 "k j"
                 "l l";
+
+            .contrast-checker {
+                grid-area: a;
+            }
+
+            .focus-order {
+                grid-area: b ;
+            }
+
+            .landmarks {
+                grid-area: c;
+            }
+
+            .vision-simulator {
+                grid-area: d;
+            }
+
+            .touch-targets {
+                grid-area: e;
+            }
+
+            .works {
+                grid-area: f;
+            }
+
+            .education {
+                grid-area: g;
+            }
+
+            .alt-text {
+                grid-area: h;
+            }
+
+            .live-preview {
+                grid-area: i;
+            }
+
+            .typography {
+                grid-area: j;
+            }
+            
+            .sso {
+                grid-area: k;
+            }
+
+            .fast {
+                grid-area: l;
+            }
         }
     }
 }

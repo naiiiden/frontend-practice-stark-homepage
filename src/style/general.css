@@ -1299,6 +1299,42 @@ header {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "a b" "a c" "d d" "e f" "g f" "h i" "h j" "k j" "l l";
   }
+  .features2-section .features-grid .contrast-checker {
+    grid-area: a;
+  }
+  .features2-section .features-grid .focus-order {
+    grid-area: b;
+  }
+  .features2-section .features-grid .landmarks {
+    grid-area: c;
+  }
+  .features2-section .features-grid .vision-simulator {
+    grid-area: d;
+  }
+  .features2-section .features-grid .touch-targets {
+    grid-area: e;
+  }
+  .features2-section .features-grid .works {
+    grid-area: f;
+  }
+  .features2-section .features-grid .education {
+    grid-area: g;
+  }
+  .features2-section .features-grid .alt-text {
+    grid-area: h;
+  }
+  .features2-section .features-grid .live-preview {
+    grid-area: i;
+  }
+  .features2-section .features-grid .typography {
+    grid-area: j;
+  }
+  .features2-section .features-grid .sso {
+    grid-area: k;
+  }
+  .features2-section .features-grid .fast {
+    grid-area: l;
+  }
 }
 /* reusable */
 .purple-link {
