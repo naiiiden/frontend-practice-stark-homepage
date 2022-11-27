@@ -5,6 +5,7 @@ import landmarks from "../assets/images_homepage/homepage-grid-landmarks.png";
 import vision_simulator from "../assets/images_homepage/homepage-grid-vision-simulator.webp";
 import touch_target from "../assets/images_homepage/homepage-grid-touchtarget.png";
 import works from "../assets/images_homepage/homepage-grid-designbrowser.webp";
+import logo from "../assets/svg/logo-big.svg";
 import education from "../assets/images_homepage/homepage-grid-education.png";
 import alt_text from "../assets/images_homepage/homepage-grid-alttext.png";
 import live_preview from "../assets/images_homepage/homepage-grid-livepreview.webp";
@@ -45,6 +46,9 @@ const Feature2Grid = ({}) => {
                     </div>
                     <div className="item works">
                         <img src={works} alt=""/>
+                        <div className="stark-logo-wrapper">
+                            <img src={logo} alt=""/>
+                        </div>
                         <p>WORKS IN YOUR DESIGN TOOL AND BROWSER</p>
                     </div>
                     <div className="item education">

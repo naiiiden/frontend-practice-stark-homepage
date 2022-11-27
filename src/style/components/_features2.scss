@@ -129,6 +129,21 @@
                 margin-top: 3rem;
             }
 
+            .stark-logo-wrapper {
+                width: 140px;
+                height: 140px;
+                border-radius: 36px;
+                transform: translateY(-32px);
+                box-shadow: rgba(0, 0, 0, 0.28) 0px 2.13592px 4.27184px;
+                overflow: hidden;
+                cursor: pointer;
+                position: absolute;
+
+                img {
+                    margin-top: unset;
+                }
+            }
+
             p {
                 margin: 3.5rem 0 2rem 0;
                 padding: 0 1.5rem;
