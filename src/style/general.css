@@ -1315,6 +1315,10 @@ header {
   .features2-section .features-grid .works {
     grid-area: f;
   }
+  .features2-section .features-grid .works .stark-logo-wrapper {
+    width: 160px;
+    height: 160px;
+  }
   .features2-section .features-grid .education {
     grid-area: g;
   }
