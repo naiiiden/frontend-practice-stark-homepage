@@ -42,34 +42,25 @@
             line-height: 22px;
             color: $dark-blue;
             text-align: center;
+
+            p {
+                margin: 2rem 0;
+                letter-spacing: .08rem;
+            }
+
+            img {
+                margin: 2rem 0 0 0;
+            }
         }
 
         .contrast-checker {
             background: #99d6cc;
             padding: 0 2rem;
-
-            p {
-                margin: 2rem 0;
-                letter-spacing: .08rem;
-            }
-
-            img {
-                margin: 2rem 0 0 0;
-            }
         }
 
         .focus-order {
             background: $yellow;
             padding: 0 2rem;
-
-            p {
-                margin: 2rem 0;
-                letter-spacing: .08rem;
-            }
-
-            img {
-                margin: 2rem 0 0 0;
-            }
         }
 
         .landmarks {
@@ -77,13 +68,8 @@
             padding: 0 2rem;
             overflow: hidden;
 
-            p {
-                margin: 2rem 0;
-                letter-spacing: .08rem;
-            }
-
             img {
-                margin-top: -.4rem;
+                margin: -.4rem 0 0 0;
                 transform: translateY(6px);
             }
         }
@@ -98,6 +84,7 @@
             align-items: center;
 
             p {
+                margin: unset;
                 position: absolute;
                 bottom: 2rem;
                 padding: 0 1rem;
@@ -106,18 +93,13 @@
             img {
                 width: 1097px;
                 max-width: 1097px;
-                margin-top: 3rem;
+                margin: 3rem 0 0 0;
             }
         }
 
         .touch-targets {
             background: $yellow;
             padding: 0 2rem;
-
-            p {
-                margin: 2rem 0;
-                letter-spacing: .08rem;
-            }
         }
 
         .works {
@@ -130,7 +112,7 @@
             padding: 1rem;
 
             img {
-                margin-top: 3rem;
+                margin: 3rem 0 0 0;
             }
 
             .stark-logo-wrapper {
@@ -144,7 +126,7 @@
                 position: absolute;
 
                 img {
-                    margin-top: unset;
+                    margin: unset;
                 }
             }
 
@@ -158,13 +140,8 @@
             background: $light-red;
             padding: 0 2rem;
 
-            p {
-                margin: 2rem 0;
-                letter-spacing: .08rem;
-            }
-
             img {
-                margin-top: -.4rem;
+                margin: -.4rem 0 0 0;
                 transform: translateY(6px);
             }
         }
@@ -173,13 +150,8 @@
             background: #a599f0;
             padding: 0 2rem;
 
-            p {
-                margin: 2rem 0;
-                letter-spacing: .08rem;
-            }
-
             img {
-                margin-top: 3rem;
+                margin: 3rem 0 0 0;
             }
         }
 
@@ -192,16 +164,12 @@
             justify-content: center;
             align-items: flex-start;
 
-            p {
-                margin: 2rem 0;
-                letter-spacing: .08rem;
-            }
-
             img {
                 position: absolute;
                 top: 72px;
                 width: 725px;
                 right: 0;
+                margin: unset;
             }
         }
 
@@ -210,27 +178,13 @@
             padding: 0 2rem;
 
             img {
-                margin-top: 3rem;
-            }
-
-            p {
-                margin: 2rem 0;
-                letter-spacing: .08rem;
+                margin: 3rem 0 0 0;
             }
         }
 
         .sso {
             background: $yellow;
             padding: 0 2rem;
-
-            img {
-                margin-top: 2rem;
-            }
-
-            p {
-                margin: 2rem 0;
-                letter-spacing: .08rem;
-            }
         }
 
         .fast {
@@ -253,6 +207,7 @@
                 width: 900px;
                 max-width: 900px;
                 position: absolute;
+                margin: unset;
             }
         }
     }
