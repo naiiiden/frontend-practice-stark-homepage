@@ -54,7 +54,7 @@
         }
 
         .contrast-checker {
-            background: #99d6cc;
+            background: $teal;
             padding: 0 2rem;
         }
 
@@ -76,7 +76,7 @@
 
         .vision-simulator {
             height: 376px;
-            background: #a599f0;
+            background: $light-purple;
             overflow: hidden;
             position: relative;
             display: flex;
@@ -103,7 +103,7 @@
         }
 
         .works {
-            background: #99d6cc;
+            background: $teal;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -148,7 +148,7 @@
         }
 
         .alt-text {
-            background: #a599f0;
+            background: $light-purple;
             padding: 0 2rem;
 
             img {
@@ -175,7 +175,7 @@
         }
 
         .typography {
-            background: #99d6cc;
+            background: $teal;
             padding: 0 2rem;
 
             img {
@@ -189,7 +189,7 @@
         }
 
         .fast {
-            background: #a599f0;
+            background: $light-purple;
             height: 376px;
             padding: 1rem;
             overflow: hidden;
