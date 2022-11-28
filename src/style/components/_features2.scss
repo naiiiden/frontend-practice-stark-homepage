@@ -230,26 +230,14 @@
 
             .contrast-checker {
                 grid-area: a;
-
-                img {
-                    max-width: 360px;
-                }
             }
 
             .focus-order {
                 grid-area: b ;
-
-                img {
-                    max-width: 378px;
-                }
             }
 
             .landmarks {
                 grid-area: c;
-
-                img {
-                    max-width: 390px;
-                }
             }
 
             .vision-simulator {
@@ -258,34 +246,18 @@
 
             .touch-targets {
                 grid-area: e;
-
-                img {
-                    max-width: 342px;
-                }
             }
 
             .works {
                 grid-area: f;
-
-                img {
-                    max-width: 376px;
-                }
             }
 
             .education {
                 grid-area: g;
-
-                img {
-                    max-width: 342px;
-                }
             }
 
             .alt-text {
                 grid-area: h;
-
-                img {
-                    max-width: 360px;
-                }
             }
 
             .live-preview {
@@ -294,22 +266,74 @@
 
             .typography {
                 grid-area: j;
+            }
+            
+            .sso {
+                grid-area: k;
+            }
 
+            .fast {
+                grid-area: l;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .features2-section {
+        .features-grid {
+            .contrast-checker {
+                img {
+                    max-width: 360px;
+                }
+            }
+
+            .focus-order {
+                img {
+                    max-width: 378px;
+                }
+            }
+
+            .landmarks {
+                img {
+                    max-width: 390px;
+                }
+            }
+
+            .touch-targets {
+                img {
+                    max-width: 342px;
+                }
+            }
+
+            .works {
+                img {
+                    max-width: 376px;
+                }
+            }
+
+            .education {
+                img {
+                    max-width: 342px;
+                }
+            }
+
+            .alt-text {
+                img {
+                    max-width: 360px;
+                }
+            }
+
+            .typography {
                 img {
                     max-width: 360px;
                 }
             }
             
             .sso {
-                grid-area: k;
-
                 img {
                     max-width: 307px;
                 }
-            }
-
-            .fast {
-                grid-area: l;
             }
         }
     }

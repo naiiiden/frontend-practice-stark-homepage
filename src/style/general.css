@@ -1148,39 +1148,28 @@ header {
   color: #10284b;
   text-align: center;
 }
+.features2-section .features-grid .item p {
+  margin: 2rem 0;
+  letter-spacing: 0.08rem;
+}
+.features2-section .features-grid .item img {
+  margin: 2rem 0 0 0;
+}
 .features2-section .features-grid .contrast-checker {
   background: #99d6cc;
   padding: 0 2rem;
 }
-.features2-section .features-grid .contrast-checker p {
-  margin: 2rem 0;
-  letter-spacing: 0.08rem;
-}
-.features2-section .features-grid .contrast-checker img {
-  margin: 2rem 0 0 0;
-}
 .features2-section .features-grid .focus-order {
   background: #fedb63;
   padding: 0 2rem;
-}
-.features2-section .features-grid .focus-order p {
-  margin: 2rem 0;
-  letter-spacing: 0.08rem;
-}
-.features2-section .features-grid .focus-order img {
-  margin: 2rem 0 0 0;
 }
 .features2-section .features-grid .landmarks {
   background: #fc6f6b;
   padding: 0 2rem;
   overflow: hidden;
 }
-.features2-section .features-grid .landmarks p {
-  margin: 2rem 0;
-  letter-spacing: 0.08rem;
-}
 .features2-section .features-grid .landmarks img {
-  margin-top: -0.4rem;
+  margin: -0.4rem 0 0 0;
   transform: translateY(6px);
 }
 .features2-section .features-grid .vision-simulator {
@@ -1193,6 +1182,7 @@ header {
   align-items: center;
 }
 .features2-section .features-grid .vision-simulator p {
+  margin: unset;
   position: absolute;
   bottom: 2rem;
   padding: 0 1rem;
@@ -1200,15 +1190,11 @@ header {
 .features2-section .features-grid .vision-simulator img {
   width: 1097px;
   max-width: 1097px;
-  margin-top: 3rem;
+  margin: 3rem 0 0 0;
 }
 .features2-section .features-grid .touch-targets {
   background: #fedb63;
   padding: 0 2rem;
-}
-.features2-section .features-grid .touch-targets p {
-  margin: 2rem 0;
-  letter-spacing: 0.08rem;
 }
 .features2-section .features-grid .works {
   background: #99d6cc;
@@ -1220,7 +1206,7 @@ header {
   padding: 1rem;
 }
 .features2-section .features-grid .works img {
-  margin-top: 3rem;
+  margin: 3rem 0 0 0;
 }
 .features2-section .features-grid .works .stark-logo-wrapper {
   width: 140px;
@@ -1233,7 +1219,7 @@ header {
   position: absolute;
 }
 .features2-section .features-grid .works .stark-logo-wrapper img {
-  margin-top: unset;
+  margin: unset;
 }
 .features2-section .features-grid .works p {
   margin: 3.5rem 0 2rem 0;
@@ -1243,24 +1229,16 @@ header {
   background: #fc6f6b;
   padding: 0 2rem;
 }
-.features2-section .features-grid .education p {
-  margin: 2rem 0;
-  letter-spacing: 0.08rem;
-}
 .features2-section .features-grid .education img {
-  margin-top: -0.4rem;
+  margin: -0.4rem 0 0 0;
   transform: translateY(6px);
 }
 .features2-section .features-grid .alt-text {
   background: #a599f0;
   padding: 0 2rem;
 }
-.features2-section .features-grid .alt-text p {
-  margin: 2rem 0;
-  letter-spacing: 0.08rem;
-}
 .features2-section .features-grid .alt-text img {
-  margin-top: 3rem;
+  margin: 3rem 0 0 0;
 }
 .features2-section .features-grid .live-preview {
   background: #fedb63;
@@ -1271,37 +1249,23 @@ header {
   justify-content: center;
   align-items: flex-start;
 }
-.features2-section .features-grid .live-preview p {
-  margin: 2rem 0;
-  letter-spacing: 0.08rem;
-}
 .features2-section .features-grid .live-preview img {
   position: absolute;
   top: 72px;
   width: 725px;
   right: 0;
+  margin: unset;
 }
 .features2-section .features-grid .typography {
   background: #99d6cc;
   padding: 0 2rem;
 }
 .features2-section .features-grid .typography img {
-  margin-top: 3rem;
-}
-.features2-section .features-grid .typography p {
-  margin: 2rem 0;
-  letter-spacing: 0.08rem;
+  margin: 3rem 0 0 0;
 }
 .features2-section .features-grid .sso {
   background: #fedb63;
   padding: 0 2rem;
-}
-.features2-section .features-grid .sso img {
-  margin-top: 2rem;
-}
-.features2-section .features-grid .sso p {
-  margin: 2rem 0;
-  letter-spacing: 0.08rem;
 }
 .features2-section .features-grid .fast {
   background: #a599f0;
@@ -1322,6 +1286,7 @@ header {
   width: 900px;
   max-width: 900px;
   position: absolute;
+  margin: unset;
 }
 
 @media screen and (min-width: 768px) {
@@ -1332,20 +1297,11 @@ header {
   .features2-section .features-grid .contrast-checker {
     grid-area: a;
   }
-  .features2-section .features-grid .contrast-checker img {
-    max-width: 360px;
-  }
   .features2-section .features-grid .focus-order {
     grid-area: b;
   }
-  .features2-section .features-grid .focus-order img {
-    max-width: 378px;
-  }
   .features2-section .features-grid .landmarks {
     grid-area: c;
-  }
-  .features2-section .features-grid .landmarks img {
-    max-width: 390px;
   }
   .features2-section .features-grid .vision-simulator {
     grid-area: d;
@@ -1353,26 +1309,14 @@ header {
   .features2-section .features-grid .touch-targets {
     grid-area: e;
   }
-  .features2-section .features-grid .touch-targets img {
-    max-width: 342px;
-  }
   .features2-section .features-grid .works {
     grid-area: f;
-  }
-  .features2-section .features-grid .works img {
-    max-width: 376px;
   }
   .features2-section .features-grid .education {
     grid-area: g;
   }
-  .features2-section .features-grid .education img {
-    max-width: 342px;
-  }
   .features2-section .features-grid .alt-text {
     grid-area: h;
-  }
-  .features2-section .features-grid .alt-text img {
-    max-width: 360px;
   }
   .features2-section .features-grid .live-preview {
     grid-area: i;
@@ -1380,17 +1324,40 @@ header {
   .features2-section .features-grid .typography {
     grid-area: j;
   }
-  .features2-section .features-grid .typography img {
-    max-width: 360px;
-  }
   .features2-section .features-grid .sso {
     grid-area: k;
   }
-  .features2-section .features-grid .sso img {
-    max-width: 307px;
-  }
   .features2-section .features-grid .fast {
     grid-area: l;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .features2-section .features-grid .contrast-checker img {
+    max-width: 360px;
+  }
+  .features2-section .features-grid .focus-order img {
+    max-width: 378px;
+  }
+  .features2-section .features-grid .landmarks img {
+    max-width: 390px;
+  }
+  .features2-section .features-grid .touch-targets img {
+    max-width: 342px;
+  }
+  .features2-section .features-grid .works img {
+    max-width: 376px;
+  }
+  .features2-section .features-grid .education img {
+    max-width: 342px;
+  }
+  .features2-section .features-grid .alt-text img {
+    max-width: 360px;
+  }
+  .features2-section .features-grid .typography img {
+    max-width: 360px;
+  }
+  .features2-section .features-grid .sso img {
+    max-width: 307px;
   }
 }
 /* reusable */
