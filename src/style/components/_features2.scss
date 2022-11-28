@@ -139,10 +139,11 @@
         .education {
             background: $light-red;
             padding: 0 2rem;
+            overflow: hidden;
 
             img {
                 margin: -.4rem 0 0 0;
-                transform: translateY(6px);
+                transform: translateY(4.25px);
             }
         }
 
@@ -199,7 +200,6 @@
 
             p {
                 margin: 2.5rem 0 0 0;
-                letter-spacing: .08rem;
             }
 
             img {
@@ -238,6 +238,10 @@
 
             .landmarks {
                 grid-area: c;
+                
+                img {
+                    height: 81%;
+                }
             }
 
             .vision-simulator {
@@ -254,6 +258,10 @@
 
             .education {
                 grid-area: g;
+
+                img {
+                    height: 81%;
+                }
             }
 
             .alt-text {
