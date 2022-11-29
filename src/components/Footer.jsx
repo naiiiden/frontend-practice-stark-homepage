@@ -17,7 +17,7 @@ const Footer = () => {
                 <HeadingLevel2 headingLine1="Made remotely with love by Stark Lab, Inc."/>
                 <img src={logo} alt=""/>
             </div>
-            <nav>
+            <nav aria-label="Footer">
                 <ul className="nav-ul">
                     <li><h3>PRODUCT</h3></li>
                     <li><a href="">Stark for Mac</a></li>
@@ -55,7 +55,7 @@ const Footer = () => {
                 </ul>
             </nav>
             <div className="socials-copyright-wrapper">
-                <nav>
+                <nav aria-label="Socials">
                     <ul className="socials">
                         <li><img src={twitter} alt="" /></li>
                         <li><img src={instagram} alt="" /></li>
