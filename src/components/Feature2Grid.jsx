@@ -26,53 +26,53 @@ const Feature2Grid = ({}) => {
                 <div className="features-grid">
                     <div className="item contrast-checker">
                         <img src={contrast} alt=""/>
-                        <p>CONTRAST CHECKER + COLOR SUGGESTIONS</p>
+                        <p className="uppercase">Contrast Checker + Color Suggestions</p>
                     </div>
                     <div className="item focus-order">
                         <img src={focus_order} alt=""/>
-                        <p>FOCUS ORDER</p>
+                        <p className="uppercase">Focus Order</p>
                     </div>
                     <div className="item landmarks">
-                        <p>LANDMARKS</p>
+                        <p className="uppercase">Landmarks</p>
                         <img src={landmarks} alt=""/>
                     </div>
                     <div className="item vision-simulator">
-                        <p>VISION SIMULATOR + GENERATOR</p>
+                        <p className="uppercase">Vision Simulator + Generator</p>
                         <img src={vision_simulator} alt=""/>
                     </div>
                     <div className="item touch-targets">
                         <img src={touch_target} alt=""/>
-                        <p>TOUCH TARGETS</p>
+                        <p className="uppercase">Touch Targets</p>
                     </div>
                     <div className="item works">
                         <img src={works} alt=""/>
                         <div className="stark-logo-wrapper">
                             <img src={logo} alt=""/>
                         </div>
-                        <p>WORKS IN YOUR DESIGN TOOL AND BROWSER</p>
+                        <p className="uppercase">Works in your design tool and browser</p>
                     </div>
                     <div className="item education">
-                        <p>IN-APP EDUCATION</p>
+                        <p className="uppercase">In-App Education</p>
                         <img src={education} alt=""/>
                     </div>
                     <div className="item alt-text">
                         <img src={alt_text} alt=""/>
-                        <p>ALT-TEXT ANNOTATIONS</p>
+                        <p className="uppercase">Alt-Text Annotations</p>
                     </div>
                     <div className="item live-preview">
-                        <p>LIVE PREVIEW IN BROWSER</p>
+                        <p className="uppercase">Live preview in browser</p>
                         <img src={live_preview} alt=""/>
                     </div>
                     <div className="item typography">
                         <img src={typography} alt=""/>
-                        <p>TYPOGRAPHY</p>
+                        <p className="uppercase">Typography</p>
                     </div>
                     <div className="item sso">
                         <img src={sso} alt=""/>
-                        <p>SSO + TEAM ACCOUNT MANAGEMENT</p>
+                        <p className="uppercase">SSO + Team Account Management</p>
                     </div>
                     <div className="item fast">
-                        <p>BEAUTIFULLY SIMPLE, LIGHTNING FAST</p>
+                        <p className="uppercase">Beautifully simple, lightning fast</p>
                         <img src={fast} alt=""/>
                     </div>
                 </div>

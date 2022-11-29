@@ -7,7 +7,7 @@ const Feature = ({ sectionClass, mt, pShort, dec, h2, desc, href, linkClass, tex
             <div className="inner-wrapper-div">
                 <div className="text-container">
                     <div className="decoration-container">
-                        <p>{pShort}</p>
+                        <p className="uppercase">{pShort}</p>
                         {dec && <img src={dec} alt=""/>}
                     </div>
                     <h2>{h2}</h2>

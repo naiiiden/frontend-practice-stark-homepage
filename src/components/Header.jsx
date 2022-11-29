@@ -24,7 +24,7 @@ const Header = () => {
             <div className="centered-horizontally">
                 <div className="text-illustration-wrapper">
                     <div className="text-container">
-                        <p className="introduction">INTRODUCING THE ALL-NEW STARK SUITE</p>
+                        <p className="introduction uppercase">Introducing the all-new stark suite</p>
                         <h1>Super­charge Access­ibility</h1>
                         <p className="description" id="description">Tired of manually checking spreadsheets, messy handovers, and expensive retrofitting? Stark connects the tools you and your team already use in a streamlined end-to-end accessibility workflow you actually love.</p>
                         <div className="links-arrow-container">

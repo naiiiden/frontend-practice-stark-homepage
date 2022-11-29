@@ -27,9 +27,9 @@ const Nav = () => {
             <ul role="menubar" className={`nav-ul ${!openMenu ? "" : "show"}`}>
                 <li role="none">
                     {isDesktop ? 
-                    <span>PRODUCT</span>
+                    <span className="uppercase">Product</span>
                     :
-                    <button className="dropdown-button" role="menuitem" aria-haspopup="true" href="#product" aria-expanded={openDropdown ? "true" : "false"} onMouseEnter={() => setOpenDropdown(true)} onFocus={() => setOpenDropdown(true)}>
+                    <button className="dropdown-button uppercase" role="menuitem" aria-haspopup="true" href="#product" aria-expanded={openDropdown ? "true" : "false"} onMouseEnter={() => setOpenDropdown(true)} onFocus={() => setOpenDropdown(true)}>
                         PRODUCT 
                         <img src={white_arrow} alt=""/>
                     </button>
@@ -58,13 +58,13 @@ const Nav = () => {
                         <li role="none"><a role="menuitem" href="https://www.getstark.co/brave">Stark for Brave</a></li>
                     </ul>
                 </li>
-                <li role="none"><a role="menuitem" href="https://www.getstark.co/pricing/" onFocus={() => setOpenDropdown(false)}>PRICING</a></li>
-                <li role="none"><a role="menuitem" href="https://www.getstark.co/blog/">BLOG</a></li>
-                <li role="none"><a role="menuitem" href="https://www.getstark.co/library/">LIBRARY</a></li>
-                <li role="none"><a role="menuitem" href="https://www.getstark.co/support/">SUPPORT</a></li>
-                <li role="none"><a role="menuitem" href="https://account.getstark.co/sign-in">LOG IN</a></li>
+                <li role="none"><a role="menuitem" href="https://www.getstark.co/pricing/" onFocus={() => setOpenDropdown(false)} className="uppercase">Pricing</a></li>
+                <li role="none"><a role="menuitem" href="https://www.getstark.co/blog/" className="uppercase">Blog</a></li>
+                <li role="none"><a role="menuitem" href="https://www.getstark.co/library/" className="uppercase">Library</a></li>
+                <li role="none"><a role="menuitem" href="https://www.getstark.co/support/" className="uppercase">Support</a></li>
+                <li role="none"><a role="menuitem" href="https://account.getstark.co/sign-in" className="uppercase">Log in</a></li>
             </ul>
-            <a href="https://www.getstark.co/pricing?team/" className="nav-link nav-link--sign-up">30-DAY FREE TEAM TRIAL</a>
+            <a href="https://www.getstark.co/pricing?team/" className="nav-link nav-link--sign-up uppercase">30-Day Free Team Trial</a>
         </nav>
         <button onClick={() => setOpenMenu(!openMenu)} aria-label={!openMenu ? "Open menu" : "Close menu"} aria-expanded={!openMenu ? "false" : "true"} aria-haspopup="true">
             <div className={`hamburger ${openMenu ? "open" : ""}`}></div>
