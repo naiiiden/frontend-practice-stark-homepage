@@ -8,6 +8,7 @@ import CallToAction from "./components/CallToAction";
 import Testimonials from "./components/Testimonials";
 import GetStarted from "./components/GetStarted";
 import Features2 from "./components/Features2";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <GetStarted/>
         <Features2/>
       </main>
+      <Footer/>
     </div>
   )
 }
