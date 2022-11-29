@@ -65,6 +65,11 @@ img {
     height: auto;
 }
 
+.uppercase {
+    text-transform: uppercase !important;
+    // https://medium.com/@mandy.michael/why-you-shouldnt-write-your-content-in-uppercase-instead-use-css-b03ac2c65b99
+}
+
 @import "./components/keyframes";
 @import "./components/header";
 @import "./components/video";

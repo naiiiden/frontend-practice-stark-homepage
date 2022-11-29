@@ -54,6 +54,10 @@ img {
   height: auto;
 }
 
+.uppercase {
+  text-transform: uppercase !important;
+}
+
 @-webkit-keyframes rotate {
   100% {
     transform: rotate(1turn);
