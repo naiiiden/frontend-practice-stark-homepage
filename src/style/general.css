@@ -1414,6 +1414,9 @@ footer nav .nav-ul li a {
   color: #fff;
   text-decoration: none;
 }
+footer nav .nav-ul li a:hover {
+  text-decoration: underline;
+}
 footer .socials-copyright-wrapper {
   display: flex;
   flex-wrap: wrap;
