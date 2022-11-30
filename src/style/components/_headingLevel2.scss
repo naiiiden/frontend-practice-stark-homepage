@@ -24,6 +24,16 @@
     }
 }
 
+footer {
+    .h2-svg-container {
+        h2 {
+            color: #fff;
+            text-align: start;
+            max-width: 772px;
+        }
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .video-section, .testimonial-section, .get-started-section, .features2-section {
         h2 {
@@ -84,6 +94,14 @@
                     height: 77px;
                     transform: translate(115px, -28px);
                 }
+            }
+        }
+    }
+
+    footer {
+        .h2-svg-container {
+            h2 {
+                font-size: 3.5rem;
             }
         }
     }

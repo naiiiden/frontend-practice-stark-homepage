@@ -216,6 +216,7 @@
                 position: unset; visibility: unset; transform: unset; width: unset; height: unset; top: unset; left: unset; overflow: unset; flex-direction: row; background: unset;
                 flex-grow: 1;
                 justify-content: space-around;
+                transition: unset;
 
                 &.nav-ul li {
                     border-bottom: unset;
