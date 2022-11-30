@@ -21,49 +21,49 @@ const Footer = () => {
                 <nav aria-label="Footer">
                     <ul className="nav-ul">
                         <li><h3 className="uppercase">Product</h3></li>
-                        <li><a href="">Stark for Mac</a></li>
-                        <li><a href="">Stark for Figma</a></li>
-                        <li><a href="">Stark for Sketch</a></li>
-                        <li><a href="">Stark for Adobe XD</a></li>
-                        <li><a href="">Stark for Chrome</a></li>
-                        <li><a href="">Stark for Edge</a></li>
-                        <li><a href="">Stark for Safari</a></li>
-                        <li><a href="">Stark for Arc</a></li>
-                        <li><a href="">Stark for Brave</a></li>
+                        <li><a href="https://apps.apple.com/us/app/stark-your-accessibility-hub/id1624920264">Stark for Mac</a></li>
+                        <li><a href="https://www.figma.com/community/plugin/732603254453395948">Stark for Figma</a></li>
+                        <li><a href="https://www.getstark.co/sketch/download/">Stark for Sketch</a></li>
+                        <li><a href="https://xd.adobelanding.com/en/xd-plugin-download/?name=6cbf275e">Stark for Adobe XD</a></li>
+                        <li><a href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm">Stark for Chrome</a></li>
+                        <li><a href="https://microsoftedge.microsoft.com/addons/detail/stark/idpodoagbkllmpdjdepbmlefgiblmnhl">Stark for Edge</a></li>
+                        <li><a href="https://apps.apple.com/us/app/stark-for-safari/id6444031666">Stark for Safari</a></li>
+                        <li><a href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm">Stark for Arc</a></li>
+                        <li><a href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm">Stark for Brave</a></li>
                     </ul>
                     <ul className="nav-ul">
                         <li><h3 className="uppercase">Resources</h3></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Library</a></li>
-                        <li><a href="">Release Notes</a></li>
+                        <li><a href="https://www.getstark.co/blog/">Blog</a></li>
+                        <li><a href="https://www.getstark.co/library/">Library</a></li>
+                        <li><a href="https://www.getstark.co/release-notes/">Release Notes</a></li>
                     </ul>
                     <ul className="nav-ul">
                         <li><h3 className="uppercase">Help</h3></li>
-                        <li><a href="">My Account</a></li>
-                        <li><a href="">Support Docs</a></li>
-                        <li><a href="">Contact Us</a></li>
-                        <li><a href="">Feature Requests</a></li>
+                        <li><a href="https://account.getstark.co/">My Account</a></li>
+                        <li><a href="https://www.getstark.co/support/">Support Docs</a></li>
+                        <li><a href="https://www.getstark.co/support/contact-us/">Contact Us</a></li>
+                        <li><a href="https://feedback.getstark.co/">Feature Requests</a></li>
                     </ul>
                     <ul className="nav-ul">
                         <li><h3 className="uppercase">Company</h3></li>
-                        <li><a href="">Press Releases</a></li>
-                        <li><a href="">Privacy Policy</a></li>
-                        <li><a href="">Cookie Policy</a></li>
-                        <li><a href="">Security Overview</a></li>
-                        <li><a href="">Status</a></li>
-                        <li><a href="">Terms of Service</a></li>
-                        <li><a href="">Code of Conduct</a></li>
+                        <li><a href="https://www.getstark.co/press-releases/">Press Releases</a></li>
+                        <li><a href="https://www.getstark.co/privacy/">Privacy Policy</a></li>
+                        <li><a href="https://www.getstark.co/cookies/">Cookie Policy</a></li>
+                        <li><a href="https://www.getstark.co/security/">Security Overview</a></li>
+                        <li><a href="https://status.getstark.co/">Status</a></li>
+                        <li><a href="https://www.getstark.co/tos/">Terms of Service</a></li>
+                        <li><a href="https://github.com/stark-contrast/code-of-conduct">Code of Conduct</a></li>
                     </ul>
                 </nav>
                 <div className="socials-copyright-wrapper">
                     <nav aria-label="Socials">
                         <ul className="socials">
-                            <li><a href=""><img src={twitter} alt=""/></a></li>
-                            <li><a href=""><img src={instagram} alt=""/></a></li>
-                            <li><a href=""><img src={slack} alt=""/></a></li>
-                            <li><a href=""><img src={youtube} alt=""/></a></li>
-                            <li><a href=""><img src={dribbble} alt=""/></a></li>
-                            <li><a href=""><img src={meetup} alt=""/></a></li>
+                            <li><a href="https://twitter.com/getstarkco"><img src={twitter} alt=""/></a></li>
+                            <li><a href="https://www.instagram.com/getstarkco/"><img src={instagram} alt=""/></a></li>
+                            <li><a href="https://www.getstark.co/slack/"><img src={slack} alt=""/></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCnhYIgXU1GsrLnLv-NFqVNw/featured"><img src={youtube} alt=""/></a></li>
+                            <li><a href="https://dribbble.com/getstarkco"><img src={dribbble} alt=""/></a></li>
+                            <li><a href="https://www.meetup.com/getstarkco/"><img src={meetup} alt=""/></a></li>
                         </ul>
                     </nav>
                     <p className="uppercase">Stark Lab, Inc. Copyright 2022</p>
