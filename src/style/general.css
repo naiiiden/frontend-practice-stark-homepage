@@ -1378,6 +1378,10 @@ footer {
   background: #10284b;
   padding: 5rem 1rem;
 }
+footer .footer-inner-wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
 footer .h2-svg-container h2 {
   color: #fff;
   text-align: start;
