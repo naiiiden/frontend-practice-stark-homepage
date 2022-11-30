@@ -46,4 +46,30 @@ footer {
             }
         }
     }
+
+    .socials-copyright-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 2rem 1rem;
+
+        nav {
+            margin: unset;
+        }
+
+        .socials {
+            list-style-type: none;
+            display: flex;
+            gap: .75rem;
+
+            img {
+                width: 30px;
+            }
+        }
+
+        p {
+            color: $yellow;
+            letter-spacing: .08rem;
+        }
+    }
 }
