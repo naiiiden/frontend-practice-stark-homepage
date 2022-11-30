@@ -58,12 +58,12 @@ const Footer = () => {
                 <div className="socials-copyright-wrapper">
                     <nav aria-label="Socials">
                         <ul className="socials">
-                            <li><a href="https://twitter.com/getstarkco"><img src={twitter} alt=""/></a></li>
-                            <li><a href="https://www.instagram.com/getstarkco/"><img src={instagram} alt=""/></a></li>
-                            <li><a href="https://www.getstark.co/slack/"><img src={slack} alt=""/></a></li>
-                            <li><a href="https://www.youtube.com/channel/UCnhYIgXU1GsrLnLv-NFqVNw/featured"><img src={youtube} alt=""/></a></li>
-                            <li><a href="https://dribbble.com/getstarkco"><img src={dribbble} alt=""/></a></li>
-                            <li><a href="https://www.meetup.com/getstarkco/"><img src={meetup} alt=""/></a></li>
+                            <li><a href="https://twitter.com/getstarkco"><img src={twitter} alt="Stark's Twitter profile"/></a></li>
+                            <li><a href="https://www.instagram.com/getstarkco/"><img src={instagram} alt="Stark's Instagram profile"/></a></li>
+                            <li><a href="https://www.getstark.co/slack/"><img src={slack} alt="Stark's Slack channel"/></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCnhYIgXU1GsrLnLv-NFqVNw/featured"><img src={youtube} alt="Stark's Youtube channel"/></a></li>
+                            <li><a href="https://dribbble.com/getstarkco"><img src={dribbble} alt="Stark's Dribbble profile"/></a></li>
+                            <li><a href="https://www.meetup.com/getstarkco/"><img src={meetup} alt="Stark's Meetup"/></a></li>
                         </ul>
                     </nav>
                     <p className="uppercase">Stark Lab, Inc. Copyright 2022</p>
