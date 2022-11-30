@@ -1374,6 +1374,11 @@ header {
     max-width: 307px;
   }
 }
+footer {
+  background: #10284b;
+  padding: 5rem 1rem;
+}
+
 /* reusable */
 .purple-link {
   display: inline-flex;
