@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
             <nav aria-label="Footer">
                 <ul className="nav-ul">
-                    <li><h3>PRODUCT</h3></li>
+                    <li><h3 className="uppercase">Product</h3></li>
                     <li><a href="">Stark for Mac</a></li>
                     <li><a href="">Stark for Figma</a></li>
                     <li><a href="">Stark for Sketch</a></li>
@@ -31,20 +31,20 @@ const Footer = () => {
                     <li><a href="">Stark for Brave</a></li>
                 </ul>
                 <ul className="nav-ul">
-                    <li><h3>RESOURCES</h3></li>
+                    <li><h3 className="uppercase">Resources</h3></li>
                     <li><a href="">Blog</a></li>
                     <li><a href="">Library</a></li>
                     <li><a href="">Release Notes</a></li>
                 </ul>
                 <ul className="nav-ul">
-                    <li><h3>HELP</h3></li>
+                    <li><h3 className="uppercase">Help</h3></li>
                     <li><a href="">My Account</a></li>
                     <li><a href="">Support Docs</a></li>
                     <li><a href="">Contact Us</a></li>
                     <li><a href="">Feature Requests</a></li>
                 </ul>
                 <ul className="nav-ul">
-                    <li><h3>COMPANY</h3></li>
+                    <li><h3 className="uppercase">Company</h3></li>
                     <li><a href="">Press Releases</a></li>
                     <li><a href="">Privacy Policy</a></li>
                     <li><a href="">Cookie Policy</a></li>
@@ -65,7 +65,7 @@ const Footer = () => {
                         <li><img src={meetup} alt="" /></li>
                     </ul>
                 </nav>
-                <p>STARK LAB, INC. COPYRIGHT 2022</p>
+                <p className="uppercase">Stark Lab, Inc. Copyright 2022</p>
             </div>
         </footer>
     )
