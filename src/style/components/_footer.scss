@@ -1,6 +1,7 @@
 footer {
     background: $dark-blue;
     padding: 5rem 1rem;
+    margin-top: 6rem;
 
     .footer-inner-wrapper {
         max-width: 1200px;
@@ -93,6 +94,16 @@ footer {
         p {
             color: $yellow;
             letter-spacing: .08rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    footer {
+        .h2-svg-container {
+            h2 {
+                font-size: 3.5rem;
+            }
         }
     }
 }

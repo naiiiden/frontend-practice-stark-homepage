@@ -1377,6 +1377,7 @@ header {
 footer {
   background: #10284b;
   padding: 5rem 1rem;
+  margin-top: 6rem;
 }
 footer .footer-inner-wrapper {
   max-width: 1200px;
@@ -1454,6 +1455,11 @@ footer .socials-copyright-wrapper p {
   letter-spacing: 0.08rem;
 }
 
+@media screen and (min-width: 1024px) {
+  footer .h2-svg-container h2 {
+    font-size: 3.5rem;
+  }
+}
 /* reusable */
 .purple-link {
   display: inline-flex;
