@@ -58,12 +58,12 @@ const Footer = () => {
                 <div className="socials-copyright-wrapper">
                     <nav aria-label="Socials">
                         <ul className="socials">
-                            <li><img src={twitter} alt="" /></li>
-                            <li><img src={instagram} alt="" /></li>
-                            <li><img src={slack} alt="" /></li>
-                            <li><img src={youtube} alt="" /></li>
-                            <li><img src={dribbble} alt="" /></li>
-                            <li><img src={meetup} alt="" /></li>
+                            <li><a href=""><img src={twitter} alt=""/></a></li>
+                            <li><a href=""><img src={instagram} alt=""/></a></li>
+                            <li><a href=""><img src={slack} alt=""/></a></li>
+                            <li><a href=""><img src={youtube} alt=""/></a></li>
+                            <li><a href=""><img src={dribbble} alt=""/></a></li>
+                            <li><a href=""><img src={meetup} alt=""/></a></li>
                         </ul>
                     </nav>
                     <p className="uppercase">Stark Lab, Inc. Copyright 2022</p>
