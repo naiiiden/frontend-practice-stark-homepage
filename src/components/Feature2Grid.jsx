@@ -1,21 +1,21 @@
 // grid images
-import contrast from "../assets/images_homepage/homepage-grid-contrast.png";
-import focus_order from "../assets/images_homepage/homepage-grid-focus-order.png";
-import landmarks from "../assets/images_homepage/homepage-grid-landmarks.png";
-import vision_simulator from "../assets/images_homepage/homepage-grid-vision-simulator.webp";
-import touch_target from "../assets/images_homepage/homepage-grid-touchtarget.png";
-import works from "../assets/images_homepage/homepage-grid-designbrowser.webp";
+import contrast from "../assets/images_features_grid/homepage-grid-contrast.png";
+import focus_order from "../assets/images_features_grid/homepage-grid-focus-order.png";
+import landmarks from "../assets/images_features_grid/homepage-grid-landmarks.png";
+import vision_simulator from "../assets/images_features_grid/homepage-grid-vision-simulator.webp";
+import touch_target from "../assets/images_features_grid/homepage-grid-touchtarget.png";
+import works from "../assets/images_features_grid/homepage-grid-designbrowser.webp";
 import logo from "../assets/svg/logo-big.svg";
-import education from "../assets/images_homepage/homepage-grid-education.png";
-import alt_text from "../assets/images_homepage/homepage-grid-alttext.png";
-import live_preview from "../assets/images_homepage/homepage-grid-livepreview.webp";
-import typography from "../assets/images_homepage/homepage-grid-typography.png";
-import sso from "../assets/images_homepage/homepage-grid-sso.png";
-import fast from "../assets/images_homepage/homepage-grid-fast.webp";
+import education from "../assets/images_features_grid/homepage-grid-education.png";
+import alt_text from "../assets/images_features_grid/homepage-grid-alttext.png";
+import live_preview from "../assets/images_features_grid/homepage-grid-livepreview.webp";
+import typography from "../assets/images_features_grid/homepage-grid-typography.png";
+import sso from "../assets/images_features_grid/homepage-grid-sso.png";
+import fast from "../assets/images_features_grid/homepage-grid-fast.webp";
 
 // bg images
-import blob1 from "../assets/images_homepage/homepage-blob-1.png";
-import blob2 from "../assets/images_homepage/homepage-blob-2.png";
+import blob1 from "../assets/images_features_grid/homepage-blob-1.png";
+import blob2 from "../assets/images_features_grid/homepage-blob-2.png";
 
 const Feature2Grid = ({}) => {
     return (

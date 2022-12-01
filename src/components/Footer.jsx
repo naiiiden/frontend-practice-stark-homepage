@@ -2,7 +2,7 @@
 import HeadingLevel2 from "./HeadingLevel2";
 
 // images
-import logo from "../assets/svg/logo-footer.svg";
+import logo from "../assets/images_footer/logo-footer.svg";
 import twitter from "../assets/images_footer/footer__twitter.png";
 import instagram from "../assets/images_footer/footer__instagram.png";
 import slack from "../assets/images_footer/footer__slack.png";

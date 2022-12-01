@@ -1,12 +1,12 @@
-import mac from "../assets/images_homepage/homepage-mac.png";
-import figma from "../assets/images_homepage/homepage-figma.png";
-import sketch from "../assets/images_homepage/homepage-sketch.png";
-import xd from "../assets/images_homepage/homepage-xd.png";
-import chrome from "../assets/images_homepage/homepage-chrome.png";
-import edge from "../assets/images_homepage/homepage-edge.png";
-import safari from "../assets/images_homepage/homepage-safari.png";
-import arc from "../assets/images_homepage/homepage-arc.png";
-import brave from "../assets/images_homepage/homepage-brave.png";
+import mac from "../assets/images_download/homepage-mac.png";
+import figma from "../assets/images_download/homepage-figma.png";
+import sketch from "../assets/images_download/homepage-sketch.png";
+import xd from "../assets/images_download/homepage-xd.png";
+import chrome from "../assets/images_download/homepage-chrome.png";
+import edge from "../assets/images_download/homepage-edge.png";
+import safari from "../assets/images_download/homepage-safari.png";
+import arc from "../assets/images_download/homepage-arc.png";
+import brave from "../assets/images_download/homepage-brave.png";
 
 const Download = () => {
     return (
