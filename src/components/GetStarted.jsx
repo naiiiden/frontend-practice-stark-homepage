@@ -1,4 +1,4 @@
-import green_bg from "../assets/svg/green-bg.svg";
+import green_bg from "../assets/images_heading2/green-bg.svg";
 import HeadingLevel2 from "./HeadingLevel2";
 import Step from "./Step";
 

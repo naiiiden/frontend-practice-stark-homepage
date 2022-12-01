@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import stark_logo from "../assets/svg/logo.svg";
-import white_arrow from "../assets/svg/white-arrow.svg";
-import new_svg from "../assets/svg/new.svg";
+import stark_logo from "../assets/images_nav/logo.svg";
+import white_arrow from "../assets/images_nav/white-arrow.svg";
+import new_svg from "../assets/images_nav/new.svg";
 
 const Nav = () => {
     const [openMenu, setOpenMenu] = useState(false);

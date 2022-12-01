@@ -1,5 +1,5 @@
 import Feature from "./Feature";
-import dec from "../assets/svg/purple-arrow.svg";
+import dec from "../assets/images_features/purple-arrow.svg";
 import homepage_feature1 from "../assets/images_features/homepage__feature-1.webp";
 import homepage_feature2A from "../assets/images_features/homepage__feature-2a.png";
 import homepage_feature2B from "../assets/images_features/homepage__feature-2b.png";

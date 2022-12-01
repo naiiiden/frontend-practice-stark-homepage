@@ -5,7 +5,7 @@ import landmarks from "../assets/images_features_grid/homepage-grid-landmarks.pn
 import vision_simulator from "../assets/images_features_grid/homepage-grid-vision-simulator.webp";
 import touch_target from "../assets/images_features_grid/homepage-grid-touchtarget.png";
 import works from "../assets/images_features_grid/homepage-grid-designbrowser.webp";
-import logo from "../assets/svg/logo-big.svg";
+import logo from "../assets/images_features_grid/logo-big.svg";
 import education from "../assets/images_features_grid/homepage-grid-education.png";
 import alt_text from "../assets/images_features_grid/homepage-grid-alttext.png";
 import live_preview from "../assets/images_features_grid/homepage-grid-livepreview.webp";

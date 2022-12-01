@@ -1,5 +1,5 @@
-import homepage_feature5 from "../assets/images_homepage/homepage__feature-5.webp";
-import homepage_feature5_arrow from "../assets/svg/homepage__feature-5-arrow.svg";
+import homepage_feature5 from "../assets/images_cta/homepage__feature-5.webp";
+import homepage_feature5_arrow from "../assets/images_cta/homepage__feature-5-arrow.svg";
 import PurpleLink from "./PurpleLink";
 
 const CallToAction = () => {

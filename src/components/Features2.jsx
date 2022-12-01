@@ -1,5 +1,5 @@
-import red_bg from "../assets/svg/red-bg.svg";
-import sparkle from "../assets/svg/sparkle.svg";
+import red_bg from "../assets/images_heading2/red-bg.svg";
+import sparkle from "../assets/images_heading2/sparkle.svg";
 import Feature2Grid from "./Feature2Grid";
 import HeadingLevel2 from "./HeadingLevel2";
 

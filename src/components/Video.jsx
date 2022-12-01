@@ -1,6 +1,6 @@
-import yellow_bg from "../assets/svg/yellow-bg.svg";
-import play from "../assets/svg/play.svg";
-import video_placeholder from "../assets/images_homepage/video-still.webp";
+import yellow_bg from "../assets/images_heading2/yellow-bg.svg";
+import play from "../assets/images_video/play.svg";
+import video_placeholder from "../assets/images_video/video-still.webp";
 import { useState } from "react";
 import HeadingLevel2 from "./HeadingLevel2";
 
