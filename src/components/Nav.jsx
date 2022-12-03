@@ -30,7 +30,7 @@ const Nav = () => {
                     <span className="uppercase">Product</span>
                     :
                     <button className="dropdown-button uppercase" role="menuitem" aria-haspopup="true" href="#product" aria-expanded={openDropdown ? "true" : "false"} onMouseEnter={() => setOpenDropdown(true)} onFocus={() => setOpenDropdown(true)}>
-                        PRODUCT 
+                        Product 
                         <img src={white_arrow} alt=""/>
                     </button>
                     }
