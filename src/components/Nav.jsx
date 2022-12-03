@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import stark_logo from "../assets/images_nav/logo.svg";
+import stark_logo from "../assets/images_nav/logo-purple.svg";
 import white_arrow from "../assets/images_nav/white-arrow.svg";
 import new_svg from "../assets/images_nav/new.svg";
 
