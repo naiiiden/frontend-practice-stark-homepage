@@ -227,6 +227,7 @@ img {
     flex-wrap: wrap;
   }
   .nav-menu-container nav .nav-ul {
+    border-top: 1px solid #e5e5e6;
     display: flex;
     flex-direction: column;
     background: #f6f6eb;
@@ -318,6 +319,7 @@ img {
     height: 100%;
     position: unset;
     visibility: unset;
+    border-top: unset;
     transform: unset;
     width: unset;
     height: unset;
