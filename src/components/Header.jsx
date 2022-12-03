@@ -29,8 +29,8 @@ const Header = () => {
                         <p className="description" id="description">Tired of manually checking spreadsheets, messy handovers, and expensive retrofitting? Stark connects the tools you and your team already use in a streamlined end-to-end accessibility workflow you actually love.</p>
                         <div className="links-arrow-container">
                             <div className="links-wrapper">
-                                <a href="" className="free">Create a free account</a>
-                                <a href="" className="learn" aria-describedby="description">Learn more</a>
+                                <a href="https://account.getstark.co/sign-in" className="free">Create a free account</a>
+                                <a href="#learn-more" className="learn" aria-describedby="description">Learn more</a>
                             </div>
                             {!isDesktop && <img src={yellow_arrow} alt="" className="yellow-arrow"/>}
                         </div>

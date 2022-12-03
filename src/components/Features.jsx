@@ -60,7 +60,7 @@ const Features = () => {
     }, []);
 
     return (
-        <div>
+        <div id="learn-more">
             <Feature 
                 idImgContainer="feature1"
                 idImg1="feature1img1"
