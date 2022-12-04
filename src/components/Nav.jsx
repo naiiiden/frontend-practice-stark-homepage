@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import stark_logo from "../assets/images_nav/logo.svg";
 import white_arrow from "../assets/images_nav/white-arrow.svg";
 import new_svg from "../assets/images_nav/new.svg";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
     const [openMenu, setOpenMenu] = useState(false);
@@ -21,9 +22,9 @@ const Nav = () => {
     return (
         <div className="nav-menu-container">
         <nav className="nav-logo-container" aria-label="Header">
-            <a href="/" aria-current="page" className="logo-link" onFocus={() => setOpenDropdown(false)}>
+            <Link to="/" aria-current="page" className="logo-link" onFocus={() => setOpenDropdown(false)}>
                 <img src={stark_logo} alt="Go to homepage" className="logo"/>
-            </a>
+            </Link>
             <ul role="menubar" className={`nav-ul ${!openMenu ? "" : "show"}`}>
                 <li role="none">
                     {isDesktop ? 
@@ -36,29 +37,29 @@ const Nav = () => {
                     }
                     <ul role="menu" autoFocus className={`nav-product-submenu ${openDropdown ? "show" : ""}`} aria-label="product" onMouseLeave={() => setOpenDropdown(false)}>
                         {isDesktop ?
-                        <li role="none"><a role="menuitem" href="https://www.getstark.co/mac">Stark for Mac</a></li>
+                        <li role="none"><Link to="/mac" role="menuitem">Stark for Mac</Link></li>
                         :
-                        <li role="none"><a role="menuitem" href="https://www.getstark.co/mac">Stark for Mac <img src={new_svg} alt=""/></a></li>
+                        <li role="none"><Link to="/mac" role="menuitem">Stark for Mac <img src={new_svg} alt=""/></Link></li>
                         }
-                        <li role="none"><a role="menuitem" href="https://www.getstark.co/figma">Stark For Figma</a></li>
-                        <li role="none"><a role="menuitem" href="https://www.getstark.co/sketch">Stark for Sketch</a></li>
-                        <li role="none"><a role="menuitem" href="https://www.getstark.co/adobe-xd">Stark for Adobe XD</a></li>
-                        <li role="none"><a role="menuitem" href="https://www.getstark.co/chrome">Stark for Chrome</a></li>
-                        <li role="none"><a role="menuitem" href="https://www.getstark.co/edge">Stark for Edge</a></li>
+                        <li role="none"><Link to="/figma" role="menuitem">Stark For Figma</Link></li>
+                        <li role="none"><Link to="/sketch" role="menuitem">Stark for Sketch</Link></li>
+                        <li role="none"><Link to="/adobe-xd" role="menuitem">Stark for Adobe XD</Link></li>
+                        <li role="none"><Link to="/chrome" role="menuitem">Stark for Chrome</Link></li>
+                        <li role="none"><Link to="/edge" role="menuitem">Stark for Edge</Link></li>
                         {isDesktop ?
-                        <li role="none"><a role="menuitem" href="https://www.getstark.co/safari">Stark for Safari</a></li>
+                        <li role="none"><Link to="/safari" role="menuitem">Stark for Safari</Link></li>
                         :
-                        <li role="none"><a role="menuitem" href="https://www.getstark.co/safari">Stark for Safari <img src={new_svg} alt=""/></a></li>
+                        <li role="none"><Link to="/safari" role="menuitem">Stark for Safari <img src={new_svg} alt=""/></Link></li>
                         }
                         {isDesktop ? 
-                        <li role="none"><a role="menuitem" href="https://www.getstark.co/safari">Stark for Arc</a></li>
+                        <li role="none"><Link to="/arc" role="menuitem">Stark for Arc</Link></li>
                         :
-                        <li role="none"><a role="menuitem" href="https://www.getstark.co/arc">Stark for Arc <img src={new_svg} alt=""/></a></li>
+                        <li role="none"><Link to="/arc" role="menuitem">Stark for Arc <img src={new_svg} alt=""/></Link></li>
                         }
-                        <li role="none"><a role="menuitem" href="https://www.getstark.co/brave">Stark for Brave</a></li>
+                        <li role="none"><Link to="/brave" role="menuitem">Stark for Brave</Link></li>
                     </ul>
                 </li>
-                <li role="none"><a role="menuitem" href="https://www.getstark.co/pricing/" onFocus={() => setOpenDropdown(false)} className="uppercase">Pricing</a></li>
+                <li role="none"><Link to="/2" role="menuitem" href="https://www.getstark.co/pricing/" onFocus={() => setOpenDropdown(false)} className="uppercase">Pricing</Link></li>
                 <li role="none"><a role="menuitem" href="https://www.getstark.co/blog/" className="uppercase">Blog</a></li>
                 <li role="none"><a role="menuitem" href="https://www.getstark.co/library/" className="uppercase">Library</a></li>
                 <li role="none"><a role="menuitem" href="https://www.getstark.co/support/" className="uppercase">Support</a></li>

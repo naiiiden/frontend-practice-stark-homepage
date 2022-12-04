@@ -7,7 +7,7 @@ import homepage_focusorder_bubble from "../assets/images_header/homepage__focuso
 import homepage_alttext_bubble from "../assets/images_header/homepage__alttext-bubble.png";
 import { useState, useEffect } from "react";
 
-const Header = ({ test }) => {
+const Header = ({ h1Text }) => {
     const [isDesktop, setIsDesktop] = useState(false);
     
     const updateMedia = () => setIsDesktop(window.innerWidth <= 1023);
@@ -19,12 +19,11 @@ const Header = ({ test }) => {
 
     return (
         <header>
-            <p>{test}</p>
             <div className="centered-horizontally">
                 <div className="text-illustration-wrapper">
                     <div className="text-container">
                         <p className="introduction uppercase">Introducing the all-new stark suite</p>
-                        <h1>Super­charge Access­ibility</h1>
+                        <h1>{h1Text}</h1>
                         <p className="description" id="description">Tired of manually checking spreadsheets, messy handovers, and expensive retrofitting? Stark connects the tools you and your team already use in a streamlined end-to-end accessibility workflow you actually love.</p>
                         <div className="links-arrow-container">
                             <div className="links-wrapper">

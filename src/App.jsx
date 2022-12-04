@@ -20,11 +20,16 @@ const App = () => {
         <Nav/>
         {/* <Header/> */}
         <Routes>
-          <Route path="/" element={<Header test="1"/>}/>
-          <Route path="/2" element={<Header test="2"/>}/>
-          <Route path="/3" element={<Header test="3"/>}/>
-          <Route path="/4" element={<Header test="4"/>}/>
-          <Route path="/5" element={<Header test="5"/>}/>
+          <Route path="/" element={<Header h1Text="Supercharge Accessibility"/>}/>
+          <Route path="/mac" element={<Header h1Text="Introducing Stark for Mac"/>}/>
+          <Route path="/figma" element={<Header h1Text="Stark for Figma"/>}/>
+          <Route path="/sketch" element={<Header h1Text="Stark for Sketch"/>}/>
+          <Route path="/adobe-xd" element={<Header h1Text="Stark for Adobe XD"/>}/>
+          <Route path="/chrome" element={<Header h1Text="Stark for Chrome"/>}/>
+          <Route path="/edge" element={<Header h1Text="Stark for Edge"/>}/>
+          <Route path="/safari" element={<Header h1Text="Stark for Safari"/>}/>
+          <Route path="/arc" element={<Header h1Text="Stark for Arc"/>}/>
+          <Route path="/brave" element={<Header h1Text="Stark for Brave"/>}/>
         </Routes>
       </header>
       <Routes>
