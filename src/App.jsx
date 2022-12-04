@@ -1,4 +1,5 @@
 import "./style/general.css";
+import Nav from "./components/Nav";
 import Header from "./components/Header";
 import Video from "./components/Video";
 import Customers from "./components/Customers";
@@ -10,10 +11,18 @@ import GetStarted from "./components/GetStarted";
 import Features2 from "./components/Features2";
 import Footer from "./components/Footer";
 
+import { Routes, Route, Link } from "react-router-dom";
+
 const App = () => {
   return (
     <div>
-      <Header/>
+      <header>
+        <Nav/>
+        <Header/>
+      </header>
+      {/* <Routes>
+        <Route path="/" element={<Video/>}/>
+      </Routes> */}
       <main>
         <Video/>
         <Customers/>

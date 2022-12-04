@@ -1,4 +1,3 @@
-import Nav from "./Nav";
 import yellow_arrow from "../assets/images_header/yellow-arrow.svg";
 import homepage_header from "../assets/images_header/homepage__header.webp";
 import homepage_avatar_circle from "../assets/images_header/homepage__avatar-circle.png";
@@ -20,7 +19,6 @@ const Header = () => {
 
     return (
         <header>
-            <Nav/>
             <div className="centered-horizontally">
                 <div className="text-illustration-wrapper">
                     <div className="text-container">
