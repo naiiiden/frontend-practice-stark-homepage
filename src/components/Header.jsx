@@ -1,5 +1,4 @@
 import yellow_arrow from "../assets/images_header/yellow-arrow.svg";
-import homepage_header from "../assets/images_header/homepage__header.webp";
 import homepage_avatar_circle from "../assets/images_header/homepage__avatar-circle.png";
 import homepage_sparkle from "../assets/images_header/homepage-sparkle.png";
 import homepage_contrast_bubble from "../assets/images_header/homepage__contrast-bubble.png";
@@ -7,7 +6,7 @@ import homepage_focusorder_bubble from "../assets/images_header/homepage__focuso
 import homepage_alttext_bubble from "../assets/images_header/homepage__alttext-bubble.png";
 import { useState, useEffect } from "react";
 
-const Header = ({ extraImages, pIntro, h1Text, pText, bgColor, bgURL }) => {
+const Header = ({ extraImages, heroImage, pIntro, h1Text, pText, bgColor, bgURL }) => {
     const [isDesktop, setIsDesktop] = useState(false);
     
     const updateMedia = () => setIsDesktop(window.innerWidth <= 1023);
@@ -35,7 +34,7 @@ const Header = ({ extraImages, pIntro, h1Text, pText, bgColor, bgURL }) => {
                     </div>
                     {!isDesktop && 
                         <div className="header-image-container">
-                            <img src={homepage_header} alt="" className="header-img"/>
+                            <img src={heroImage} alt="" className="header-img"/>
                             {extraImages && 
                             <>
                                 <img src={homepage_avatar_circle} alt="" className="header-avatar-circle"/>
