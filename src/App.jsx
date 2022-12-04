@@ -21,6 +21,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={
             <Header 
+              pIntro="Introducing the all-new stark suite"
               h1Text="Supercharge Accessibility"
               pText="Tired of manually checking spreadsheets, messy handovers, and expensive retrofitting? Stark connects the tools you and your team already use in a streamlined end-to-end accessibility workflow you actually love." 
               bgColor="red" 
@@ -29,6 +30,7 @@ const App = () => {
           }/>
           <Route path="/mac" element={
             <Header 
+              pIntro="Find and fix accessibility issues in seconds"
               h1Text="Introducing Stark for Mac" 
               pText="Whether you’re working on a website, mobile app, SaaS application or anything in between, Stark for Mac helps you find and fix accessibility issues in your existing Figma and Sketch files. With powerful tools, automated checks, and smart suggestions you can supercharge your accessibility workflow at scale and in record time."
               bgColor="pink"
@@ -36,6 +38,7 @@ const App = () => {
           }/>
           <Route path="/figma" element={
             <Header 
+              pIntro="Work with Stark in your favorite design tool"
               h1Text="Stark for Figma" 
               pText="Make every project accessible from the start. Stark for Figma keeps you focused on the parts of a project that need an accessibility audit. Whether you’re a team of 1 or 1,000, you have everything you need to make anything accessible from design to code."
               bgColor="green"
@@ -43,42 +46,49 @@ const App = () => {
           }/>
           <Route path="/sketch" element={
             <Header 
+              pIntro="Work with Stark in your favorite design tool"
               h1Text="Stark for Sketch"
               pText="Make every project accessible from the start. Stark for Sketch keeps you focused on the parts of a project that need an accessibility audit. Whether you’re a team of 1 or 1,000, you have everything you need to make anything accessible from design to code."
             />
           }/>
           <Route path="/adobe-xd" element={
             <Header 
+              pIntro="Work with Stark in your favorite design tool"
               h1Text="Stark for Adobe XD"
               pText="Make every project accessible from the start. Stark for Adobe XD keeps you focused on the parts of a project that need an accessibility audit. Whether you’re a team of 1 or 1,000, you have everything you need to make anything accessible from design to code."
             />
           }/>
           <Route path="/chrome" element={
-            <Header 
+            <Header
+              pIntro="Work with Stark in your favorite browser" 
               h1Text="Stark for Chrome"
               pText="Make every project accessible from the start. Stark for Chrome keeps you focused on the parts of a project that need an accessibility audit. With powerful tools, automated checks, and smart suggestions you can supercharge your accessibility workflow at scale and in record time."
             />
           }/>
           <Route path="/edge" element={
-            <Header 
+            <Header
+              pIntro="Work with Stark in your favorite browser" 
               h1Text="Stark for Edge"
               pText="Make every project accessible from the start. Stark for Edge keeps you focused on the parts of a project that need an accessibility audit. With powerful tools, automated checks, and smart suggestions you can supercharge your accessibility workflow at scale and in record time."
             />
           }/>
           <Route path="/safari" element={
-            <Header 
+            <Header
+              pIntro="Work with Stark in your favorite browser" 
               h1Text="Stark for Safari"
               pText="Make every project accessible from the start. Stark for Safari keeps you focused on the parts of a project that need an accessibility audit. With powerful tools, automated checks, and smart suggestions you can supercharge your accessibility workflow at scale and in record time."
             />
           }/>
           <Route path="/arc" element={
-            <Header 
+            <Header
+              pIntro="Work with Stark in your favorite browser" 
               h1Text="Stark for Arc"
               pText="Make every project accessible from the start. Stark for Arc keeps you focused on the parts of a project that need an accessibility audit. With powerful tools, automated checks, and smart suggestions you can supercharge your accessibility workflow at scale and in record tim"
             />
           }/>
           <Route path="/brave" element={
             <Header 
+              pIntro="Work with Stark in your favorite browser"
               h1Text="Stark for Brave"
               pText="Make every project accessible from the start. Stark for Brave keeps you focused on the parts of a project that need an accessibility audit. With powerful tools, automated checks, and smart suggestions you can supercharge your accessibility workflow at scale and in record time."
             />

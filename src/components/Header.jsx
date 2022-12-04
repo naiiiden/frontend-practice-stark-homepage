@@ -7,7 +7,7 @@ import homepage_focusorder_bubble from "../assets/images_header/homepage__focuso
 import homepage_alttext_bubble from "../assets/images_header/homepage__alttext-bubble.png";
 import { useState, useEffect } from "react";
 
-const Header = ({ h1Text, pText, bgColor, bgURL }) => {
+const Header = ({ pIntro, h1Text, pText, bgColor, bgURL }) => {
     const [isDesktop, setIsDesktop] = useState(false);
     
     const updateMedia = () => setIsDesktop(window.innerWidth <= 1023);
@@ -22,7 +22,7 @@ const Header = ({ h1Text, pText, bgColor, bgURL }) => {
             <div className="centered-horizontally">
                 <div className="text-illustration-wrapper">
                     <div className="text-container">
-                        <p className="introduction uppercase">Introducing the all-new stark suite</p>
+                        <p className="introduction uppercase">{pIntro}</p>
                         <h1>{h1Text}</h1>
                         <p className="description" id="description">{pText}</p>
                         <div className="links-arrow-container">
