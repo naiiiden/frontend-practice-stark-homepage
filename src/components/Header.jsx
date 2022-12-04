@@ -7,7 +7,7 @@ import homepage_focusorder_bubble from "../assets/images_header/homepage__focuso
 import homepage_alttext_bubble from "../assets/images_header/homepage__alttext-bubble.png";
 import { useState, useEffect } from "react";
 
-const Header = ({ h1Text }) => {
+const Header = ({ h1Text, bgColor, bgURL }) => {
     const [isDesktop, setIsDesktop] = useState(false);
     
     const updateMedia = () => setIsDesktop(window.innerWidth <= 1023);
@@ -18,7 +18,7 @@ const Header = ({ h1Text }) => {
     });
 
     return (
-        <header>
+        <div style={{"backgroundColor": `${bgColor}`, "backgroundImage": `${bgURL}`,}}>
             <div className="centered-horizontally">
                 <div className="text-illustration-wrapper">
                     <div className="text-container">
@@ -46,7 +46,7 @@ const Header = ({ h1Text }) => {
                     }
                 </div>
             </div>
-        </header>
+        </div>
     )
 }
 

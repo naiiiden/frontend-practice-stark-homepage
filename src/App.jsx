@@ -18,18 +18,61 @@ const App = () => {
     <div>
       <header>
         <Nav/>
-        {/* <Header/> */}
         <Routes>
-          <Route path="/" element={<Header h1Text="Supercharge Accessibility"/>}/>
-          <Route path="/mac" element={<Header h1Text="Introducing Stark for Mac"/>}/>
-          <Route path="/figma" element={<Header h1Text="Stark for Figma"/>}/>
-          <Route path="/sketch" element={<Header h1Text="Stark for Sketch"/>}/>
-          <Route path="/adobe-xd" element={<Header h1Text="Stark for Adobe XD"/>}/>
-          <Route path="/chrome" element={<Header h1Text="Stark for Chrome"/>}/>
-          <Route path="/edge" element={<Header h1Text="Stark for Edge"/>}/>
-          <Route path="/safari" element={<Header h1Text="Stark for Safari"/>}/>
-          <Route path="/arc" element={<Header h1Text="Stark for Arc"/>}/>
-          <Route path="/brave" element={<Header h1Text="Stark for Brave"/>}/>
+          <Route path="/" element={
+            <Header 
+              h1Text="Supercharge Accessibility" 
+              bgColor="red" 
+              bgURL="none"
+            />
+          }/>
+          <Route path="/mac" element={
+            <Header 
+              h1Text="Introducing Stark for Mac" 
+              bgColor="pink"
+            />
+          }/>
+          <Route path="/figma" element={
+            <Header 
+              h1Text="Stark for Figma" 
+              bgColor="green"
+            />
+          }/>
+          <Route path="/sketch" element={
+            <Header 
+              h1Text="Stark for Sketch"
+            />
+          }/>
+          <Route path="/adobe-xd" element={
+            <Header 
+              h1Text="Stark for Adobe XD"
+            />
+          }/>
+          <Route path="/chrome" element={
+            <Header 
+              h1Text="Stark for Chrome"
+            />
+          }/>
+          <Route path="/edge" element={
+            <Header 
+              h1Text="Stark for Edge"
+            />
+          }/>
+          <Route path="/safari" element={
+            <Header 
+              h1Text="Stark for Safari"
+            />
+          }/>
+          <Route path="/arc" element={
+            <Header 
+              h1Text="Stark for Arc"
+            />
+          }/>
+          <Route path="/brave" element={
+            <Header 
+              h1Text="Stark for Brave"
+            />
+          }/>
         </Routes>
       </header>
       <Routes>
