@@ -524,8 +524,6 @@ header {
     position: relative;
   }
   .text-illustration-wrapper .header-image-container .header-img {
-    min-width: 691px;
-    max-width: 691px;
     position: absolute;
   }
   .text-illustration-wrapper .header-image-container .sparkle {

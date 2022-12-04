@@ -35,6 +35,8 @@ const App = () => {
             <Header 
               extraImages={true}
               heroImage={homepage_header}
+              minWidth="691"
+              maxWidth="691"
               pIntro="Introducing the all-new stark suite"
               h1Text="Supercharge Accessibility"
               pText="Tired of manually checking spreadsheets, messy handovers, and expensive retrofitting? Stark connects the tools you and your team already use in a streamlined end-to-end accessibility workflow you actually love." 
@@ -44,7 +46,11 @@ const App = () => {
           }/>
           <Route path="/mac" element={
             <Header
-              heroImage={mac} 
+              heroImage={mac}
+              minWidth="1085"
+              maxWidth="1085"
+              top="-32"
+              left="-56" 
               pIntro="Find and fix accessibility issues in seconds"
               h1Text="Introducing Stark for Mac" 
               pText="Whether you’re working on a website, mobile app, SaaS application or anything in between, Stark for Mac helps you find and fix accessibility issues in your existing Figma and Sketch files. With powerful tools, automated checks, and smart suggestions you can supercharge your accessibility workflow at scale and in record time."
@@ -53,7 +59,7 @@ const App = () => {
           }/>
           <Route path="/figma" element={
             <Header
-              heroImage={figma} 
+              heroImage={figma}
               pIntro="Work with Stark in your favorite design tool"
               h1Text="Stark for Figma" 
               pText="Make every project accessible from the start. Stark for Figma keeps you focused on the parts of a project that need an accessibility audit. Whether you’re a team of 1 or 1,000, you have everything you need to make anything accessible from design to code."
