@@ -18,11 +18,22 @@ const App = () => {
     <div>
       <header>
         <Nav/>
-        <Header/>
+        {/* <Header/> */}
+        <Routes>
+          <Route path="/" element={<Header test="1"/>}/>
+          <Route path="/2" element={<Header test="2"/>}/>
+          <Route path="/3" element={<Header test="3"/>}/>
+          <Route path="/4" element={<Header test="4"/>}/>
+          <Route path="/5" element={<Header test="5"/>}/>
+        </Routes>
       </header>
-      {/* <Routes>
-        <Route path="/" element={<Video/>}/>
-      </Routes> */}
+      <Routes>
+        <Route path="/" element={<p>1</p>}/>
+        <Route path="/2" element={<p>2</p>}/>
+        <Route path="/3" element={<p>3</p>}/>
+        <Route path="/4" element={<p>4</p>}/>
+        <Route path="/5" element={<p>5</p>}/>
+      </Routes>
       <main>
         <Video/>
         <Customers/>
