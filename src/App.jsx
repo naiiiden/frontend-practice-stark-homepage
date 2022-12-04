@@ -21,6 +21,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={
             <Header 
+              extraImages={true}
               pIntro="Introducing the all-new stark suite"
               h1Text="Supercharge Accessibility"
               pText="Tired of manually checking spreadsheets, messy handovers, and expensive retrofitting? Stark connects the tools you and your team already use in a streamlined end-to-end accessibility workflow you actually love." 

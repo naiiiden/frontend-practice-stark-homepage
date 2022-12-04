@@ -7,7 +7,7 @@ import homepage_focusorder_bubble from "../assets/images_header/homepage__focuso
 import homepage_alttext_bubble from "../assets/images_header/homepage__alttext-bubble.png";
 import { useState, useEffect } from "react";
 
-const Header = ({ pIntro, h1Text, pText, bgColor, bgURL }) => {
+const Header = ({ extraImages, pIntro, h1Text, pText, bgColor, bgURL }) => {
     const [isDesktop, setIsDesktop] = useState(false);
     
     const updateMedia = () => setIsDesktop(window.innerWidth <= 1023);
@@ -36,12 +36,16 @@ const Header = ({ pIntro, h1Text, pText, bgColor, bgURL }) => {
                     {!isDesktop && 
                         <div className="header-image-container">
                             <img src={homepage_header} alt="" className="header-img"/>
-                            <img src={homepage_avatar_circle} alt="" className="header-avatar-circle"/>
-                            <img src={homepage_avatar_circle} alt="" className="header-avatar-circle-2"/>
-                            <img src={homepage_sparkle} alt="" className="sparkle"/>
-                            <img src={homepage_alttext_bubble} alt="" className="alttext"/>
-                            <img src={homepage_contrast_bubble} alt="" className="contrast"/>
-                            <img src={homepage_focusorder_bubble} alt="" className="focusorder"/>
+                            {extraImages && 
+                            <>
+                                <img src={homepage_avatar_circle} alt="" className="header-avatar-circle"/>
+                                <img src={homepage_avatar_circle} alt="" className="header-avatar-circle-2"/>
+                                <img src={homepage_sparkle} alt="" className="sparkle"/>
+                                <img src={homepage_alttext_bubble} alt="" className="alttext"/>
+                                <img src={homepage_contrast_bubble} alt="" className="contrast"/>
+                                <img src={homepage_focusorder_bubble} alt="" className="focusorder"/>
+                            </>
+                            }
                         </div>
                     }
                 </div>
