@@ -1,15 +1,20 @@
 import yellow_arrow from "../assets/images_header/yellow-arrow.svg";
+import purple_arrow from "../assets/images_header/purple-arrow2.svg";
 import homepage_avatar_circle from "../assets/images_header/homepage__avatar-circle.png";
 import homepage_sparkle from "../assets/images_header/homepage-sparkle.png";
 import homepage_contrast_bubble from "../assets/images_header/homepage__contrast-bubble.png";
 import homepage_focusorder_bubble from "../assets/images_header/homepage__focusorder-bubble.png";
 import homepage_alttext_bubble from "../assets/images_header/homepage__alttext-bubble.png";
 import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const Header = ({ extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIntro, h1Text, pText, bgColor, bgURL }) => {
     const [isDesktop, setIsDesktop] = useState(false);
     
     const updateMedia = () => setIsDesktop(window.innerWidth <= 1023);
+
+    const { pathname } = useLocation();
+
     
     useEffect(() => {
         window.addEventListener("resize", updateMedia);
@@ -29,7 +34,7 @@ const Header = ({ extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIn
                                 <a href="https://account.getstark.co/sign-in" className="free">Create a free account</a>
                                 <a href="#learn-more" className="learn" aria-describedby="description">Learn more</a>
                             </div>
-                            {!isDesktop && <img src={yellow_arrow} alt="" className="yellow-arrow"/>}
+                            {!isDesktop && <img src={pathname != "/" ? purple_arrow : yellow_arrow} alt="" className="yellow-arrow"/>}
                         </div>
                     </div>
                     {!isDesktop && 
