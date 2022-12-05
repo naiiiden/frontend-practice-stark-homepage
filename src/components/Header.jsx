@@ -8,7 +8,7 @@ import homepage_alttext_bubble from "../assets/images_header/homepage__alttext-b
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-const Header = ({ extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIntro, h1Text, pText, bgColor, bgURL }) => {
+const Header = ({ extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIntro, h1Text, pText, bgColor, bgURL, arrowTop, arrowLeft }) => {
     const [isDesktop, setIsDesktop] = useState(false);
     
     const updateMedia = () => setIsDesktop(window.innerWidth <= 1023);
@@ -34,7 +34,12 @@ const Header = ({ extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIn
                                 <a href="https://account.getstark.co/sign-in" className="free">Create a free account</a>
                                 <a href="#learn-more" className="learn" aria-describedby="description">Learn more</a>
                             </div>
-                            {!isDesktop && <img src={pathname != "/" ? purple_arrow : yellow_arrow} alt="" className="yellow-arrow"/>}
+                            {!isDesktop && <img src={pathname != "/" ? purple_arrow : yellow_arrow} alt="" className="yellow-arrow" style={{
+                                "top": `${arrowTop ? arrowTop : "16"}px`,
+                                "left": `${arrowLeft ? arrowLeft : "372"}px`,
+                            }}
+                            
+                            />}
                         </div>
                     </div>
                     {!isDesktop && 
