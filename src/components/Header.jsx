@@ -17,7 +17,7 @@ const Header = ({ extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIn
     });
 
     return (
-        <div style={{"backgroundColor": `${bgColor}`, "backgroundImage": `${bgURL}`,}}>
+        <div className="header-hero" style={{"backgroundColor": `${bgColor}`, "backgroundImage": `${bgURL}`,}}>
             <div className="centered-horizontally">
                 <div className="text-illustration-wrapper">
                     <div className="text-container">

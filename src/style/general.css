@@ -403,6 +403,29 @@ header {
   background-repeat: no-repeat;
 }
 
+.header-transparent {
+  background-image: none;
+}
+.header-transparent .introduction {
+  color: #381fd1 !important;
+}
+.header-transparent h1, .header-transparent .description {
+  color: #10284b !important;
+}
+.header-transparent a {
+  background: #381fd1 !important;
+  color: #fff !important;
+}
+.header-transparent a.learn {
+  background: transparent !important;
+  color: #381fd1 !important;
+  border-color: #381fd1 !important;
+}
+.header-transparent a.learn:hover {
+  background: #381fd1 !important;
+  color: #fff !important;
+}
+
 .text-illustration-wrapper {
   padding: 1rem;
 }
