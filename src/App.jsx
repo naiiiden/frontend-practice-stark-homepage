@@ -122,13 +122,6 @@ const App = () => {
           }/>
         </Routes>
       </header>
-      <Routes>
-        <Route path="/" element={<p>1</p>}/>
-        <Route path="/2" element={<p>2</p>}/>
-        <Route path="/3" element={<p>3</p>}/>
-        <Route path="/4" element={<p>4</p>}/>
-        <Route path="/5" element={<p>5</p>}/>
-      </Routes>
       <main>
         <Video/>
         <Customers/>
