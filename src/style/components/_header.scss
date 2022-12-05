@@ -82,6 +82,10 @@ header {
                 border-radius: 6px;
                 border: 2px solid transparent;
 
+                &.mac-download-link {
+                    padding: unset; border: unset; border-radius: unset; background: unset !important;
+                }
+
                 &.free {
                     background: $yellow;
                     color: $dark-blue;
@@ -160,6 +164,15 @@ header {
                     &:focus {
                         outline-color: #06a5ff;
                         outline-offset: 4px;
+                    }
+
+                    &.mac-download-link {
+                        transition: .2s;
+
+                        &:hover {
+                            opacity: .8;
+                            transition: .2s;
+                        }
                     }
 
                     &.free {

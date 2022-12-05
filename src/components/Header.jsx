@@ -5,6 +5,7 @@ import homepage_sparkle from "../assets/images_header/homepage-sparkle.png";
 import homepage_contrast_bubble from "../assets/images_header/homepage__contrast-bubble.png";
 import homepage_focusorder_bubble from "../assets/images_header/homepage__focusorder-bubble.png";
 import homepage_alttext_bubble from "../assets/images_header/homepage__alttext-bubble.png";
+import download_mac from "../assets/images_repeating/download-mac.svg";
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -15,7 +16,6 @@ const Header = ({ extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIn
 
     const { pathname } = useLocation();
 
-    
     useEffect(() => {
         window.addEventListener("resize", updateMedia);
         return () => window.removeEventListener("resize", updateMedia);
@@ -31,7 +31,11 @@ const Header = ({ extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIn
                         <p className="description" id="description">{pText}</p>
                         <div className="links-arrow-container">
                             <div className="links-wrapper">
+                                {pathname == "/mac" ?
+                                <a href="https://apps.apple.com/us/app/stark-your-accessibility-hub/id1624920264" className="mac-download-link"><img src={download_mac} alt="Download on the Mac App Store"/></a>
+                                :
                                 <a href="https://account.getstark.co/sign-in" className="free">Create a free account</a>
+                                }
                                 <a href="#learn-more" className="learn" aria-describedby="description">Learn more</a>
                             </div>
                             {!isDesktop && <img src={pathname != "/" ? purple_arrow : yellow_arrow} alt="" className="yellow-arrow" style={{
