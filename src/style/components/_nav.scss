@@ -4,7 +4,20 @@
     }
 
     a {
-        // color: red !important;
+        color: $purple !important;
+
+        &:hover {
+            border-color: $purple !important;
+        }
+
+        &.nav-link--sign-up {
+            background: $purple !important;
+            color: #fff !important;
+
+            &:hover {
+                background: #7e6de9 !important;
+            }
+        }
     }
 }
 
@@ -287,6 +300,9 @@
 
                         &:hover {
                             background: #f3f2fc;
+                            border-color: transparent !important;
+                            border-radius: 0;
+
                         }
                     }
 
