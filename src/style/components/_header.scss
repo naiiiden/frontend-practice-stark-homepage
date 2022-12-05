@@ -16,18 +16,20 @@ header {
         color: $dark-blue !important;
     }
 
-    a {
-        background: $purple !important;
-        color: #fff !important;
-
-        &.learn {
-            background: transparent !important;
-            color: $purple !important;
-            border-color: $purple !important;
-
-            &:hover {
-                background: $purple !important;
-                color: #fff !important;
+    .links-wrapper {
+        a {
+            background: $purple !important;
+            color: #fff !important;
+    
+            &.learn {
+                background: transparent !important;
+                color: $purple !important;
+                border-color: $purple !important;
+    
+                &:hover {
+                    background: $purple !important;
+                    color: #fff !important;
+                }
             }
         }
     }
