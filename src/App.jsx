@@ -11,7 +11,7 @@ import GetStarted from "./components/GetStarted";
 import Features2 from "./components/Features2";
 import Footer from "./components/Footer";
 
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 
 // hero image
 import homepage_header from "./assets/images_header/homepage__header.webp";
@@ -26,9 +26,11 @@ import arc from "./assets/images_header/arc.webp";
 import brave from "./assets/images_header/brave.webp";
 
 const App = () => {
+  const { pathname } = useLocation();
+
   return (
     <div style={{"overflow": "hidden"}}>
-      <header>
+      <header className={`${pathname != "/" ? "header-transparent" : ""}`}>
         <Nav/>
         <Routes>
           <Route path="/" element={
