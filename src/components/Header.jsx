@@ -6,7 +6,7 @@ import homepage_focusorder_bubble from "../assets/images_header/homepage__focuso
 import homepage_alttext_bubble from "../assets/images_header/homepage__alttext-bubble.png";
 import { useState, useEffect } from "react";
 
-const Header = ({ extraImages, heroImage, minWidth, maxWidth, top, left, pIntro, h1Text, pText, bgColor, bgURL }) => {
+const Header = ({ extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIntro, h1Text, pText, bgColor, bgURL }) => {
     const [isDesktop, setIsDesktop] = useState(false);
     
     const updateMedia = () => setIsDesktop(window.innerWidth <= 1023);
@@ -33,7 +33,9 @@ const Header = ({ extraImages, heroImage, minWidth, maxWidth, top, left, pIntro,
                         </div>
                     </div>
                     {!isDesktop && 
-                        <div className="header-image-container">
+                        <div className="header-image-container" 
+                            style={{"marginBottom": `${mb ? "0px" : `41.75rem`}`}}
+                        >
                             <img src={heroImage} alt="" className="header-img" style={{
                                 "minWidth": `${minWidth ? minWidth : "1000"}px`, 
                                 "maxWidth": `${maxWidth ? maxWidth : "1000"}px`, 
