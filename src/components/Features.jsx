@@ -9,55 +9,60 @@ import homepage_feature4A from "../assets/images_features/homepage__feature-4a.p
 import homepage_feature4B from "../assets/images_features/homepage__feature-4b.png";
 
 import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const Features = () => {
-    useEffect(() => {
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                entry.isIntersecting && entry.target.id === "feature1" ? 
-                document.querySelector("#feature1img1").classList.add("slide-up")
-                : 
-                document.querySelector("#feature1img1").classList.remove("slide-up");
+    const { pathname } = useLocation();
 
-                entry.isIntersecting && entry.target.id === "feature2" ? (
-                    document.querySelector("#feature2img1").classList.add("slide-left"),
-                    document.querySelector("#feature2img2").classList.add("slide-right")
-                )
-                :
-                (
-                    document.querySelector("#feature2img1").classList.remove("slide-left"),
-                    document.querySelector("#feature2img2").classList.remove("slide-right")
-                );
-
-                entry.isIntersecting && entry.target.id === "feature3" ? (
-                    document.querySelector("#feature3img1").classList.add("slide-left"),
-                    document.querySelector("#feature3img2").classList.add("slide-right")
-                )
-                :
-                (
-                    document.querySelector("#feature3img1").classList.remove("slide-left"),
-                    document.querySelector("#feature3img2").classList.remove("slide-right")
-                );
-
-                entry.isIntersecting && entry.target.id === "feature4" ? (
-                    document.querySelector("#feature4img1").classList.add("slide-down1"),
-                    document.querySelector("#feature4img2").classList.add("slide-down2")
-                )
-                :
-                (
-                    document.querySelector("#feature4img1").classList.remove("slide-down1"),
-                    document.querySelector("#feature4img2").classList.remove("slide-down2")
-                )
-            });
-        }, {
-            root: null,
-            threshold: .75,
-        })
-        observer.observe(document.querySelector("#feature1"));
-        observer.observe(document.querySelector("#feature2"));
-        observer.observe(document.querySelector("#feature3"));
-        observer.observe(document.querySelector("#feature4"));
-    }, []);
+    if (pathname == "/") {
+        useEffect(() => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    entry.isIntersecting && entry.target.id === "feature1" ? 
+                    document.querySelector("#feature1img1").classList.add("slide-up")
+                    : 
+                    document.querySelector("#feature1img1").classList.remove("slide-up");
+    
+                    entry.isIntersecting && entry.target.id === "feature2" ? (
+                        document.querySelector("#feature2img1").classList.add("slide-left"),
+                        document.querySelector("#feature2img2").classList.add("slide-right")
+                    )
+                    :
+                    (
+                        document.querySelector("#feature2img1").classList.remove("slide-left"),
+                        document.querySelector("#feature2img2").classList.remove("slide-right")
+                    );
+    
+                    entry.isIntersecting && entry.target.id === "feature3" ? (
+                        document.querySelector("#feature3img1").classList.add("slide-left"),
+                        document.querySelector("#feature3img2").classList.add("slide-right")
+                    )
+                    :
+                    (
+                        document.querySelector("#feature3img1").classList.remove("slide-left"),
+                        document.querySelector("#feature3img2").classList.remove("slide-right")
+                    );
+    
+                    entry.isIntersecting && entry.target.id === "feature4" ? (
+                        document.querySelector("#feature4img1").classList.add("slide-down1"),
+                        document.querySelector("#feature4img2").classList.add("slide-down2")
+                    )
+                    :
+                    (
+                        document.querySelector("#feature4img1").classList.remove("slide-down1"),
+                        document.querySelector("#feature4img2").classList.remove("slide-down2")
+                    )
+                });
+            }, {
+                root: null,
+                threshold: .75,
+            })
+            observer.observe(document.querySelector("#feature1"));
+            observer.observe(document.querySelector("#feature2"));
+            observer.observe(document.querySelector("#feature3"));
+            observer.observe(document.querySelector("#feature4"));
+        }, []);
+    } 
 
     return (
         <div id="learn-more">
