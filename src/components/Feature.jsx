@@ -1,6 +1,8 @@
+import { useLocation } from "react-router-dom";
 import PurpleLink from "./PurpleLink";
 
 const Feature = ({ sectionClass, mt, pShort, dec, h2, desc, href, linkClass, text, imgClass, src1, src2, idImgContainer, idImg1, idImg2, }) => {
+    const { pathname } = useLocation();
 
     return (
         <section className={`feature-section ${sectionClass}`} style={{"marginTop": `${mt}px`}}>
@@ -8,7 +10,7 @@ const Feature = ({ sectionClass, mt, pShort, dec, h2, desc, href, linkClass, tex
                 <div className="text-container">
                     <div className="decoration-container">
                         <p className="uppercase">{pShort}</p>
-                        {dec && <img src={dec} alt=""/>}
+                        {(dec && pathname == "/") && <img src={dec} alt=""/>}
                     </div>
                     <h2>{h2}</h2>
                     <p>{desc}</p>
