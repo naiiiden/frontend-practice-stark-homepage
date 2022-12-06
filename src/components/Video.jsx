@@ -3,12 +3,17 @@ import play from "../assets/images_video/play.svg";
 import video_placeholder from "../assets/images_video/video-still.webp";
 import { useState } from "react";
 import HeadingLevel2 from "./HeadingLevel2";
+import { useLocation } from "react-router-dom";
 
 const Video = () => {
     const [playVideo, setPlayVideo] = useState(false);
+    const { pathname } = useLocation();
+
 
     return (
-        <section className="video-section">
+        <section className="video-section" style={{
+            "paddingTop" : `${pathname != "/" && pathname != "/mac" ? "0px" : "120px"}`
+        }}>
             <HeadingLevel2 
                 headingLine1="Speed up your accessibility"
                 headingLine2="workflow from months to minutes"
