@@ -9,7 +9,6 @@ const Video = () => {
     const [playVideo, setPlayVideo] = useState(false);
     const { pathname } = useLocation();
 
-
     return (
         <section className="video-section" style={{
             "paddingTop" : `${pathname != "/" && pathname != "/mac" ? "0px" : "120px"}`
