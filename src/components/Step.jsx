@@ -13,9 +13,9 @@ const Step = ({ step, h3, desc, linkText, href, macTrue }) => {
                 <p className="desc">{desc}</p>
             </div>
             {pathname == "/mac" && macTrue ? 
-            <a href=""><img src={download_mac} alt="Download on the Mac App Store"/></a>
-            :
-            <PurpleLink text={linkText} href={href}/>
+                <a href=""><img src={download_mac} alt="Download on the Mac App Store"/></a>
+                :
+                <PurpleLink text={linkText} href={href}/>
             }
         </div>
     )

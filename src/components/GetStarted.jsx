@@ -2,7 +2,7 @@ import green_bg from "../assets/images_heading2/green-bg.svg";
 import HeadingLevel2 from "./HeadingLevel2";
 import Step from "./Step";
 
-const GetStarted = () => {
+const GetStarted = ({ linkText, href, macTrue }) => {
     return (
         <section className="get-started-section">
             <HeadingLevel2
@@ -21,8 +21,9 @@ const GetStarted = () => {
                     step="Step 2"
                     h3="Download and install Stark"                
                     desc="Download and install our plugins for Figma, Sketch, Adobe XD, as well as our browser extensions."
-                    linkText="Download Stark"
-                    href="#download"
+                    linkText={linkText}
+                    href={href}
+                    macTrue={macTrue}
                 />
                 <Step
                     step="Step 3"
