@@ -1513,24 +1513,20 @@ footer .socials-copyright-wrapper p {
   border-radius: unset !important;
   background: transparent !important;
   display: flex !important;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 @media screen and (min-width: 1024px) {
-  .purple-link {
+  .purple-link, .mac-link {
     transition: 0.2s;
   }
-  .purple-link:focus {
+  .purple-link:focus, .mac-link:focus {
     outline-color: #06a5ff;
     outline-offset: 4px;
   }
-  .purple-link:hover {
-    opacity: 0.9;
-    transition: 0.2s;
-  }
-  .mac-link {
-    transition: 0.2s;
-  }
-  .mac-link:hover {
+  .purple-link:hover, .mac-link:hover {
     opacity: 0.8;
     transition: 0.2s;
   }

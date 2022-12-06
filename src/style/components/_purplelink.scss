@@ -14,25 +14,17 @@
 
 .mac-link {
     padding: unset !important; border: unset !important; border-radius: unset !important; background: transparent !important; display: flex !important;
+    width: fit-content;
 }
 
 @media screen and (min-width: 1024px) {
-    .purple-link {
+    .purple-link, .mac-link {
         transition: .2s;
 
         &:focus {
             outline-color: #06a5ff;
             outline-offset: 4px;
         }
-
-        &:hover {
-            opacity: .9;
-            transition: .2s;
-        }
-    }
-
-    .mac-link {
-        transition: .2s;
 
         &:hover {
             opacity: .8;
