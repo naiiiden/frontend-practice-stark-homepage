@@ -75,7 +75,6 @@ const App = () => {
                 <Video/>
                 <Customers/>
                 <CallToAction/>
-                <Testimonials/>
                 <GetStarted/>
                 <Features2/>
               </main>
@@ -93,7 +92,6 @@ const App = () => {
                 <Video/>
                 <Customers/>
                 <CallToAction/>
-                <Testimonials/>
                 <GetStarted/>
                 <Features2/>
               </main>
@@ -111,7 +109,6 @@ const App = () => {
                 <Video/>
                 <Customers/>
                 <CallToAction/>
-                <Testimonials/>
                 <GetStarted/>
                 <Features2/>
               </main>
@@ -129,7 +126,6 @@ const App = () => {
                 <Video/>
                 <Customers/>
                 <CallToAction/>
-                <Testimonials/>
                 <GetStarted/>
                 <Features2/>
               </main>
@@ -147,7 +143,6 @@ const App = () => {
                 <Video/>
                 <Customers/>
                 <CallToAction/>
-                <Testimonials/>
                 <GetStarted/>
                 <Features2/>
               </main>
@@ -165,7 +160,6 @@ const App = () => {
                 <Video/>
                 <Customers/>
                 <CallToAction/>
-                <Testimonials/>
                 <GetStarted/>
                 <Features2/>
               </main>
@@ -183,7 +177,6 @@ const App = () => {
                 <Video/>
                 <Customers/>
                 <CallToAction/>
-                <Testimonials/>
                 <GetStarted/>
                 <Features2/>
               </main>
@@ -201,7 +194,6 @@ const App = () => {
                 <Video/>
                 <Customers/>
                 <CallToAction/>
-                <Testimonials/>
                 <GetStarted/>
                 <Features2/>
               </main>
@@ -219,7 +211,6 @@ const App = () => {
                 <Video/>
                 <Customers/>
                 <CallToAction/>
-                <Testimonials/>
                 <GetStarted/>
                 <Features2/>
               </main>
