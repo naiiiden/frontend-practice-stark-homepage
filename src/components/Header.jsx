@@ -35,7 +35,7 @@ const Header = ({ extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIn
                             <div className="links-arrow-container">
                                 <div className="links-wrapper">
                                     {pathname == "/mac" ?
-                                    <a href="https://apps.apple.com/us/app/stark-your-accessibility-hub/id1624920264" className="mac-download-link"><img src={download_mac} alt="Download on the Mac App Store"/></a>
+                                    <a href="https://apps.apple.com/us/app/stark-your-accessibility-hub/id1624920264" className="mac-link"><img src={download_mac} alt="Download on the Mac App Store"/></a>
                                     :
                                     <a href="https://account.getstark.co/sign-in" className="free">Create a free account</a>
                                     }

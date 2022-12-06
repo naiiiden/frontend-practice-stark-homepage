@@ -75,9 +75,10 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
+                <FeaturesMainPage/>
                 <CallToAction/>
                 <GetStarted
-                  macTrue
+                  macLink
                   href="https://apps.apple.com/us/app/stark-your-accessibility-hub/id1624920264"
                 />
                 <Features2/>

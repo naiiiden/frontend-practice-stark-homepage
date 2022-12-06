@@ -12,6 +12,10 @@
     padding: 0.375rem 1.5rem;
 }
 
+.mac-link {
+    padding: unset !important; border: unset !important; border-radius: unset !important; background: transparent !important; display: flex !important;
+}
+
 @media screen and (min-width: 1024px) {
     .purple-link {
         transition: .2s;
@@ -23,6 +27,15 @@
 
         &:hover {
             opacity: .9;
+            transition: .2s;
+        }
+    }
+
+    .mac-link {
+        transition: .2s;
+
+        &:hover {
+            opacity: .8;
             transition: .2s;
         }
     }
