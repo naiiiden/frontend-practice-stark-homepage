@@ -254,7 +254,15 @@
                     }
                 }
             }
+        }
 
+        .mac-link {
+            transition: .2s;
+
+            &:hover {
+                opacity: .8;
+                transition: .2s;
+            }
         }
 
         &:nth-child(odd) {

@@ -973,6 +973,13 @@ header {
     max-width: 75px;
     max-height: 241px;
   }
+  .feature-section .mac-link {
+    transition: 0.2s;
+  }
+  .feature-section .mac-link:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+  }
   .feature-section:nth-child(odd) .inner-wrapper-div .image-container {
     order: 2;
   }
