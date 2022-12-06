@@ -11,7 +11,7 @@ import homepage_feature4B from "../assets/images_features/homepage__feature-4b.p
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-const Features = () => {
+const FeaturesMainPage = () => {
     const { pathname } = useLocation();
 
     if (pathname == "/") {
@@ -122,4 +122,4 @@ const Features = () => {
     )
 }
 
-export default Features;
+export default FeaturesMainPage;

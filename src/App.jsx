@@ -1,10 +1,9 @@
 import "./style/general.css";
-import Nav from "./components/Nav";
 import Header from "./components/Header";
 import Video from "./components/Video";
 import Customers from "./components/Customers";
 import Download from "./components/Download";
-import Features from "./components/Features";
+import FeaturesMainPage from "./components/FeaturesMainPage";
 import CallToAction from "./components/CallToAction";
 import Testimonials from "./components/Testimonials";
 import GetStarted from "./components/GetStarted";
@@ -49,7 +48,7 @@ const App = () => {
                 <Video/>
                 <Customers/>
                 <Download/>
-                <Features/>
+                <FeaturesMainPage/>
                 <CallToAction/>
                 <Testimonials/>
                 <GetStarted/>
@@ -75,7 +74,6 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
-                <Features/>
                 <CallToAction/>
                 <Testimonials/>
                 <GetStarted/>
@@ -94,7 +92,6 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
-                <Features/>
                 <CallToAction/>
                 <Testimonials/>
                 <GetStarted/>
@@ -113,7 +110,6 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
-                <Features/>
                 <CallToAction/>
                 <Testimonials/>
                 <GetStarted/>
@@ -132,7 +128,6 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
-                <Features/>
                 <CallToAction/>
                 <Testimonials/>
                 <GetStarted/>
@@ -151,7 +146,6 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
-                <Features/>
                 <CallToAction/>
                 <Testimonials/>
                 <GetStarted/>
@@ -170,7 +164,6 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
-                <Features/>
                 <CallToAction/>
                 <Testimonials/>
                 <GetStarted/>
@@ -189,7 +182,6 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
-                <Features/>
                 <CallToAction/>
                 <Testimonials/>
                 <GetStarted/>
@@ -208,7 +200,6 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
-                <Features/>
                 <CallToAction/>
                 <Testimonials/>
                 <GetStarted/>
@@ -227,7 +218,6 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
-                <Features/>
                 <CallToAction/>
                 <Testimonials/>
                 <GetStarted/>
