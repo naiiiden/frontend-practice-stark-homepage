@@ -9,12 +9,8 @@ import homepage_feature4A from "../assets/images_features/homepage__feature-4a.p
 import homepage_feature4B from "../assets/images_features/homepage__feature-4b.png";
 
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
 
 const FeaturesMainPage = () => {
-    const { pathname } = useLocation();
-
-    if (pathname == "/") {
         useEffect(() => {
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach((entry) => {
@@ -62,7 +58,6 @@ const FeaturesMainPage = () => {
             observer.observe(document.querySelector("#feature3"));
             observer.observe(document.querySelector("#feature4"));
         }, []);
-    } 
 
     return (
         <div id="learn-more">
