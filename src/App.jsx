@@ -4,6 +4,7 @@ import Video from "./components/Video";
 import Customers from "./components/Customers";
 import Download from "./components/Download";
 import FeaturesMainPage from "./components/FeaturesMainPage";
+import FeaturesMac from "./components/FeaturesMac";
 import CallToAction from "./components/CallToAction";
 import Testimonials from "./components/Testimonials";
 import GetStarted from "./components/GetStarted";
@@ -75,7 +76,7 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
-                <FeaturesMainPage/>
+                <FeaturesMac/>
                 <CallToAction/>
                 <GetStarted
                   macLink
