@@ -186,6 +186,74 @@
             }
         }
     }
+
+    &.feature-mac-1 {
+        .image-container {
+            all: unset;
+
+            .image-inner-wrapper {
+                all: unset;
+            }
+
+            img {
+                all: unset;
+                width: 100%;
+                max-width: 552px;
+            }
+        }
+    }
+
+    &.feature-mac-2 {
+        overflow-x: unset;
+
+        .image-container {
+            all: unset;
+
+            .image-inner-wrapper {
+                all: unset;
+                
+                img {
+                    all: unset;
+                    width: 100%;
+                    max-width: 552px;
+                    transform: scale(1.5);
+                }
+            }
+
+        }
+    }
+
+    &.feature-mac-3 {
+        .image-container {
+            all: unset;
+
+            .image-inner-wrapper {
+                all: unset;
+
+                img {
+                    all: unset;
+                    width: 100%;
+                    max-width: 552px;
+                }
+            }
+        }
+    }
+
+    &.feature-mac-4 {
+        .image-container {
+            all: unset;
+
+            .image-inner-wrapper {
+                all: unset;
+
+                img {
+                    all: unset;
+                    width: 100%;
+                    max-width: 552px;
+                }
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 768px) {
