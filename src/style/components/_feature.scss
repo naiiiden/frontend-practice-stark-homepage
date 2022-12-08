@@ -187,7 +187,7 @@
         }
     }
 
-    &.feature-mac-1, &.feature-mac-2, &.feature-mac-3, &.feature-mac-4 {
+    &.feature-mac-1, &.feature-mac-2, &.feature-mac-3, &.feature-mac-4, &.feature-rest-1, &.feature-rest-2, &.feature-rest-3, &.feature-rest-4 {
         .image-container {
             all: unset;
 
@@ -203,7 +203,7 @@
         }
     }
 
-    &.feature-mac-2 {
+    &.feature-mac-2, &.feature-rest-2 {
         overflow-x: unset;
 
         .image-container {

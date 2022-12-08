@@ -24,6 +24,7 @@ import edge from "./assets/images_header/chrome.webp";
 import safari from "./assets/images_header/safari.webp";
 import arc from "./assets/images_header/arc.webp";
 import brave from "./assets/images_header/brave.webp";
+import FeaturesNotMacNotMain from "./components/FeaturesNotMacNotMain";
 
 const App = () => {
   return (
@@ -97,6 +98,7 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
+                <FeaturesNotMacNotMain/>
                 <CallToAction/>
                 <GetStarted
                   linkText="Download Stark for Figma"
