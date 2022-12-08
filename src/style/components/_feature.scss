@@ -187,7 +187,7 @@
         }
     }
 
-    &.feature-mac-1 {
+    &.feature-mac-1, &.feature-mac-2, &.feature-mac-3, &.feature-mac-4 {
         .image-container {
             all: unset;
 
@@ -197,8 +197,8 @@
 
             img {
                 all: unset;
-                width: 100%;
-                max-width: 552px;
+                width: 100% !important;
+                max-width: 552px !important;
             }
         }
     }
@@ -207,51 +207,12 @@
         overflow-x: unset;
 
         .image-container {
-            all: unset;
-
             .image-inner-wrapper {
-                all: unset;
-                
                 img {
-                    all: unset;
-                    width: 100%;
-                    max-width: 552px;
                     transform: scale(1.5);
                 }
             }
 
-        }
-    }
-
-    &.feature-mac-3 {
-        .image-container {
-            all: unset;
-
-            .image-inner-wrapper {
-                all: unset;
-
-                img {
-                    all: unset;
-                    width: 100%;
-                    max-width: 552px;
-                }
-            }
-        }
-    }
-
-    &.feature-mac-4 {
-        .image-container {
-            all: unset;
-
-            .image-inner-wrapper {
-                all: unset;
-
-                img {
-                    all: unset;
-                    width: 100%;
-                    max-width: 552px;
-                }
-            }
         }
     }
 }

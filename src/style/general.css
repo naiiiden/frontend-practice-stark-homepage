@@ -912,53 +912,22 @@ header {
 .feature-section:nth-child(4) .image-container img.slide-down2 {
   transition: all 0.75s cubic-bezier(0.34, 1.56, 0.64, 1) 0.15s;
 }
-.feature-section.feature-mac-1 .image-container {
+.feature-section.feature-mac-1 .image-container, .feature-section.feature-mac-2 .image-container, .feature-section.feature-mac-3 .image-container, .feature-section.feature-mac-4 .image-container {
   all: unset;
 }
-.feature-section.feature-mac-1 .image-container .image-inner-wrapper {
+.feature-section.feature-mac-1 .image-container .image-inner-wrapper, .feature-section.feature-mac-2 .image-container .image-inner-wrapper, .feature-section.feature-mac-3 .image-container .image-inner-wrapper, .feature-section.feature-mac-4 .image-container .image-inner-wrapper {
   all: unset;
 }
-.feature-section.feature-mac-1 .image-container img {
+.feature-section.feature-mac-1 .image-container img, .feature-section.feature-mac-2 .image-container img, .feature-section.feature-mac-3 .image-container img, .feature-section.feature-mac-4 .image-container img {
   all: unset;
-  width: 100%;
-  max-width: 552px;
+  width: 100% !important;
+  max-width: 552px !important;
 }
 .feature-section.feature-mac-2 {
   overflow-x: unset;
 }
-.feature-section.feature-mac-2 .image-container {
-  all: unset;
-}
-.feature-section.feature-mac-2 .image-container .image-inner-wrapper {
-  all: unset;
-}
 .feature-section.feature-mac-2 .image-container .image-inner-wrapper img {
-  all: unset;
-  width: 100%;
-  max-width: 552px;
   transform: scale(1.5);
-}
-.feature-section.feature-mac-3 .image-container {
-  all: unset;
-}
-.feature-section.feature-mac-3 .image-container .image-inner-wrapper {
-  all: unset;
-}
-.feature-section.feature-mac-3 .image-container .image-inner-wrapper img {
-  all: unset;
-  width: 100%;
-  max-width: 552px;
-}
-.feature-section.feature-mac-4 .image-container {
-  all: unset;
-}
-.feature-section.feature-mac-4 .image-container .image-inner-wrapper {
-  all: unset;
-}
-.feature-section.feature-mac-4 .image-container .image-inner-wrapper img {
-  all: unset;
-  width: 100%;
-  max-width: 552px;
 }
 
 @media screen and (min-width: 768px) {
