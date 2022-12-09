@@ -10,7 +10,7 @@ const FeaturesNotMacNotMain = () => {
     const { pathname } = useLocation();
     
     return (
-        <div>
+        <div id="learn-more">
             <Feature
                 sectionClass="feature-rest-1"
                 mt="104"

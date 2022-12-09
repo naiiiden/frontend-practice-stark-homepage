@@ -7,7 +7,7 @@ import homepage_feature4 from "../assets/images_features/mac__retrofitting.webp"
 
 const FeaturesMac = () => {
     return (
-        <div>
+        <div id="learn-more">
             <Feature
                 sectionClass="feature-mac-1"
                 mt="104"
