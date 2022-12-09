@@ -3,8 +3,12 @@ import feature_rest_1 from "../assets/images_features/feature_1v2.webp";
 import feature_rest_2 from "../assets/images_features/feature_2v2.webp";
 import feature_rest_3 from "../assets/images_features/feature_3v2.webp";
 import feature_rest_4 from "../assets/images_features/feature_4v2.webp";
+import feature_rest_4_2 from "../assets/images_features/feature_4v2.2.webp";
+import { useLocation } from "react-router-dom";
 
 const FeaturesNotMacNotMain = () => {
+    const { pathname } = useLocation();
+    
     return (
         <div>
             <Feature
@@ -46,7 +50,7 @@ const FeaturesNotMacNotMain = () => {
                 pShort="Retrofitting at scale with a click"
                 h2="Accessibility easy as one, two, three"
                 desc="Once you open the Stark plugin in Sketch or Figma it automagically connects to Stark for Mac. So you can apply for example color suggestions to individual design elements or rectify all instances of an issue across your entire file or design system with just a click. That’s powerful!"
-                src1={feature_rest_4}
+                src1={feature_rest_4_2}
                 idImg1="feature-rest-img4"
                 text="Get started for free"
                 href="https://account.getstark.co/"
