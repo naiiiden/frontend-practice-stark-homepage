@@ -182,6 +182,7 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
+                <FeaturesNotMacNotMain/>
                 <CallToAction/>
                 <GetStarted
                   linkText="Download Stark for Edge"
@@ -202,6 +203,7 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
+                <FeaturesNotMacNotMain/>
                 <CallToAction/>
                 <GetStarted
                   linkText="Download Stark for Safari"
@@ -222,6 +224,7 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
+                <FeaturesNotMacNotMain/>
                 <CallToAction/>
                 <GetStarted
                   linkText="Download Stark for Arc"
@@ -242,6 +245,7 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
+                <FeaturesNotMacNotMain/>
                 <CallToAction/>
                 <GetStarted
                   linkText="Download Stark for Brave"
