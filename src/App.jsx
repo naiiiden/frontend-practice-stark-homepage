@@ -119,6 +119,7 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
+                <FeaturesNotMacNotMain/>
                 <CallToAction/>
                 <GetStarted
                   linkText="Download Stark for Sketch"
@@ -139,6 +140,7 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
+                <FeaturesNotMacNotMain/>
                 <CallToAction/>
                 <GetStarted
                   linkText="Download Stark for XD"
@@ -159,6 +161,7 @@ const App = () => {
               <main>
                 <Video/>
                 <Customers/>
+                <FeaturesNotMacNotMain/>
                 <CallToAction/>
                 <GetStarted
                   linkText="Download Stark for Chrome"
