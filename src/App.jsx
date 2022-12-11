@@ -27,6 +27,7 @@ import safari from "./assets/images_header/safari.webp";
 import arc from "./assets/images_header/arc.webp";
 import brave from "./assets/images_header/brave.webp";
 import FeaturesNotMacNotMain from "./components/FeaturesNotMacNotMain";
+import PurpleLink from "./components/PurpleLink";
 
 const App = () => {
   return (
@@ -262,13 +263,13 @@ const App = () => {
               <header className="header-transparent">
                 <Nav/>
               </header>
-              <main class="error-page">
-                <p>404 Error. Whoops.</p>
+              <main className="error-page">
+                <p className="uppercase">404 Error. Whoops.</p>
                 <h1>Hmm. That didn't work.</h1>
-                <p>Maybe the link doesn’t exist. Or maybe we just broke it? Hopefully we can take you where you want to go though.</p>
+                <p className="desc">Maybe the link doesn’t exist. Or maybe we just broke it? Hopefully we can take you where you want to go though.</p>
                 <div className="links-wrapper">
-                  <a href="">Go to Support Center</a>
-                  <a href="">Contact us</a>
+                  <PurpleLink href="" text="Go to Support Center"/>
+                  <a href="" className="contact-us-link">Contact us</a>
                 </div>
               </main>
             </>

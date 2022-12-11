@@ -1509,8 +1509,44 @@ footer .socials-copyright-wrapper p {
   letter-spacing: 0.08rem;
 }
 
+.error-page {
+  margin-top: 3.5rem;
+  padding: 0 1rem;
+  color: #10284b;
+  max-width: 960px;
+}
+.error-page .uppercase {
+  color: #381fd1;
+  letter-spacing: 0.08rem;
+  margin-bottom: 1rem;
+}
+.error-page h1 {
+  padding-right: 1rem;
+  max-width: 460px;
+  font-size: 3.5rem;
+  font-family: armingrotesk-black;
+  line-height: 62px;
+}
+.error-page .desc {
+  font-family: armingrotesk-regular;
+  max-width: 548px;
+  line-height: 30px;
+  font-size: 1.25rem;
+  margin: 1.5rem 0 2rem 0;
+}
+.error-page .links-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.error-page .links-wrapper .contact-us-link {
+  background: transparent !important;
+  color: #10284b !important;
+  border: 2px solid #10284b !important;
+}
+
 /* reusable */
-.purple-link {
+.purple-link, .error-page .links-wrapper .contact-us-link {
   display: inline-flex;
   align-items: center;
   color: #fff;
@@ -1536,14 +1572,14 @@ footer .socials-copyright-wrapper p {
 }
 
 @media screen and (min-width: 1024px) {
-  .purple-link, .mac-link {
+  .purple-link, .error-page .links-wrapper .contact-us-link, .mac-link {
     transition: 0.2s;
   }
-  .purple-link:focus, .mac-link:focus {
+  .purple-link:focus, .error-page .links-wrapper .contact-us-link:focus, .mac-link:focus {
     outline-color: #06a5ff;
     outline-offset: 4px;
   }
-  .purple-link:hover, .mac-link:hover {
+  .purple-link:hover, .error-page .links-wrapper .contact-us-link:hover, .mac-link:hover {
     opacity: 0.8;
     transition: 0.2s;
   }
