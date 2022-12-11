@@ -11,6 +11,8 @@ import GetStarted from "./components/GetStarted";
 import Features2 from "./components/Features2";
 import Footer from "./components/Footer";
 
+import Nav from "./components/Nav";
+
 import { Routes, Route } from "react-router-dom";
 
 // hero image
@@ -252,6 +254,22 @@ const App = () => {
                   href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm"
                 />
                 <Features2/>
+              </main>
+            </>
+          }/>
+          <Route path="*" element={
+            <>
+              <header className="header-transparent">
+                <Nav/>
+              </header>
+              <main class="error-page">
+                <p>404 Error. Whoops.</p>
+                <h1>Hmm. That didn't work.</h1>
+                <p>Maybe the link doesn’t exist. Or maybe we just broke it? Hopefully we can take you where you want to go though.</p>
+                <div className="links-wrapper">
+                  <a href="">Go to Support Center</a>
+                  <a href="">Contact us</a>
+                </div>
               </main>
             </>
           }/>
