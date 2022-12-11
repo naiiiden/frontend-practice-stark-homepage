@@ -1549,6 +1549,11 @@ footer .socials-copyright-wrapper p {
   .error-page {
     padding: unset;
   }
+  .error-page .links-wrapper .contact-us-link:hover {
+    opacity: unset !important;
+    background: #10284b !important;
+    color: #fff !important;
+  }
 }
 /* reusable */
 .purple-link, .error-page .links-wrapper .contact-us-link {
