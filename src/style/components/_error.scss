@@ -40,6 +40,17 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .error-page {
+        h1 {
+            padding-right: unset;
+            letter-spacing: -.09rem;
+            font-size: 5.375rem;
+            line-height: 96px;
+        }
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .error-page {
         padding: unset;
