@@ -1,5 +1,5 @@
 .error-page {
-    margin-top: 3.5rem;
+    margin: 3.5rem auto 0 auto;
     padding: 0 1rem;
     color: $dark-blue;
     max-width: 960px;
@@ -37,5 +37,11 @@
             color: $dark-blue !important;
             border: 2px solid $dark-blue !important;
         }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .error-page {
+        padding: unset;
     }
 }

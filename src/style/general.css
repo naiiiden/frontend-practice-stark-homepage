@@ -1510,7 +1510,7 @@ footer .socials-copyright-wrapper p {
 }
 
 .error-page {
-  margin-top: 3.5rem;
+  margin: 3.5rem auto 0 auto;
   padding: 0 1rem;
   color: #10284b;
   max-width: 960px;
@@ -1545,6 +1545,11 @@ footer .socials-copyright-wrapper p {
   border: 2px solid #10284b !important;
 }
 
+@media screen and (min-width: 1024px) {
+  .error-page {
+    padding: unset;
+  }
+}
 /* reusable */
 .purple-link, .error-page .links-wrapper .contact-us-link {
   display: inline-flex;
