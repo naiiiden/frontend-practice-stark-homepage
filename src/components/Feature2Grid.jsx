@@ -21,6 +21,7 @@ import mac_works from "../assets/images_features_grid/mac__overview-sidebar.webp
 import mac_alt_text from "../assets/images_features_grid/mac__alt-text.webp";
 import mac_typography from "../assets/images_features_grid/mac__typography.webp";
 import mac_platforms from "../assets/images_features_grid/mac__platforms.webp";
+import mac_fast from "../assets/images_features_grid/mac__app.webp";
 
 // bg images
 import blob1 from "../assets/images_features_grid/homepage-blob-1.png";
@@ -127,9 +128,13 @@ const Feature2Grid = ({}) => {
                         <img src={sso} alt=""/>
                         <p className="uppercase">SSO + Team Account Management</p>
                     </div>
-                    <div className="item fast">
+                    <div className={`item fast ${pathname == "/mac" 
+                        ? "mac-fast"
+                        : ""}`}>
                         <p className="uppercase">Beautifully simple, lightning fast</p>
-                        <img src={fast} alt=""/>
+                        <img src={pathname == "/mac" 
+                            ? mac_fast
+                            : fast} alt=""/>
                     </div>
                 </div>
             </div>

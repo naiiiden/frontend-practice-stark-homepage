@@ -1400,6 +1400,10 @@ header {
   position: absolute;
   margin: unset;
 }
+.features2-section .features-grid .fast.mac-fast img {
+  top: unset;
+  bottom: -20px;
+}
 
 @media screen and (min-width: 768px) {
   .features2-section .features-grid {

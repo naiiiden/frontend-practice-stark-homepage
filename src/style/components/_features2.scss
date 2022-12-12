@@ -264,6 +264,12 @@
                 position: absolute;
                 margin: unset;
             }
+
+            &.mac-fast {
+                img {
+                    top: unset; bottom: -20px;
+                }
+            }
         }
     }
 }
