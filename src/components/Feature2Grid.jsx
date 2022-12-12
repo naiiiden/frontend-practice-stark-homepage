@@ -15,6 +15,7 @@ import fast from "../assets/images_features_grid/homepage-grid-fast.webp";
 
 // mac grid images
 import mac_contrast from "../assets/images_features_grid/mac__contrast.webp";
+import mac_code_snippets from "../assets/images_features_grid/mac__code-snippets.webp";
 
 // bg images
 import blob1 from "../assets/images_features_grid/homepage-blob-1.png";
@@ -31,7 +32,10 @@ const Feature2Grid = ({}) => {
                 <img src={blob2} alt="" className="blob2"/>
                 <div className="features-grid">
                     <div className="item contrast-checker">
-                        <img src={pathname == "/mac" ? mac_contrast : contrast} alt=""/>
+                        <img src={pathname == "/mac" 
+                            ? mac_contrast 
+                            : contrast} 
+                        alt=""/>
                         <p className="uppercase">Contrast Checker + Color Suggestions</p>
                     </div>
                     <div className="item focus-order">
@@ -46,9 +50,16 @@ const Feature2Grid = ({}) => {
                         <p className="uppercase">Vision Simulator + Generator</p>
                         <img src={vision_simulator} alt=""/>
                     </div>
-                    <div className={`item touch-targets ${pathname == "/mac" ? "code-snippets" : ""}`}>
-                        <img src={touch_target} alt=""/>
-                        <p className="uppercase">Touch Targets</p>
+                    <div className={`item touch-targets ${pathname == "/mac" 
+                        ? "code-snippets" 
+                        : ""}`}>
+                        <img src={pathname == "/mac" 
+                            ? mac_code_snippets 
+                            : touch_target} alt=""/>
+                        <p className="uppercase">{pathname == "/mac" 
+                            ? 'Export Code Snippets'
+                            : 'Touch Targets'}
+                        </p>
                     </div>
                     <div className="item works">
                         <img src={works} alt=""/>

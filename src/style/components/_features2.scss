@@ -100,6 +100,24 @@
         .touch-targets {
             background: $yellow;
             padding: 0 2rem;
+
+            &.code-snippets {
+                overflow: hidden;
+                height: 376px;       
+                position: relative;
+
+                img {
+                    width: 550px;
+                    max-width: 550px;
+                    transform: translate3d(-50%, -500px, 0px);
+                    filter: drop-shadow(rgba(0, 0, 0, 0.16) 0px 8px 60px);
+                }
+
+                p {
+                    position: absolute;
+                    bottom: 0px; left: 0; right: 0;
+                }
+            }
         }
 
         .works {
@@ -250,6 +268,12 @@
 
             .touch-targets {
                 grid-area: e;
+
+                &.code-snippets {
+                    img {
+                        transform: translate3d(-36%, -500px, 0px);
+                    }
+                }
             }
 
             .works {
