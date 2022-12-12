@@ -19,6 +19,7 @@ import mac_code_snippets from "../assets/images_features_grid/mac__code-snippets
 import mac_education from "../assets/images_features_grid/mac__education.webp";
 import mac_works from "../assets/images_features_grid/mac__overview-sidebar.webp";
 import mac_alt_text from "../assets/images_features_grid/mac__alt-text.webp";
+import mac_typography from "../assets/images_features_grid/mac__typography.webp";
 
 // bg images
 import blob1 from "../assets/images_features_grid/homepage-blob-1.png";
@@ -105,7 +106,9 @@ const Feature2Grid = ({}) => {
                         <img src={live_preview} alt=""/>
                     </div>
                     <div className="item typography">
-                        <img src={typography} alt=""/>
+                        <img src={pathname == "/mac" 
+                            ? mac_typography
+                            : typography} alt=""/>
                         <p className="uppercase">Typography</p>
                     </div>
                     <div className="item sso">
