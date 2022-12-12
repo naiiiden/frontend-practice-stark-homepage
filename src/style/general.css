@@ -1361,6 +1361,14 @@ header {
   right: 0;
   margin: unset;
 }
+.features2-section .features-grid .live-preview.mac-connects {
+  flex-direction: column;
+  align-items: center;
+}
+.features2-section .features-grid .live-preview.mac-connects img {
+  all: unset;
+  max-width: 400px;
+}
 .features2-section .features-grid .typography {
   background: #99d6cc;
   padding: 0 2rem;

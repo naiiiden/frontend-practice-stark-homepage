@@ -217,6 +217,16 @@
                 right: 0;
                 margin: unset;
             }
+
+            &.mac-connects {
+                flex-direction: column;
+                align-items: center;
+
+                img {
+                    all: unset;
+                    max-width: 400px;
+                }
+            }
         }
 
         .typography {
