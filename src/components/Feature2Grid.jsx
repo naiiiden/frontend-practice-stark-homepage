@@ -13,11 +13,17 @@ import typography from "../assets/images_features_grid/homepage-grid-typography.
 import sso from "../assets/images_features_grid/homepage-grid-sso.png";
 import fast from "../assets/images_features_grid/homepage-grid-fast.webp";
 
+// mac grid images
+import mac_contrast from "../assets/images_features_grid/mac__contrast.webp";
+
 // bg images
 import blob1 from "../assets/images_features_grid/homepage-blob-1.png";
 import blob2 from "../assets/images_features_grid/homepage-blob-2.png";
+import { useLocation } from "react-router-dom";
 
 const Feature2Grid = ({}) => {
+    const { pathname } = useLocation();
+
     return (
         <div className="outer-wrapper-div">
             <div className="inner-wrapper-div">
@@ -25,7 +31,7 @@ const Feature2Grid = ({}) => {
                 <img src={blob2} alt="" className="blob2"/>
                 <div className="features-grid">
                     <div className="item contrast-checker">
-                        <img src={contrast} alt=""/>
+                        <img src={pathname == "/mac" ? mac_contrast : contrast} alt=""/>
                         <p className="uppercase">Contrast Checker + Color Suggestions</p>
                     </div>
                     <div className="item focus-order">
@@ -40,7 +46,7 @@ const Feature2Grid = ({}) => {
                         <p className="uppercase">Vision Simulator + Generator</p>
                         <img src={vision_simulator} alt=""/>
                     </div>
-                    <div className="item touch-targets">
+                    <div className={`item touch-targets ${pathname == "/mac" ? "code-snippets" : ""}`}>
                         <img src={touch_target} alt=""/>
                         <p className="uppercase">Touch Targets</p>
                     </div>
