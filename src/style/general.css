@@ -1314,6 +1314,23 @@ header {
   margin: -0.4rem 0 0 0;
   transform: translateY(4.25px);
 }
+.features2-section .features-grid .education.mac-education {
+  overflow: hidden;
+  height: 376px;
+  position: relative;
+}
+.features2-section .features-grid .education.mac-education img {
+  height: unset;
+  width: 550px;
+  max-width: 550px;
+  transform: translate3d(-25px, -425px, 0px);
+}
+.features2-section .features-grid .education.mac-education p {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
 .features2-section .features-grid .alt-text {
   background: #a599f0;
   padding: 0 2rem;

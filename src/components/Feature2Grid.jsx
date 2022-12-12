@@ -16,6 +16,7 @@ import fast from "../assets/images_features_grid/homepage-grid-fast.webp";
 // mac grid images
 import mac_contrast from "../assets/images_features_grid/mac__contrast.webp";
 import mac_code_snippets from "../assets/images_features_grid/mac__code-snippets.webp";
+import mac_education from "../assets/images_features_grid/mac__education.webp";
 
 // bg images
 import blob1 from "../assets/images_features_grid/homepage-blob-1.png";
@@ -68,9 +69,13 @@ const Feature2Grid = ({}) => {
                         </div>
                         <p className="uppercase">Works in your design tool and browser</p>
                     </div>
-                    <div className="item education">
+                    <div className={`item education ${pathname == "/mac"
+                        ? "mac-education"
+                        : ""}`}>
                         <p className="uppercase">In-App Education</p>
-                        <img src={education} alt=""/>
+                        <img src={pathname== "/mac" 
+                        ? mac_education
+                        : education} alt=""/>
                     </div>
                     <div className="item alt-text">
                         <img src={alt_text} alt=""/>
