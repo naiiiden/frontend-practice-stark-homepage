@@ -18,6 +18,7 @@ import mac_contrast from "../assets/images_features_grid/mac__contrast.webp";
 import mac_code_snippets from "../assets/images_features_grid/mac__code-snippets.webp";
 import mac_education from "../assets/images_features_grid/mac__education.webp";
 import mac_works from "../assets/images_features_grid/mac__overview-sidebar.webp";
+import mac_alt_text from "../assets/images_features_grid/mac__alt-text.webp";
 
 // bg images
 import blob1 from "../assets/images_features_grid/homepage-blob-1.png";
@@ -89,12 +90,14 @@ const Feature2Grid = ({}) => {
                         ? "mac-education"
                         : ""}`}>
                         <p className="uppercase">In-App Education</p>
-                        <img src={pathname== "/mac" 
-                        ? mac_education
-                        : education} alt=""/>
+                        <img src={pathname == "/mac" 
+                            ? mac_education
+                            : education} alt=""/>
                     </div>
                     <div className="item alt-text">
-                        <img src={alt_text} alt=""/>
+                        <img src={pathname == "/mac" 
+                            ? mac_alt_text
+                            : alt_text} alt=""/>
                         <p className="uppercase">Alt-Text Annotations</p>
                     </div>
                     <div className="item live-preview">
