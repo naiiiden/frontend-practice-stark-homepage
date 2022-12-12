@@ -17,6 +17,7 @@ import fast from "../assets/images_features_grid/homepage-grid-fast.webp";
 import mac_contrast from "../assets/images_features_grid/mac__contrast.webp";
 import mac_code_snippets from "../assets/images_features_grid/mac__code-snippets.webp";
 import mac_education from "../assets/images_features_grid/mac__education.webp";
+import mac_works from "../assets/images_features_grid/mac__overview-sidebar.webp";
 
 // bg images
 import blob1 from "../assets/images_features_grid/homepage-blob-1.png";
@@ -62,12 +63,27 @@ const Feature2Grid = ({}) => {
                             : 'Touch Targets'}
                         </p>
                     </div>
-                    <div className="item works">
-                        <img src={works} alt=""/>
-                        <div className="stark-logo-wrapper">
-                            <img src={logo} alt=""/>
-                        </div>
-                        <p className="uppercase">Works in your design tool and browser</p>
+                    <div className={`item works ${pathname == "/mac" 
+                        ? "mac-works"
+                        : ""}`}>
+                        {pathname == "/mac" 
+                            ? 
+                            <img src={mac_works} alt=""/>
+                            : 
+                            <>
+                            <img src={works} alt=""/>
+                            <div className="stark-logo-wrapper">
+                                <img src={logo} alt=""/>
+                            </div>
+                            </>
+                        }
+                        <p className="uppercase">{pathname == "/mac"
+                            ? "Automated accessibility audit"
+                            : "Works in your design tool and browser"
+                            }
+                        </p>
+
+
                     </div>
                     <div className={`item education ${pathname == "/mac"
                         ? "mac-education"

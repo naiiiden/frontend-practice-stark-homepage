@@ -1305,6 +1305,13 @@ header {
   margin: 3.5rem 0 2rem 0;
   padding: 0 1.5rem;
 }
+.features2-section .features-grid .works.mac-works {
+  justify-content: space-between;
+  padding-bottom: 0;
+}
+.features2-section .features-grid .works.mac-works img {
+  padding: 2rem 0 0 0;
+}
 .features2-section .features-grid .education {
   background: #fc6f6b;
   padding: 0 2rem;
