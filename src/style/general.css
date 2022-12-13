@@ -159,6 +159,7 @@ header {
   padding: 1rem;
 }
 .text-illustration-wrapper .text-container {
+  margin-top: 88px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -239,9 +240,6 @@ header {
     max-width: 1160px;
     justify-content: center;
     margin-bottom: 164px;
-  }
-  .text-illustration-wrapper .text-container {
-    margin-top: 88px;
   }
   .text-illustration-wrapper .links-arrow-container {
     position: relative;
