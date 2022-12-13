@@ -16,7 +16,6 @@ import Nav from "./components/Nav";
 import { Routes, Route } from "react-router-dom";
 
 // hero image
-import homepage_header from "./assets/images_header/homepage__header.webp";
 import mac from "./assets/images_header/mac.webp";
 import figma from "./assets/images_header/figma.webp";
 import sketch from "./assets/images_header/sketch.webp";
@@ -29,129 +28,31 @@ import brave from "./assets/images_header/brave.webp";
 import FeaturesNotMacNotMain from "./components/FeaturesNotMacNotMain";
 import PurpleLink from "./components/PurpleLink";
 
+// pages
+import Main from "./pages/Main";
+import Mac from "./pages/Mac";
+import Figma from "./pages/Figma";
+import Sketch from "./pages/Sketch";
+import Adobe from "./pages/Adobe";
+
 const App = () => {
   return (
     <div style={{"overflow": "hidden"}}>
         <Routes>
           <Route path="/" element={
-            <>
-              <Header 
-                mb="0"
-                extraImages={true}
-                heroImage={homepage_header}
-                minWidth="691"
-                maxWidth="691"
-                arrowTop="-16"
-                arrowLeft="442"
-                pIntro="Introducing the all-new stark suite"
-                h1Text="Supercharge Accessibility"
-                pText="Tired of manually checking spreadsheets, messy handovers, and expensive retrofitting? Stark connects the tools you and your team already use in a streamlined end-to-end accessibility workflow you actually love." 
-              />
-              <main>
-                <Video/>
-                <Customers/>
-                <Download/>
-                <FeaturesMainPage/>
-                <CallToAction/>
-                <Testimonials/>
-                <GetStarted
-                  linkText="Download Stark"
-                  href="#download"
-                />
-                <Features2/>
-              </main>
-            </>
+            <Main/>
           }/>
           <Route path="/mac" element={
-            <>
-              <Header
-                mb="0"
-                heroImage={mac}
-                minWidth="1085"
-                maxWidth="1085"
-                top="-32"
-                left="-56"
-                arrowTop="-36"
-                arrowLeft="328" 
-                pIntro="Find and fix accessibility issues in seconds"
-                h1Text="Introducing Stark for Mac" 
-                pText="Whether you’re working on a website, mobile app, SaaS application or anything in between, Stark for Mac helps you find and fix accessibility issues in your existing Figma and Sketch files. With powerful tools, automated checks, and smart suggestions you can supercharge your accessibility workflow at scale and in record time."
-              />
-              <main>
-                <Video/>
-                <Customers/>
-                <FeaturesMac/>
-                <CallToAction/>
-                <GetStarted
-                  macLink
-                  href="https://apps.apple.com/us/app/stark-your-accessibility-hub/id1624920264"
-                />
-                <Features2/>
-              </main>
-            </>
+            <Mac/>
           }/>
           <Route path="/figma" element={
-            <>
-              <Header
-                heroImage={figma}
-                pIntro="Work with Stark in your favorite design tool"
-                h1Text="Stark for Figma" 
-                pText="Make every project accessible from the start. Stark for Figma keeps you focused on the parts of a project that need an accessibility audit. Whether you’re a team of 1 or 1,000, you have everything you need to make anything accessible from design to code."
-              />
-              <main>
-                <Video/>
-                <Customers/>
-                <FeaturesNotMacNotMain/>
-                <CallToAction/>
-                <GetStarted
-                  linkText="Download Stark for Figma"
-                  href="https://www.figma.com/community/plugin/732603254453395948"
-                />
-                <Features2/>
-              </main>
-            </>
+            <Figma/>
           }/>
           <Route path="/sketch" element={
-            <>
-              <Header 
-                heroImage={sketch}
-                pIntro="Work with Stark in your favorite design tool"
-                h1Text="Stark for Sketch"
-                pText="Make every project accessible from the start. Stark for Sketch keeps you focused on the parts of a project that need an accessibility audit. Whether you’re a team of 1 or 1,000, you have everything you need to make anything accessible from design to code."
-              />
-              <main>
-                <Video/>
-                <Customers/>
-                <FeaturesNotMacNotMain/>
-                <CallToAction/>
-                <GetStarted
-                  linkText="Download Stark for Sketch"
-                  href="https://www.getstark.co/sketch/download/"
-                />
-                <Features2/>
-              </main>
-            </>
+            <Sketch/>
           }/>
           <Route path="/adobe-xd" element={
-            <>
-              <Header
-                heroImage={xd} 
-                pIntro="Work with Stark in your favorite design tool"
-                h1Text="Stark for Adobe XD"
-                pText="Make every project accessible from the start. Stark for Adobe XD keeps you focused on the parts of a project that need an accessibility audit. Whether you’re a team of 1 or 1,000, you have everything you need to make anything accessible from design to code."
-              />
-              <main>
-                <Video/>
-                <Customers/>
-                <FeaturesNotMacNotMain/>
-                <CallToAction/>
-                <GetStarted
-                  linkText="Download Stark for XD"
-                  href="https://xd.adobelanding.com/en/xd-plugin-download/?name=6cbf275e"
-                />
-                <Features2/>
-              </main>
-            </>
+            <Adobe/>
           }/>
           <Route path="/chrome" element={
             <>
