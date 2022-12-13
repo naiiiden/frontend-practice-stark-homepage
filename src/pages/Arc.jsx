@@ -1,8 +1,8 @@
-import Header from "../components/Header";
-import Video from "../components/Video";
+import Header from "../components/Header/Header";
+import Video from "../components/Video/Video";
 import Customers from "../components/Customers/Customers";
 import CallToAction from "../components/CallToAction/CallToAction";
-import GetStarted from "../components/GetStarted";
+import GetStarted from "../components/GetStarted/GetStarted";
 import Features2 from "../components/Feature2/Features2";
 import FeaturesNotMacNotMain from "../components/Feature/FeaturesNotMacNotMain";
 

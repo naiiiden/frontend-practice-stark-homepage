@@ -1,6 +1,6 @@
 import red_bg from "../../assets/images_heading2/red-bg.svg";
 import sparkle from "../../assets/images_heading2/sparkle.svg";
-import HeadingLevel2 from "../HeadingLevel2";
+import HeadingLevel2 from "../HeadingLevel2/HeadingLevel2";
 import Feature2Grid from "./Feature2Grid";
 
 const Features2 = () => {

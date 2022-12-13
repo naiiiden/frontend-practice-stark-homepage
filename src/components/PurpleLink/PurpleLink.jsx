@@ -1,4 +1,4 @@
-import download_mac from "../assets/images_repeating/download-mac.svg";
+import download_mac from "../../assets/images_repeating/download-mac.svg";
 
 const PurpleLink = ({ href, className, text, macLink }) => {
     return (

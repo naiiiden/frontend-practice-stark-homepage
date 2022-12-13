@@ -1,5 +1,5 @@
-import Nav from "../components/Nav";
-import PurpleLink from "../components/PurpleLink";
+import Nav from "../components/Nav/Nav";
+import PurpleLink from "../components/PurpleLink/PurpleLink";
 
 const Error = () => {
     return (

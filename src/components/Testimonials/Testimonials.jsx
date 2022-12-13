@@ -1,7 +1,7 @@
-import yellow_bg2 from "../assets/images_heading2/yellow-bg2.svg";
+import yellow_bg2 from "../../assets/images_heading2/yellow-bg2.svg";
 
-import Quotes from "../Quotes";
-import HeadingLevel2 from "./HeadingLevel2";
+import Quotes from "../../Quotes";
+import HeadingLevel2 from "../HeadingLevel2/HeadingLevel2";
 import Testimonial from "./Testimonial";
 
 const Testimonials = () => {

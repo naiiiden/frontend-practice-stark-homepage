@@ -1,5 +1,5 @@
-import green_bg from "../assets/images_heading2/green-bg.svg";
-import HeadingLevel2 from "./HeadingLevel2";
+import green_bg from "../../assets/images_heading2/green-bg.svg";
+import HeadingLevel2 from "../HeadingLevel2/HeadingLevel2";
 import Step from "./Step";
 
 const GetStarted = ({ linkText, href, macLink }) => {

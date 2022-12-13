@@ -1,5 +1,5 @@
 import "./style/general.css";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 import { Routes, Route } from "react-router-dom";
 
 // pages

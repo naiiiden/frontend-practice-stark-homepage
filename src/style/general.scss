@@ -71,19 +71,19 @@ img {
 }
 
 @import "./components/keyframes";
-@import "./components/header";
-@import "./components/video";
+@import "../components/Header/header";
+@import "../components/Nav/nav";
+@import "../components/Video/video";
 @import "../components/Customers/customers";
 @import "../components/Download/download";
 @import "../components/Feature/feature";
 @import "../components/CallToAction/cta";
-@import './components/testimonials';
-@import "./components/getstarted";
-@import "./components/step";
+@import '../components/Testimonials/testimonials';
+@import "../components/GetStarted/getstarted";
 @import "../components/Feature2/features2";
-@import "./components/footer";
+@import "../components/Footer/footer";
 @import "./components/error";
 
 /* reusable */
-@import "./components/purplelink";
-@import "./components/headingLevel2";
+@import "../components/PurpleLink/purplelink";
+@import "../components/HeadingLevel2/headingLevel2";

@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import stark_logo from "../assets/images_nav/logo.svg";
-import stark_logo_purple from "../assets/images_nav/logo-purple.svg";
-import white_arrow from "../assets/images_nav/white-arrow.svg";
-import purple_arrow from "../assets/images_nav/purple-arrow.svg";
-import new_svg from "../assets/images_nav/new.svg";
+import stark_logo from "../../assets/images_nav/logo.svg";
+import stark_logo_purple from "../../assets/images_nav/logo-purple.svg";
+import white_arrow from "../../assets/images_nav/white-arrow.svg";
+import purple_arrow from "../../assets/images_nav/purple-arrow.svg";
+import new_svg from "../../assets/images_nav/new.svg";
 import { Link, useLocation } from "react-router-dom";
 
 const Nav = () => {

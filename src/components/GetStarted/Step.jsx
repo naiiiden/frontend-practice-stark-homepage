@@ -1,8 +1,6 @@
-import { useLocation } from "react-router-dom";
-import PurpleLink from "./PurpleLink"
+import PurpleLink from "../PurpleLink/PurpleLink"
 
 const Step = ({ step, h3, desc, linkText, href, macLink }) => {
-    const { pathname } = useLocation();
 
     return (
         <div className="step-container">

@@ -1,14 +1,14 @@
 // components 
-import HeadingLevel2 from "./HeadingLevel2";
+import HeadingLevel2 from "../HeadingLevel2/HeadingLevel2";
 
 // images
-import logo from "../assets/images_footer/logo-footer.svg";
-import twitter from "../assets/images_footer/footer__twitter.png";
-import instagram from "../assets/images_footer/footer__instagram.png";
-import slack from "../assets/images_footer/footer__slack.png";
-import youtube from "../assets/images_footer/footer__youtube.png";
-import dribbble from "../assets/images_footer/footer__dribbble.png";
-import meetup from "../assets/images_footer/footer__meetup.png";
+import logo from "../../assets/images_footer/logo-footer.svg";
+import twitter from "../../assets/images_footer/footer__twitter.png";
+import instagram from "../../assets/images_footer/footer__instagram.png";
+import slack from "../../assets/images_footer/footer__slack.png";
+import youtube from "../../assets/images_footer/footer__youtube.png";
+import dribbble from "../../assets/images_footer/footer__dribbble.png";
+import meetup from "../../assets/images_footer/footer__meetup.png";
 
 const Footer = () => {
     return (

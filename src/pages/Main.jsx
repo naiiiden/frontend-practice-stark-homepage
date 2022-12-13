@@ -1,11 +1,11 @@
-import Header from "../components/Header";
-import Video from "../components/Video";
+import Header from "../components/Header/Header";
+import Video from "../components/Video/Video";
 import Customers from "../components/Customers/Customers";
 import Download from "../components/Download/Download";
 import FeaturesMainPage from "../components/Feature/FeaturesMainPage";
 import CallToAction from "../components/CallToAction/CallToAction";
-import Testimonials from "../components/Testimonials";
-import GetStarted from "../components/GetStarted";
+import Testimonials from "../components/Testimonials/Testimonials";
+import GetStarted from "../components/GetStarted/GetStarted";
 import Features2 from "../components/Feature2/Features2";
 
 // hero image
