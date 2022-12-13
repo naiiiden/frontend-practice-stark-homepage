@@ -1,31 +1,31 @@
 // grid images
-import contrast from "../assets/images_features_grid/homepage-grid-contrast.png";
-import focus_order from "../assets/images_features_grid/homepage-grid-focus-order.png";
-import landmarks from "../assets/images_features_grid/homepage-grid-landmarks.png";
-import vision_simulator from "../assets/images_features_grid/homepage-grid-vision-simulator.webp";
-import touch_target from "../assets/images_features_grid/homepage-grid-touchtarget.png";
-import works from "../assets/images_features_grid/homepage-grid-designbrowser.webp";
-import logo from "../assets/images_features_grid/logo-big.svg";
-import education from "../assets/images_features_grid/homepage-grid-education.png";
-import alt_text from "../assets/images_features_grid/homepage-grid-alttext.png";
-import live_preview from "../assets/images_features_grid/homepage-grid-livepreview.webp";
-import typography from "../assets/images_features_grid/homepage-grid-typography.png";
-import sso from "../assets/images_features_grid/homepage-grid-sso.png";
-import fast from "../assets/images_features_grid/homepage-grid-fast.webp";
+import contrast from "../../assets/images_features_grid/homepage-grid-contrast.png";
+import focus_order from "../../assets/images_features_grid/homepage-grid-focus-order.png";
+import landmarks from "../../assets/images_features_grid/homepage-grid-landmarks.png";
+import vision_simulator from "../../assets/images_features_grid/homepage-grid-vision-simulator.webp";
+import touch_target from "../../assets/images_features_grid/homepage-grid-touchtarget.png";
+import works from "../../assets/images_features_grid/homepage-grid-designbrowser.webp";
+import logo from "../../assets/images_features_grid/logo-big.svg";
+import education from "../../assets/images_features_grid/homepage-grid-education.png";
+import alt_text from "../../assets/images_features_grid/homepage-grid-alttext.png";
+import live_preview from "../../assets/images_features_grid/homepage-grid-livepreview.webp";
+import typography from "../../assets/images_features_grid/homepage-grid-typography.png";
+import sso from "../../assets/images_features_grid/homepage-grid-sso.png";
+import fast from "../../assets/images_features_grid/homepage-grid-fast.webp";
 
 // mac grid images
-import mac_contrast from "../assets/images_features_grid/mac__contrast.webp";
-import mac_code_snippets from "../assets/images_features_grid/mac__code-snippets.webp";
-import mac_education from "../assets/images_features_grid/mac__education.webp";
-import mac_works from "../assets/images_features_grid/mac__overview-sidebar.webp";
-import mac_alt_text from "../assets/images_features_grid/mac__alt-text.webp";
-import mac_typography from "../assets/images_features_grid/mac__typography.webp";
-import mac_platforms from "../assets/images_features_grid/mac__platforms.webp";
-import mac_fast from "../assets/images_features_grid/mac__app.webp";
+import mac_contrast from "../../assets/images_features_grid/mac__contrast.webp";
+import mac_code_snippets from "../../assets/images_features_grid/mac__code-snippets.webp";
+import mac_education from "../../assets/images_features_grid/mac__education.webp";
+import mac_works from "../../assets/images_features_grid/mac__overview-sidebar.webp";
+import mac_alt_text from "../../assets/images_features_grid/mac__alt-text.webp";
+import mac_typography from "../../assets/images_features_grid/mac__typography.webp";
+import mac_platforms from "../../assets/images_features_grid/mac__platforms.webp";
+import mac_fast from "../../assets/images_features_grid/mac__app.webp";
 
 // bg images
-import blob1 from "../assets/images_features_grid/homepage-blob-1.png";
-import blob2 from "../assets/images_features_grid/homepage-blob-2.png";
+import blob1 from "../../assets/images_features_grid/homepage-blob-1.png";
+import blob2 from "../../assets/images_features_grid/homepage-blob-2.png";
 import { useLocation } from "react-router-dom";
 
 const Feature2Grid = ({}) => {

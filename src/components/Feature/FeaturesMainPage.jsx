@@ -1,12 +1,12 @@
 import Feature from "./Feature";
-import dec from "../assets/images_features/purple-arrow.svg";
-import homepage_feature1 from "../assets/images_features/homepage__feature-1.webp";
-import homepage_feature2A from "../assets/images_features/homepage__feature-2a.png";
-import homepage_feature2B from "../assets/images_features/homepage__feature-2b.png";
-import homepage_feature3A from "../assets/images_features/homepage__feature-3a.png";
-import homepage_feature3B from "../assets/images_features/homepage__feature-3b.png";
-import homepage_feature4A from "../assets/images_features/homepage__feature-4a.png";
-import homepage_feature4B from "../assets/images_features/homepage__feature-4b.png";
+import dec from "../../assets/images_features/purple-arrow.svg";
+import homepage_feature1 from "../../assets/images_features/homepage__feature-1.webp";
+import homepage_feature2A from "../../assets/images_features/homepage__feature-2a.png";
+import homepage_feature2B from "../../assets/images_features/homepage__feature-2b.png";
+import homepage_feature3A from "../../assets/images_features/homepage__feature-3a.png";
+import homepage_feature3B from "../../assets/images_features/homepage__feature-3b.png";
+import homepage_feature4A from "../../assets/images_features/homepage__feature-4a.png";
+import homepage_feature4B from "../../assets/images_features/homepage__feature-4b.png";
 
 import { useEffect } from "react";
 

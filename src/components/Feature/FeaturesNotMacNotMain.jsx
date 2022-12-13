@@ -1,9 +1,9 @@
 import Feature from "./Feature";
-import feature_rest_1 from "../assets/images_features/feature_1v2.webp";
-import feature_rest_2 from "../assets/images_features/feature_2v2.webp";
-import feature_rest_3 from "../assets/images_features/feature_3v2.webp";
-import feature_rest_4 from "../assets/images_features/feature_4v2.webp";
-import feature_rest_4_2 from "../assets/images_features/feature_4v2.2.webp";
+import feature_rest_1 from "../../assets/images_features/feature_1v2.webp";
+import feature_rest_2 from "../../assets/images_features/feature_2v2.webp";
+import feature_rest_3 from "../../assets/images_features/feature_3v2.webp";
+import feature_rest_4 from "../../assets/images_features/feature_4v2.webp";
+import feature_rest_4_2 from "../../assets/images_features/feature_4v2.2.webp";
 import { useLocation } from "react-router-dom";
 
 const FeaturesNotMacNotMain = () => {

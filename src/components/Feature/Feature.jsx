@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
-import PurpleLink from "./PurpleLink";
-import download_mac from "../assets/images_repeating/download-mac.svg";
+import PurpleLink from "../PurpleLink";
+import download_mac from "../../assets/images_repeating/download-mac.svg";
 
 const Feature = ({ sectionClass, mt, pShort, dec, h2, desc, href, linkClass, text, imgClass, src1, src2, idImgContainer, idImg1, idImg2, }) => {
     const { pathname } = useLocation();

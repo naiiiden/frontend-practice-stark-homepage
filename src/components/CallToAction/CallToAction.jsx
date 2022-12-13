@@ -1,6 +1,6 @@
-import homepage_feature5 from "../assets/images_cta/homepage__feature-5.webp";
-import homepage_feature5_arrow from "../assets/images_cta/homepage__feature-5-arrow.svg";
-import PurpleLink from "./PurpleLink";
+import homepage_feature5 from "../../assets/images_cta/homepage__feature-5.webp";
+import homepage_feature5_arrow from "../../assets/images_cta/homepage__feature-5-arrow.svg";
+import PurpleLink from "../PurpleLink";
 
 const CallToAction = () => {
     return (

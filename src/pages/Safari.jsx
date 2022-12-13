@@ -1,10 +1,10 @@
 import Header from "../components/Header";
 import Video from "../components/Video";
-import Customers from "../components/Customers";
-import CallToAction from "../components/CallToAction";
+import Customers from "../components/Customers/Customers";
+import CallToAction from "../components/CallToAction/CallToAction";
 import GetStarted from "../components/GetStarted";
-import Features2 from "../components/Features2";
-import FeaturesNotMacNotMain from "../components/FeaturesNotMacNotMain";
+import Features2 from "../components/Feature2/Features2";
+import FeaturesNotMacNotMain from "../components/Feature/FeaturesNotMacNotMain";
 
 // hero image
 import safari from "../assets/images_header/safari.webp";

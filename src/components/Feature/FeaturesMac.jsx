@@ -1,9 +1,9 @@
 import Feature from "./Feature";
 
-import homepage_feature1 from "../assets/images_features/mac__accelerate.webp";
-import homepage_feature2 from "../assets/images_features/mac__toolbox.webp";
-import homepage_feature3 from "../assets/images_features/mac__novice-to-expert.webp";
-import homepage_feature4 from "../assets/images_features/mac__retrofitting.webp";
+import homepage_feature1 from "../../assets/images_features/mac__accelerate.webp";
+import homepage_feature2 from "../../assets/images_features/mac__toolbox.webp";
+import homepage_feature3 from "../../assets/images_features/mac__novice-to-expert.webp";
+import homepage_feature4 from "../../assets/images_features/mac__retrofitting.webp";
 
 const FeaturesMac = () => {
     return (

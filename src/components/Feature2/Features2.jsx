@@ -1,7 +1,7 @@
-import red_bg from "../assets/images_heading2/red-bg.svg";
-import sparkle from "../assets/images_heading2/sparkle.svg";
+import red_bg from "../../assets/images_heading2/red-bg.svg";
+import sparkle from "../../assets/images_heading2/sparkle.svg";
+import HeadingLevel2 from "../HeadingLevel2";
 import Feature2Grid from "./Feature2Grid";
-import HeadingLevel2 from "./HeadingLevel2";
 
 const Features2 = () => {
     return (

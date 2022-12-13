@@ -73,14 +73,14 @@ img {
 @import "./components/keyframes";
 @import "./components/header";
 @import "./components/video";
-@import "./components/customers";
-@import "./components/download";
-@import "./components/feature";
-@import "./components/cta";
+@import "../components/Customers/customers";
+@import "../components/Download/download";
+@import "../components/Feature/feature";
+@import "../components/CallToAction/cta";
 @import './components/testimonials';
 @import "./components/getstarted";
 @import "./components/step";
-@import "./components/features2";
+@import "../components/Feature2/features2";
 @import "./components/footer";
 @import "./components/error";
 

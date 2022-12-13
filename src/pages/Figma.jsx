@@ -1,13 +1,13 @@
 import Header from "../components/Header";
 import Video from "../components/Video";
-import Customers from "../components/Customers";
-import CallToAction from "../components/CallToAction";
+import Customers from "../components/Customers/Customers";
+import CallToAction from "../components/CallToAction/CallToAction";
 import GetStarted from "../components/GetStarted";
-import Features2 from "../components/Features2";
+import Features2 from "../components/Feature2/Features2";
 
 // hero image
 import figma from "../assets/images_header/figma.webp";
-import FeaturesNotMacNotMain from "../components/FeaturesNotMacNotMain";
+import FeaturesNotMacNotMain from "../components/Feature/FeaturesNotMacNotMain";
 
 const Figma = () => {
     return (
