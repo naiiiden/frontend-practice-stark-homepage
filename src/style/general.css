@@ -128,10 +128,12 @@ img {
 header {
   background-size: cover;
   background-repeat: no-repeat;
+  background: #381fd1;
 }
 
 .header-transparent {
   background-image: none;
+  background: unset;
 }
 .header-transparent .introduction {
   color: #381fd1 !important;
