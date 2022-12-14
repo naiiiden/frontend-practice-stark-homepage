@@ -73,6 +73,7 @@ const FeaturesMainPage = () => {
                 href="https://account.getstark.co/sign-in"
                 text="Get started"
                 src1={homepage_feature1}
+                maxW="460"
             />
             <Feature
                 idImgContainer="feature2"
@@ -86,6 +87,7 @@ const FeaturesMainPage = () => {
                 text="Get started"
                 src1={homepage_feature2A}
                 src2={homepage_feature2B}
+                maxW="460"
             />
             <Feature 
                 idImgContainer="feature3"
@@ -99,6 +101,7 @@ const FeaturesMainPage = () => {
                 text="Get started"
                 src1={homepage_feature3A}
                 src2={homepage_feature3B}
+                maxW="460"
             />
             <Feature 
                 idImgContainer="feature4"
@@ -112,6 +115,7 @@ const FeaturesMainPage = () => {
                 text="Get started"
                 src1={homepage_feature4A}
                 src2={homepage_feature4B}
+                maxW="433"
             />
         </div>
     )

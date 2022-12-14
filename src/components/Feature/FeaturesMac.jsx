@@ -16,6 +16,7 @@ const FeaturesMac = () => {
                 desc="Get automated checks of Sketch and Figma files seconds after importing them. We analyze any issues in your design and help you meet the latest accessibility compliance standards."
                 src1={homepage_feature1}
                 idImg1="feature-mac-img1"
+                maxW="460"
             />
             <Feature
                 sectionClass="feature-mac-2"
@@ -25,6 +26,7 @@ const FeaturesMac = () => {
                 desc="Stark for Mac gives every designer, engineer, PM, and QA expert the power to design, build, and test software that meets the latest accessibility standards. With tools for checking contrast ratios, writing good alt text, establishing a focus order, and more, you've got what you need to find issues while a design's in production or fix what's already in flight."
                 src1={homepage_feature2}
                 idImg1="feature-mac-img2"
+                maxW="460"
             />
             <Feature
                 sectionClass="feature-mac-3"
@@ -34,6 +36,7 @@ const FeaturesMac = () => {
                 desc="Stark is your accessibility sidekick. Learn best practices on the fly and get tips on how to fix any issues we find. We’ll take you from novice to expert while doing the heavy lifting in the background."
                 src1={homepage_feature3}
                 idImg1="feature-mac-img3"
+                maxW="460"
             />
             <Feature
                 sectionClass="feature-mac-4"
@@ -43,6 +46,7 @@ const FeaturesMac = () => {
                 desc="Our Sketch and Figma plugins automatically connect to Stark for Mac. So you can apply changes like Color Suggestions to individual elements or fix all instances of an issue across your design file or system with a single click."
                 src1={homepage_feature4}
                 idImg1="feature-mac-img4"
+                maxW="433"
             />
         </div>
     )

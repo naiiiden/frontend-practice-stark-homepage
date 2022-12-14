@@ -21,6 +21,7 @@ const FeaturesNotMacNotMain = () => {
                 idImg1="feature-rest-img1"
                 text="Get started for free"
                 href="https://account.getstark.co/"
+                maxW="460"
             />
             <Feature
                 sectionClass="feature-rest-2"
@@ -32,6 +33,7 @@ const FeaturesNotMacNotMain = () => {
                 idImg1="feature-rest-img2"
                 text="Get started for free"
                 href="https://account.getstark.co/"
+                maxW="460"
             />
             <Feature
                 sectionClass="feature-rest-3"
@@ -43,6 +45,7 @@ const FeaturesNotMacNotMain = () => {
                 idImg1="feature-rest-img3"
                 text="Get started for free"
                 href="https://account.getstark.co/"
+                maxW="460"
             />
             {pathname == "/adobe-xd" ? 
                 "" 
@@ -57,6 +60,7 @@ const FeaturesNotMacNotMain = () => {
                 idImg1="feature-rest-img4"
                 text="Get started for free"
                 href="https://account.getstark.co/"
+                maxW="433"
             />
             }
         </div>

@@ -2,13 +2,15 @@ import { useLocation } from "react-router-dom";
 import PurpleLink from "../PurpleLink/PurpleLink";
 import download_mac from "../../assets/images_repeating/download-mac.svg";
 
-const Feature = ({ sectionClass, mt, pShort, dec, h2, desc, href, linkClass, text, imgClass, src1, src2, idImgContainer, idImg1, idImg2, }) => {
+const Feature = ({ sectionClass, mt, pShort, dec, h2, desc, href, linkClass, text, imgClass, src1, src2, idImgContainer, idImg1, idImg2, maxW }) => {
     const { pathname } = useLocation();
 
     return (
         <section className={`feature-section ${sectionClass}`} style={{"marginTop": `${mt}px`}}>
             <div className="inner-wrapper-div">
-                <div className="text-container">
+                <div className="text-container" style={{
+                    "maxWidth": `${maxW}px`
+                }}>
                     <div className="decoration-container">
                         <p className="uppercase" style={{
                             "fontFamily": "roboto-mono"
