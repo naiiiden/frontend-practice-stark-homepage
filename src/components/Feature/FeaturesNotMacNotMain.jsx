@@ -22,6 +22,7 @@ const FeaturesNotMacNotMain = () => {
                 text="Get started for free"
                 href="https://account.getstark.co/"
                 maxW="460"
+                ml
             />
             <Feature
                 sectionClass="feature-rest-2"
@@ -34,6 +35,7 @@ const FeaturesNotMacNotMain = () => {
                 text="Get started for free"
                 href="https://account.getstark.co/"
                 maxW="460"
+                ml
             />
             <Feature
                 sectionClass="feature-rest-3"
@@ -46,6 +48,7 @@ const FeaturesNotMacNotMain = () => {
                 text="Get started for free"
                 href="https://account.getstark.co/"
                 maxW="460"
+                ml
             />
             {pathname == "/adobe-xd" ? 
                 "" 
