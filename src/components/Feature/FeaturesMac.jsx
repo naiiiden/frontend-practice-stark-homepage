@@ -17,6 +17,7 @@ const FeaturesMac = () => {
                 src1={homepage_feature1}
                 idImg1="feature-mac-img1"
                 maxW="460"
+                ml
             />
             <Feature
                 sectionClass="feature-mac-2"
@@ -27,6 +28,7 @@ const FeaturesMac = () => {
                 src1={homepage_feature2}
                 idImg1="feature-mac-img2"
                 maxW="460"
+                ml
             />
             <Feature
                 sectionClass="feature-mac-3"
@@ -37,6 +39,7 @@ const FeaturesMac = () => {
                 src1={homepage_feature3}
                 idImg1="feature-mac-img3"
                 maxW="460"
+                ml
             />
             <Feature
                 sectionClass="feature-mac-4"
