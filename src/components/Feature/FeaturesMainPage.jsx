@@ -74,6 +74,7 @@ const FeaturesMainPage = () => {
                 text="Get started"
                 src1={homepage_feature1}
                 maxW="460"
+                ml
             />
             <Feature
                 idImgContainer="feature2"
