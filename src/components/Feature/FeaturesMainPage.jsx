@@ -103,6 +103,7 @@ const FeaturesMainPage = () => {
                 src1={homepage_feature3A}
                 src2={homepage_feature3B}
                 maxW="460"
+                ml
             />
             <Feature 
                 idImgContainer="feature4"

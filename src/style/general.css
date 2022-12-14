@@ -979,6 +979,9 @@ header {
   .feature-section:nth-child(odd) .inner-wrapper-div .image-container {
     order: 2;
   }
+  .feature-section:nth-child(3) .image-container {
+    width: 552px;
+  }
   .feature-section:nth-child(4) .inner-wrapper-div {
     grid-template-columns: 554px 1fr;
   }
