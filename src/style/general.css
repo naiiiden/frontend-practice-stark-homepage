@@ -644,6 +644,8 @@ header {
 }
 .video-section .video-container .video-subcontainer .play {
   z-index: 9;
+  border: none;
+  background: transparent;
 }
 .video-section p {
   max-width: 734px;

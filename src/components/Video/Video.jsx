@@ -32,9 +32,13 @@ const Video = () => {
                     img1={yellow_bg}
                 />
                 <div className="video-container">
-                    <div className="video-subcontainer">
+                    <div className="video-subcontainer" style={{
+                        "display": `${playVideo && "none"}`
+                    }}>
                         <img src={video_placeholder} alt="" className="placeholder"/>
-                        <img src={play} alt="" className="play" onClick={(e) => (e.target.parentNode.style.display = "none", setPlayVideo(true))}/>
+                        <button onClick={() => (setPlayVideo(true))} className="play">
+                            <img src={play} alt="Play video" className="play"/>
+                        </button>
                     </div>
                     {playVideo && <iframe src="https://www.youtube.com/embed/_SMRBDaXq84?autoplay=1&mute=0" width="100%" height="100%" frameBorder="0" allow="autoplay"/>}
                 </div>
