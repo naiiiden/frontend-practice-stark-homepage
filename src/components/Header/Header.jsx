@@ -27,8 +27,12 @@ const Header = ({ extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIn
             <Nav/>
             <div className="header-hero" style={{"backgroundColor": `${bgColor}`, "backgroundImage": `${bgURL}`,}}>
                 <div className="centered-horizontally">
-                    <div className="text-illustration-wrapper">
-                        <div className="text-container">
+                    <div className="text-illustration-wrapper" style={{
+                            "marginBottom" : `${pathname != "/" ? "164px" : ""}`
+                        }}>
+                        <div className="text-container" style={{
+                            "marginBottom" : `${pathname == "/" ? "164px" : ""}`
+                        }}>
                             <p className="introduction uppercase">{pIntro}</p>
                             <h1>{h1Text}</h1>
                             <p className="description" id="description">{pText}</p>
