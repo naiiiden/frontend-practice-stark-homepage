@@ -1044,6 +1044,7 @@ header {
   .cta-section .cta-inner-wrapper .text-container {
     order: unset;
     margin: auto 0;
+    max-width: 433px;
   }
   .cta-section .cta-inner-wrapper .image-container {
     position: relative;
