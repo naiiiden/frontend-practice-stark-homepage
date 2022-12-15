@@ -7,6 +7,7 @@ import edge from "../../assets/images_download/homepage-edge.png";
 import safari from "../../assets/images_download/homepage-safari.png";
 import arc from "../../assets/images_download/homepage-arc.png";
 import brave from "../../assets/images_download/homepage-brave.png";
+import PlatformDownload from "../PlatformDownload/PlatformDownload";
 
 const Download = () => {
     return (
@@ -15,44 +16,62 @@ const Download = () => {
                 <h2>Meet the Suite</h2>
                 <div className="download-container">
                     <div className="flex-container-1">
-                        <a href="https://apps.apple.com/us/app/stark-your-accessibility-hub/id1624920264" target="_blank">
-                            <img src={mac} alt=""/>
-                            <p>Stark for Mac</p>
-                        </a>
-                        <a href="https://www.figma.com/community/plugin/732603254453395948" target="_blank">
-                            <img src={figma} alt=""/>
-                            <p>Stark for Figma</p>
-                        </a>
-                        <a href="https://www.getstark.co/sketch/download" target="_blank">
-                            <img src={sketch} alt=""/>
-                            <p>Stark for Sketch</p>
-                        </a>
-                        <a href="https://xd.adobelanding.com/en/xd-plugin-download/?name=6cbf275e" target="_blank">
-                            <img src={xd} alt=""/>
-                            <p>Stark for Adobe XD</p>
-                        </a>
+                        <PlatformDownload 
+                            href="https://apps.apple.com/us/app/stark-your-accessibility-hub/id1624920264"
+                            src={mac}
+                            alt=""
+                            platform="Mac"
+                        />
+                        <PlatformDownload
+                            href="https://www.figma.com/community/plugin/732603254453395948"
+                            src={figma}
+                            alt=""
+                            platform="Figma"
+                        />
+                        <PlatformDownload
+                            href="https://www.getstark.co/sketch/download"
+                            src={sketch}
+                            alt=""
+                            platform="Sketch"
+                        />
+                        <PlatformDownload
+                            href="https://xd.adobelanding.com/en/xd-plugin-download/?name=6cbf275e"
+                            src={xd}
+                            alt=""
+                            platform="Adobe XD"
+                        />
                     </div>
                     <div className="flex-container-2">
-                        <a href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm" target="_blank">
-                            <img src={chrome} alt=""/>
-                            <p>Stark for Chrome</p>
-                        </a>
-                        <a href="https://microsoftedge.microsoft.com/addons/detail/stark/idpodoagbkllmpdjdepbmlefgiblmnhl" target="_blank">
-                            <img src={edge} alt=""/>
-                            <p>Stark for Edge</p>
-                        </a>
-                        <a href="https://apps.apple.com/us/app/stark-for-safari/id6444031666" target="_blank">
-                            <img src={safari} alt=""/>
-                            <p>Stark for Safari</p>
-                        </a>
-                        <a href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm" target="_blank">
-                            <img src={arc} alt=""/>
-                            <p>Stark for Arc</p>
-                        </a>
-                        <a href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm" target="_blank">
-                            <img src={brave} alt=""/>
-                            <p>Stark for Brave</p>
-                        </a>
+                        <PlatformDownload
+                            href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm"
+                            src={chrome}
+                            alt=""
+                            platform="Chrome"
+                        />
+                        <PlatformDownload
+                            href="https://microsoftedge.microsoft.com/addons/detail/stark/idpodoagbkllmpdjdepbmlefgiblmnhl"
+                            src={edge}
+                            alt=""
+                            platform="Edge"
+                        />
+                        <PlatformDownload
+                            href="https://apps.apple.com/us/app/stark-for-safari/id6444031666"
+                            src={safari}
+                            alt=""
+                            platform="Safari"
+                        />
+                        <PlatformDownload
+                            href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm"
+                            src={arc}
+                            alt=""
+                            platform="Arc"
+                        />
+                        <PlatformDownload
+                            href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm"
+                            src={brave}
+                            alt=""
+                            platform="Brave"
+                        />
                     </div>
                 </div>
             </section>
