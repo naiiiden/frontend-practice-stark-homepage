@@ -5,7 +5,7 @@ const PlatformDownload = ({ href, src, alt, platform  }) => {
                 src={src} 
                 alt={alt}
             />
-            <p>Stark for ${platform}</p>
+            <p>Stark for {platform}</p>
         </a>
     )
 }
