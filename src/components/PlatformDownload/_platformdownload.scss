@@ -1,0 +1,40 @@
+.platform-download-link {
+    text-decoration: none;
+    color: $dark-blue;
+    font-family: armingrotesk-semibold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 150px;
+
+    img {
+        width: 106px;
+        height: 90px;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .platform-download-link {
+        img {
+            transition: .2s;
+        }
+                
+        &:nth-child(odd):hover {
+            img {
+                filter: drop-shadow(0 8px 12px rgba(0,0,0,.16));
+                transform: rotate(-4deg) scale(1.02);
+                transition: .2s;
+            }
+        }
+
+        &:nth-child(even):hover {
+            img {
+                filter: drop-shadow(0 8px 12px rgba(0,0,0,.16));
+                transform: rotate(5deg) scale(1.02);
+                transition: .2s;
+            }
+        }
+    }
+}
+    
