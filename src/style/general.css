@@ -731,6 +731,36 @@ header {
     gap: 4rem;
   }
 }
+.platform-download-link {
+  text-decoration: none;
+  color: #10284b;
+  font-family: armingrotesk-semibold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 150px;
+}
+.platform-download-link img {
+  width: 106px;
+  height: 90px;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .platform-download-link img {
+    transition: 0.2s;
+  }
+  .platform-download-link:nth-child(odd):hover img {
+    filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.16));
+    transform: rotate(-4deg) scale(1.02);
+    transition: 0.2s;
+  }
+  .platform-download-link:nth-child(even):hover img {
+    filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.16));
+    transform: rotate(5deg) scale(1.02);
+    transition: 0.2s;
+  }
+}
 .feature-section {
   padding: 1rem;
   display: flex;
