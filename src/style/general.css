@@ -322,6 +322,30 @@ header {
             animation: pop 10s cubic-bezier(0.68, -0.6, 0.32, 1.6) 4s forwards;
   }
 }
+.sketch-download-header-wrapper .header-image-container {
+  display: none;
+}
+.sketch-download-header-wrapper header {
+  background-image: url("../assets/images_header/homepage-gradient-bg.webp");
+  animation: background 5s ease-in-out infinite alternate-reverse;
+}
+.sketch-download-header-wrapper .centered-horizontally {
+  padding: 1rem;
+}
+.sketch-download-header-wrapper .text-illustration-wrapper {
+  display: unset;
+  max-width: 960px;
+  padding: unset !important;
+}
+.sketch-download-header-wrapper .description {
+  max-width: 582px;
+}
+.sketch-download-header-wrapper .yellow-arrow {
+  top: 80px;
+  left: 482px !important;
+  transform: rotate(45deg);
+}
+
 .header-transparent .dropdown-button {
   color: #381fd1 !important;
 }
@@ -1629,30 +1653,6 @@ footer .socials-copyright-wrapper p {
     color: #fff !important;
   }
 }
-.sketch-download-header-wrapper .header-image-container {
-  display: none;
-}
-.sketch-download-header-wrapper header {
-  background-image: url("../assets/images_header/homepage-gradient-bg.webp");
-  animation: background 5s ease-in-out infinite alternate-reverse;
-}
-.sketch-download-header-wrapper .centered-horizontally {
-  padding: 1rem;
-}
-.sketch-download-header-wrapper .text-illustration-wrapper {
-  display: unset;
-  max-width: 960px;
-  padding: unset !important;
-}
-.sketch-download-header-wrapper .description {
-  max-width: 582px;
-}
-.sketch-download-header-wrapper .yellow-arrow {
-  top: 80px;
-  left: 482px !important;
-  transform: rotate(45deg);
-}
-
 .sketch-download-platform-container {
   margin: 6rem 0 0 0;
 }
