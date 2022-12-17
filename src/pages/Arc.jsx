@@ -19,6 +19,8 @@ const Arc = () => {
                 pText="Make every project accessible from the start. Stark for Arc keeps you focused on the parts of a project that need an accessibility audit. With powerful tools, automated checks, and smart suggestions you can supercharge your accessibility workflow at scale and in record tim"
                 link1Text="Create a free account"
                 link2Text="Learn more"
+                link1Href="https://account.getstark.co/sign-in"
+                link2Href="#learn-more"
             />
             <main>
                 <Video/>

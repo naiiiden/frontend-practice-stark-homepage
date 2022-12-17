@@ -32,6 +32,8 @@ const SketchDownload = () => {
                     pText="If your download doesn’t start automatically, click the button. While you wait, check out Stark on other platforms for free."
                     link1Text="Download Stark for Sketch"
                     link2Text="Create free account"
+                    link1Href="https://github.com/stark-contrast/stark-sketch-plugin/"
+                    link2Href="https://account.getstark.co/sign-in"
                 />
             </div>
             <div className="sketch-download-platform-container">

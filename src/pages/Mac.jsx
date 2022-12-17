@@ -25,6 +25,7 @@ const Mac = () => {
                 h1Text="Intro&shy;ducing Stark for Mac" 
                 pText="Whether you’re working on a website, mobile app, SaaS application or anything in between, Stark for Mac helps you find and fix accessibility issues in your existing Figma and Sketch files. With powerful tools, automated checks, and smart suggestions you can supercharge your accessibility workflow at scale and in record time."
                 link2Text="Learn more"
+                link2Href="#learn-more"
             />
             <main>
                 <Video/>

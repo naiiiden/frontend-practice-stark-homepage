@@ -10,7 +10,7 @@ import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Nav from "../Nav/Nav";
 
-const Header = ({ purpleBg, extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIntro, h1Text, pText, bgColor, bgURL, arrowTop, arrowLeft, link1Text, link2Text }) => {
+const Header = ({ purpleBg, extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIntro, h1Text, pText, bgColor, bgURL, arrowTop, arrowLeft, link1Text, link1Href, link2Text, link2Href }) => {
     const [isDesktop, setIsDesktop] = useState(false);
     
     const updateMedia = () => setIsDesktop(window.innerWidth <= 1023);
@@ -45,9 +45,9 @@ const Header = ({ purpleBg, extraImages, heroImage, mb, minWidth, maxWidth, top,
                                     {pathname == "/mac" ?
                                     <a href="https://apps.apple.com/us/app/stark-your-accessibility-hub/id1624920264" className="mac-link"><img src={download_mac} alt="Download on the Mac App Store"/></a>
                                     :
-                                    <a href="https://account.getstark.co/sign-in" className="free">{link1Text}</a>
+                                    <a href={link1Href} className="free">{link1Text}</a>
                                     }
-                                    <a href="#learn-more" className="learn" aria-describedby="description">{link2Text}</a>
+                                    <a href={link2Href} className="learn" aria-describedby="description">{link2Text}</a>
                                 </div>
                                 {!isDesktop && <img src={purpleBg ? yellow_arrow : purple_arrow} alt="" className="yellow-arrow" style={{
                                     "top": `${arrowTop ? arrowTop : "16"}px`,

@@ -28,6 +28,8 @@ const Main = () => {
                 pText="Tired of manually checking spreadsheets, messy handovers, and expensive retrofitting? Stark connects the tools you and your team already use in a streamlined end-to-end accessibility workflow you actually love." 
                 link1Text="Create a free account"
                 link2Text="Learn more"
+                link1Href="https://account.getstark.co/sign-in"
+                link2Href="#learn-more"
             />
             <main>
                 <Video/>
