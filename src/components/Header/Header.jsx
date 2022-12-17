@@ -10,7 +10,7 @@ import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Nav from "../Nav/Nav";
 
-const Header = ({ extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIntro, h1Text, pText, bgColor, bgURL, arrowTop, arrowLeft }) => {
+const Header = ({ purpleBg, extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIntro, h1Text, pText, bgColor, bgURL, arrowTop, arrowLeft }) => {
     const [isDesktop, setIsDesktop] = useState(false);
     
     const updateMedia = () => setIsDesktop(window.innerWidth <= 1023);
@@ -23,7 +23,9 @@ const Header = ({ extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIn
     });
 
     return (
-        <header className={`${pathname != "/" ? "header-transparent" : ""}`}>
+        <header 
+            className={`${purpleBg == true  ? "" : "header-transparent"}`}
+        >
             <Nav/>
             <div className="header-hero" style={{"backgroundColor": `${bgColor}`, "backgroundImage": `${bgURL}`,}}>
                 <div className="centered-horizontally">

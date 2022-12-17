@@ -14,6 +14,7 @@ import Safari from "./pages/Safari";
 import Arc from "./pages/Arc";
 import Brave from "./pages/Brave";
 import Error from "./pages/Error";
+import SketchDownload from "./pages/SketchDownload";
 
 const App = () => {
   return (
@@ -36,7 +37,7 @@ const App = () => {
               <Sketch/>
             }/>
             <Route path="download" element={
-              <p>hey</p>
+              <SketchDownload/>
             }/>
           </Route>
           <Route path="/adobe-xd" element={

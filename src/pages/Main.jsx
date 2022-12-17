@@ -14,7 +14,8 @@ import homepage_header from "../assets/images_header/homepage__header.webp";
 const Main = () => {
     return (
         <>
-            <Header 
+            <Header
+                purpleBg={true} 
                 mb="0"
                 extraImages={true}
                 heroImage={homepage_header}
