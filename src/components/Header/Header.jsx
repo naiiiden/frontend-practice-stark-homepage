@@ -49,7 +49,7 @@ const Header = ({ purpleBg, extraImages, heroImage, mb, minWidth, maxWidth, top,
                                     }
                                     <a href="#learn-more" className="learn" aria-describedby="description">Learn more</a>
                                 </div>
-                                {!isDesktop && <img src={pathname != "/" ? purple_arrow : yellow_arrow} alt="" className="yellow-arrow" style={{
+                                {!isDesktop && <img src={purpleBg ? yellow_arrow : purple_arrow} alt="" className="yellow-arrow" style={{
                                     "top": `${arrowTop ? arrowTop : "16"}px`,
                                     "left": `${arrowLeft ? arrowLeft : "372"}px`,
                                 }}
