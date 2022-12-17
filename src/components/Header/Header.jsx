@@ -26,7 +26,9 @@ const Header = ({ purpleBg, extraImages, heroImage, mb, minWidth, maxWidth, top,
         <header 
             className={`${purpleBg == true  ? "" : "header-transparent"}`}
         >
-            <Nav/>
+            <Nav
+                purpleBg={purpleBg}
+            />
             <div className="header-hero" style={{"backgroundColor": `${bgColor}`, "backgroundImage": `${bgURL}`,}}>
                 <div className="centered-horizontally">
                     <div className="text-illustration-wrapper" style={{

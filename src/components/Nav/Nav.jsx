@@ -6,7 +6,7 @@ import purple_arrow from "../../assets/images_nav/purple-arrow.svg";
 import new_svg from "../../assets/images_nav/new.svg";
 import { Link, useLocation } from "react-router-dom";
 
-const Nav = () => {
+const Nav = ({ purpleBg }) => {
     const [openMenu, setOpenMenu] = useState(false);
     const [openDropdown, setOpenDropdown] = useState(false);
     const [isDesktop, setIsDesktop] = useState(false);
@@ -26,7 +26,7 @@ const Nav = () => {
         <div className="nav-menu-container">
         <nav className="nav-logo-container" aria-label="Header">
             <Link to="/" aria-current="page" className="logo-link" onFocus={() => setOpenDropdown(false)}>
-                <img src={pathname != "/" ? stark_logo_purple : stark_logo} alt="Go to homepage" className="logo"/>
+                <img src={purpleBg ? stark_logo : stark_logo_purple} alt="Go to homepage" className="logo"/>
             </Link>
             <ul role="menubar" className={`nav-ul ${!openMenu ? "" : "show"}`}>
                 <li role="none">
