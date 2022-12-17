@@ -6,7 +6,7 @@
     a {
         color: $purple !important;
 
-        &:hover {
+        &:not(.nav-link--sign-up):hover {
             border-color: $purple !important;
         }
 

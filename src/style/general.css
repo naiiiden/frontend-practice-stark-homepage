@@ -328,7 +328,7 @@ header {
 .header-transparent a {
   color: #381fd1 !important;
 }
-.header-transparent a:hover {
+.header-transparent a:not(.nav-link--sign-up):hover {
   border-color: #381fd1 !important;
 }
 .header-transparent a.nav-link--sign-up {
