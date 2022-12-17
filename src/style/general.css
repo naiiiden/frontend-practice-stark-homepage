@@ -1653,6 +1653,10 @@ footer .socials-copyright-wrapper p {
   transform: rotate(45deg);
 }
 
+.sketch-download-platform-container {
+  margin: 4.5rem 0;
+}
+
 .purple-link, .error-page .links-wrapper .contact-us-link {
   display: inline-flex;
   align-items: center;
@@ -1720,17 +1724,17 @@ footer .h2-svg-container h2 {
 }
 
 @media screen and (min-width: 1024px) {
-  .video-section h2, .testimonial-section h2, .get-started-section h2, .features2-section h2 {
+  .video-section h2, .testimonial-section h2, .get-started-section h2, .features2-section h2, .sketch-download-platform-container h2 {
     position: absolute;
     max-width: 960px;
     font-size: 3.5rem;
     line-height: 62px;
     z-index: 1;
   }
-  .video-section .h2-svg-container img, .testimonial-section .h2-svg-container img, .get-started-section .h2-svg-container img, .features2-section .h2-svg-container img {
+  .video-section .h2-svg-container img, .testimonial-section .h2-svg-container img, .get-started-section .h2-svg-container img, .features2-section .h2-svg-container img, .sketch-download-platform-container .h2-svg-container img {
     display: unset;
   }
-  .video-section.get-started-section h2, .testimonial-section.get-started-section h2, .get-started-section.get-started-section h2, .features2-section.get-started-section h2 {
+  .video-section.get-started-section h2, .testimonial-section.get-started-section h2, .get-started-section.get-started-section h2, .features2-section.get-started-section h2, .sketch-download-platform-container.get-started-section h2 {
     line-height: 53px;
   }
   .video-section .h2-svg-container img {
@@ -1752,6 +1756,13 @@ footer .h2-svg-container h2 {
     width: 60px;
     height: 77px;
     transform: translate(115px, -28px);
+  }
+  .sketch-download-platform-container .h2-svg-container img {
+    margin-left: -202px;
+    margin-top: -4px;
+    width: 271px;
+    transform: scaleY(1.25);
+    z-index: -1;
   }
   footer .h2-svg-container h2 {
     font-size: 3.5rem;

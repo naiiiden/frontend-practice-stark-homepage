@@ -35,7 +35,7 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
-    .video-section, .testimonial-section, .get-started-section, .features2-section {
+    .video-section, .testimonial-section, .get-started-section, .features2-section, .sketch-download-platform-container {
         h2 {
             position: absolute;
             max-width: 960px;
@@ -94,6 +94,18 @@ footer {
                     height: 77px;
                     transform: translate(115px, -28px);
                 }
+            }
+        }
+    }
+
+    .sketch-download-platform-container {
+        .h2-svg-container {
+            img {
+                margin-left: -202px;
+                margin-top: -4px;
+                width: 271px;
+                transform: scaleY(1.25);
+                z-index: -1;
             }
         }
     }
