@@ -17,6 +17,8 @@ const Sketch = () => {
                 pIntro="Work with Stark in your favorite design tool"
                 h1Text="Stark for Sketch"
                 pText="Make every project accessible from the start. Stark for Sketch keeps you focused on the parts of a project that need an accessibility audit. Whether you’re a team of 1 or 1,000, you have everything you need to make anything accessible from design to code."
+                link1Text="Create a free account"
+                link2Text="Learn more"
             />
             <main>
                 <Video/>

@@ -17,6 +17,8 @@ const Brave = () => {
                 pIntro="Work with Stark in your favorite browser"
                 h1Text="Stark for Brave"
                 pText="Make every project accessible from the start. Stark for Brave keeps you focused on the parts of a project that need an accessibility audit. With powerful tools, automated checks, and smart suggestions you can supercharge your accessibility workflow at scale and in record time."
+                link1Text="Create a free account"
+                link2Text="Learn more"
             />
             <main>
                 <Video/>

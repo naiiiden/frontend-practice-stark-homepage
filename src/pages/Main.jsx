@@ -26,6 +26,8 @@ const Main = () => {
                 pIntro="Introducing the all-new stark suite"
                 h1Text="Super­charge Access­ibility"
                 pText="Tired of manually checking spreadsheets, messy handovers, and expensive retrofitting? Stark connects the tools you and your team already use in a streamlined end-to-end accessibility workflow you actually love." 
+                link1Text="Create a free account"
+                link2Text="Learn more"
             />
             <main>
                 <Video/>

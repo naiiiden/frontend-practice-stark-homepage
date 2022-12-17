@@ -30,6 +30,8 @@ const SketchDownload = () => {
                     h1Text={`Installing 
                     Stark for Sketch...`}
                     pText="If your download doesn’t start automatically, click the button. While you wait, check out Stark on other platforms for free."
+                    link1Text="Download Stark for Sketch"
+                    link2Text="Create free account"
                 />
             </div>
             <div className="sketch-download-platform-container">
