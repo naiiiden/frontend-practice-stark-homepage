@@ -13,8 +13,8 @@ import Edge from "./pages/Edge";
 import Safari from "./pages/Safari";
 import Arc from "./pages/Arc";
 import Brave from "./pages/Brave";
-import Error from "./pages/Error";
-import SketchDownload from "./pages/SketchDownload";
+import Error from "./pages/Error/Error";
+import SketchDownload from "./pages/SketchDownload/SketchDownload";
 
 const App = () => {
   return (
