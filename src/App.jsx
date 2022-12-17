@@ -28,9 +28,17 @@ const App = () => {
           <Route path="/figma" element={
             <Figma/>
           }/>
-          <Route path="/sketch" element={
+          {/* <Route path="/sketch" element={
             <Sketch/>
-          }/>
+          }/> */}
+          <Route path="/sketch">
+            <Route index element={
+              <Sketch/>
+            }/>
+            <Route path="download" element={
+              <p>hey</p>
+            }/>
+          </Route>
           <Route path="/adobe-xd" element={
             <Adobe/>
           }/>
