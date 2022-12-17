@@ -35,10 +35,10 @@ const Nav = ({ purpleBg }) => {
                     :
                     <button className="dropdown-button uppercase" role="menuitem" aria-haspopup="true" href="#product" aria-expanded={openDropdown ? "true" : "false"} onMouseEnter={() => setOpenDropdown(true)} onFocus={() => setOpenDropdown(true)}>
                         Product 
-                        {pathname != "/" ? 
-                            <img src={purple_arrow} alt=""/>
-                            :
+                        {purpleBg ? 
                             <img src={white_arrow} alt=""/>
+                            :
+                            <img src={purple_arrow} alt=""/>
                         }
                     </button>
                     }
