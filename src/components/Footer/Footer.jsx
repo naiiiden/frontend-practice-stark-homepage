@@ -9,6 +9,7 @@ import slack from "../../assets/images_footer/footer__slack.png";
 import youtube from "../../assets/images_footer/footer__youtube.png";
 import dribbble from "../../assets/images_footer/footer__dribbble.png";
 import meetup from "../../assets/images_footer/footer__meetup.png";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -23,7 +24,7 @@ const Footer = () => {
                         <li><h3 className="uppercase">Product</h3></li>
                         <li><a href="https://apps.apple.com/us/app/stark-your-accessibility-hub/id1624920264">Stark for Mac</a></li>
                         <li><a href="https://www.figma.com/community/plugin/732603254453395948">Stark for Figma</a></li>
-                        <li><a href="https://www.getstark.co/sketch/download/">Stark for Sketch</a></li>
+                        <li><Link to="/sketch/download">Stark for Sketch</Link></li>
                         <li><a href="https://xd.adobelanding.com/en/xd-plugin-download/?name=6cbf275e">Stark for Adobe XD</a></li>
                         <li><a href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm">Stark for Chrome</a></li>
                         <li><a href="https://microsoftedge.microsoft.com/addons/detail/stark/idpodoagbkllmpdjdepbmlefgiblmnhl">Stark for Edge</a></li>

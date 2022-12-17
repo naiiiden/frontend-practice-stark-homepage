@@ -14,7 +14,13 @@ import arc from "../../assets/images_download/homepage-arc.png";
 import brave from "../../assets/images_download/homepage-brave.png";
 import yellow_bg from "../../assets/images_heading2/yellow-bg.svg";
 
+import { useEffect } from "react";
+
 const SketchDownload = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <div className="sketch-download-header-wrapper">
