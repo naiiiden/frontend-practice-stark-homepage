@@ -32,10 +32,10 @@ const Header = ({ purpleBg, extraImages, heroImage, mb, minWidth, maxWidth, top,
             <div className="header-hero" style={{"backgroundColor": `${bgColor}`, "backgroundImage": `${bgURL}`,}}>
                 <div className="centered-horizontally">
                     <div className="text-illustration-wrapper" style={{
-                            "marginBottom" : `${pathname != "/" ? "164px" : ""}`
+                            "marginBottom" : `${!purpleBg ? "164px" : ""}`
                         }}>
                         <div className="text-container" style={{
-                            "marginBottom" : `${pathname == "/" ? "164px" : ""}`
+                            "marginBottom" : `${purpleBg ? "164px" : ""}`
                         }}>
                             <p className="introduction uppercase">{pIntro}</p>
                             <h1>{h1Text}</h1>

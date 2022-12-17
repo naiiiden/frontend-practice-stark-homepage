@@ -1629,6 +1629,14 @@ footer .socials-copyright-wrapper p {
     color: #fff !important;
   }
 }
+.sketch-download-header-wrapper .header-image-container {
+  display: none;
+}
+.sketch-download-header-wrapper header {
+  background-image: url("../assets/images_header/homepage-gradient-bg.webp");
+  animation: background 5s ease-in-out infinite alternate-reverse;
+}
+
 .purple-link, .error-page .links-wrapper .contact-us-link {
   display: inline-flex;
   align-items: center;

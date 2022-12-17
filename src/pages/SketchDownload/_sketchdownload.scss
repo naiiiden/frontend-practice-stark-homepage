@@ -1,0 +1,10 @@
+.sketch-download-header-wrapper {
+    .header-image-container {
+        display: none;
+    }
+
+    header {
+        background-image: url("../assets/images_header/homepage-gradient-bg.webp");
+        animation: background 5s ease-in-out infinite alternate-reverse;
+    }
+}
