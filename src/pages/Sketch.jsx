@@ -29,7 +29,7 @@ const Sketch = () => {
                 <CallToAction/>
                 <GetStarted
                   linkText="Download Stark for Sketch"
-                  href="https://www.getstark.co/sketch/download/"
+                  href="/sketch/download/"
                 />
                 <Features2/>
             </main>
