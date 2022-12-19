@@ -322,25 +322,41 @@ header {
             animation: pop 10s cubic-bezier(0.68, -0.6, 0.32, 1.6) 4s forwards;
   }
 }
-.sketch-download-header-wrapper .header-image-container {
+.sketch-download-header-wrapper .header-image-container, .info-header .header-image-container {
   display: none;
 }
-.sketch-download-header-wrapper header {
+.sketch-download-header-wrapper.info-header h1, .info-header.info-header h1 {
+  max-width: 350px;
+}
+.sketch-download-header-wrapper.info-header .links-arrow-container, .sketch-download-header-wrapper.info-header .description, .info-header.info-header .links-arrow-container, .info-header.info-header .description {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .sketch-download-header-wrapper.info-header .centered-horizontally, .info-header.info-header .centered-horizontally {
+    display: unset;
+  }
+  .sketch-download-header-wrapper.info-header .centered-horizontally .text-container, .info-header.info-header .centered-horizontally .text-container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.sketch-download-header-wrapper.sketch-download-header-wrapper header, .info-header.sketch-download-header-wrapper header {
   background-image: url("../assets/images_header/homepage-gradient-bg.webp");
   animation: background 5s ease-in-out infinite alternate-reverse;
 }
-.sketch-download-header-wrapper .centered-horizontally {
+.sketch-download-header-wrapper .centered-horizontally, .info-header .centered-horizontally {
   padding: 1rem;
 }
-.sketch-download-header-wrapper .text-illustration-wrapper {
+.sketch-download-header-wrapper .text-illustration-wrapper, .info-header .text-illustration-wrapper {
   display: unset;
   max-width: 960px;
   padding: unset !important;
 }
-.sketch-download-header-wrapper .description {
+.sketch-download-header-wrapper .description, .info-header .description {
   max-width: 582px;
 }
-.sketch-download-header-wrapper .yellow-arrow {
+.sketch-download-header-wrapper .yellow-arrow, .info-header .yellow-arrow {
   top: 80px;
   left: 482px !important;
   transform: rotate(45deg);

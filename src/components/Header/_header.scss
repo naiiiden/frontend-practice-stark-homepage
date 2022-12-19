@@ -239,12 +239,33 @@ header {
     }
 }
 
-.sketch-download-header-wrapper { // /sketch/download
+.sketch-download-header-wrapper, .info-header { // /sketch/download
     .header-image-container {
         display: none;
     }
 
-    header {
+    &.info-header {
+        h1 {
+            max-width: 350px;
+        }
+
+        .links-arrow-container, .description {
+            display: none;
+        }
+
+        @media screen and (min-width: 1024px) {
+            .centered-horizontally {
+                display: unset;
+                
+                .text-container {
+                    max-width: 960px;
+                    margin-left: auto; margin-right: auto;
+                }
+            }
+        }
+    }
+
+    &.sketch-download-header-wrapper header {
         background-image: url("../assets/images_header/homepage-gradient-bg.webp");
         animation: background 5s ease-in-out infinite alternate-reverse;
     }
@@ -267,5 +288,6 @@ header {
         top: 80px;
         left: 482px !important;
         transform: rotate(45deg);
+
     }
 }

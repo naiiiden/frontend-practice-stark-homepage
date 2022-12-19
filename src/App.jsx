@@ -15,6 +15,7 @@ import Arc from "./pages/Arc";
 import Brave from "./pages/Brave";
 import Error from "./pages/Error/Error";
 import SketchDownload from "./pages/SketchDownload/SketchDownload";
+import Privacy from "./pages/Privacy";
 
 const App = () => {
   return (
@@ -29,9 +30,6 @@ const App = () => {
           <Route path="/figma" element={
             <Figma/>
           }/>
-          {/* <Route path="/sketch" element={
-            <Sketch/>
-          }/> */}
           <Route path="/sketch">
             <Route index element={
               <Sketch/>
@@ -57,6 +55,9 @@ const App = () => {
           }/>
           <Route path="/brave" element={
             <Brave/>
+          }/>
+          <Route path="/privacy" element={
+            <Privacy/>
           }/>
           <Route path="*" element={
             <Error/>
