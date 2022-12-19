@@ -15,8 +15,9 @@ import Arc from "./pages/Arc";
 import Brave from "./pages/Brave";
 import Error from "./pages/Error/Error";
 import SketchDownload from "./pages/SketchDownload/SketchDownload";
-import Privacy from "./pages/Privacy";
-import Security from "./pages/Security";
+import Privacy from "./pages/WallOfText/Privacy";
+import Security from "./pages/WallOfText/Security";
+import Tos from "./pages/WallOfText/Tos";
 
 const App = () => {
   return (
@@ -62,6 +63,9 @@ const App = () => {
           }/>
           <Route path="/security" element={
             <Security/>
+          }/>
+          <Route path="/tos" element={
+            <Tos/>
           }/>
           <Route path="*" element={
             <Error/>

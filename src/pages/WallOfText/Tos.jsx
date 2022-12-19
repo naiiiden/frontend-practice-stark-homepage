@@ -1,14 +1,14 @@
-import Header from "../components/Header/Header";
+import Header from "../../components/Header/Header";
 
-const Security = () => {
+const Tos = () => {
     return (
         <div className="info-header">
             <Header
                 pIntro="Legal Information"
-                h1Text="Security Overview"
+                h1Text="Terms of Service"
             />
         </div>
     )
 }
 
-export default Security;
+export default Tos;
