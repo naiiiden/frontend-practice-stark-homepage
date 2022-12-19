@@ -16,6 +16,7 @@ import Brave from "./pages/Brave";
 import Error from "./pages/Error/Error";
 import SketchDownload from "./pages/SketchDownload/SketchDownload";
 import Privacy from "./pages/Privacy";
+import Security from "./pages/Security";
 
 const App = () => {
   return (
@@ -58,6 +59,9 @@ const App = () => {
           }/>
           <Route path="/privacy" element={
             <Privacy/>
+          }/>
+          <Route path="/security" element={
+            <Security/>
           }/>
           <Route path="*" element={
             <Error/>
