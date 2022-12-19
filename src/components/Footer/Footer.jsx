@@ -9,11 +9,18 @@ import slack from "../../assets/images_footer/footer__slack.png";
 import youtube from "../../assets/images_footer/footer__youtube.png";
 import dribbble from "../../assets/images_footer/footer__dribbble.png";
 import meetup from "../../assets/images_footer/footer__meetup.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Footer = () => {
+    const { pathname } = useLocation();
+
     return (
-        <footer>
+        <footer style={{ marginTop : `${
+            pathname == "/privacy" ? "0" 
+            : pathname == "/security" ? "0" 
+            : pathname == "/tos" ? "0" 
+            : "6rem"}` 
+        }}>
             <div className="footer-inner-wrapper">
                 <div className="heading-logo-wrapper">
                     <HeadingLevel2 headingLine1="Made remotely with love by Stark Lab, Inc."/>

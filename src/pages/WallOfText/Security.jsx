@@ -2,12 +2,116 @@ import Header from "../../components/Header/Header";
 
 const Security = () => {
     return (
-        <div className="info-header">
-            <Header
-                pIntro="Legal Information"
-                h1Text="Security Overview"
-            />
-        </div>
+        <>
+            <div className="info-header">
+                <Header
+                    pIntro="Legal Information"
+                    h1Text="Security Overview"
+                />
+            </div>
+            <div style={{backgroundColor: "white"}}>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+                <p>asd</p>
+            </div>
+        </>
     )
 }
 
