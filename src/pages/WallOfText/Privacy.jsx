@@ -186,13 +186,11 @@ const Privacy = () => {
                                     &nbsp;<a href="">Privacy Badger</a>, 
                                     &nbsp;<a href="">DuckDuckGo</a>, 
                                     &nbsp;<a href="">Ghostery</a>
-                                    &nbsp;or
-                                    &nbsp;<a href="">uBlock Origin</a>, and configuring them to block third party cookies/trackers.
+                                    &nbsp;or <a href="">uBlock Origin</a>, and configuring them to block third party cookies/trackers.
                                 </p>
                             </li>
                         </ul>
-                        <p>Do Not Track. We currently do not respond to "Do Not Track" or similar signals. 
-                            &nbsp;<a href="">Learn more about "Do Not Track" here</a>.
+                        <p>Do Not Track. We currently do not respond to "Do Not Track" or similar signals. Learn more about <a href="">"Do Not Track"</a> here.
                         </p>
                     </div>
                     <div>
