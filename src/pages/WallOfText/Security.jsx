@@ -57,7 +57,7 @@ const Security = () => {
                         </div>
                         <div>
                             <h2>Vulnerability Disclosure Program</h2>
-                            <p>If you've found a vulnerability or security issue, we'd appreciate your feedback; please reach out to us at <a href="">security@getstark.co</a>so we can work to address it.</p>
+                            <p>If you've found a vulnerability or security issue, we'd appreciate your feedback; please reach out to us at <a href="">security@getstark.co</a> so we can work to address it.</p>
                         </div>
                         <div>
                             <h2>GDPR Compliance</h2>

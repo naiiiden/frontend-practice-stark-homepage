@@ -37,7 +37,7 @@ const Tos = () => {
                     <div>
                         <h2>2. Account Registration and Use</h2>
                         <p>Customer may need to register for a Stark Lab account in order to use the Stark Lab Service. Account information must be accurate, current, and complete, and will be governed by Stark Lab’s Privacy Policy (currently available at 
-                            <a href="">https://www.getstark.co/privacy/</a>). Customer agrees to keep this information up-to-date so that Stark Lab may send notices, statements, and other information by email or through Customer’s account. Customer must ensure that any user IDs, passwords, and other access credentials for the Stark Lab Service are kept strictly confidential and not shared with any unauthorized person. Customer will be responsible for any and all actions taken using its and its users’ accounts, passwords or access credentials. Customer must notify Stark Lab promptly of any breach of security or unauthorized use of its account.
+                            &nbsp;<a href="">https://www.getstark.co/privacy/</a>). Customer agrees to keep this information up-to-date so that Stark Lab may send notices, statements, and other information by email or through Customer’s account. Customer must ensure that any user IDs, passwords, and other access credentials for the Stark Lab Service are kept strictly confidential and not shared with any unauthorized person. Customer will be responsible for any and all actions taken using its and its users’ accounts, passwords or access credentials. Customer must notify Stark Lab promptly of any breach of security or unauthorized use of its account.
                         </p>
                     </div>
                     <div>
