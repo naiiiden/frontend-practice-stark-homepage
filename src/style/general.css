@@ -1802,4 +1802,18 @@ footer .h2-svg-container h2 {
   footer .h2-svg-container h2 {
     font-size: 3.5rem;
   }
+}
+.wall-text-bg {
+  background: #fff;
+  padding: 3rem 1rem;
+}
+.wall-text-bg .wall-text-wrapper {
+  max-width: 600px;
+  margin: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .wall-text-bg {
+    padding: 6rem 1rem;
+  }
 }/*# sourceMappingURL=general.css.map */
