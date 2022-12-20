@@ -1,6 +1,11 @@
 import Header from "../../components/Header/Header"
+import { useEffect } from "react";
 
 const Privacy = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <div className="info-header">

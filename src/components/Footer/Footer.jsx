@@ -55,11 +55,11 @@ const Footer = () => {
                     <ul className="nav-ul">
                         <li><h3 className="uppercase">Company</h3></li>
                         <li><a href="https://www.getstark.co/press-releases/">Press Releases</a></li>
-                        <li><a href="https://www.getstark.co/privacy/">Privacy Policy</a></li>
+                        <li><Link to="/privacy">Privacy Policy</Link></li>
                         <li><a href="https://www.getstark.co/cookies/">Cookie Policy</a></li>
-                        <li><a href="https://www.getstark.co/security/">Security Overview</a></li>
+                        <li><Link to="/security">Security Overview</Link></li>
                         <li><a href="https://status.getstark.co/">Status</a></li>
-                        <li><a href="https://www.getstark.co/tos/">Terms of Service</a></li>
+                        <li><Link to="/tos">Terms of Service</Link></li>
                         <li><a href="https://github.com/stark-contrast/code-of-conduct">Code of Conduct</a></li>
                     </ul>
                 </nav>
