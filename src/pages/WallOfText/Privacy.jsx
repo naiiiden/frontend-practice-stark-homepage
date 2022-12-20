@@ -175,22 +175,22 @@ const Privacy = () => {
                         <ul>
                             <li>
                                 <p><strong>Block Cookies</strong>: Most browsers let you remove or reject cookies, including cookies used for interest-based advertising. To do this, follow the instructions in your browser settings. Many browsers accept cookies by default until you change your settings. Use the following links to learn more about how to control cookies and online tracking through your browser: 
-                                    &nbsp;<a href="">Firefox</a>;  
-                                    &nbsp;<a href="">Chrome</a>; 
-                                    &nbsp;<a href="">Microsoft Edge</a>; 
-                                    &nbsp;<a href="">Safari</a>.
+                                    &nbsp;<a href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop">Firefox</a>;  
+                                    &nbsp;<a href="https://support.google.com/chrome/answer/95647">Chrome</a>; 
+                                    &nbsp;<a href="https://support.microsoft.com/en-us/microsoft-edge/learn-about-tracking-prevention-in-microsoft-edge-5ac125e8-9b90-8d59-fa2c-7f2e9a44d869">Microsoft Edge</a>; 
+                                    &nbsp;<a href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac">Safari</a>.
                                 </p>
                             </li>
                             <li>
                                 <p><strong>Use Privacy Plug-Ins or Browsers</strong>: You can block our Services from setting cookies used for interest-based ads by using a browser with privacy features, like Brave, or installing browser plugins like 
-                                    &nbsp;<a href="">Privacy Badger</a>, 
-                                    &nbsp;<a href="">DuckDuckGo</a>, 
-                                    &nbsp;<a href="">Ghostery</a>
-                                    &nbsp;or <a href="">uBlock Origin</a>, and configuring them to block third party cookies/trackers.
+                                    &nbsp;<a href="https://www.eff.org/privacybadger">Privacy Badger</a>, 
+                                    &nbsp;<a href="https://duckduckgo.com/">DuckDuckGo</a>, 
+                                    &nbsp;<a href="https://www.ghostery.com/">Ghostery</a>
+                                    &nbsp;or <a href="https://ublock.org/">uBlock Origin</a>, and configuring them to block third party cookies/trackers.
                                 </p>
                             </li>
                         </ul>
-                        <p>Do Not Track. We currently do not respond to "Do Not Track" or similar signals. Learn more about <a href="">"Do Not Track"</a> here.
+                        <p>Do Not Track. We currently do not respond to "Do Not Track" or similar signals. Learn more about <a href="http://www.allaboutdnt.com/">"Do Not Track"</a> here.
                         </p>
                     </div>
                     <div>
@@ -200,7 +200,7 @@ const Privacy = () => {
                     <div>
                         <h2>11. Contact Us</h2>
                         <p>If you have any questions about our Privacy Policy or information practices, please feel free to contact us at our designated request address:&nbsp;
-                            <a href="">support@getstark.co.</a>
+                            <a href="support@getstark.co">support@getstark.co.</a>
                         </p>
                     </div>
                 </main>

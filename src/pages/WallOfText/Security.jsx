@@ -1,5 +1,6 @@
 import Header from "../../components/Header/Header";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Security = () => {
     useEffect(() => {
@@ -48,10 +49,10 @@ const Security = () => {
                                     <p>Authorization controls are in place throughout to ensure access to your data is limited only to you.</p>
                                 </li>
                                 <li>
-                                    <p>Stark uses Stripe for its handling of payment processing. Financial data is not stored on our servers. Read more about <a href="">Stripe’s Security</a>.</p>
+                                    <p>Stark uses Stripe for its handling of payment processing. Financial data is not stored on our servers. Read more about <a href="https://stripe.com/privacy-center/legal">Stripe’s Security</a>.</p>
                                 </li>
                                 <li>
-                                    <p>Stark uses Mixpanel for its handling of analytics data. In keeping with our clear separation of user data, personally identifiable information is not stored within Mixpanel. Additionally, Stark does not collect potentially sensitive information relating to your work (documents, images, metadata, etc.) for analytics purposes. Read more about <a href="">Mixpanel’s security</a>.</p>
+                                    <p>Stark uses Mixpanel for its handling of analytics data. In keeping with our clear separation of user data, personally identifiable information is not stored within Mixpanel. Additionally, Stark does not collect potentially sensitive information relating to your work (documents, images, metadata, etc.) for analytics purposes. Read more about <a href="https://mixpanel.com/legal/security-overview/">Mixpanel’s security</a>.</p>
                                 </li>
                             </ul>
                         </div>
@@ -61,15 +62,15 @@ const Security = () => {
                         </div>
                         <div>
                             <h2>GDPR Compliance</h2>
-                            <p>Users can opt in or out of our analytics gathering at any time via the <a href="">Dashboard</a>. Additionally, users can delete their own accounts without the need to reach out to us. For GDPR deletion (to remove any analytics data associated with a user), please reach out to us at <a href="">support@getstark.co</a>.</p>
+                            <p>Users can opt in or out of our analytics gathering at any time via the <a href="https://account.getstark.co/dashboard">Dashboard</a>. Additionally, users can delete their own accounts without the need to reach out to us. For GDPR deletion (to remove any analytics data associated with a user), please reach out to us at <a href="security@getstark.co">support@getstark.co</a>.</p>
                         </div>
                         <div>
                             <h2>More Info</h2>
-                            <p>Still have questions? Reach out to us at <a href="">support@getstark.co</a>. Also, be sure to check out the following links:</p>
+                            <p>Still have questions? Reach out to us at <a href="support@getstark.co    ">support@getstark.co</a>. Also, be sure to check out the following links:</p>
                             <ul>
-                                <li><a href="">Privacy Policy</a></li>
-                                <li><a href="">Cookie Policy</a></li>
-                                <li><a href="">Terms of Service</a></li>
+                                <li><Link to="/privacy">Privacy Policy</Link></li>
+                                <li><a href="https://www.getstark.co/cookies">Cookie Policy</a></li>
+                                <li><Link to="/tos">Terms of Service</Link></li>
                             </ul>
                         </div>
                 </main>
