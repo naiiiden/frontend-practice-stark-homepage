@@ -42,7 +42,7 @@ const Security = () => {
                             <p>Authorization controls are in place throughout to ensure access to your data is limited only to you.</p>
                         </li>
                         <li>
-                            <p>Stark uses Stripe for its handling of payment processing. Financial data is not stored on our servers. Read more about<a href="">Stripe’s Security</a>.</p>
+                            <p>Stark uses Stripe for its handling of payment processing. Financial data is not stored on our servers. Read more about <a href="">Stripe’s Security</a>.</p>
                         </li>
                         <li>
                             <p>Stark uses Mixpanel for its handling of analytics data. In keeping with our clear separation of user data, personally identifiable information is not stored within Mixpanel. Additionally, Stark does not collect potentially sensitive information relating to your work (documents, images, metadata, etc.) for analytics purposes. Read more about <a href="">Mixpanel’s security</a>.</p>
