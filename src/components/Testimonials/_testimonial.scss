@@ -40,6 +40,8 @@
         line-height: 35px;
         letter-spacing: -.01rem;
     }
+    
+    animation: testimonialSlide .25s cubic-bezier(.34,1.56,.64,1) forwards;
 }
 
 @media screen and (min-width: 1024px) {
