@@ -14,10 +14,6 @@
     padding: 0 1.5rem;
     height: 500px;
 
-    &:not(:nth-child(1)) {
-        display: none;
-    }
-
     img {
         width: 80px;
         border-radius: 50%;
