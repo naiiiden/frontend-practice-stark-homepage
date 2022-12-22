@@ -4,16 +4,15 @@ import stark_logo_purple from "../../assets/images_nav/logo-purple.svg";
 import white_arrow from "../../assets/images_nav/white-arrow.svg";
 import purple_arrow from "../../assets/images_nav/purple-arrow.svg";
 import new_svg from "../../assets/images_nav/new.svg";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Nav = ({ purpleBg }) => {
     const [openMenu, setOpenMenu] = useState(false);
     const [openDropdown, setOpenDropdown] = useState(false);
     const [isDesktop, setIsDesktop] = useState(false);
-    const { pathname } = useLocation();
 
-    const updateMedia = () => setIsDesktop(window.innerWidth <= 1023);
-    
+    const updateMedia = () => setIsDesktop(window.innerWidth >= 1024);
+
     useEffect(() => {
         window.addEventListener("resize", updateMedia);
         return () => window.removeEventListener("resize", updateMedia);
@@ -30,7 +29,7 @@ const Nav = ({ purpleBg }) => {
             </Link>
             <ul role="menubar" className={`nav-ul ${!openMenu ? "" : "show"}`}>
                 <li role="none">
-                    {isDesktop ? 
+                    {!isDesktop ? 
                     <span className="uppercase">Product</span>
                     :
                     <button className="dropdown-button uppercase" role="menuitem" aria-haspopup="true" href="#product" aria-expanded={openDropdown ? "true" : "false"} onMouseEnter={() => setOpenDropdown(true)} onFocus={() => setOpenDropdown(true)}>
@@ -43,7 +42,7 @@ const Nav = ({ purpleBg }) => {
                     </button>
                     }
                     <ul role="menu" autoFocus className={`nav-product-submenu ${openDropdown ? "show" : ""}`} aria-label="product" onMouseLeave={() => setOpenDropdown(false)}>
-                        {isDesktop ?
+                        {!isDesktop ?
                         <li role="none"><Link to="/mac" role="menuitem">Stark for Mac</Link></li>
                         :
                         <li role="none"><Link to="/mac" role="menuitem">Stark for Mac <img src={new_svg} alt=""/></Link></li>
@@ -53,12 +52,12 @@ const Nav = ({ purpleBg }) => {
                         <li role="none"><Link to="/adobe-xd" role="menuitem">Stark for Adobe XD</Link></li>
                         <li role="none"><Link to="/chrome" role="menuitem">Stark for Chrome</Link></li>
                         <li role="none"><Link to="/edge" role="menuitem">Stark for Edge</Link></li>
-                        {isDesktop ?
+                        {!isDesktop ?
                         <li role="none"><Link to="/safari" role="menuitem">Stark for Safari</Link></li>
                         :
                         <li role="none"><Link to="/safari" role="menuitem">Stark for Safari <img src={new_svg} alt=""/></Link></li>
                         }
-                        {isDesktop ? 
+                        {!isDesktop ? 
                         <li role="none"><Link to="/arc" role="menuitem">Stark for Arc</Link></li>
                         :
                         <li role="none"><Link to="/arc" role="menuitem">Stark for Arc <img src={new_svg} alt=""/></Link></li>
