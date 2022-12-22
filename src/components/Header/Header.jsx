@@ -11,11 +11,11 @@ import { useLocation } from "react-router-dom";
 import Nav from "../Nav/Nav";
 
 const Header = ({ purpleBg, extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIntro, h1Text, pText, bgColor, bgURL, arrowTop, arrowLeft, link1Text, link1Href, link2Text, link2Href }) => {
-    const [isDesktop, setIsDesktop] = useState(false);
+    const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
     
-    const updateMedia = () => setIsDesktop(window.innerWidth <= 1023);
-
     const { pathname } = useLocation();
+    
+    const updateMedia = () => setIsDesktop(window.innerWidth >= 1024);
 
     useEffect(() => {
         window.addEventListener("resize", updateMedia);
@@ -49,7 +49,7 @@ const Header = ({ purpleBg, extraImages, heroImage, mb, minWidth, maxWidth, top,
                                     }
                                     <a href={link2Href} className="learn" aria-describedby="description">{link2Text}</a>
                                 </div>
-                                {!isDesktop && <img src={purpleBg ? yellow_arrow : purple_arrow} alt="" className="yellow-arrow" style={{
+                                {isDesktop && <img src={purpleBg ? yellow_arrow : purple_arrow} alt="" className="yellow-arrow" style={{
                                     "top": `${arrowTop ? arrowTop : "16"}px`,
                                     "left": `${arrowLeft ? arrowLeft : "372"}px`,
                                 }}
@@ -57,7 +57,7 @@ const Header = ({ purpleBg, extraImages, heroImage, mb, minWidth, maxWidth, top,
                                 />}
                             </div>
                         </div>
-                        {!isDesktop && 
+                        {isDesktop && 
                             <div className="header-image-container" 
                                 style={{"marginBottom": `${mb ? "0px" : `41.75rem`}`}}
                             >
