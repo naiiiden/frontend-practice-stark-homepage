@@ -348,6 +348,9 @@ header {
 .sketch-download-header-wrapper.info-header h1, .info-header.info-header h1 {
   max-width: 350px;
 }
+.sketch-download-header-wrapper.info-header .text-container, .info-header.info-header .text-container {
+  margin-bottom: 154px;
+}
 .sketch-download-header-wrapper.info-header .links-arrow-container, .sketch-download-header-wrapper.info-header .description, .info-header.info-header .links-arrow-container, .info-header.info-header .description {
   display: none;
 }
