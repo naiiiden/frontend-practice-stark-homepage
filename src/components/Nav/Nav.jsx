@@ -9,10 +9,11 @@ import { Link } from "react-router-dom";
 const Nav = ({ purpleBg }) => {
     const [openMenu, setOpenMenu] = useState(false);
     const [openDropdown, setOpenDropdown] = useState(false);
-    const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
-
-    const updateMedia = () => setIsDesktop(window.innerWidth >= 1024);
     
+    const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
+    
+    const updateMedia = () => setIsDesktop(window.innerWidth >= 1024);
+
     useEffect(() => {
         window.addEventListener("resize", updateMedia);
         return () => window.removeEventListener("resize", updateMedia);
@@ -29,8 +30,7 @@ const Nav = ({ purpleBg }) => {
             </Link>
             <ul role="menubar" className={`nav-ul ${!openMenu ?  "" : "show"}`}>
                 <li role="none">
-                    {isDesktop ? 
-                    <button className="dropdown-button uppercase" role="menuitem" aria-haspopup="true" href="#product" aria-expanded={openDropdown ? "true" : "false"} onMouseEnter={() => setOpenDropdown(true)} onFocus={() => setOpenDropdown(true)}>
+                    <button className="dropdown-button uppercase product-button-desktop" role="menuitem" aria-haspopup="true" href="#product" aria-expanded={openDropdown ? "true" : "false"} onMouseEnter={() => setOpenDropdown(true)} onFocus={() => setOpenDropdown(true)}>
                         Product 
                         {purpleBg ? 
                             <img src={white_arrow} alt=""/>
@@ -38,9 +38,7 @@ const Nav = ({ purpleBg }) => {
                             <img src={purple_arrow} alt=""/>
                         }
                     </button>
-                    :
-                    <span className="uppercase">Product</span>
-                    }
+                    <span className="uppercase product-button-mobile">Product</span>
                     <ul role="menu" autoFocus className={`nav-product-submenu ${openDropdown ? "show" : ""}`} aria-label="product" onMouseLeave={() => setOpenDropdown(false)}>
                         {isDesktop ?
                         <li role="none"><Link to="/mac" role="menuitem">Stark for Mac <img src={new_svg} alt=""/></Link></li>
