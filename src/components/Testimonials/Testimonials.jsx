@@ -4,6 +4,14 @@ import Quotes from "./Quotes";
 import HeadingLevel2 from "../HeadingLevel2/HeadingLevel2";
 import Testimonial from "./Testimonial";
 
+import "../../assets/images_testimonial/homepage__avatar__emily-ching.png";
+import "../../assets/images_testimonial/homepage__avatar__carlos-torres.png";
+import "../../assets/images_testimonial/homepage__avatar__johnny-hill.png";
+import "../../assets/images_testimonial/homepage__avatar__jon-fox.png";
+import "../../assets/images_testimonial/homepage__avatar__jordan-lucero.png";
+import "../../assets/images_testimonial/homepage__avatar__sean-keating.png";
+
+
 import { useState, useEffect } from 'react';
 
 const Testimonials = () => {
