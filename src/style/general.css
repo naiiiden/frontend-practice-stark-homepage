@@ -828,15 +828,17 @@ header {
   .platform-download-link img {
     transition: 0.2s;
   }
-  .platform-download-link:nth-child(odd):hover img {
+  .platform-download-link:nth-child(odd):hover img, .platform-download-link:nth-child(odd):focus img {
     filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.16));
     transform: rotate(-4deg) scale(1.02);
     transition: 0.2s;
+    outline-offset: 4px;
   }
-  .platform-download-link:nth-child(even):hover img {
+  .platform-download-link:nth-child(even):hover img, .platform-download-link:nth-child(even):focus img {
     filter: drop-shadow(0 8px 12px rgba(0, 0, 0, 0.16));
     transform: rotate(5deg) scale(1.02);
     transition: 0.2s;
+    outline-offset: 4px;
   }
 }
 .feature-section {
