@@ -18,11 +18,11 @@ const Security = () => {
             <div className="wall-text-bg">
                 <main className="wall-text-wrapper">
                         <p>Last updated: October 31, 2021</p>
-                        <div>
+                        <section>
                             <h2>About</h2>
                             <p>This overview provides details about security practices we follow and how we secure your data at Stark. Additionally, you'll find information on GDPR requests and how to reach out for more details for anything not covered below.</p>
-                        </div>
-                        <div>
+                        </section>
+                        <section>
                             <h2>Security Practices</h2>
                             <ul>
                                 <li>
@@ -38,8 +38,8 @@ const Security = () => {
                                     <p>Monitoring and alerts are in place for all aspects of Stark's servers and infrastructure to detect potential abuse.</p>
                                 </li>
                             </ul>
-                        </div>
-                        <div>
+                        </section>
+                        <section>
                             <h2>How We Secure Your Data</h2>
                             <ul>
                                 <li>
@@ -55,16 +55,16 @@ const Security = () => {
                                     <p>Stark uses Mixpanel for its handling of analytics data. In keeping with our clear separation of user data, personally identifiable information is not stored within Mixpanel. Additionally, Stark does not collect potentially sensitive information relating to your work (documents, images, metadata, etc.) for analytics purposes. Read more about <a href="https://mixpanel.com/legal/security-overview/">Mixpanel’s security</a>.</p>
                                 </li>
                             </ul>
-                        </div>
-                        <div>
+                        </section>
+                        <section>
                             <h2>Vulnerability Disclosure Program</h2>
                             <p>If you've found a vulnerability or security issue, we'd appreciate your feedback; please reach out to us at <a href="">security@getstark.co</a> so we can work to address it.</p>
-                        </div>
-                        <div>
+                        </section>
+                        <section>
                             <h2>GDPR Compliance</h2>
                             <p>Users can opt in or out of our analytics gathering at any time via the <a href="https://account.getstark.co/dashboard">Dashboard</a>. Additionally, users can delete their own accounts without the need to reach out to us. For GDPR deletion (to remove any analytics data associated with a user), please reach out to us at <a href="security@getstark.co">support@getstark.co</a>.</p>
-                        </div>
-                        <div>
+                        </section>
+                        <section>
                             <h2>More Info</h2>
                             <p>Still have questions? Reach out to us at <a href="support@getstark.co    ">support@getstark.co</a>. Also, be sure to check out the following links:</p>
                             <ul>
@@ -72,7 +72,7 @@ const Security = () => {
                                 <li><a href="https://www.getstark.co/cookies">Cookie Policy</a></li>
                                 <li><Link to="/tos">Terms of Service</Link></li>
                             </ul>
-                        </div>
+                        </section>
                 </main>
             </div>
         </>
