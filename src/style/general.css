@@ -1869,7 +1869,7 @@ footer .h2-svg-container h2 {
 .wall-text-bg .wall-text-wrapper a {
   color: #381fd1;
 }
-.wall-text-bg .wall-text-wrapper div {
+.wall-text-bg .wall-text-wrapper div, .wall-text-bg .wall-text-wrapper section {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
