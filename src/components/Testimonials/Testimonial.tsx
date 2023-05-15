@@ -1,4 +1,6 @@
-const Testimonial = ({ src, name, job, quotation }) => {
+import React from "react";
+
+const Testimonial = ({ src, name, job, quotation }: { src: string, name: string, job: string, quotation: string }) => {
     return (
         <figure className="testimonial">
             <figcaption>

@@ -1,3 +1,6 @@
+import { useState, useEffect } from 'react';
+import React from "react";
+
 import yellow_bg2 from "../../assets/images_heading2/yellow-bg2.svg";
 
 // import Quotes from "./Quotes";
@@ -11,11 +14,17 @@ import a4 from "../../assets/images_testimonial/homepage__avatar__carlos-torres.
 import a5 from "../../assets/images_testimonial/homepage__avatar__jon-fox.png";
 import a6 from "../../assets/images_testimonial/homepage__avatar__johnny-hill.png";
 
-import { useState, useEffect } from 'react';
-
 const Testimonials = () => {
   
-  const Quotes = [
+  interface Quote {
+    id: number
+    img: string
+    name: string
+    job: string
+    quotation: string
+  }
+
+  const Quotes: Quote[] = [
     {
         id: 1,
         img: a1,
@@ -85,7 +94,9 @@ const Testimonials = () => {
       <HeadingLevel2
         headingLine1="Loved by the community"
         headingLine2="trusted by 8,000+ companies"
-        img1={yellow_bg2}
+        img1={yellow_bg2} 
+        className={undefined} 
+        img2={undefined}      
       />
       <div className="testimonials-container">
         {userTestimonials[currentIndex]}
