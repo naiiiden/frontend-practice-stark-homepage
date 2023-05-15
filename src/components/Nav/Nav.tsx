@@ -1,3 +1,5 @@
+import React from "react";
+
 import { useEffect, useState } from "react";
 import stark_logo from "../../assets/images_nav/logo.svg";
 import stark_logo_purple from "../../assets/images_nav/logo-purple.svg";
@@ -19,8 +21,10 @@ const Nav = ({ purpleBg }) => {
         return () => window.removeEventListener("resize", updateMedia);
     });
 
+    const nav_product_submenu = document.querySelector('.nav-product-submenu') as HTMLUListElement
+
     openMenu ? document.body.style.overflow = "hidden" : document.body.style.overflow = "";
-    openDropdown ? document.querySelector(".nav-product-submenu").focus() : "";
+    openDropdown ? nav_product_submenu.focus() : "";
 
     return (
         <div className="nav-menu-container">
@@ -30,8 +34,8 @@ const Nav = ({ purpleBg }) => {
             </Link>
             <ul role="menubar" className={`nav-ul ${!openMenu ?  "" : "show"}`}>
                 <li role="none">
-                    <button className="dropdown-button uppercase product-button-desktop" role="menuitem" aria-haspopup="true" href="#product" aria-expanded={openDropdown ? "true" : "false"} onMouseEnter={() => setOpenDropdown(true)} onFocus={() => setOpenDropdown(true)}>
-                        Product 
+                    <button className="dropdown-button uppercase product-button-desktop" role="menuitem" aria-haspopup="true" aria-expanded={openDropdown ? "true" : "false"} onMouseEnter={() => setOpenDropdown(true)} onFocus={() => setOpenDropdown(true)}>
+                        Products 
                         {purpleBg ? 
                             <img src={white_arrow} alt=""/>
                             :
