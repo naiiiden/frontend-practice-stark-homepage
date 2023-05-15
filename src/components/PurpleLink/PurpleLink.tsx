@@ -1,6 +1,7 @@
+import React from "react";
 import download_mac from "../../assets/images_repeating/download-mac.svg";
 
-const PurpleLink = ({ href, className, text, macLink }) => {
+const PurpleLink = ({ href, className, text, macLink }: { href: string, className: string, text: string, macLink: string  }) => {
     return (
         <>
             {macLink ? 
