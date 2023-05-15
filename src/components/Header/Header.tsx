@@ -12,7 +12,7 @@ import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Nav from "../Nav/Nav";
 
-const Header = ({ purpleBg, extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIntro, h1Text, pText, bgColor, bgURL, arrowTop, arrowLeft, link1Text, link1Href, link2Text, link2Href }) => {
+const Header = ({ purpleBg, extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIntro, h1Text, pText, bgColor, bgURL, arrowTop, arrowLeft, link1Text, link1Href, link2Text, link2Href }: { purpleBg: boolean, extraImages: boolean, heroImage: string, mb: boolean, minWidth: string, maxWidth: string, top: string, left: string, pIntro: string, h1Text: string, pText: string, bgColor: string, bgURL: string, arrowTop: string, arrowLeft: string, link1Text: string, link1Href: string, link2Text: string, link2Href: string }) => {
     const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024);
     
     const { pathname } = useLocation();

@@ -1,3 +1,5 @@
+import React from "react";
+
 import red_bg from "../../assets/images_heading2/red-bg.svg";
 import sparkle from "../../assets/images_heading2/sparkle.svg";
 import HeadingLevel2 from "../HeadingLevel2/HeadingLevel2";
@@ -10,7 +12,8 @@ const Features2 = () => {
                 headingLine1="Come for the features,"
                 headingLine2="stay for the magic"
                 img1={red_bg}
-                img2={sparkle}
+                img2={sparkle} 
+                className={undefined}            
             />
             <Feature2Grid/>
         </section>

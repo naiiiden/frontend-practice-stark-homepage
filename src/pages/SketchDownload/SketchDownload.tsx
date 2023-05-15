@@ -1,3 +1,5 @@
+import React from "react";
+
 // components
 import Header from "../../components/Header/Header";
 import HeadingLevel2 from "../../components/HeadingLevel2/HeadingLevel2";
@@ -33,13 +35,15 @@ const SketchDownload = () => {
                     link1Text="Download Stark for Sketch"
                     link2Text="Create free account"
                     link1Href="https://github.com/stark-contrast/stark-sketch-plugin/"
-                    link2Href="https://account.getstark.co/sign-in"
-                />
+                    link2Href="https://account.getstark.co/sign-in" extraImages={undefined} heroImage={undefined} mb={undefined} minWidth={undefined} maxWidth={undefined} top={undefined} left={undefined} bgColor={undefined} bgURL={undefined} arrowTop={undefined} arrowLeft={undefined}                />
             </div>
             <div className="sketch-download-platform-container">
                 <HeadingLevel2
                     headingLine1="Get Stark for free"
-                    img1={yellow_bg}
+                    img1={yellow_bg} 
+                    className={undefined} 
+                    headingLine2={undefined} 
+                    img2={undefined}                
                 />
                 <div className="platform-download-container">
                         <PlatformDownload 

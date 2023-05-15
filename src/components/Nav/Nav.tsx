@@ -8,7 +8,7 @@ import purple_arrow from "../../assets/images_nav/purple-arrow.svg";
 import new_svg from "../../assets/images_nav/new.svg";
 import { Link } from "react-router-dom";
 
-const Nav = ({ purpleBg }) => {
+const Nav = ({ purpleBg }: { purpleBg: boolean }) => {
     const [openMenu, setOpenMenu] = useState(false);
     const [openDropdown, setOpenDropdown] = useState(false);
     
