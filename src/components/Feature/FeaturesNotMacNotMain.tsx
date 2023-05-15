@@ -1,3 +1,5 @@
+import React from "react";
+
 import Feature from "./Feature";
 import feature_rest_1 from "../../assets/images_features/feature_1v2.webp";
 import feature_rest_2 from "../../assets/images_features/feature_2v2.webp";
@@ -22,7 +24,14 @@ const FeaturesNotMacNotMain = () => {
                 text="Get started for free"
                 href="https://account.getstark.co/"
                 maxW="460"
-                ml
+                ml 
+                dec={""} 
+                linkClass={""} 
+                imgClass={""} 
+                src2={""} 
+                idImgContainer={""} 
+                idImg2={""} 
+                mr={false}            
             />
             <Feature
                 sectionClass="feature-rest-2"
@@ -35,7 +44,14 @@ const FeaturesNotMacNotMain = () => {
                 text="Get started for free"
                 href="https://account.getstark.co/"
                 maxW="460"
-                ml
+                ml 
+                dec={""} 
+                linkClass={""} 
+                imgClass={""} 
+                src2={""} 
+                idImgContainer={""} 
+                idImg2={""} 
+                mr={false}            
             />
             <Feature
                 sectionClass="feature-rest-3"
@@ -48,7 +64,14 @@ const FeaturesNotMacNotMain = () => {
                 text="Get started for free"
                 href="https://account.getstark.co/"
                 maxW="460"
-                ml
+                ml 
+                dec={""} 
+                linkClass={""} 
+                imgClass={""} 
+                src2={""} 
+                idImgContainer={""} 
+                idImg2={""} 
+                mr={false}            
             />
             {pathname == "/adobe-xd" ? 
                 "" 
@@ -60,11 +83,19 @@ const FeaturesNotMacNotMain = () => {
                     h2="Accessibility easy as one, two, three"
                     desc="Once you open the Stark plugin in Sketch or Figma it automagically connects to Stark for Mac. So you can apply for example color suggestions to individual design elements or rectify all instances of an issue across your entire file or design system with just a click. That’s powerful!"
                     src1={(pathname == "/figma" || pathname == "sketch") ? feature_rest_4_2 : feature_rest_4}
-                idImg1="feature-rest-img4"
-                text="Get started for free"
-                href="https://account.getstark.co/"
-                maxW="433"
-            />
+                    idImg1="feature-rest-img4"
+                    text="Get started for free"
+                    href="https://account.getstark.co/"
+                    maxW="433" 
+                    dec={""} 
+                    linkClass={""} 
+                    imgClass={""} 
+                    src2={""} 
+                    idImgContainer={""} 
+                    idImg2={""} 
+                    mr={false} 
+                    ml={false}            
+                />
             }
         </div>
     )

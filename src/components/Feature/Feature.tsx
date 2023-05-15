@@ -1,8 +1,11 @@
+import React from "react";
+
 import { useLocation } from "react-router-dom";
 import PurpleLink from "../PurpleLink/PurpleLink";
 import download_mac from "../../assets/images_repeating/download-mac.svg";
 
-const Feature = ({ sectionClass, mt, pShort, dec, h2, desc, href, linkClass, text, imgClass, src1, src2, idImgContainer, idImg1, idImg2, maxW, mr, ml }) => {
+const Feature = ({ sectionClass, mt, pShort, dec, h2, desc, href, linkClass, text, imgClass, src1, src2, idImgContainer, idImg1, idImg2, maxW, mr, ml } : 
+    { sectionClass: string, mt: string, pShort: string, dec: string, h2: string, desc: string, href: string, linkClass: string, text: string, imgClass: string, src1: string, src2: string, idImgContainer: string, idImg1: string, idImg2: string, maxW: string, mr: boolean, ml: boolean }) => {
     const { pathname } = useLocation();
 
     return (
@@ -24,7 +27,7 @@ const Feature = ({ sectionClass, mt, pShort, dec, h2, desc, href, linkClass, tex
                     {pathname == "/mac" ?
                     <a href="https://apps.apple.com/us/app/stark-your-accessibility-hub/id1624920264" className="mac-link"><img src={download_mac} alt="Download on the Mac App Store"/></a>
                     : 
-                    <PurpleLink href={href} text={text} className={linkClass}/>}
+                    <PurpleLink href={href} text={text} className={linkClass} macLink={undefined}/>}
                 </div>
                 <div className={`image-container ${imgClass}`} id={idImgContainer}>
                     <div className="image-inner-wrapper">

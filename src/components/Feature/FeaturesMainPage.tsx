@@ -1,3 +1,5 @@
+import React from "react";
+
 import Feature from "./Feature";
 import dec from "../../assets/images_features/purple-arrow.svg";
 import homepage_feature1 from "../../assets/images_features/homepage__feature-1.webp";
@@ -15,48 +17,48 @@ const FeaturesMainPage = () => {
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach((entry) => {
                     entry.isIntersecting && entry.target.id === "feature1" ? 
-                    document.querySelector("#feature1img1").classList.add("slide-up")
+                    document.querySelector("#feature1img1")!.classList.add("slide-up")
                     : 
-                    document.querySelector("#feature1img1").classList.remove("slide-up");
+                    document.querySelector("#feature1img1")!.classList.remove("slide-up");
     
                     entry.isIntersecting && entry.target.id === "feature2" ? (
-                        document.querySelector("#feature2img1").classList.add("slide-left"),
-                        document.querySelector("#feature2img2").classList.add("slide-right")
+                        document.querySelector("#feature2img1")!.classList.add("slide-left"),
+                        document.querySelector("#feature2img2")!.classList.add("slide-right")
                     )
                     :
                     (
-                        document.querySelector("#feature2img1").classList.remove("slide-left"),
-                        document.querySelector("#feature2img2").classList.remove("slide-right")
+                        document.querySelector("#feature2img1")!.classList.remove("slide-left"),
+                        document.querySelector("#feature2img2")!.classList.remove("slide-right")
                     );
     
                     entry.isIntersecting && entry.target.id === "feature3" ? (
-                        document.querySelector("#feature3img1").classList.add("slide-left"),
-                        document.querySelector("#feature3img2").classList.add("slide-right")
+                        document.querySelector("#feature3img1")!.classList.add("slide-left"),
+                        document.querySelector("#feature3img2")!.classList.add("slide-right")
                     )
                     :
                     (
-                        document.querySelector("#feature3img1").classList.remove("slide-left"),
-                        document.querySelector("#feature3img2").classList.remove("slide-right")
+                        document.querySelector("#feature3img1")!.classList.remove("slide-left"),
+                        document.querySelector("#feature3img2")!.classList.remove("slide-right")
                     );
     
                     entry.isIntersecting && entry.target.id === "feature4" ? (
-                        document.querySelector("#feature4img1").classList.add("slide-down1"),
-                        document.querySelector("#feature4img2").classList.add("slide-down2")
+                        document.querySelector("#feature4img1")!.classList.add("slide-down1"),
+                        document.querySelector("#feature4img2")!.classList.add("slide-down2")
                     )
                     :
                     (
-                        document.querySelector("#feature4img1").classList.remove("slide-down1"),
-                        document.querySelector("#feature4img2").classList.remove("slide-down2")
+                        document.querySelector("#feature4img1")!.classList.remove("slide-down1"),
+                        document.querySelector("#feature4img2")!.classList.remove("slide-down2")
                     )
                 });
             }, {
                 root: null,
                 threshold: .75,
             })
-            observer.observe(document.querySelector("#feature1"));
-            observer.observe(document.querySelector("#feature2"));
-            observer.observe(document.querySelector("#feature3"));
-            observer.observe(document.querySelector("#feature4"));
+            observer.observe(document.querySelector("#feature1")!);
+            observer.observe(document.querySelector("#feature2")!);
+            observer.observe(document.querySelector("#feature3")!);
+            observer.observe(document.querySelector("#feature4")!);
         }, []);
 
     return (
@@ -66,20 +68,25 @@ const FeaturesMainPage = () => {
                 idImg1="feature1img1"
                 idImg2="feature1img2"
                 mt="104"
-                pShort="Meet your new superpower" 
-                dec={dec} 
+                pShort="Meet your new superpower"
+                dec={dec}
                 h2="Create and test accessible designs in record time"
                 desc="Whether you’re building a website, online shop, mobile app, or SaaS product, Stark gives every designer, engineer, PM, and QA expert the manual and automated tools to make it accessible with ease."
                 href="https://account.getstark.co/sign-in"
                 text="Get started"
                 src1={homepage_feature1}
                 maxW="460"
-                ml
+                ml 
+                sectionClass={""} 
+                linkClass={""} 
+                imgClass={""} 
+                src2={""} 
+                mr={false}            
             />
             <Feature
                 idImgContainer="feature2"
                 idImg1="feature2img1"
-                idImg2="feature2img2" 
+                idImg2="feature2img2"
                 mt="120"
                 pShort="Your team's accessibility toolbox"
                 h2="Everything you need, right where you need it"
@@ -88,7 +95,13 @@ const FeaturesMainPage = () => {
                 text="Get started"
                 src1={homepage_feature2A}
                 src2={homepage_feature2B}
-                maxW="460"
+                maxW="460" 
+                sectionClass={""} 
+                dec={""} 
+                linkClass={""} 
+                imgClass={""} 
+                mr={false} 
+                ml={false}            
             />
             <Feature 
                 idImgContainer="feature3"
@@ -103,7 +116,12 @@ const FeaturesMainPage = () => {
                 src1={homepage_feature3A}
                 src2={homepage_feature3B}
                 maxW="460"
-                ml
+                ml 
+                sectionClass={""} 
+                dec={""} 
+                linkClass={""} 
+                imgClass={""} 
+                mr={false}            
             />
             <Feature 
                 idImgContainer="feature4"
@@ -117,7 +135,13 @@ const FeaturesMainPage = () => {
                 text="Get started"
                 src1={homepage_feature4A}
                 src2={homepage_feature4B}
-                maxW="433"
+                maxW="433" 
+                sectionClass={""} 
+                dec={""} 
+                linkClass={""} 
+                imgClass={""} 
+                mr={false} 
+                ml={false}            
             />
         </div>
     )
