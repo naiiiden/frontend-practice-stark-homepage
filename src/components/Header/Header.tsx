@@ -1,3 +1,5 @@
+import React from "react";
+
 import yellow_arrow from "../../assets/images_header/yellow-arrow.svg";
 import purple_arrow from "../../assets/images_header/purple-arrow2.svg";
 import homepage_avatar_circle from "../../assets/images_header/homepage__avatar-circle.png";

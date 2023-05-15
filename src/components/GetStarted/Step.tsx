@@ -1,6 +1,8 @@
+import React from "react";
+
 import PurpleLink from "../PurpleLink/PurpleLink"
 
-const Step = ({ step, h3, desc, linkText, href, macLink }) => {
+const Step = ({ step, h3, desc, linkText, href, macLink }: { step: string, h3: string, desc: string, linkText: string, href: string, macLink: string | undefined }) => {
 
     return (
         <div className="step-container">
@@ -9,7 +11,7 @@ const Step = ({ step, h3, desc, linkText, href, macLink }) => {
                 <h3>{h3}</h3>
                 <p className="desc">{desc}</p>
             </div>
-            <PurpleLink text={linkText} href={href} macLink={macLink}/>
+            <PurpleLink text={linkText} href={href} macLink={macLink} className={""}/>
         </div>
     )
 }
