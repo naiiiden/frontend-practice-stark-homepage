@@ -1,3 +1,5 @@
+import React from "react";
+
 // grid images
 import contrast from "../../assets/images_features_grid/homepage-grid-contrast.png";
 import focus_order from "../../assets/images_features_grid/homepage-grid-focus-order.png";
