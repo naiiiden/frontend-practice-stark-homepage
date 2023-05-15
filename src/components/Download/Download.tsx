@@ -1,3 +1,5 @@
+import React from "react";
+
 import mac from "../../assets/images_download/homepage-mac.png";
 import figma from "../../assets/images_download/homepage-figma.png";
 import sketch from "../../assets/images_download/homepage-sketch.png";

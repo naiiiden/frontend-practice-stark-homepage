@@ -1,3 +1,5 @@
+import React from "react";
+
 import charles_schwab from "../../assets/svg_customers/charles_schwab.svg";
 import us_bank from "../../assets/svg_customers/us_bank.svg";
 import united_airlines from "../../assets/svg_customers/united_airlines.svg";
