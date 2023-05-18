@@ -19,14 +19,6 @@ const FeaturesMac = () => {
                 idImg1="feature-mac-img1"
                 maxW="460"
                 ml 
-                dec={""} 
-                href={""} 
-                linkClass={""} 
-                text={""} 
-                imgClass={""} 
-                src2={""} 
-                idImgContainer={""} 
-                idImg2={""} 
                 mr={false}
             />
             <Feature
@@ -39,14 +31,6 @@ const FeaturesMac = () => {
                 idImg1="feature-mac-img2"
                 maxW="460"
                 ml 
-                dec={""} 
-                href={""} 
-                linkClass={""} 
-                text={""} 
-                imgClass={""} 
-                src2={""} 
-                idImgContainer={""} 
-                idImg2={""} 
                 mr={false}
             />
             <Feature
@@ -59,14 +43,6 @@ const FeaturesMac = () => {
                 idImg1="feature-mac-img3"
                 maxW="460"
                 ml 
-                dec={""} 
-                href={""}
-                linkClass={""} 
-                text={""} 
-                imgClass={""} 
-                src2={""} 
-                idImgContainer={""} 
-                idImg2={""} 
                 mr={false}
             />
             <Feature
@@ -78,14 +54,6 @@ const FeaturesMac = () => {
                 src1={homepage_feature4}
                 idImg1="feature-mac-img4"
                 maxW="433" 
-                dec={""} 
-                href={""} 
-                linkClass={""} 
-                text={""} 
-                imgClass={""} 
-                src2={""} 
-                idImgContainer={""} 
-                idImg2={""} 
                 mr={false} 
                 ml={false}
             />

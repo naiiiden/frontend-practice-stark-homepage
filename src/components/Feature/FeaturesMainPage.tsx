@@ -77,10 +77,6 @@ const FeaturesMainPage = () => {
                 src1={homepage_feature1}
                 maxW="460"
                 ml 
-                sectionClass={""} 
-                linkClass={""} 
-                imgClass={""} 
-                src2={""} 
                 mr={false}            
             />
             <Feature
@@ -96,10 +92,6 @@ const FeaturesMainPage = () => {
                 src1={homepage_feature2A}
                 src2={homepage_feature2B}
                 maxW="460" 
-                sectionClass={""} 
-                dec={""} 
-                linkClass={""} 
-                imgClass={""} 
                 mr={false} 
                 ml={false}            
             />
@@ -117,10 +109,6 @@ const FeaturesMainPage = () => {
                 src2={homepage_feature3B}
                 maxW="460"
                 ml 
-                sectionClass={""} 
-                dec={""} 
-                linkClass={""} 
-                imgClass={""} 
                 mr={false}            
             />
             <Feature 
@@ -136,10 +124,6 @@ const FeaturesMainPage = () => {
                 src1={homepage_feature4A}
                 src2={homepage_feature4B}
                 maxW="433" 
-                sectionClass={""} 
-                dec={""} 
-                linkClass={""} 
-                imgClass={""} 
                 mr={false} 
                 ml={false}            
             />

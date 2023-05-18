@@ -25,12 +25,6 @@ const FeaturesNotMacNotMain = () => {
                 href="https://account.getstark.co/"
                 maxW="460"
                 ml 
-                dec={""} 
-                linkClass={""} 
-                imgClass={""} 
-                src2={""} 
-                idImgContainer={""} 
-                idImg2={""} 
                 mr={false}            
             />
             <Feature
@@ -45,12 +39,6 @@ const FeaturesNotMacNotMain = () => {
                 href="https://account.getstark.co/"
                 maxW="460"
                 ml 
-                dec={""} 
-                linkClass={""} 
-                imgClass={""} 
-                src2={""} 
-                idImgContainer={""} 
-                idImg2={""} 
                 mr={false}            
             />
             <Feature
@@ -65,19 +53,13 @@ const FeaturesNotMacNotMain = () => {
                 href="https://account.getstark.co/"
                 maxW="460"
                 ml 
-                dec={""} 
-                linkClass={""} 
-                imgClass={""} 
-                src2={""} 
-                idImgContainer={""} 
-                idImg2={""} 
                 mr={false}            
             />
             {pathname == "/adobe-xd" ? 
                 "" 
                 :
                 <Feature
-                    sectionClass="feature-mac-4"
+                    sectionClass="feature-rest-4"
                     mt="200"
                     pShort="Retrofitting at scale with a click"
                     h2="Accessibility easy as one, two, three"
@@ -87,12 +69,6 @@ const FeaturesNotMacNotMain = () => {
                     text="Get started for free"
                     href="https://account.getstark.co/"
                     maxW="433" 
-                    dec={""} 
-                    linkClass={""} 
-                    imgClass={""} 
-                    src2={""} 
-                    idImgContainer={""} 
-                    idImg2={""} 
                     mr={false} 
                     ml={false}            
                 />
