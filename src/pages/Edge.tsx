@@ -7,20 +7,22 @@ import Features2 from "../components/Feature2/Features2";
 import FeaturesNotMacNotMain from "../components/Feature/FeaturesNotMacNotMain";
 
 // hero image
-import chrome from "../assets/images_header/chrome.webp";
+import edge from "../assets/images_header/chrome.webp";
+import React from "react";
 
-const Chrome = () => {
+const Edge = () => {
     return (
         <>
             <Header
-                heroImage={chrome}
-                pIntro="Work with Stark in your favorite browser" 
-                h1Text="Stark for Chrome"
-                pText="Make every project accessible from the start. Stark for Chrome keeps you focused on the parts of a project that need an accessibility audit. With powerful tools, automated checks, and smart suggestions you can supercharge your accessibility workflow at scale and in record time."
+                heroImage={edge}
+                pIntro="Work with Stark in your favorite browser"
+                h1Text="Stark for Edge"
+                pText="Make every project accessible from the start. Stark for Edge keeps you focused on the parts of a project that need an accessibility audit. With powerful tools, automated checks, and smart suggestions you can supercharge your accessibility workflow at scale and in record time."
                 link1Text="Create a free account"
                 link2Text="Learn more"
                 link1Href="https://account.getstark.co/sign-in"
-                link2Href="#learn-more"
+                link2Href="#learn-more" 
+                purpleBg={false}            
             />
             <main>
                 <Video/>
@@ -28,8 +30,8 @@ const Chrome = () => {
                 <FeaturesNotMacNotMain/>
                 <CallToAction/>
                 <GetStarted
-                  linkText="Download Stark for Chrome"
-                  href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm"
+                  linkText="Download Stark for Edge"
+                  href="https://microsoftedge.microsoft.com/addons/detail/stark/idpodoagbkllmpdjdepbmlefgiblmnhl"
                 />
                 <Features2/>
             </main>
@@ -37,4 +39,4 @@ const Chrome = () => {
     )
 }
 
-export default Chrome;
+export default Edge;

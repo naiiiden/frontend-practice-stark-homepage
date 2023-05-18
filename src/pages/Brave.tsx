@@ -7,20 +7,22 @@ import Features2 from "../components/Feature2/Features2";
 import FeaturesNotMacNotMain from "../components/Feature/FeaturesNotMacNotMain";
 
 // hero image
-import arc from "../assets/images_header/arc.webp";
+import brave from "../assets/images_header/brave.webp";
+import React from "react";
 
-const Arc = () => {
+const Brave = () => {
     return (
         <>
-            <Header
-                heroImage={arc}
-                pIntro="Work with Stark in your favorite browser" 
-                h1Text="Stark for Arc"
-                pText="Make every project accessible from the start. Stark for Arc keeps you focused on the parts of a project that need an accessibility audit. With powerful tools, automated checks, and smart suggestions you can supercharge your accessibility workflow at scale and in record tim"
+            <Header 
+                heroImage={brave}
+                pIntro="Work with Stark in your favorite browser"
+                h1Text="Stark for Brave"
+                pText="Make every project accessible from the start. Stark for Brave keeps you focused on the parts of a project that need an accessibility audit. With powerful tools, automated checks, and smart suggestions you can supercharge your accessibility workflow at scale and in record time."
                 link1Text="Create a free account"
                 link2Text="Learn more"
                 link1Href="https://account.getstark.co/sign-in"
-                link2Href="#learn-more"
+                link2Href="#learn-more" 
+                purpleBg={false}            
             />
             <main>
                 <Video/>
@@ -28,7 +30,7 @@ const Arc = () => {
                 <FeaturesNotMacNotMain/>
                 <CallToAction/>
                 <GetStarted
-                  linkText="Download Stark for Arc"
+                  linkText="Download Stark for Brave"
                   href="https://chrome.google.com/webstore/detail/stark/fkfaapnmfippddbeemjjbclenphooipm"
                 />
                 <Features2/>
@@ -37,4 +39,4 @@ const Arc = () => {
     )
 }
 
-export default Arc;
+export default Brave;
