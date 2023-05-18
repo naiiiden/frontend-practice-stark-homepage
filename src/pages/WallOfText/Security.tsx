@@ -1,5 +1,5 @@
 import Header from "../../components/Header/Header";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Security = () => {
@@ -12,7 +12,8 @@ const Security = () => {
             <div className="info-header">
                 <Header
                     pIntro="Legal Information"
-                    h1Text="Security Overview"
+                    h1Text="Security Overview" 
+                    purpleBg={false}                
                 />
             </div>
             <div className="wall-text-bg">

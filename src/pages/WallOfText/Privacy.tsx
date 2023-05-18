@@ -1,5 +1,5 @@
 import Header from "../../components/Header/Header"
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 
 const Privacy = () => {
     useEffect(() => {
@@ -11,7 +11,8 @@ const Privacy = () => {
             <div className="info-header">
                 <Header
                     pIntro="Legal Information"
-                    h1Text="Privacy Policy"
+                    h1Text="Privacy Policy" 
+                    purpleBg={false} 
                 />
             </div>
             <div className="wall-text-bg">

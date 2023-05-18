@@ -1,5 +1,5 @@
 import Header from "../../components/Header/Header";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const Tos = () => {
@@ -12,7 +12,8 @@ const Tos = () => {
             <div className="info-header">
                 <Header
                     pIntro="Legal Information"
-                    h1Text="Terms of Service"
+                    h1Text="Terms of Service" 
+                    purpleBg={false}                
                 />
             </div>
             <div className="wall-text-bg">

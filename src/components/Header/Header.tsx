@@ -23,15 +23,15 @@ type HeaderProps = {
     left?: string, 
     pIntro: string, 
     h1Text: string, 
-    pText: string, 
+    pText?: string, 
     bgColor?: string, 
     bgURL?: string, 
     arrowTop?: string, 
     arrowLeft?: string, 
-    link1Text: string, 
-    link1Href: string, 
-    link2Text: string, 
-    link2Href: string
+    link1Text?: string, 
+    link1Href?: string, 
+    link2Text?: string, 
+    link2Href?: string
 }
 
 const Header = ({ purpleBg, extraImages, heroImage, mb, minWidth, maxWidth, top, left, pIntro, h1Text, pText, bgColor, bgURL, arrowTop, arrowLeft, link1Text, link1Href, link2Text, link2Href }: HeaderProps) => {
