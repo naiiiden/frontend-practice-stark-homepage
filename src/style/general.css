@@ -58,35 +58,14 @@ img {
   text-transform: uppercase !important;
 }
 
-@-webkit-keyframes rotate {
-  100% {
-    transform: rotate(1turn);
-  }
-}
-
 @keyframes rotate {
   100% {
     transform: rotate(1turn);
   }
 }
-@-webkit-keyframes rotate1 {
-  100% {
-    transform: rotate(-1turn);
-  }
-}
 @keyframes rotate1 {
   100% {
     transform: rotate(-1turn);
-  }
-}
-@-webkit-keyframes pop {
-  0%, 17.5% {
-    opacity: 0;
-    transform: scale(0);
-  }
-  20%, 100% {
-    opacity: 1;
-    transform: scale(1);
   }
 }
 @keyframes pop {
@@ -99,14 +78,6 @@ img {
     transform: scale(1);
   }
 }
-@-webkit-keyframes background {
-  0% {
-    background-size: 100% 100%;
-  }
-  100% {
-    background-size: 150% 120%;
-  }
-}
 @keyframes background {
   0% {
     background-size: 100% 100%;
@@ -115,24 +86,9 @@ img {
     background-size: 150% 120%;
   }
 }
-@-webkit-keyframes slider {
-  100% {
-    transform: translateX(-5091px);
-  }
-}
 @keyframes slider {
   100% {
     transform: translateX(-5091px);
-  }
-}
-@-webkit-keyframes testimonialSlide {
-  0% {
-    opacity: 0;
-    transform: translateY(-50px) rotateY(-15deg);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0) scale(1) rotateY(0);
   }
 }
 @keyframes testimonialSlide {
@@ -306,15 +262,13 @@ header {
     width: 184px;
     left: 494px;
     top: 114px;
-    -webkit-animation: rotate 40s linear infinite;
-            animation: rotate 40s linear infinite;
+    animation: rotate 40s linear infinite;
   }
   .text-illustration-wrapper .header-image-container .header-avatar-circle-2 {
     width: 151px;
     left: 87px;
     top: 523px;
-    -webkit-animation: rotate1 30s linear infinite;
-            animation: rotate1 30s linear infinite;
+    animation: rotate1 30s linear infinite;
   }
   .text-illustration-wrapper .header-image-container .alttext, .text-illustration-wrapper .header-image-container .contrast, .text-illustration-wrapper .header-image-container .focusorder {
     opacity: 0;
@@ -326,20 +280,17 @@ header {
   .text-illustration-wrapper .header-image-container .alttext.contrast, .text-illustration-wrapper .header-image-container .contrast.contrast, .text-illustration-wrapper .header-image-container .focusorder.contrast {
     left: 546px;
     top: 68px;
-    -webkit-animation: pop 10s cubic-bezier(0.68, -0.6, 0.32, 1.6) 8s forwards;
-            animation: pop 10s cubic-bezier(0.68, -0.6, 0.32, 1.6) 8s forwards;
+    animation: pop 10s cubic-bezier(0.68, -0.6, 0.32, 1.6) 8s forwards;
   }
   .text-illustration-wrapper .header-image-container .alttext.focusorder, .text-illustration-wrapper .header-image-container .contrast.focusorder, .text-illustration-wrapper .header-image-container .focusorder.focusorder {
     left: 614px;
     top: 480px;
-    -webkit-animation: pop 10s cubic-bezier(0.68, -0.6, 0.32, 1.6) 1s forwards;
-            animation: pop 10s cubic-bezier(0.68, -0.6, 0.32, 1.6) 1s forwards;
+    animation: pop 10s cubic-bezier(0.68, -0.6, 0.32, 1.6) 1s forwards;
   }
   .text-illustration-wrapper .header-image-container .alttext.alttext, .text-illustration-wrapper .header-image-container .contrast.alttext, .text-illustration-wrapper .header-image-container .focusorder.alttext {
     left: 56px;
     top: 506px;
-    -webkit-animation: pop 10s cubic-bezier(0.68, -0.6, 0.32, 1.6) 4s forwards;
-            animation: pop 10s cubic-bezier(0.68, -0.6, 0.32, 1.6) 4s forwards;
+    animation: pop 10s cubic-bezier(0.68, -0.6, 0.32, 1.6) 4s forwards;
   }
 }
 .sketch-download-header-wrapper .header-image-container, .info-header .header-image-container {
@@ -749,16 +700,13 @@ header {
   display: flex;
   align-items: center;
   gap: 100px;
-  width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
-  -webkit-animation: slider 100s linear infinite;
-          animation: slider 100s linear infinite;
+  animation: slider 100s linear infinite;
 }
 .customers-section .logo-container img {
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 
@@ -1162,8 +1110,7 @@ header {
   gap: 2rem;
   padding: 0 1.5rem;
   height: 500px;
-  -webkit-animation: testimonialSlide 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
-          animation: testimonialSlide 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  animation: testimonialSlide 0.25s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
 }
 .testimonial img {
   width: 80px;
@@ -1750,7 +1697,6 @@ footer .socials-copyright-wrapper p {
   border-radius: unset !important;
   background: transparent !important;
   display: flex !important;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
