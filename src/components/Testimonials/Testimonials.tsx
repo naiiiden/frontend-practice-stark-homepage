@@ -94,9 +94,7 @@ const Testimonials = () => {
       <HeadingLevel2
         headingLine1="Loved by the community"
         headingLine2="trusted by 8,000+ companies"
-        img1={yellow_bg2} 
-        className={undefined} 
-        img2={undefined}      
+        img1={yellow_bg2}  
       />
       <div className="testimonials-container">
         {userTestimonials[currentIndex]}

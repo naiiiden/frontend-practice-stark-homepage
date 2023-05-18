@@ -9,10 +9,7 @@ const GetStarted = ({ linkText, href, macLink }) => {
         <section className="get-started-section">
             <HeadingLevel2
                 headingLine1="So, you’re ready to get started and supercharge accessiblity?"
-                img1={green_bg} 
-                className={undefined} 
-                headingLine2={undefined} 
-                img2={undefined}            
+                img1={green_bg}            
             />
             <div className="steps-container">
                 <Step

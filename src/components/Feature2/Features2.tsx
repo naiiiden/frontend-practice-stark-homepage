@@ -13,7 +13,6 @@ const Features2 = () => {
                 headingLine2="stay for the magic"
                 img1={red_bg}
                 img2={sparkle} 
-                className={undefined}            
             />
             <Feature2Grid/>
         </section>

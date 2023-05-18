@@ -20,9 +20,7 @@ const Video = () => {
                 <HeadingLevel2 
                     headingLine1="Speed up your accessibility"
                     headingLine2="workflow from months to minutes"
-                    img1={yellow_bg} 
-                    className={undefined} 
-                    img2={undefined}                
+                    img1={yellow_bg}             
                 />
                 <p>More than 40,000 designers, developers, product managers, and accessibility experts from over 12,000 companies use Stark’s suite of integrated accessibility tools in their daily product development cycle. Join them today!</p>
             </div>
@@ -33,9 +31,7 @@ const Video = () => {
                 <HeadingLevel2 
                     headingLine1="Speed up your accessibility"
                     headingLine2="workflow from months to minutes"
-                    img1={yellow_bg} 
-                    className={undefined} 
-                    img2={undefined}                
+                    img1={yellow_bg}               
                 />
                 <div className="video-container">
                     <div className="video-subcontainer" style={{

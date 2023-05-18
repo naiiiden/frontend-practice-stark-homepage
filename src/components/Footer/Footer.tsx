@@ -25,7 +25,7 @@ const Footer = () => {
         }}>
             <div className="footer-inner-wrapper">
                 <div className="heading-logo-wrapper">
-                    <HeadingLevel2 headingLine1="Made remotely with love by Stark Lab, Inc." className={undefined} headingLine2={undefined} img1={undefined} img2={undefined}/>
+                    <HeadingLevel2 headingLine1="Made remotely with love by Stark Lab, Inc."/>
                     <img src={logo} alt=""/>
                 </div>
                 <nav aria-label="Footer">
