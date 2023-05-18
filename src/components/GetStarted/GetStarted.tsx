@@ -21,7 +21,6 @@ const GetStarted = ({ linkText, href, macLink }) => {
                     desc="Wherever you are in your accessibility journey, we believe you should have access to the best tools."
                     linkText="Create free account"
                     href="https://account.getstark.co/sign-in" 
-                    macLink={undefined}                
                 />
                 <Step
                     step="Step 2"
@@ -37,7 +36,6 @@ const GetStarted = ({ linkText, href, macLink }) => {
                     desc="From Alt-Text and Typography to Touch Targets and Suggestions, there’s much more you can do with a Pro account."
                     linkText="Compare plans"
                     href="https://www.getstark.co/pricing/" 
-                    macLink={undefined}
                 />
             </div>
         </section>

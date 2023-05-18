@@ -2,7 +2,7 @@ import React from "react";
 
 import PurpleLink from "../PurpleLink/PurpleLink"
 
-const Step = ({ step, h3, desc, linkText, href, macLink }: { step: string, h3: string, desc: string, linkText: string, href: string, macLink: string | undefined }) => {
+const Step = ({ step, h3, desc, linkText, href, macLink }: { step: string, h3: string, desc: string, linkText: string, href: string, macLink?: string }) => {
 
     return (
         <div className="step-container">
