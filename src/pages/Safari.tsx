@@ -7,20 +7,22 @@ import Features2 from "../components/Feature2/Features2";
 import FeaturesNotMacNotMain from "../components/Feature/FeaturesNotMacNotMain";
 
 // hero image
-import sketch from "../assets/images_header/sketch.webp";
+import safari from "../assets/images_header/safari.webp";
+import React from "react";
 
-const Sketch = () => {
+const Safari = () => {
     return (
         <>
-            <Header 
-                heroImage={sketch}
-                pIntro="Work with Stark in your favorite design tool"
-                h1Text="Stark for Sketch"
-                pText="Make every project accessible from the start. Stark for Sketch keeps you focused on the parts of a project that need an accessibility audit. Whether you’re a team of 1 or 1,000, you have everything you need to make anything accessible from design to code."
+            <Header
+                heroImage={safari}
+                pIntro="Work with Stark in your favorite browser"
+                h1Text="Stark for Safari"
+                pText="Make every project accessible from the start. Stark for Safari keeps you focused on the parts of a project that need an accessibility audit. With powerful tools, automated checks, and smart suggestions you can supercharge your accessibility workflow at scale and in record time."
                 link1Text="Create a free account"
                 link2Text="Learn more"
                 link1Href="https://account.getstark.co/sign-in"
-                link2Href="#learn-more"
+                link2Href="#learn-more" 
+                purpleBg={false}            
             />
             <main>
                 <Video/>
@@ -28,8 +30,8 @@ const Sketch = () => {
                 <FeaturesNotMacNotMain/>
                 <CallToAction/>
                 <GetStarted
-                  linkText="Download Stark for Sketch"
-                  href="/sketch/download/"
+                  linkText="Download Stark for Safari"
+                  href="https://apps.apple.com/us/app/stark-for-safari/id6444031666"
                 />
                 <Features2/>
             </main>
@@ -37,4 +39,4 @@ const Sketch = () => {
     )
 }
 
-export default Sketch;
+export default Safari;

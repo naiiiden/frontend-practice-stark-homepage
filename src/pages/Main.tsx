@@ -10,13 +10,14 @@ import Features2 from "../components/Feature2/Features2";
 
 // hero image
 import homepage_header from "../assets/images_header/homepage__header.webp";
+import React from "react";
 
 const Main = () => {
     return (
         <>
             <Header
                 purpleBg={true} 
-                mb="0"
+                mb={true}
                 extraImages={true}
                 heroImage={homepage_header}
                 minWidth="691"
