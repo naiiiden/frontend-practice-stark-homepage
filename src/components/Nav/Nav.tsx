@@ -43,7 +43,7 @@ const Nav = ({ purpleBg }: { purpleBg: boolean }) => {
                         }
                     </button>
                     <span className="uppercase product-button-mobile">Product</span>
-                    <ul role="menu" autoFocus className={`nav-product-submenu ${openDropdown ? "show" : ""}`} aria-label="product" onMouseLeave={() => setOpenDropdown(false)}>
+                    <ul role="menu" className={`nav-product-submenu ${openDropdown ? "show" : ""}`} aria-label="product" onMouseLeave={() => setOpenDropdown(false)}>
                         {isDesktop ?
                         <li role="none"><Link to="/mac" role="menuitem">Stark for Mac <img src={new_svg} alt=""/></Link></li>
                         :

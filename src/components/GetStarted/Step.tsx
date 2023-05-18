@@ -11,7 +11,7 @@ const Step = ({ step, h3, desc, linkText, href, macLink }: { step: string, h3: s
                 <h3>{h3}</h3>
                 <p className="desc">{desc}</p>
             </div>
-            <PurpleLink text={linkText} href={href} macLink={macLink} className={""}/>
+            <PurpleLink text={linkText} href={href} macLink={macLink}/>
         </div>
     )
 }
