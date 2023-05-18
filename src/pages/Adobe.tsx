@@ -8,19 +8,21 @@ import FeaturesNotMacNotMain from "../components/Feature/FeaturesNotMacNotMain";
 
 // hero image
 import xd from "../assets/images_header/xd.webp";
+import React from "react";
 
 const Adobe = () => {
     return (
         <>
             <Header
-                heroImage={xd} 
+                heroImage={xd}
                 pIntro="Work with Stark in your favorite design tool"
                 h1Text="Stark for Adobe XD"
                 pText="Make every project accessible from the start. Stark for Adobe XD keeps you focused on the parts of a project that need an accessibility audit. Whether you’re a team of 1 or 1,000, you have everything you need to make anything accessible from design to code."
                 link1Text="Create a free account"
                 link2Text="Learn more"
                 link1Href="https://account.getstark.co/sign-in"
-                link2Href="#learn-more"
+                link2Href="#learn-more" 
+                purpleBg={false}            
             />
             <main>
                 <Video/>
@@ -28,8 +30,8 @@ const Adobe = () => {
                 <FeaturesNotMacNotMain/>
                 <CallToAction/>
                 <GetStarted
-                  linkText="Download Stark for XD"
-                  href="https://xd.adobelanding.com/en/xd-plugin-download/?name=6cbf275e"
+                    linkText="Download Stark for XD"
+                    href="https://xd.adobelanding.com/en/xd-plugin-download/?name=6cbf275e"
                 />
                 <Features2/>
             </main>
